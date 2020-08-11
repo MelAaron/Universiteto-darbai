@@ -1,0 +1,4 @@
+// string pav, tip;
+// GrybasInfo s1;
+ while(!fd.eof() && yra) { // kol yra duomenu ir jie telpa i masyva
+ grybai[ns++] = s1; // irao nauja elementa

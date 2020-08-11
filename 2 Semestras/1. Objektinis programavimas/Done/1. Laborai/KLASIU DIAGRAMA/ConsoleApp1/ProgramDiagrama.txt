@@ -1,0 +1,10 @@
+---------Program---------
+#Main(in args :string[])
+#DisplayPath(in files :string[])
+#NewPath(in paths :string[], in filepath :string) : string
+#AddUp(in cs :string[], in folders :string[]) : string[]
+#GenerateTable(in path :string)
+---------=---------
+------------------------------
+---------insideClass---------
+------------------------------

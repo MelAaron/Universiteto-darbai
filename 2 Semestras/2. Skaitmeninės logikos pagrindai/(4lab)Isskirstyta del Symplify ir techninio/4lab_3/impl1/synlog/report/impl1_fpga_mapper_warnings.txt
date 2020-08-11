@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock TOP_CNT|CLK_I with period 3.96ns. Please declare a user-defined clock on object "p:CLK_I"

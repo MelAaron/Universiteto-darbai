@@ -1,0 +1,11 @@
+[COMPILESTATUS|.\..\impl1\Failas.vhd]
+FileTimeLow=30719302
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\failas_TB.vhd]
+FileTimeLow=30719305
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\failas_TB_runtest.do]
+FileTimeLow=30719304
+Status=Modified
+[Gui config]
+RunFor=100 ns

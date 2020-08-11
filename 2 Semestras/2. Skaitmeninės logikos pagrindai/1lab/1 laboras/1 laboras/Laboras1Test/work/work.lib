@@ -1,0 +1,46 @@
+timestamp=1549912972046
+
+[~A]
+ModifyID=7
+Version=74
+
+[lab1]
+A/schematic=A/SCHEMATIC 21|./../../impl1/Lab1.vhd|18|1*31413
+I=0*556
+I/schematic=I/SCHEMATIC 0*11904
+M=11|0|vd0|1549912193225|./../../impl1/Lab1.vhd|0*179*0x4293f0a634e8468edcf13d2ef4a7abee2b3de5ed|0*476*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1549912971775|./../../impl1/Lab1.vhd|0*4068*0xe98870256f20fa2aa1c2c62d8a4eb6c936f17f1c|0*6817*0x20116f55b147878295aeff36dce7fc50
+R=./../../impl1/Lab1.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ace7f3a597c6a0734a69cd28c8afc83d45de1fda04da1d7fc7ba8f1756e03a31
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d75836898d0ea87486c1f9cb4568caa075
+
+[lab1_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/lab1_TB.vhd|11|1*37991
+BinI32/tb_architecture=3*0
+I=0*7755
+I/tb_architecture=I/TB_ARCHITECTURE 0*12341
+M=11|0|vd0|1549912674779|./../src/TestBench/lab1_TB.vhd|0*7467*0xfa061eb1b97c172546ed86e8bede391d5a2eb264|0*7664*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vd0|1549912972019|./../src/TestBench/lab1_TB.vhd|0*10790*0x55d2d0a32968ab3a6b9e8398aca2cee20000990f|0*11349*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/lab1_TB.vhd|8
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|d985a2b1b80409ff9e84d6532c819c1d26527262ddaa47cb266f3a3c4d9b973a5faaca1b9eb2deb2c7d3eabe59f92ed4
+Version/tb_architecture=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beae08a9702b84b7ef1fa40c708a725f6ab
+
+[testbench_for_lab1]
+Configures=lab1_tb.TB_ARCHITECTURE
+E=1*39266
+I=0*12628
+M=2|0|vd0|1549912972022|./../src/TestBench/lab1_TB.vhd|0*8947*0x6d04c9e9e6fb9fe921e3f5e9e2ab5f6a9fd04dc2|0*9201*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/lab1_TB.vhd|55
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e559f3dd58d6135ae45ea1208093bf1107b58f51d63b4e39d9d7201cebd72b4e0b
+
+[~MFT]
+0=4|0work.mgf|12628|6594
+1=4|1work.mgf|39266|31413
+3=2|3work.mgf|0|0
+
+[~U]
+lab1=LAB1 11|0*0|
+lab1_tb=11|0*7347|
+testbench_for_lab1=TESTBENCH_FOR_lab1 2||
+
+

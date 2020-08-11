@@ -1,0 +1,19 @@
+----------------------------------------------------------------------
+Report for cell SHCEM3.schematic
+
+Register bits: 5 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       15
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               AND2        5       100.0
+                            FD1S3AX        5       100.0
+                                GSR        1       100.0
+                                 IB       10       100.0
+                              MUX41        5       100.0
+                                 OB        5       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL            34           

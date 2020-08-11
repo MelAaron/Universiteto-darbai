@@ -1,0 +1,68 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=work
+
+[Library]
+Pavadinimas=.\Pavadinimas\Pavadinimas.lib
+work=.\work\work.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Pavadinimas=.
+work=.
+
+[LocalVerilogDirs]
+Count=0
+
+[DefineMacro]
+Global=
+
+[Groups]
+TestBench=1
+
+[Files]
+/..\..\impl1\Failas.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/failas_TB.vhd=-1
+TestBench/failas_TB_runtest.do=-1
+
+[Files.Data]
+.\..\impl1\Failas.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\failas_TB.vhd=VHDL Test Bench
+.\src\TestBench\failas_TB_runtest.do=Macro
+
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=failas|SCHEMATIC|0 failas_tb|testbench_for_failas|1 
+ShowHide=ShowTopLevel
+Selected=

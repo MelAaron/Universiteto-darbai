@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\(4lab)isskirstyta del symplify ir techninio\4lab_1\cntr12.vhd":26:2:26:3|Found inferred clock CNT12|CLK which controls 5 sequential elements including CNT_A[3:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

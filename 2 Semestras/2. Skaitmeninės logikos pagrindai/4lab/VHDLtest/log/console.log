@@ -1,0 +1,646 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/cntr167.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr167.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/cntr23.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr23.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/top_cntr.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/schem1.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\schem1.vhd ... Done
+vlib {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/work}
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/cntr167.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/cntr23.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/top_cntr.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/schem1.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\schem1.vhd
+# Warning: COMP96_0003: Source file "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\schem1.vhd" is empty.
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.0 [ms]
+entity TOP_CNT
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r TOP_CNT -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7108 kB (elbread=1280 elab2=5676 kernel=151 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:47 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+add wave *
+# 10 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7108 kB (elbread=1280 elab2=5676 kernel=151 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:47 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd $dsn/../cntr23.vhd $dsn/../top_cntr.vhd $dsn/../schem1.vhd $dsn/src/TestBench/top_cnt_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd
+# Warning: COMP96_0003: Source file "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd" is empty.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\TestBench\top_cnt_TB.vhd
+# Compile Entity "top_cnt_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_cnt_tb"
+# Compile Configuration "TESTBENCH_FOR_top_cnt"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+SetActiveLib -work
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr167.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr23.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+comp -include "$dsn\src\TestBench\top_cnt_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\TestBench\top_cnt_TB.vhd
+# Compile Entity "top_cnt_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_cnt_tb"
+# Compile Configuration "TESTBENCH_FOR_top_cnt"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim +access +r TESTBENCH_FOR_top_cnt 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:48 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+wave 
+wave -noreg CLK_I
+wave -noreg RST_I
+wave -noreg ENBL_I
+wave -noreg CNT_CO
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_cnt_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top_cnt 
+# 4 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+# add wave -noreg {/top_cnt_tb/UUT/C}
+# add wave -noreg {/top_cnt_tb/UUT/RST_internal}
+# add wave -noreg {/top_cnt_tb/UUT/C1}
+# add wave -noreg {/top_cnt_tb/UUT/C2}
+# add wave -noreg {/top_cnt_tb/UUT/CNT_1_O}
+# add wave -noreg {/top_cnt_tb/UUT/CNT_2_O}
+# add wave -noreg {/top_cnt_tb/UUT/CLK_I}
+# add wave -noreg {/top_cnt_tb/UUT/RST_I}
+# add wave -noreg {/top_cnt_tb/UUT/ENBL_I}
+# add wave -noreg {/top_cnt_tb/UUT/CNT_CO}
+# 10 signal(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:49 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+acom -O3 -e 100 -work work -2002  $dsn/../top_cntr.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:49 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:50 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd $dsn/../top_cntr.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:51 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:53 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  1:53 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  2:02 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  2:02 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  2:25 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd $dsn/../top_cntr.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Error: COMP96_0367: top_cntr.vhd : (51, 21): Improper array length (6). Expected length is 5.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'work.cnt31' instantiated in architecture 'struct:TOP_CNT' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# 
+# Error: Cannot initialize simulation - no top level  entity/architecture or configuration is selected
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd $dsn/../cntr23.vhd $dsn/../top_cntr.vhd $dsn/../schem1.vhd $dsn/src/TestBench/top_cnt_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd
+# Warning: COMP96_0003: Source file "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd" is empty.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\TestBench\top_cnt_TB.vhd
+# Compile Entity "top_cnt_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_cnt_tb"
+# Compile Configuration "TESTBENCH_FOR_top_cnt"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.2 [s]
+SetActiveLib -work
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr167.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr23.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+comp -include "$dsn\src\TestBench\top_cnt_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\TestBench\top_cnt_TB.vhd
+# Compile Entity "top_cnt_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_cnt_tb"
+# Compile Configuration "TESTBENCH_FOR_top_cnt"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim +access +r TESTBENCH_FOR_top_cnt 
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  2:26 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+wave 
+wave -noreg CLK_I
+wave -noreg RST_I
+wave -noreg ENBL_I
+wave -noreg CNT_CO
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\top_cnt_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_top_cnt 
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/CLK_I' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/RST_I' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/ENBL_I' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/CNT_CO' has already been traced.
+# 0 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+# add wave -noreg {/top_cnt_tb/UUT/C}
+# add wave -noreg {/top_cnt_tb/UUT/RST_internal}
+# add wave -noreg {/top_cnt_tb/UUT/C1}
+# add wave -noreg {/top_cnt_tb/UUT/C2}
+# add wave -noreg {/top_cnt_tb/UUT/CNT_1_O}
+# add wave -noreg {/top_cnt_tb/UUT/CNT_2_O}
+# add wave -noreg {/top_cnt_tb/UUT/CLK_I}
+# add wave -noreg {/top_cnt_tb/UUT/RST_I}
+# add wave -noreg {/top_cnt_tb/UUT/ENBL_I}
+# add wave -noreg {/top_cnt_tb/UUT/CNT_CO}
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/C' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/RST_internal' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/C1' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/C2' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/CNT_1_O' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/CNT_2_O' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/CLK_I' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/RST_I' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/ENBL_I' has already been traced.
+# KERNEL: Warning: KERNEL_0291 Signal '/top_cnt_tb/UUT/CNT_CO' has already been traced.
+# 0 signal(s) traced.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd $dsn/../cntr23.vhd $dsn/../top_cntr.vhd $dsn/../schem1.vhd $dsn/src/TestBench/top_cnt_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd
+# Warning: COMP96_0003: Source file "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd" is empty.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\TestBench\top_cnt_TB.vhd
+# Compile Entity "top_cnt_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_cnt_tb"
+# Compile Configuration "TESTBENCH_FOR_top_cnt"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  2:31 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+acom -O3 -e 100 -work work -2002  $dsn/../cntr167.vhd $dsn/../cntr23.vhd $dsn/../top_cntr.vhd $dsn/../schem1.vhd $dsn/src/TestBench/top_cnt_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr167.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\cntr23.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\top_cntr.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd
+# Warning: COMP96_0003: Source file "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\..\schem1.vhd" is empty.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\TestBench\top_cnt_TB.vhd
+# Compile Entity "top_cnt_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "top_cnt_tb"
+# Compile Configuration "TESTBENCH_FOR_top_cnt"
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7105 kB (elbread=1280 elab2=5675 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\wave.asdb
+#  2:35 PM, Saturday, May 11, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/wave.asdb'.
+run 3000 ns
+# KERNEL: stopped at time: 3 us
+# Waveform file 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/src/untitled.asdb'.
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\untitled.asdb ... Done
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\VHDLtest\src\untitled.awc ... Done

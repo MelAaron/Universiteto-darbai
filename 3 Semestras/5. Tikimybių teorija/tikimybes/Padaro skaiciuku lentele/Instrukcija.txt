@@ -1,0 +1,8 @@
+-----------------------------------------
+Programà sukurë: Deividas Barkus IFIN-7/2
+-----------------------------------------
+1. Atidarykite uþraðinæ pavadinimu "duomenys.txt"
+2. Suraðykite visus skaièius ið savo uþduoties. Naudokite ',' simbolá atskiriant sveikàjà dalá.
+3. Iðsaugokite ir uþdarykite uþraðinæ.
+4. Paleiskite programà: "Skaièiavimo programa"
+5. Atsiradusioje uþraðinëje "Rezultatas" failæ bus jûsø sugeneruota didëjimo tvarka skaièiai.

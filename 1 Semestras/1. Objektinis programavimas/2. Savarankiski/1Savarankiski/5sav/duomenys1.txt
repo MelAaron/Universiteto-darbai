@@ -1,0 +1,3 @@
+Rokas Solo;4000;00;
+Justas Limsa;400;40;
+Reda Vaike;200;04;

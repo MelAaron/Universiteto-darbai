@@ -1,0 +1,6 @@
+4
+~E 1 "./../../impl1/Failas.vhd" 8 FAILAS
+~A 1 "./../../impl1/Failas.vhd" 17 SCHEMATIC
+~E 1 "./../src/TestBench/failas_TB.vhd" 8 failas_tb
+~A 1 "./../src/TestBench/failas_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/failas_TB.vhd" 85 testbench_for_failas

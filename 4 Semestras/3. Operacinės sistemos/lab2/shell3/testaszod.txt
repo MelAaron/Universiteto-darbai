@@ -1,0 +1,7 @@
+labas
+antanas
+mano
+vardas
+auksinis
+kardas
+arnas

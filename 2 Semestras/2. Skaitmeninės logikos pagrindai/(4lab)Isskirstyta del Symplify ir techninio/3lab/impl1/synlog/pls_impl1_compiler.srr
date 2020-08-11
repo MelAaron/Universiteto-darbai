@@ -1,0 +1,57 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\3lab plis\impl1\pliss.vhd":8:7:8:11|Top entity is set to PLISS.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\3lab plis\impl1\pliss.vhd":8:7:8:11|Synthesizing work.pliss.schematic.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":535:10:535:16|Synthesizing work.fd1s3ax.syn_black_box.
+Post processing for work.fd1s3ax.syn_black_box
+@W: CD638 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\3lab plis\impl1\pliss.vhd":23:10:23:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\3lab plis\impl1\pliss.vhd":24:10:24:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1033:10:1033:14|Synthesizing work.mux41.syn_black_box.
+Post processing for work.mux41.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":65:10:65:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1530:10:1530:12|Synthesizing work.vhi.syn_black_box.
+Post processing for work.vhi.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1537:10:1537:12|Synthesizing work.vlo.syn_black_box.
+Post processing for work.vlo.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+Post processing for work.pliss.schematic
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 73MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 24 18:42:15 2019
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 24 18:42:15 2019
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri May 24 18:42:15 2019
+
+###########################################################]

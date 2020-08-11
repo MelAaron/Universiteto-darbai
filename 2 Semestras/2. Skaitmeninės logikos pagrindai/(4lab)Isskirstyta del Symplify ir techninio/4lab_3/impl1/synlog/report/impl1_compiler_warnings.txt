@@ -1,0 +1,8 @@
+@W: CD638 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\LM2.vhd":22:7:22:7|Signal c is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr50.vhd":27:2:27:3|Feedback mux created for signal CNT_A[5:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr50.vhd":27:2:27:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr31_2.vhd":26:2:26:3|Feedback mux created for signal CNT_A[4:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr31_2.vhd":26:2:26:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr12.vhd":26:2:26:3|Feedback mux created for signal CNT_A[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr12.vhd":26:2:26:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+

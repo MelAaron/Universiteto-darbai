@@ -1,0 +1,18 @@
+void DuomenysInternet(Grybai & grybai)
+{
+ ifstream fd(u2);
+// string pav, tip;
+// GrybasInfo s1;
+ int ns = 0;
+ bool yra = true;
+ while(!fd.eof() && yra) { // kol yra duomenu ir jie telpa i masyva
+ fd >> pav >> tip;
+ s1.Deti (pav, tip);
+ if(!fd.eof() && (ns - 1 < Grybai::CMax ) )
+ grybai[ns++] = s1; // irašo nauja elementa
+ else
+ yra = false;
+ }
+ fd.close();
+ grybai.Deti(ns);
+}

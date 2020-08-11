@@ -1,0 +1,10 @@
+#!/bin/sh
+a=$#;
+b=$((0));
+echo "kiekis = " $a;
+echo "parametrai:";
+for i in $* ; do
+ b=$((b+1));
+ echo $b ". " $i;
+done;
+ 

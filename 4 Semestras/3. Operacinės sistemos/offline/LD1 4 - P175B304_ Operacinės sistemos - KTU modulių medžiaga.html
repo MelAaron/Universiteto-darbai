@@ -1,0 +1,3605 @@
+﻿<!DOCTYPE html><html lang="en"><head>
+<base href="https://os.info.tm:3000/projects/p175b304/wiki/LD1_4">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>LD1 4 - P175B304: Operacinės sistemos - KTU modulių medžiaga</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Redmine">
+<meta name="keywords" content="issue,bug,tracker">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="yCjZGcdhxGWOTGdJz4af/e9gzpvpW82mhYQ7gcKVAe97sOkP3YHYswa2ISxHo7wZmrkGNGArIlqLHxveqLyBig==">
+<link rel="shortcut icon" data-savepage-href="/favicon.ico?1528612569" href="data:image/vnd.microsoft.icon;base64,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HwD4AD8A/wF/AP/n/wD///8A////ACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKFMAACgpwAAoKcAAKCnAACgpwAAoKcAAKF+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5wsAAN8IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////////////////////////////Af//AAH//wAB//8AAf//AAH//wAA//8AAf//gRz//zng//8PgP/+A8B//gPAf/4DwH/+B+E/+IfmH/Bv+AfgH/gAIB/4CAA//AAQP/4QCP//oA3//+AP///+f/////////////////8=">
+<style data-savepage-href="/stylesheets/jquery/jquery-ui-1.11.0.css?1528612569" media="all">/*! jQuery UI - v1.11.0 - 2014-07-13
+* http://jqueryui.com
+* Includes: core.css, draggable.css, resizable.css, selectable.css, sortable.css, accordion.css, autocomplete.css, button.css, datepicker.css, dialog.css, menu.css, progressbar.css, selectmenu.css, slider.css, spinner.css, tabs.css, tooltip.css, theme.css
+* To view and modify this theme, visit http://jqueryui.com/themeroller/?ffDefault=Verdana%2C%20sans-serif&fwDefault=bold&fsDefault=1.1em&cornerRadius=4px&bgColorHeader=759fcf&bgTextureHeader=gloss_wave&bgImgOpacityHeader=35&borderColorHeader=628db6&fcHeader=ffffff&iconColorHeader=ffffff&bgColorContent=eeeeee&bgTextureContent=highlight_soft&bgImgOpacityContent=100&borderColorContent=dddddd&fcContent=333333&iconColorContent=222222&bgColorDefault=f6f6f6&bgTextureDefault=glass&bgImgOpacityDefault=100&borderColorDefault=cccccc&fcDefault=628db6&iconColorDefault=759fcf&bgColorHover=eef5fd&bgTextureHover=glass&bgImgOpacityHover=100&borderColorHover=628db6&fcHover=628db6&iconColorHover=759fcf&bgColorActive=ffffff&bgTextureActive=glass&bgImgOpacityActive=65&borderColorActive=628db6&fcActive=628db6&iconColorActive=759fcf&bgColorHighlight=759fcf&bgTextureHighlight=highlight_soft&bgImgOpacityHighlight=75&borderColorHighlight=628db6&fcHighlight=363636&iconColorHighlight=759fcf&bgColorError=b81900&bgTextureError=diagonals_thick&bgImgOpacityError=18&borderColorError=cd0a0a&fcError=ffffff&iconColorError=ffd27a&bgColorOverlay=666666&bgTextureOverlay=diagonals_thick&bgImgOpacityOverlay=20&opacityOverlay=50&bgColorShadow=000000&bgTextureShadow=flat&bgImgOpacityShadow=10&opacityShadow=20&thicknessShadow=5px&offsetTopShadow=-5px&offsetLeftShadow=-5px&cornerRadiusShadow=5px
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table;border-collapse:collapse}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{min-height:0}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-front{z-index:100}.ui-state-disabled{cursor:default!important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:fixed;top:0;left:0;width:100%;height:100%}.ui-draggable-handle{-ms-touch-action:none;touch-action:none}.ui-resizable{position:relative}.ui-resizable-handle{position:absolute;font-size:0.1px;display:block;-ms-touch-action:none;touch-action:none}.ui-resizable-disabled .ui-resizable-handle,.ui-resizable-autohide .ui-resizable-handle{display:none}.ui-resizable-n{cursor:n-resize;height:7px;width:100%;top:-5px;left:0}.ui-resizable-s{cursor:s-resize;height:7px;width:100%;bottom:-5px;left:0}.ui-resizable-e{cursor:e-resize;width:7px;right:-5px;top:0;height:100%}.ui-resizable-w{cursor:w-resize;width:7px;left:-5px;top:0;height:100%}.ui-resizable-se{cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px}.ui-resizable-sw{cursor:sw-resize;width:9px;height:9px;left:-5px;bottom:-5px}.ui-resizable-nw{cursor:nw-resize;width:9px;height:9px;left:-5px;top:-5px}.ui-resizable-ne{cursor:ne-resize;width:9px;height:9px;right:-5px;top:-5px}.ui-selectable{-ms-touch-action:none;touch-action:none}.ui-selectable-helper{position:absolute;z-index:100;border:1px dotted black}.ui-sortable-handle{-ms-touch-action:none;touch-action:none}.ui-accordion .ui-accordion-header{display:block;cursor:pointer;position:relative;margin:2px 0 0 0;padding:.5em .5em .5em .7em;min-height:0;font-size:100%}.ui-accordion .ui-accordion-icons{padding-left:2.2em}.ui-accordion .ui-accordion-icons .ui-accordion-icons{padding-left:2.2em}.ui-accordion .ui-accordion-header .ui-accordion-header-icon{position:absolute;left:.5em;top:50%;margin-top:-8px}.ui-accordion .ui-accordion-content{padding:1em 2.2em;border-top:0;overflow:auto}.ui-autocomplete{position:absolute;top:0;left:0;cursor:default}.ui-button{display:inline-block;position:relative;padding:0;line-height:normal;margin-right:.1em;cursor:pointer;vertical-align:middle;text-align:center;overflow:visible}.ui-button,.ui-button:link,.ui-button:visited,.ui-button:hover,.ui-button:active{text-decoration:none}.ui-button-icon-only{width:2.2em}button.ui-button-icon-only{width:2.4em}.ui-button-icons-only{width:3.4em}button.ui-button-icons-only{width:3.7em}.ui-button .ui-button-text{display:block;line-height:normal}.ui-button-text-only .ui-button-text{padding:.4em 1em}.ui-button-icon-only .ui-button-text,.ui-button-icons-only .ui-button-text{padding:.4em;text-indent:-9999999px}.ui-button-text-icon-primary .ui-button-text,.ui-button-text-icons .ui-button-text{padding:.4em 1em .4em 2.1em}.ui-button-text-icon-secondary .ui-button-text,.ui-button-text-icons .ui-button-text{padding:.4em 2.1em .4em 1em}.ui-button-text-icons .ui-button-text{padding-left:2.1em;padding-right:2.1em}input.ui-button{padding:.4em 1em}.ui-button-icon-only .ui-icon,.ui-button-text-icon-primary .ui-icon,.ui-button-text-icon-secondary .ui-icon,.ui-button-text-icons .ui-icon,.ui-button-icons-only .ui-icon{position:absolute;top:50%;margin-top:-8px}.ui-button-icon-only .ui-icon{left:50%;margin-left:-8px}.ui-button-text-icon-primary .ui-button-icon-primary,.ui-button-text-icons .ui-button-icon-primary,.ui-button-icons-only .ui-button-icon-primary{left:.5em}.ui-button-text-icon-secondary .ui-button-icon-secondary,.ui-button-text-icons .ui-button-icon-secondary,.ui-button-icons-only .ui-button-icon-secondary{right:.5em}.ui-buttonset{margin-right:7px}.ui-buttonset .ui-button{margin-left:0;margin-right:-.3em}input.ui-button::-moz-focus-inner,button.ui-button::-moz-focus-inner{border:0;padding:0}.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}.ui-datepicker .ui-datepicker-prev{left:2px}.ui-datepicker .ui-datepicker-next{right:2px}.ui-datepicker .ui-datepicker-prev-hover{left:1px}.ui-datepicker .ui-datepicker-next-hover{right:1px}.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0}.ui-datepicker td{border:0;padding:1px}.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current,.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header,.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-dialog{overflow:hidden;position:absolute;top:0;left:0;padding:.2em;outline:0}.ui-dialog .ui-dialog-titlebar{padding:.4em 1em;position:relative}.ui-dialog .ui-dialog-title{float:left;margin:.1em 0;white-space:nowrap;width:90%;overflow:hidden;text-overflow:ellipsis}.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:20px;margin:-10px 0 0 0;padding:1px;height:20px}.ui-dialog .ui-dialog-content{position:relative;border:0;padding:.5em 1em;background:none;overflow:auto}.ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin-top:.5em;padding:.3em 1em .5em .4em}.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset{float:right}.ui-dialog .ui-dialog-buttonpane button{margin:.5em .4em .5em 0;cursor:pointer}.ui-dialog .ui-resizable-se{width:12px;height:12px;right:-5px;bottom:-5px;background-position:16px 16px}.ui-draggable .ui-dialog-titlebar{cursor:move}.ui-menu{list-style:none;padding:0;margin:0;display:block;outline:none}.ui-menu .ui-menu{position:absolute}.ui-menu .ui-menu-item{position:relative;margin:0;padding:3px 1em 3px .4em;cursor:pointer;min-height:0;list-style-image:url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7")}.ui-menu .ui-menu-divider{margin:5px 0;height:0;font-size:0;line-height:0;border-width:1px 0 0 0}.ui-menu .ui-state-focus,.ui-menu .ui-state-active{margin:-1px}.ui-menu-icons{position:relative}.ui-menu-icons .ui-menu-item{padding-left:2em}.ui-menu .ui-icon{position:absolute;top:0;bottom:0;left:.2em;margin:auto 0}.ui-menu .ui-menu-icon{left:auto;right:0}.ui-progressbar{height:2em;text-align:left;overflow:hidden}.ui-progressbar .ui-progressbar-value{margin:-1px;height:100%}.ui-progressbar .ui-progressbar-overlay{background:/*savepage-url=images/animated-overlay.gif*/url();height:100%;filter:alpha(opacity=25);opacity:0.25}.ui-progressbar-indeterminate .ui-progressbar-value{background-image:none}.ui-selectmenu-menu{padding:0;margin:0;position:absolute;top:0;left:0;display:none}.ui-selectmenu-menu .ui-menu{overflow:auto;overflow-x:hidden;padding-bottom:1px}.ui-selectmenu-menu .ui-menu .ui-selectmenu-optgroup{font-size:1em;font-weight:bold;line-height:1.5;padding:2px 0.4em;margin:0.5em 0 0 0;height:auto;border:0}.ui-selectmenu-open{display:block}.ui-selectmenu-button{display:inline-block;overflow:hidden;position:relative;text-decoration:none;cursor:pointer}.ui-selectmenu-button span.ui-icon{right:0.5em;left:auto;margin-top:-8px;position:absolute;top:50%}.ui-selectmenu-button span.ui-selectmenu-text{text-align:left;padding:0.4em 2.1em 0.4em 1em;display:block;line-height:1.4;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ui-slider{position:relative;text-align:left}.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:1.2em;height:1.2em;cursor:default;-ms-touch-action:none;touch-action:none}.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;background-position:0 0}.ui-slider.ui-state-disabled .ui-slider-handle,.ui-slider.ui-state-disabled .ui-slider-range{filter:inherit}.ui-slider-horizontal{height:.8em}.ui-slider-horizontal .ui-slider-handle{top:-.3em;margin-left:-.6em}.ui-slider-horizontal .ui-slider-range{top:0;height:100%}.ui-slider-horizontal .ui-slider-range-min{left:0}.ui-slider-horizontal .ui-slider-range-max{right:0}.ui-slider-vertical{width:.8em;height:100px}.ui-slider-vertical .ui-slider-handle{left:-.3em;margin-left:0;margin-bottom:-.6em}.ui-slider-vertical .ui-slider-range{left:0;width:100%}.ui-slider-vertical .ui-slider-range-min{bottom:0}.ui-slider-vertical .ui-slider-range-max{top:0}.ui-spinner{position:relative;display:inline-block;overflow:hidden;padding:0;vertical-align:middle}.ui-spinner-input{border:none;background:none;color:inherit;padding:0;margin:.2em 0;vertical-align:middle;margin-left:.4em;margin-right:22px}.ui-spinner-button{width:16px;height:50%;font-size:.5em;padding:0;margin:0;text-align:center;position:absolute;cursor:default;display:block;overflow:hidden;right:0}.ui-spinner a.ui-spinner-button{border-top:none;border-bottom:none;border-right:none}.ui-spinner .ui-icon{position:absolute;margin-top:-8px;top:50%;left:0}.ui-spinner-up{top:0}.ui-spinner-down{bottom:0}.ui-spinner .ui-icon-triangle-1-s{background-position:-65px -16px}.ui-tabs{position:relative;padding:.2em}.ui-tabs .ui-tabs-nav{margin:0;padding:.2em .2em 0}.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:0;margin:1px .2em 0 0;border-bottom-width:0;padding:0;white-space:nowrap}.ui-tabs .ui-tabs-nav .ui-tabs-anchor{float:left;padding:.5em 1em;text-decoration:none}.ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:-1px;padding-bottom:1px}.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor,.ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor{cursor:text}.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor{cursor:pointer}.ui-tabs .ui-tabs-panel{display:block;border-width:0;padding:1em 1.4em;background:none}.ui-tooltip{padding:8px;position:absolute;z-index:9999;max-width:300px;-webkit-box-shadow:0 0 5px #aaa;box-shadow:0 0 5px #aaa}body .ui-tooltip{border-width:2px}.ui-widget{font-family:Verdana,sans-serif;font-size:1.1em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Verdana,sans-serif;font-size:1em}.ui-widget-content{border:1px solid #ddd;background:#eee /*savepage-url=images/ui-bg_highlight-soft_100_eeeeee_1x100.png*/ url() 50% top repeat-x;color:#333}.ui-widget-content a{color:#333}.ui-widget-header{border:1px solid #628db6;background:#759fcf /*savepage-url=images/ui-bg_gloss-wave_35_759fcf_500x100.png*/ url() 50% 50% repeat-x;color:#fff;font-weight:bold}.ui-widget-header a{color:#fff}.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #ccc;background:#f6f6f6 /*savepage-url=images/ui-bg_glass_100_f6f6f6_1x400.png*/ url() 50% 50% repeat-x;font-weight:bold;color:#628db6}.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#628db6;text-decoration:none}.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #628db6;background:#eef5fd /*savepage-url=images/ui-bg_glass_100_eef5fd_1x400.png*/ url() 50% 50% repeat-x;font-weight:bold;color:#628db6}.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,.ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited{color:#628db6;text-decoration:none}.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #628db6;background:#fff /*savepage-url=images/ui-bg_glass_65_ffffff_1x400.png*/ url() 50% 50% repeat-x;font-weight:bold;color:#628db6}.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#628db6;text-decoration:none}.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{border:1px solid #628db6;background:#759fcf /*savepage-url=images/ui-bg_highlight-soft_75_759fcf_1x100.png*/ url() 50% top repeat-x;color:#363636}.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{color:#363636}.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{border:1px solid #cd0a0a;background:#b81900 /*savepage-url=images/ui-bg_diagonals-thick_18_b81900_40x40.png*/ url() 50% 50% repeat;color:#fff}.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{color:#fff}.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{color:#fff}.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none}.ui-state-disabled .ui-icon{filter:Alpha(Opacity=35)}.ui-icon{width:16px;height:16px}.ui-icon,.ui-widget-content .ui-icon{background-image:/*savepage-url=images/ui-icons_222222_256x240.png*/url()}.ui-widget-header .ui-icon{background-image:/*savepage-url=images/ui-icons_ffffff_256x240.png*/url()}.ui-state-default .ui-icon{background-image:/*savepage-url=images/ui-icons_759fcf_256x240.png*/url()}.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:/*savepage-url=images/ui-icons_759fcf_256x240.png*/url()}.ui-state-active .ui-icon{background-image:/*savepage-url=images/ui-icons_759fcf_256x240.png*/url()}.ui-state-highlight .ui-icon{background-image:/*savepage-url=images/ui-icons_759fcf_256x240.png*/url()}.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:/*savepage-url=images/ui-icons_ffd27a_256x240.png*/url()}.ui-icon-blank{background-position:16px 16px}.ui-icon-carat-1-n{background-position:0 0}.ui-icon-carat-1-ne{background-position:-16px 0}.ui-icon-carat-1-e{background-position:-32px 0}.ui-icon-carat-1-se{background-position:-48px 0}.ui-icon-carat-1-s{background-position:-64px 0}.ui-icon-carat-1-sw{background-position:-80px 0}.ui-icon-carat-1-w{background-position:-96px 0}.ui-icon-carat-1-nw{background-position:-112px 0}.ui-icon-carat-2-n-s{background-position:-128px 0}.ui-icon-carat-2-e-w{background-position:-144px 0}.ui-icon-triangle-1-n{background-position:0 -16px}.ui-icon-triangle-1-ne{background-position:-16px -16px}.ui-icon-triangle-1-e{background-position:-32px -16px}.ui-icon-triangle-1-se{background-position:-48px -16px}.ui-icon-triangle-1-s{background-position:-64px -16px}.ui-icon-triangle-1-sw{background-position:-80px -16px}.ui-icon-triangle-1-w{background-position:-96px -16px}.ui-icon-triangle-1-nw{background-position:-112px -16px}.ui-icon-triangle-2-n-s{background-position:-128px -16px}.ui-icon-triangle-2-e-w{background-position:-144px -16px}.ui-icon-arrow-1-n{background-position:0 -32px}.ui-icon-arrow-1-ne{background-position:-16px -32px}.ui-icon-arrow-1-e{background-position:-32px -32px}.ui-icon-arrow-1-se{background-position:-48px -32px}.ui-icon-arrow-1-s{background-position:-64px -32px}.ui-icon-arrow-1-sw{background-position:-80px -32px}.ui-icon-arrow-1-w{background-position:-96px -32px}.ui-icon-arrow-1-nw{background-position:-112px -32px}.ui-icon-arrow-2-n-s{background-position:-128px -32px}.ui-icon-arrow-2-ne-sw{background-position:-144px -32px}.ui-icon-arrow-2-e-w{background-position:-160px -32px}.ui-icon-arrow-2-se-nw{background-position:-176px -32px}.ui-icon-arrowstop-1-n{background-position:-192px -32px}.ui-icon-arrowstop-1-e{background-position:-208px -32px}.ui-icon-arrowstop-1-s{background-position:-224px -32px}.ui-icon-arrowstop-1-w{background-position:-240px -32px}.ui-icon-arrowthick-1-n{background-position:0 -48px}.ui-icon-arrowthick-1-ne{background-position:-16px -48px}.ui-icon-arrowthick-1-e{background-position:-32px -48px}.ui-icon-arrowthick-1-se{background-position:-48px -48px}.ui-icon-arrowthick-1-s{background-position:-64px -48px}.ui-icon-arrowthick-1-sw{background-position:-80px -48px}.ui-icon-arrowthick-1-w{background-position:-96px -48px}.ui-icon-arrowthick-1-nw{background-position:-112px -48px}.ui-icon-arrowthick-2-n-s{background-position:-128px -48px}.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px}.ui-icon-arrowthick-2-e-w{background-position:-160px -48px}.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px}.ui-icon-arrowthickstop-1-n{background-position:-192px -48px}.ui-icon-arrowthickstop-1-e{background-position:-208px -48px}.ui-icon-arrowthickstop-1-s{background-position:-224px -48px}.ui-icon-arrowthickstop-1-w{background-position:-240px -48px}.ui-icon-arrowreturnthick-1-w{background-position:0 -64px}.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px}.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px}.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px}.ui-icon-arrowreturn-1-w{background-position:-64px -64px}.ui-icon-arrowreturn-1-n{background-position:-80px -64px}.ui-icon-arrowreturn-1-e{background-position:-96px -64px}.ui-icon-arrowreturn-1-s{background-position:-112px -64px}.ui-icon-arrowrefresh-1-w{background-position:-128px -64px}.ui-icon-arrowrefresh-1-n{background-position:-144px -64px}.ui-icon-arrowrefresh-1-e{background-position:-160px -64px}.ui-icon-arrowrefresh-1-s{background-position:-176px -64px}.ui-icon-arrow-4{background-position:0 -80px}.ui-icon-arrow-4-diag{background-position:-16px -80px}.ui-icon-extlink{background-position:-32px -80px}.ui-icon-newwin{background-position:-48px -80px}.ui-icon-refresh{background-position:-64px -80px}.ui-icon-shuffle{background-position:-80px -80px}.ui-icon-transfer-e-w{background-position:-96px -80px}.ui-icon-transferthick-e-w{background-position:-112px -80px}.ui-icon-folder-collapsed{background-position:0 -96px}.ui-icon-folder-open{background-position:-16px -96px}.ui-icon-document{background-position:-32px -96px}.ui-icon-document-b{background-position:-48px -96px}.ui-icon-note{background-position:-64px -96px}.ui-icon-mail-closed{background-position:-80px -96px}.ui-icon-mail-open{background-position:-96px -96px}.ui-icon-suitcase{background-position:-112px -96px}.ui-icon-comment{background-position:-128px -96px}.ui-icon-person{background-position:-144px -96px}.ui-icon-print{background-position:-160px -96px}.ui-icon-trash{background-position:-176px -96px}.ui-icon-locked{background-position:-192px -96px}.ui-icon-unlocked{background-position:-208px -96px}.ui-icon-bookmark{background-position:-224px -96px}.ui-icon-tag{background-position:-240px -96px}.ui-icon-home{background-position:0 -112px}.ui-icon-flag{background-position:-16px -112px}.ui-icon-calendar{background-position:-32px -112px}.ui-icon-cart{background-position:-48px -112px}.ui-icon-pencil{background-position:-64px -112px}.ui-icon-clock{background-position:-80px -112px}.ui-icon-disk{background-position:-96px -112px}.ui-icon-calculator{background-position:-112px -112px}.ui-icon-zoomin{background-position:-128px -112px}.ui-icon-zoomout{background-position:-144px -112px}.ui-icon-search{background-position:-160px -112px}.ui-icon-wrench{background-position:-176px -112px}.ui-icon-gear{background-position:-192px -112px}.ui-icon-heart{background-position:-208px -112px}.ui-icon-star{background-position:-224px -112px}.ui-icon-link{background-position:-240px -112px}.ui-icon-cancel{background-position:0 -128px}.ui-icon-plus{background-position:-16px -128px}.ui-icon-plusthick{background-position:-32px -128px}.ui-icon-minus{background-position:-48px -128px}.ui-icon-minusthick{background-position:-64px -128px}.ui-icon-close{background-position:-80px -128px}.ui-icon-closethick{background-position:-96px -128px}.ui-icon-key{background-position:-112px -128px}.ui-icon-lightbulb{background-position:-128px -128px}.ui-icon-scissors{background-position:-144px -128px}.ui-icon-clipboard{background-position:-160px -128px}.ui-icon-copy{background-position:-176px -128px}.ui-icon-contact{background-position:-192px -128px}.ui-icon-image{background-position:-208px -128px}.ui-icon-video{background-position:-224px -128px}.ui-icon-script{background-position:-240px -128px}.ui-icon-alert{background-position:0 -144px}.ui-icon-info{background-position:-16px -144px}.ui-icon-notice{background-position:-32px -144px}.ui-icon-help{background-position:-48px -144px}.ui-icon-check{background-position:-64px -144px}.ui-icon-bullet{background-position:-80px -144px}.ui-icon-radio-on{background-position:-96px -144px}.ui-icon-radio-off{background-position:-112px -144px}.ui-icon-pin-w{background-position:-128px -144px}.ui-icon-pin-s{background-position:-144px -144px}.ui-icon-play{background-position:0 -160px}.ui-icon-pause{background-position:-16px -160px}.ui-icon-seek-next{background-position:-32px -160px}.ui-icon-seek-prev{background-position:-48px -160px}.ui-icon-seek-end{background-position:-64px -160px}.ui-icon-seek-start{background-position:-80px -160px}.ui-icon-seek-first{background-position:-80px -160px}.ui-icon-stop{background-position:-96px -160px}.ui-icon-eject{background-position:-112px -160px}.ui-icon-volume-off{background-position:-128px -160px}.ui-icon-volume-on{background-position:-144px -160px}.ui-icon-power{background-position:0 -176px}.ui-icon-signal-diag{background-position:-16px -176px}.ui-icon-signal{background-position:-32px -176px}.ui-icon-battery-0{background-position:-48px -176px}.ui-icon-battery-1{background-position:-64px -176px}.ui-icon-battery-2{background-position:-80px -176px}.ui-icon-battery-3{background-position:-96px -176px}.ui-icon-circle-plus{background-position:0 -192px}.ui-icon-circle-minus{background-position:-16px -192px}.ui-icon-circle-close{background-position:-32px -192px}.ui-icon-circle-triangle-e{background-position:-48px -192px}.ui-icon-circle-triangle-s{background-position:-64px -192px}.ui-icon-circle-triangle-w{background-position:-80px -192px}.ui-icon-circle-triangle-n{background-position:-96px -192px}.ui-icon-circle-arrow-e{background-position:-112px -192px}.ui-icon-circle-arrow-s{background-position:-128px -192px}.ui-icon-circle-arrow-w{background-position:-144px -192px}.ui-icon-circle-arrow-n{background-position:-160px -192px}.ui-icon-circle-zoomin{background-position:-176px -192px}.ui-icon-circle-zoomout{background-position:-192px -192px}.ui-icon-circle-check{background-position:-208px -192px}.ui-icon-circlesmall-plus{background-position:0 -208px}.ui-icon-circlesmall-minus{background-position:-16px -208px}.ui-icon-circlesmall-close{background-position:-32px -208px}.ui-icon-squaresmall-plus{background-position:-48px -208px}.ui-icon-squaresmall-minus{background-position:-64px -208px}.ui-icon-squaresmall-close{background-position:-80px -208px}.ui-icon-grip-dotted-vertical{background-position:0 -224px}.ui-icon-grip-dotted-horizontal{background-position:-16px -224px}.ui-icon-grip-solid-vertical{background-position:-32px -224px}.ui-icon-grip-solid-horizontal{background-position:-48px -224px}.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px}.ui-icon-grip-diagonal-se{background-position:-80px -224px}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{border-top-left-radius:4px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{border-top-right-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{border-bottom-left-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{border-bottom-right-radius:4px}.ui-widget-overlay{background:#666 /*savepage-url=images/ui-bg_diagonals-thick_20_666666_40x40.png*/ url() 50% 50% repeat;opacity:.5;filter:Alpha(Opacity=50)}.ui-widget-shadow{margin:-5px 0 0 -5px;padding:5px;background:#000 /*savepage-url=images/ui-bg_flat_10_000000_40x100.png*/ url() 50% 50% repeat-x;opacity:.2;filter:Alpha(Opacity=20);border-radius:5px}
+</style>
+<style data-savepage-href="/stylesheets/application.css?1549542132" media="all">html {overflow-y:scroll;}
+body { font-family: Verdana, sans-serif; font-size: 12px; color:#333; margin: 0; padding: 0; min-width: 900px; }
+
+h1, h2, h3, h4 {font-family: "Trebuchet MS", Verdana, sans-serif;padding: 2px 10px 1px 0px;margin: 0 0 10px 0;}
+#content h1, h2, h3, h4 {color: #555;}
+h2, .wiki h1 {font-size: 20px;}
+h3, .wiki h2 {font-size: 16px;}
+h4, .wiki h3 {font-size: 13px;}
+h4 {border-bottom: 1px dotted #bbb;}
+pre, code {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
+
+/***** Layout *****/
+#wrapper {background: white;overflow: hidden;}
+
+#top-menu {background: #3E5B76; color: #fff; height:1.8em; font-size: 0.8em; padding: 2px 2px 0px 6px;}
+#top-menu ul {margin: 0;  padding: 0;}
+#top-menu li {
+  float:left;
+  list-style-type:none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  white-space:nowrap;
+}
+#top-menu a {color: #fff; margin-right: 8px; font-weight: bold;}
+#top-menu #loggedas { float: right; margin-right: 0.5em; color: #fff; }
+
+#account {float:right;}
+
+#header {min-height:5.3em;margin:0;background-color:#628DB6;color:#f8f8f8; padding: 4px 8px 20px 6px; position:relative;}
+#header a {color:#f8f8f8;}
+#header h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+#header h1 .breadcrumbs { display:block; font-size: .5em; font-weight: normal; }
+
+#quick-search {float:right;}
+#quick-search #q {width:130px; height:24px; box-sizing:border-box; vertical-align:middle; border:1px solid #ccc; border-radius:3px;}
+
+#main-menu {position: absolute;  bottom: 0px;  left:6px; margin-right: -500px; width: 100%;}
+#main-menu ul {margin: 0;  padding: 0; width: 100%; white-space: nowrap;}
+#main-menu li {
+  float:none;
+  list-style-type:none;
+  margin: 0px 2px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  white-space:nowrap;
+  display:inline-block;
+}
+#main-menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 4px 10px 4px 10px;
+}
+#main-menu li a:hover {background:#759FCF; color:#fff;}
+#main-menu li:hover ul.menu-children, #main-menu li ul.menu-children.visible {display: block;}
+#main-menu li a.selected, #main-menu li a.selected:hover {background:#fff; color:#555;}
+#main-menu li a.new-object { background-color:#759FCF; }
+
+#main-menu .menu-children {
+  display: none;
+  position:absolute;
+  width: inherit;
+  z-index:45;
+  background-color:#fff;
+  border-right: 1px solid #759FCF;
+  border-bottom: 1px solid #759FCF;
+  border-left: 1px solid #759FCF;
+}
+#main-menu .menu-children li {float:left; clear:both; width:100%;}
+#main-menu .menu-children li a {color: #555; background-color:#fff; font-weight:normal;}
+#main-menu .menu-children li a:hover {color: #fff; background-color: #759FCF;}
+
+#main-menu .tabs-buttons {
+  right: 6px;
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+#admin-menu ul {margin: 0;  padding: 0;}
+#admin-menu li {margin: 0;  padding: 0 0 6px 0; list-style-type:none;}
+
+#main {background-color:#EEEEEE;}
+
+#sidebar{ float: right; width: 22%; position: relative; z-index: 9; padding: 0; margin: 0;}
+* html #sidebar{ width: 22%; }
+#sidebar h3{ font-size: 14px; margin-top:14px; color: #666;  }
+#sidebar hr{ width: 100%; margin: 0 auto; height: 1px; background: #ccc; border: 0; }
+* html #sidebar hr{ width: 95%; position: relative; left: -6px; color: #ccc; }
+#sidebar .contextual { margin-right: 1em; }
+#sidebar ul, ul.flat {margin: 0;  padding: 0;}
+#sidebar ul li, ul.flat li {list-style-type:none;margin: 0px 2px 0px 0px; padding: 0px 0px 0px 0px;}
+#sidebar div.wiki ul {margin:inherit; padding-left:40px;}
+#sidebar div.wiki ul li {list-style-type:inherit;}
+
+#content { width: 75%; background-color: #fff; margin: 0px; border-right: 1px solid #ddd; padding: 6px 10px 10px 10px; z-index: 10; }
+* html #content{ width: 75%; padding-left: 0; margin-top: 0px; padding: 6px 10px 10px 10px;}
+html>body #content { min-height: 600px; }
+* html body #content { height: 600px; } /* IE */
+
+#main.nosidebar #sidebar{ display: none; }
+#main.nosidebar #content{ width: auto; border-right: 0; }
+
+#footer {clear: both; border-top: 1px solid #bbb; font-size: 0.9em; color: #aaa; padding: 5px; text-align:center; background:#fff;}
+
+#login-form {margin:5em auto 2em auto; padding:20px; width:340px; border:1px solid #FDBF3B; background-color:#FFEBC1; border-radius:4px; box-sizing: border-box;}
+#login-form label {display:block; margin-bottom:5px;}
+#login-form input[type=text], #login-form input[type=password] {border:1px solid #ccc; border-radius:3px; margin-bottom:15px; padding:7px; display:block; width:100%; box-sizing: border-box;}
+#login-form label {font-weight:bold;}
+#login-form label[for=autologin] {font-weight:normal;}
+#login-form a.lost_password {float:right; font-weight:normal;}
+#login-form input#openid_url {background:#fff /*savepage-url=../images/openid-bg.gif*/ url() no-repeat 4px 50%; padding-left:24px !important;}
+#login-form input#login-submit {margin-top:15px; padding:7px; display:block; width:100%; box-sizing: border-box;}
+
+div.modal { border-radius:5px; background:#fff; z-index:50; padding:4px;}
+div.modal h3.title {display:none;}
+div.modal p.buttons {text-align:right; margin-bottom:0;}
+div.modal .box p {margin: 0.3em 0;}
+
+.clear:after{ content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.mobile-show {display: none;}
+
+/***** Links *****/
+a, a:link, a:visited{ color: #169; text-decoration: none; }
+a:hover, a:active{ color: #c61a1a; text-decoration: underline;}
+a img{ border: 0; }
+
+a.issue.closed, a.issue.closed:link, a.issue.closed:visited { color: #999; text-decoration: line-through; }
+a.project.closed, a.project.closed:link, a.project.closed:visited { color: #999; }
+a.user.locked, a.user.locked:link, a.user.locked:visited {color: #999;}
+
+#sidebar a.selected {line-height:1.7em; padding:1px 3px 2px 2px; margin-left:-2px; background-color:#9DB9D5; color:#fff; border-radius:2px;}
+#sidebar a.selected:hover {text-decoration:none;}
+#admin-menu a {line-height:1.7em;}
+#admin-menu a.selected {padding-left: 20px !important; background-position: 2px 40%;}
+
+a.collapsible {padding-left: 12px; background: /*savepage-url=../images/arrow_expanded.png*/ url() no-repeat -3px 40%;}
+a.collapsible.collapsed {background: /*savepage-url=../images/arrow_collapsed.png*/ var(--savepage-url-9) no-repeat -5px 40%;}
+
+a#toggle-completed-versions {color:#999;}
+
+/***** Dropdown *****/
+.drdn {position:relative;}
+.drdn-trigger {
+  width:100%;
+  height:24px;
+  box-sizing:border-box;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  padding:3px 18px 3px 6px;
+  background:#fff /*savepage-url=../images/sort_desc.png*/ var(--savepage-url-4) no-repeat 97% 50%;
+  cursor:pointer;
+  user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.drdn-content {
+  display:none;
+  position:absolute;
+  right:0px;
+  top:25px;
+  min-width:100px;
+  background-color:#fff;
+  border:1px solid #ccc;
+  border-radius:4px;
+  color:#555;
+  z-index:99;
+}
+.drdn.expanded .drdn-trigger {background-image:/*savepage-url=../images/sort_asc.png*/url();}
+.drdn.expanded .drdn-content {display:block;}
+
+.drdn-content .quick-search {margin:8px;}
+.drdn-content .autocomplete {box-sizing: border-box; width:100% !important; height:28px;}
+.drdn-content .autocomplete:focus {border-color:#5ad;}
+.drdn-items {max-height:400px; overflow:auto;}
+div + .drdn-items {border-top:1px solid #ccc;}
+.drdn-items>* {
+  display:block;
+  border:1px solid #fff;
+  color:#555 !important;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+  padding:4px 8px;
+}
+.drdn-items>a:hover {text-decoration:none; background-color:#759FCF; color:#fff !important;}
+.drdn-items>*:focus {border:1px dotted #bbb;}
+
+.drdn-items.selection>*:before {
+  content:' ';
+  display:inline-block;
+  line-height:1em;
+  width:1em;
+  height:1em;
+  margin-right:4px;
+  font-weight:bold;
+}
+.drdn-items.selection>*.selected:before {
+  content:"\2713 ";
+}
+.drdn-items.selection:empty {
+  border: none;
+}
+.drdn-items>span {color:#999;}
+
+#project-jump.drdn {width:200px;display:inline-block;}
+#project-jump .drdn-trigger {
+  display:inline-block;
+  border-radius:3px;
+  border:1px solid #ccc;
+  margin:0 !important;
+  vertical-align:middle;
+  color:#555;
+}
+#project-jump .drdn-content {width:280px;}
+
+/***** Tables *****/
+table.list, .table-list { border: 1px solid #e4e4e4;  border-collapse: collapse; width: 100%; margin-bottom: 4px; }
+table.list th, .table-list-header { background-color:#EEEEEE; padding: 4px; white-space:nowrap; font-weight:bold; }
+table.list td {text-align:center; vertical-align:middle; padding-right:10px;}
+table.list td.id { width: 2%; text-align: center;}
+table.list td.name, table.list td.description, table.list td.subject, table.list td.comments, table.list td.roles, table.list td.attachments {text-align: left;}
+table.list td.attachments a {display:block;}
+table.list td.tick {width:15%}
+table.list td.checkbox { width: 15px; padding: 2px 0 0 0; }
+table.list td.checkbox input {padding:0px;}
+table.list td.buttons, div.buttons { white-space:nowrap; text-align: right; }
+table.list td.buttons a, div.buttons a { margin-right: 0.6em; }
+table.list td.buttons img, div.buttons img {vertical-align:middle;}
+table.list td.reorder {width:15%; white-space:nowrap; text-align:center; }
+table.list table.progress td {padding-right:0px;}
+table.list caption { text-align: left; padding: 0.5em 0.5em 0.5em 0; }
+#role-permissions-trackers table.list th {white-space:normal;}
+
+.table-list-cell {display: table-cell; vertical-align: top; padding:2px; }
+.table-list div.buttons {width: 15%;}
+
+tr.project td.name a { white-space:nowrap; }
+tr.project.closed, tr.project.archived { color: #aaa; }
+tr.project.closed a, tr.project.archived a { color: #aaa; }
+
+tr.project.idnt td.name span {background: /*savepage-url=../images/bullet_arrow_right.png*/ var(--savepage-url-7) no-repeat 0 50%; padding-left: 16px;}
+tr.project.idnt-1 td.name {padding-left: 0.5em;}
+tr.project.idnt-2 td.name {padding-left: 2em;}
+tr.project.idnt-3 td.name {padding-left: 3.5em;}
+tr.project.idnt-4 td.name {padding-left: 5em;}
+tr.project.idnt-5 td.name {padding-left: 6.5em;}
+tr.project.idnt-6 td.name {padding-left: 8em;}
+tr.project.idnt-7 td.name {padding-left: 9.5em;}
+tr.project.idnt-8 td.name {padding-left: 11em;}
+tr.project.idnt-9 td.name {padding-left: 12.5em;}
+
+tr.issue { text-align: center; white-space: nowrap; }
+tr.issue td.subject, tr.issue td.category, td.assigned_to, td.last_updated_by, tr.issue td.string, tr.issue td.text, tr.issue td.list, tr.issue td.relations, tr.issue td.parent { white-space: normal; }
+tr.issue td.relations { text-align: left; }
+tr.issue td.done_ratio table.progress { margin-left:auto; margin-right: auto;}
+tr.issue td.relations span {white-space: nowrap;}
+table.issues td.description, table.issues td.last_notes {color:#777; font-size:90%; padding:4px 4px 4px 24px; text-align:left; white-space:normal;}
+table.issues td.description pre, table.issues td.last_notes pre {white-space:normal;}
+
+tr.issue.idnt td.subject {background: /*savepage-url=../images/bullet_arrow_right.png*/ var(--savepage-url-7) no-repeat 0 50%;}
+tr.issue.idnt-1 td.subject {padding-left: 24px; background-position: 8px 50%;}
+tr.issue.idnt-2 td.subject {padding-left: 40px; background-position: 24px 50%;}
+tr.issue.idnt-3 td.subject {padding-left: 56px; background-position: 40px 50%;}
+tr.issue.idnt-4 td.subject {padding-left: 72px; background-position: 56px 50%;}
+tr.issue.idnt-5 td.subject {padding-left: 88px; background-position: 72px 50%;}
+tr.issue.idnt-6 td.subject {padding-left: 104px; background-position: 88px 50%;}
+tr.issue.idnt-7 td.subject {padding-left: 120px; background-position: 104px 50%;}
+tr.issue.idnt-8 td.subject {padding-left: 136px; background-position: 120px 50%;}
+tr.issue.idnt-9 td.subject {padding-left: 152px; background-position: 136px 50%;}
+
+table.issue-report {table-layout:fixed;}
+table.issue-report th {white-space: normal;}
+
+tr.entry { border: 1px solid #f8f8f8; }
+tr.entry td { white-space: nowrap; }
+tr.entry td.filename {width:30%; text-align:left;}
+tr.entry td.filename_no_report {width:70%; text-align:left;}
+tr.entry td.size { text-align: right; font-size: 90%; }
+tr.entry td.revision, tr.entry td.author { text-align: center; }
+tr.entry td.age { text-align: right; }
+tr.entry.file td.filename a { margin-left: 16px; }
+tr.entry.file td.filename_no_report a { margin-left: 16px; }
+
+tr span.expander {background-image: /*savepage-url=../images/bullet_toggle_plus.png*/ url(); padding-left: 8px; margin-left: 0; cursor: pointer;}
+tr.open span.expander {background-image: /*savepage-url=../images/bullet_toggle_minus.png*/ url();}
+
+tr.changeset { height: 20px }
+tr.changeset ul, ol { margin-top: 0px; margin-bottom: 0px; }
+tr.changeset td.revision_graph { width: 15%; background-color: #fffffb; }
+tr.changeset td.author { text-align: center; width: 15%; white-space:nowrap;}
+tr.changeset td.committed_on { text-align: center; width: 15%; white-space:nowrap;}
+
+table.files tbody th {text-align:left;}
+table.files tr.file td.filename { text-align: left; padding-left: 24px; }
+table.files tr.file td.digest { font-size: 80%; }
+
+table.members td.roles, table.memberships td.roles { width: 45%; }
+
+tr.message { height: 2.6em; }
+tr.message td.created_on { white-space: nowrap; }
+tr.message td.last_message { font-size: 80%; white-space: nowrap; }
+tr.message.sticky td.subject { font-weight: bold; }
+
+tr.version.closed, tr.version.closed a { color: #999; }
+tr.version td.name { padding-left: 20px; }
+tr.version td.date, tr.version td.status, tr.version td.sharing { text-align: center; white-space:nowrap; }
+
+tr.member td.icon-user {background:transparent;}
+
+tr.user td {width:13%;white-space: nowrap;}
+td.username, td.firstname, td.lastname, td.email {text-align:left !important;}
+tr.user td.email { width:18%; }
+tr.user.locked, tr.user.registered { color: #aaa; }
+tr.user.locked a, tr.user.registered a { color: #aaa; }
+
+table.permissions td.role {color:#999;font-size:90%;font-weight:normal !important;text-align:center;vertical-align:bottom;}
+
+tr.wiki-page-version td.updated_on, tr.wiki-page-version td.author {text-align:center;}
+
+tr.time-entry { text-align: center; white-space: nowrap; }
+tr.time-entry td.issue, tr.time-entry td.comments, tr.time-entry td.subject, tr.time-entry td.activity { text-align: left; white-space: normal; }
+td.hours { text-align: right; font-weight: bold; padding-right: 0.5em; }
+td.hours .hours-dec { font-size: 0.9em; }
+
+table.plugins td { vertical-align: middle; }
+table.plugins td.configure { text-align: right; padding-right: 1em; }
+table.plugins span.name { font-weight: bold; display: block; margin-bottom: 6px; }
+table.plugins span.description { display: block; font-size: 0.9em; }
+table.plugins span.url { display: block; font-size: 0.9em; }
+
+table.list.enumerations {table-layout: fixed; margin-bottom: 2em;}
+
+tr.group td { padding: 0.8em 0 0.5em 0.3em; border-bottom: 1px solid #ccc; text-align:left; background-color: #fff;}
+tr.group span.name {font-weight:bold;}
+tr.group span.count {font-weight:bold; position:relative; top:-1px; color:#fff; font-size:10px; background:#9DB9D5; padding:0px 6px 1px 6px; border-radius:3px; margin-left:4px;}
+tr.group span.totals {color: #aaa; font-size: 80%;}
+tr.group span.totals .value {font-weight:bold; color:#777;}
+tr.group a.toggle-all { color: #aaa; font-size: 80%; display:none; float:right; margin-right:4px;}
+tr.group:hover a.toggle-all { display:inline;}
+a.toggle-all:hover {text-decoration:none;}
+
+table.list tbody tr:hover { background-color:#ffffdd; }
+table.list tbody tr.group:hover { background-color:inherit; }
+table td {padding:2px;}
+table p {margin:0;}
+
+table.list:not(.odd-even) tbody tr:nth-child(odd), .odd, #issue-changesets div.changeset:nth-child(odd) { background-color:#f6f7f8; }
+table.list:not(.odd-even) tbody tr:nth-child(even), .even, #issue-changesets div.changeset:nth-child(even) { background-color: #fff; }
+
+tr.builtin td.name {font-style:italic;}
+
+a.sort { padding-right: 16px; background-position: 100% 50%; background-repeat: no-repeat; }
+a.sort.asc  { background-image: /*savepage-url=../images/sort_asc.png*/ url(); }
+a.sort.desc { background-image: /*savepage-url=../images/sort_desc.png*/ var(--savepage-url-4); }
+
+table.boards a.board { background: /*savepage-url=../images/comment.png*/ url() no-repeat 0% 50%; padding-left: 20px; }
+table.boards td.last-message {text-align:left;font-size:80%;}
+
+div.table-list.boards .table-list-cell.name {width: 30%;}
+
+table.messages td.last_message {text-align:left;}
+
+#query_form_content {font-size:90%;}
+
+.query_sort_criteria_count {
+  display: inline-block;
+  min-width: 1em;
+}
+
+table.query-columns {
+  border-collapse: collapse;
+  border: 0;
+}
+
+table.query-columns td.buttons {
+  vertical-align: middle;
+  text-align: center;
+}
+table.query-columns td.buttons input[type=button] {width:35px;}
+.query-totals {text-align:right;}
+.query-totals>span:not(:first-child) {margin-left:0.6em;}
+.query-totals .value {font-weight:bold;}
+body.controller-issues .query-totals {margin-top:-2.3em;}
+
+td.center {text-align:center;}
+
+#watchers select {width: 95%; display: block;}
+#watchers a.delete {opacity: 0.4; margin-left: 5px;}
+#watchers a.delete:hover {opacity: 1;}
+#watchers img.gravatar {margin: 0 4px 2px 0;}
+
+span#watchers_inputs {overflow:auto; display:block;}
+span.search_for_watchers {display:block;}
+span.search_for_watchers, span.add_attachment {font-size:80%; line-height:2.5em;}
+span.add_attachment a {padding-left:16px; background: /*savepage-url=../images/bullet_add.png*/ url() no-repeat 0 50%; }
+
+
+.highlight { background-color: #FCFD8D;}
+.highlight.token-1 { background-color: #faa;}
+.highlight.token-2 { background-color: #afa;}
+.highlight.token-3 { background-color: #aaf;}
+
+.box{
+  padding:6px;
+  margin-bottom: 10px;
+  background-color:#f6f6f6;
+  color:#505050;
+  line-height:1.5em;
+  border: 1px solid #e4e4e4;
+  word-wrap: break-word;
+  border-radius: 3px;
+}
+
+div.square {
+  border: 1px solid #999;
+  float: left;
+  margin: .3em .4em 0 .4em;
+  overflow: hidden;
+  width: .6em; height: .6em;
+}
+.contextual {float:right; white-space: nowrap; line-height:1.4em;margin:5px 0px; padding-left: 10px; font-size:0.9em;}
+.contextual .icon {padding-top: 2px; padding-bottom: 3px;}
+.contextual input, .contextual select {font-size:0.9em;}
+.message .contextual { margin-top: 0; }
+
+.splitcontent {overflow:auto;}
+.splitcontentleft, #list-left {float:left; width:49%;}
+.splitcontentright, #list-right {float:right; width:49%;}
+form {display: inline;}
+input, select {vertical-align: middle; margin-top: 1px; margin-bottom: 1px;}
+input[type="submit"] { -webkit-appearance: button; }
+fieldset {border: 1px solid #e4e4e4; margin:0;}
+legend {color: #333;}
+hr { width: 100%; height: 1px; background: #ccc; border: 0;}
+blockquote { font-style: italic; border-left: 3px solid #e0e0e0; padding-left: 0.6em; margin-left: 0;}
+blockquote blockquote { margin-left: 0;}
+abbr, span.field-description[title] { border-bottom: 1px dotted #aaa; cursor: help; }
+textarea.wiki-edit {width:99%; resize:vertical;}
+body.textarea-monospace textarea.wiki-edit {font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace; font-size: 12px;}
+body.textarea-proportional textarea.wiki-edit {font-family: Verdana, sans-serif; font-size: 12px;}
+li p {margin-top: 0;}
+div.issue {background:#ffffdd; padding:6px; margin-bottom:6px; border: 1px solid #d7d7d7; border-radius:3px;}
+p.breadcrumb { font-size: 0.9em; margin: 4px 0 4px 0;}
+p.subtitle { font-size: 0.9em; margin: -6px 0 12px 0; font-style: italic; }
+p.footnote { font-size: 0.9em; margin-top: 0px; margin-bottom: 0px; }
+.wiki-class-ltr {direction:ltr !important;}
+.wiki-class-rtl {direction:rtl !important;}
+
+div.issue div.subject div div { padding-left: 16px; }
+div.issue div.subject p {margin: 0; margin-bottom: 0.1em; font-size: 90%; color: #999;}
+div.issue div.subject>div>p { margin-top: 0.5em; }
+div.issue div.subject h3 {margin: 0; margin-bottom: 0.1em;}
+div.issue p.author {margin-top:0.5em;}
+div.issue span.private, div.journal span.private { position:relative; bottom: 2px; text-transform: uppercase; background: #d22; color: #fff; font-weight:bold; padding: 0px 2px 0px 2px; font-size: 60%; margin-right: 2px; border-radius: 2px;}
+div.issue .next-prev-links {color:#999;}
+div.issue .attributes {margin-top: 2em;}
+div.issue .attributes .attribute {padding-left:180px; clear:left; min-height: 1.8em;}
+div.issue .attributes .attribute .label {width: 170px; margin-left:-180px; font-weight:bold; float:left;  overflow:hidden; text-overflow: ellipsis;}
+div.issue .attribute .value {overflow:auto; text-overflow: ellipsis;}
+div.issue.overdue .due-date .value { color: #c22; }
+
+#issue_tree table.issues, #relations table.issues { border: 0; }
+#issue_tree td.checkbox, #relations td.checkbox {display:none;}
+#relations td.buttons {padding:0;}
+
+fieldset.collapsible {border-width: 1px 0 0 0;}
+fieldset.collapsible>legend { padding-left: 16px; background: /*savepage-url=../images/arrow_expanded.png*/ url() no-repeat 0% 40%; cursor:pointer; }
+fieldset.collapsible.collapsed>legend { background-image: /*savepage-url=../images/arrow_collapsed.png*/ var(--savepage-url-9); }
+
+fieldset#date-range p { margin: 2px 0 2px 0; }
+fieldset#filters table { border-collapse: collapse; }
+fieldset#filters table td { padding: 0; vertical-align: middle; }
+fieldset#filters tr.filter { height: 2.1em; }
+fieldset#filters td.field { width:230px; }
+fieldset#filters td.operator { width:130px; }
+fieldset#filters td.operator select {max-width:120px;}
+fieldset#filters td.values { white-space:nowrap; }
+fieldset#filters td.values select {min-width:130px;}
+fieldset#filters td.values input {height:1em;}
+
+#filters-table {width:60%; float:left;}
+.add-filter {width:35%; float:right; text-align: right; vertical-align: top;}
+
+#issue_is_private_wrap {float:right; margin-right:1em;}
+.toggle-multiselect {background: /*savepage-url=../images/bullet_toggle_plus.png*/ url() no-repeat 0% 40%; padding-left:16px; margin-left:0; margin-right:5px; cursor:pointer;}
+.buttons { font-size: 0.9em; margin-bottom: 1.4em; margin-top: 1em; }
+
+div#issue-changesets {float:right; width:45%; margin-left: 1em; margin-bottom: 1em; background: #fff; padding-left: 1em; font-size: 90%;}
+div#issue-changesets div.changeset { padding: 4px;}
+div#issue-changesets div.changeset { border-bottom: 1px solid #ddd; }
+div#issue-changesets p { margin-top: 0; margin-bottom: 1em;}
+.changeset-comments {margin-bottom:1em;}
+
+div.journal {overflow:auto;}
+div.journal.private-notes {border-left:2px solid #d22; padding-left:4px; margin-left:-6px;}
+div.journal ul.details, ul.revision-info {color:#959595; margin-bottom: 1.5em;}
+div.journal ul.details a, ul.revision-info a {color:#70A7CD;}
+div.journal ul.details a:hover,  ul.revision-info a:hover {color:#D14848;}
+
+div#activity dl, #search-results { margin-left: 2em; }
+div#activity dd, #search-results dd { margin-bottom: 1em; padding-left: 18px; font-size: 0.9em; }
+div#activity dt.me .time { border-bottom: 1px solid #999; }
+div#activity dt .time { color: #777; font-size: 80%; }
+div#activity dd .description, #search-results dd .description { font-style: italic; }
+div#activity span.project:after, #search-results span.project:after { content: " -"; }
+div#activity dd span.description, #search-results dd span.description { display:block; color: #808080; }
+div#activity dt.grouped {margin-left:5em;}
+div#activity dd.grouped {margin-left:9em;}
+div#activity dt.icon {background-position: 0 0px !important;}
+
+#search-results dd { margin-bottom: 1em; padding-left: 20px; margin-left:0px; }
+
+div#search-results-counts {float:right;}
+div#search-results-counts ul { margin-top: 0.5em; }
+div#search-results-counts  li { list-style-type:none; float: left; margin-left: 1em; }
+
+div#roadmap .related-issues { margin-bottom: 1em; }
+div#roadmap .related-issues td.checkbox { display: none; }
+div#roadmap .wiki h1:first-child { display: none; }
+div#roadmap .wiki h1 { font-size: 120%; }
+div#roadmap .wiki h2 { font-size: 110%; }
+body.controller-versions.action-show div#roadmap .related-issues {width:70%;}
+
+div#version-summary { float:right; width:28%; margin-left: 16px; margin-bottom: 16px; background-color: #fff; }
+div#version-summary fieldset { margin-bottom: 1em; }
+div#version-summary fieldset.time-tracking table { width:100%; }
+div#version-summary th, div#version-summary td.total-hours { text-align: right; }
+
+table#time-report td.hours, table#time-report th.period, table#time-report th.total { text-align: right; padding-right: 0.5em; }
+table#time-report tbody tr.subtotal { font-style: italic; color:#777;}
+table#time-report tbody tr.subtotal td.hours { color:#b0b0b0; }
+table#time-report tbody tr.total { font-weight: bold; background-color:#EEEEEE; border-top:1px solid #e4e4e4;}
+table#time-report .hours-dec { font-size: 0.9em; }
+
+div.wiki-page .contextual a {opacity: 0.4}
+div.wiki-page .contextual a:hover {opacity: 1}
+
+form .attributes select { width: 60%; }
+form .attributes select + a.icon-only { vertical-align: middle; margin-left: 4px; }
+input#issue_subject, input#document_title { width: 99%; }
+select#issue_done_ratio { width: 95px; }
+
+ul.projects {margin:0; padding-left:1em;}
+ul.projects ul {padding-left:1.6em;}
+ul.projects.root {margin:0; padding:0;}
+ul.projects li {list-style-type:none;}
+
+#projects-index {
+  column-count: auto;
+  column-width: 400px;
+  -webkit-column-count: auto;
+  -webkit-column-width: 400px;
+  -webkit-column-gap : 0.5rem;
+  -moz-column-count: auto;
+  -moz-column-width: 400px;
+  -moz-column-gap : 0.5rem;
+}
+#projects-index ul.projects li.root>ul.projects { border-left: 3px solid #e0e0e0; padding-left:1em;}
+#projects-index ul.projects li.root {margin-bottom: 1em;}
+#projects-index ul.projects li.child {margin-top: 1em;}
+#projects-index ul.projects div.root a.project { font-family: "Trebuchet MS", Verdana, sans-serif; font-weight: bold; font-size: 16px; margin: 0 0 10px 0; }
+#projects-index a.icon-fav {padding-left:0; padding-right:20px; background-position:98% 50%;}
+
+#notified-projects>ul, #tracker_project_ids>ul, #custom_field_project_ids>ul {max-height:250px; overflow-y:auto;}
+
+#related-issues li img {vertical-align:middle;}
+
+ul.properties {padding:0; font-size: 0.9em; color: #777;}
+ul.properties li {list-style-type:none;}
+ul.properties li span {font-style:italic;}
+
+.total-hours { font-size: 110%; font-weight: bold; }
+.total-hours span.hours-int { font-size: 120%; }
+
+.autoscroll {overflow-x: auto; padding:1px; margin-bottom: 1.2em; position: relative;}
+#user_login, #user_firstname, #user_lastname, #user_mail, #my_account_form select, #user_form select, #user_identity_url { width: 90%; }
+
+#workflow_copy_form select { width: 200px; }
+table.transitions td.enabled {background: #bfb;}
+#workflow_form table select {font-size:90%; max-width:100px;}
+table.fields_permissions td.readonly {background:#ddd;}
+table.fields_permissions td.required {background:#d88;}
+
+select.expandable {vertical-align:top;}
+
+textarea#custom_field_possible_values {width: 95%; resize:vertical}
+textarea#custom_field_default_value {width: 95%; resize:vertical}
+.sort-handle {display:inline-block; vertical-align:middle;}
+
+input#content_comments {width: 99%}
+
+span.pagination {margin-left:3px; color:#888; display:block;}
+.pagination ul.pages {
+  margin: 0 5px 0 0;
+  padding: 0;
+  display: inline;
+}
+.pagination ul.pages li {
+  display: inline-block;
+  padding: 0;
+  border: 1px solid #ddd;
+  margin-left: -1px;
+  line-height: 2em;
+  margin-bottom: 1em;
+  white-space: nowrap;
+  text-align: center;
+}
+.pagination ul.pages li a,
+.pagination ul.pages li span {
+  padding: 3px 8px;
+}
+.pagination ul.pages li:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination ul.pages li:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.pagination ul.pages li.current {
+  color: white;
+  background-color: #628DB6;
+  border-color: #628DB6;
+}
+.pagination ul.pages li.page:hover {
+  background-color: #ddd;
+}
+.pagination ul.pages li.page a:hover,
+.pagination ul.pages li.page a:active {
+  color: #169;
+  text-decoration: inherit;
+}
+.pagination .per-page span.selected {
+  font-weight: bold;
+}
+span.pagination>span {white-space:nowrap;}
+
+#search-form fieldset p {margin:0.2em 0;}
+
+/***** Tabular forms ******/
+.tabular p{
+  margin: 0;
+  padding: 3px 0 3px 0;
+  padding-left: 180px; /* width of left column containing the label elements */
+  min-height: 2em;
+  clear:left;
+}
+
+html>body .tabular p {overflow:hidden;}
+
+.tabular input, .tabular select {max-width:95%}
+.tabular textarea {width:95%; resize:vertical;}
+
+.tabular label{
+  font-weight: bold;
+  float: left;
+  text-align: right;
+  /* width of left column */
+  margin-left: -180px;
+  /* width of labels. Should be smaller than left column to create some right margin */
+  width: 175px;
+}
+
+.tabular label.floating{
+  font-weight: normal;
+  margin-left: 0px;
+  text-align: left;
+  width: 270px;
+}
+
+label.block {
+  display: block;
+  width: auto !important;
+}
+
+.tabular label.block{
+  font-weight: normal;
+  margin-left: 0px !important;
+  text-align: left;
+  float: none;
+}
+
+.tabular label.inline{
+  font-weight: normal;
+  float:none;
+  margin-left: 5px !important;
+  width: auto;
+}
+
+label.no-css {
+  font-weight: inherit;
+  float:none;
+  text-align:left;
+  margin-left:0px;
+  width:auto;
+}
+input#time_entry_comments { width: 90%;}
+
+fieldset.preview {margin-top: 1em; min-width: inherit; background: /*savepage-url=../images/draft.png*/ url()}
+
+.tabular.settings p{ padding-left: 300px; }
+.tabular.settings label{ margin-left: -300px; width: 295px; }
+.tabular.settings textarea { width: 99%; }
+
+.settings.enabled_scm table {width:100%}
+.settings.enabled_scm td.scm_name{ font-weight: bold; }
+
+fieldset.settings label { display: block; }
+fieldset#notified_events .parent { padding-left: 20px; }
+
+span.required {color: #bb0000;}
+.summary {font-style: italic;}
+
+.check_box_group {
+  display:block;
+  width:95%;
+  max-height:300px;
+  overflow-y:auto;
+  padding:2px 4px 4px 2px;
+  background:#fff;
+  border:1px solid #9EB1C2;
+  border-radius:2px
+}
+.check_box_group label {
+  font-weight: normal;
+  margin-left: 0px !important;
+  text-align: left;
+  float: none;
+  display: block;
+  width: auto;
+}
+.check_box_group.bool_cf {border:0; background:inherit;}
+.check_box_group.bool_cf label {display: inline;}
+
+.attachments_fields input.description, #existing-attachments input.description {margin-left:4px; width:340px;}
+.attachments_fields>span, #existing-attachments>span {display:block; white-space:nowrap;}
+.attachments_fields input.filename, #existing-attachments .filename {border:0; width:250px; color:#555; background-color:inherit; }
+.tabular input.filename {max-width:75% !important;}
+.attachments_fields input.filename {height:1.8em;}
+.attachments_fields .ajax-waiting input.filename {background:/*savepage-url=../images/hourglass.png*/url() no-repeat 0px 50%;}
+.attachments_fields .ajax-loading input.filename {background:/*savepage-url=../images/loading.gif*/var(--savepage-url-10) no-repeat 0px 50%;}
+.attachments_fields div.ui-progressbar { width: 100px; height:14px; margin: 2px 0 -5px 8px; display: inline-block; }
+
+a.remove-upload:hover {text-decoration:none !important;}
+.existing-attachment.deleted .filename {text-decoration:line-through; color:#999 !important;}
+
+div.fileover { background-color: lavender; }
+
+div.attachments { margin: 12px 0; }
+div.attachments p { margin:4px 0 2px 0; }
+div.attachments img { vertical-align: middle; }
+div.attachments span.author { font-size: 0.9em; color: #888; }
+
+div.thumbnails {margin:0.6em;}
+div.thumbnails div {background:#fff;border:2px solid #ddd;display:inline-block;margin-right:2px;}
+div.thumbnails img {margin: 3px; vertical-align: middle;}
+#history div.thumbnails {margin-left: 2em;}
+
+p.other-formats { text-align: right; font-size:0.9em; color: #666; }
+.other-formats span + span:before { content: "| "; }
+
+a.atom { background: /*savepage-url=../images/feed.png*/ url() no-repeat 1px 50%; padding: 2px 0px 3px 16px; }
+
+em.info {font-style:normal;font-size:90%;color:#888;display:block;}
+em.info.error {padding-left:20px; background:/*savepage-url=../images/exclamation.png*/url() no-repeat 0 50%;}
+
+textarea.text_cf {width:95%; resize:vertical;}
+input.string_cf, input.link_cf {width:95%;}
+select.bool_cf {width:auto !important;}
+
+#tab-content-modules fieldset p {margin:3px 0 4px 0;}
+
+#tab-content-users .splitcontentleft {width: 64%;}
+#tab-content-users .splitcontentright {width: 34%;}
+#tab-content-users fieldset {padding:1em; margin-bottom: 1em;}
+#tab-content-users fieldset legend {font-weight: bold;}
+#tab-content-users fieldset label {display: block;}
+#tab-content-users #principals {max-height: 400px; overflow: auto;}
+
+#users_for_watcher {height: 200px; overflow:auto;}
+#users_for_watcher label {display: block;}
+
+input#principal_search, input#user_search {width:90%}
+.roles-selection label {display:inline-block; width:210px;}
+
+input.autocomplete {
+  background: #fff /*savepage-url=../images/magnifier.png*/ var(--savepage-url-5) no-repeat 2px 50%; padding-left:20px !important;
+  border:1px solid #9EB1C2; border-radius:2px; height:1.5em;
+}
+input.autocomplete.ajax-loading {
+  background-image: /*savepage-url=../images/loading.gif*/ var(--savepage-url-10);
+}
+
+.role-visibility {padding-left:2em;}
+
+.objects-selection {
+  height: 300px;
+  overflow: auto;
+  margin-bottom: 1em;
+}
+
+.objects-selection label {
+  display: block;
+}
+
+.objects-selection>div, #user_group_ids {
+  column-count: auto;
+  column-width: 200px;
+  -webkit-column-count: auto;
+  -webkit-column-width: 200px;
+  -webkit-column-gap : 0.5rem;
+  -webkit-column-rule: 1px solid #ccc;
+  -moz-column-count: auto;
+  -moz-column-width: 200px;
+  -moz-column-gap : 0.5rem;
+  -moz-column-rule: 1px solid #ccc;
+}
+
+/***** Flash & error messages ****/
+#errorExplanation, div.flash, .nodata, .warning, .conflict {
+  padding: 6px 4px 6px 30px;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+div.flash {margin-top: 8px;}
+
+div.flash.error, #errorExplanation {
+  background: url(../images/exclamation.png) 8px 50% no-repeat;
+  background-color: #ffe3e3;
+  border-color: #d88;
+  color: #880000;
+}
+
+div.flash.notice {
+  background: url(../images/true.png) 8px 5px no-repeat;
+  background-color: #dfffdf;
+  border-color: #9fcf9f;
+  color: #005f00;
+}
+
+div.flash.warning, .conflict {
+  background: url(../images/warning.png) 8px 5px no-repeat;
+  background-color: #F3EDD1;
+  border-color: #eadbbc;
+  color: #A6750C;
+  text-align: left;
+}
+
+.nodata, .warning {
+  text-align: center;
+  background-color: #F3EDD1;
+  border-color: #eadbbc;
+  color: #A6750C;
+}
+
+#errorExplanation ul { font-size: 0.9em;}
+#errorExplanation h2, #errorExplanation p { display: none; }
+
+.conflict-details {font-size:80%;}
+
+/***** Ajax indicator ******/
+#ajax-indicator {
+position: absolute; /* fixed not supported by IE */
+background-color:#eee;
+border: 1px solid #bbb;
+top:35%;
+left:40%;
+width:20%;
+font-weight:bold;
+text-align:center;
+padding:0.6em;
+z-index:100;
+opacity: 0.5;
+}
+
+html>body #ajax-indicator { position: fixed; }
+
+#ajax-indicator span {
+background-position: 0% 40%;
+background-repeat: no-repeat;
+background-image: /*savepage-url=../images/loading.gif*/ var(--savepage-url-10);
+padding-left: 26px;
+vertical-align: bottom;
+}
+
+/***** Calendar *****/
+table.cal {border-collapse: collapse; width: 100%; margin: 0px 0 6px 0;border: 1px solid #d7d7d7;}
+table.cal thead th {width: 14%; background-color:#EEEEEE; padding: 4px; }
+table.cal thead th.week-number {width: auto;}
+table.cal tbody tr {height: 100px;}
+table.cal td .icon {padding-top: 2px; padding-bottom: 3px;}
+table.cal td {border: 1px solid #d7d7d7; vertical-align: top; font-size: 0.9em;}
+table.cal td.week-number { background-color:#EEEEEE; padding: 4px; border:none; font-size: 1em;}
+table.cal td p.day-num {font-size: 1.1em; text-align:right;}
+table.cal td.odd p.day-num {color: #bbb;}
+table.cal td.today {background:#ffffdd;}
+table.cal td.today p.day-num {font-weight: bold;}
+table.cal .starting a.issue, p.cal.legend .starting {background: /*savepage-url=../images/bullet_go.png*/ url() no-repeat -1px -2px; padding-left:16px;}
+table.cal .ending a.issue, p.cal.legend .ending {background: /*savepage-url=../images/bullet_end.png*/ url() no-repeat -1px -2px; padding-left:16px;}
+table.cal .starting.ending a.issue, p.cal.legend .starting.ending {background: /*savepage-url=../images/bullet_diamond.png*/ url() no-repeat -1px -2px; padding-left:16px;}
+p.cal.legend span {display:block;}
+
+/***** Tooltips ******/
+.tooltip{position:relative;z-index:24;}
+.tooltip:hover{z-index:25;color:#000;}
+.tooltip span.tip{display: none; text-align:left;}
+
+div.tooltip:hover span.tip{
+display:block;
+position:absolute;
+top:12px; width:270px;
+border:1px solid #555;
+background-color:#fff;
+padding: 4px;
+font-size: 0.8em;
+color:#505050;
+}
+
+img.ui-datepicker-trigger {
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 4px;
+}
+
+/***** Progress bar *****/
+table.progress {
+  border-collapse: collapse;
+  border-spacing: 0pt;
+  empty-cells: show;
+  text-align: center;
+  float:left;
+  margin: 1px 6px 1px 0px;
+}
+
+table.progress {width:80px;}
+table.progress td { height: 1em; }
+table.progress td.closed { background: #BAE0BA none repeat scroll 0%; }
+table.progress td.done { background: #D3EDD3 none repeat scroll 0%; }
+table.progress td.todo { background: #eee none repeat scroll 0%; }
+p.percent {font-size: 80%; margin:0;}
+p.progress-info {clear: left; font-size: 80%; margin-top:-4px; color:#777;}
+
+.version-overview table.progress {width:40em;}
+.version-overview table.progress td { height: 1.2em; }
+
+/***** Tabs *****/
+#content .tabs {height: 2.6em; margin-bottom:1.2em; position:relative; overflow:hidden;}
+#content .tabs ul {margin:0; position:absolute; bottom:0; padding-left:0.5em; width: 2000px; border-bottom: 1px solid #bbbbbb;}
+#content .tabs ul li {
+  float:left;
+  list-style-type:none;
+  white-space:nowrap;
+  margin-right:4px;
+  background:#fff;
+  position:relative;
+  margin-bottom:-1px;
+}
+#content .tabs ul li a{
+  display:block;
+  font-size: 0.9em;
+  text-decoration:none;
+  line-height:1.3em;
+  padding:4px 6px 4px 6px;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbbbbb;
+  background-color: #f6f6f6;
+  color:#999;
+  font-weight:bold;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
+#content .tabs ul li a:hover {
+  background-color: #ffffdd;
+  text-decoration:none;
+}
+
+#content .tabs ul li a.selected {
+  background-color: #fff;
+  border: 1px solid #bbbbbb;
+  border-bottom: 1px solid #fff;
+  color:#444;
+}
+
+#content .tabs ul li a.selected:hover {background-color: #fff;}
+
+div.tabs-buttons { position:absolute; right: 0; width: 54px; height: 24px; background: white; bottom: 0; border-bottom: 1px solid #bbbbbb; }
+
+button.tab-left, button.tab-right {
+  font-size: 0.9em;
+  cursor: pointer;
+  height:24px;
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbbbbb;
+  position:absolute;
+  padding:4px;
+  width: 20px;
+  bottom: -1px;
+}
+button.tab-left:hover, button.tab-right:hover {
+  background-color: #f5f5f5;
+}
+button.tab-left:focus, button.tab-right:focus {
+  outline: 0;
+}
+
+button.tab-left {
+  right: 20px;
+  background: #eeeeee /*savepage-url=../images/bullet_arrow_left.png*/ var(--savepage-url-6) no-repeat 50% 50%;
+  border-top-left-radius:3px;
+}
+
+button.tab-right {
+  right: 0;
+  background: #eeeeee /*savepage-url=../images/bullet_arrow_right.png*/ var(--savepage-url-7) no-repeat 50% 50%;
+  border-top-right-radius:3px;
+}
+
+button.tab-left.disabled, button.tab-right.disabled {
+  background-color: #ccc;
+  cursor: unset;
+}
+
+/***** Diff *****/
+.diff_out { background: #fcc; }
+.diff_out span { background: #faa; }
+.diff_in { background: #cfc; }
+.diff_in span { background: #afa; }
+
+.text-diff {
+  padding: 1em;
+  background-color:#f6f6f6;
+  color:#505050;
+  border: 1px solid #e4e4e4;
+}
+
+/***** Wiki *****/
+div.wiki table {
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+
+div.wiki table, div.wiki td, div.wiki th {
+  border: 1px solid #bbb;
+  padding: 4px;
+}
+
+div.wiki .wiki-class-noborder, div.wiki .wiki-class-noborder td, div.wiki .wiki-class-noborder th {border:0;}
+
+div.wiki .external {
+  background-position: 0% 60%;
+  background-repeat: no-repeat;
+  padding-left: 12px;
+  background-image: /*savepage-url=../images/external.png*/ var(--savepage-url-8);
+}
+
+div.wiki a {word-wrap: break-word;}
+div.wiki a.new {color: #b73535;}
+
+div.wiki ul, div.wiki ol {margin-bottom:1em;}
+div.wiki li>ul, div.wiki li>ol {margin-bottom: 0;}
+
+div.wiki pre {
+  margin: 1em 1em 1em 1.6em;
+  padding: 8px;
+  background-color: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px;
+  width:auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+div.wiki ul.toc {
+  background-color: #ffffdd;
+  border: 1px solid #e4e4e4;
+  padding: 4px;
+  line-height: 1.2em;
+  margin-bottom: 12px;
+  margin-right: 12px;
+  margin-left: 0;
+  display: table
+}
+* html div.wiki ul.toc { width: 50%; } /* IE6 doesn't autosize div */
+
+div.wiki ul.toc.right { float: right; margin-left: 12px; margin-right: 0; width: auto; }
+div.wiki ul.toc.left  { float: left; margin-right: 12px; margin-left: 0; width: auto; }
+div.wiki ul.toc ul { margin: 0; padding: 0; }
+div.wiki ul.toc li {list-style-type:none; margin: 0; font-size:12px;}
+div.wiki ul.toc>li:first-child {margin-bottom: .5em; color: #777;}
+div.wiki ul.toc li li {margin-left: 1.5em; font-size:10px;}
+div.wiki ul.toc a {
+  font-size: 0.9em;
+  font-weight: normal;
+  text-decoration: none;
+  color: #606060;
+}
+div.wiki ul.toc a:hover { color: #c61a1a; text-decoration: underline;}
+
+a.wiki-anchor { display: none; margin-left: 6px; text-decoration: none; }
+a.wiki-anchor:hover { color: #aaa !important; text-decoration: none; }
+h1:hover a.wiki-anchor, h2:hover a.wiki-anchor, h3:hover a.wiki-anchor, h4:hover a.wiki-anchor, h5:hover a.wiki-anchor, h6:hover a.wiki-anchor { display: inline; color: #ddd; }
+
+div.wiki img {vertical-align:middle; max-width:100%;}
+
+/***** My page layout *****/
+.block-receiver {
+  border:1px dashed #fff;
+  padding: 15px 0 0 0;
+}
+.dragging .block-receiver {
+  border:1px dashed #777;
+  margin-bottom: 20px;
+}
+.mypage-box {
+  border:1px solid #ddd;
+  padding:8px;
+  margin:0 0 20px 0;
+  color:#505050;
+  line-height:1.5em;
+}
+
+.mypage-box>.contextual {opacity:0; transition: opacity 0.2s;}
+.mypage-box:hover>.contextual {opacity:1;}
+
+.handle {cursor: move;}
+
+#my-page .list th.checkbox, #my-page .list td.checkbox {display:none;}
+/***** Gantt chart *****/
+.gantt_hdr {
+  position:absolute;
+  top:0;
+  height:16px;
+  border-top: 1px solid #c0c0c0;
+  border-bottom: 1px solid #c0c0c0;
+  border-right: 1px solid #c0c0c0;
+  text-align: center;
+  overflow: hidden;
+}
+
+.gantt_hdr.nwday {background-color:#f1f1f1; color:#999;}
+
+.gantt_subjects { font-size: 0.8em; }
+.gantt_subjects div { line-height:16px;height:16px;overflow:hidden;white-space:nowrap;text-overflow: ellipsis; }
+
+.gantt_subjects .issue-subject img.icon-gravatar {
+  margin: 2px 5px 0px 2px;
+}
+
+.task {
+  position: absolute;
+  height:8px;
+  font-size:0.8em;
+  color:#888;
+  padding:0;
+  margin:0;
+  line-height:16px;
+  white-space:nowrap;
+}
+
+.task.label {width:100%;}
+.task.label.project, .task.label.version { font-weight: bold; }
+
+.task_late { background:#f66 /*savepage-url=../images/task_late.png*/ url(); border: 1px solid #f66; }
+.task_done { background:#00c600 /*savepage-url=../images/task_done.png*/ url(); border: 1px solid #00c600; }
+.task_todo { background:#aaa /*savepage-url=../images/task_todo.png*/ url(); border: 1px solid #aaa; }
+
+.task_todo.parent { background: #888; border: 1px solid #888; height: 3px;}
+.task_late.parent, .task_done.parent { height: 3px;}
+.task.parent.marker.starting  { position: absolute; background: /*savepage-url=../images/task_parent_end.png*/ url() no-repeat 0 0; width: 8px; height: 16px; margin-left: -4px; left: 0px; top: -1px;}
+.task.parent.marker.ending { position: absolute; background: /*savepage-url=../images/task_parent_end.png*/ url() no-repeat 0 0; width: 8px; height: 16px; margin-left: -4px; right: 0px; top: -1px;}
+
+.version.task_late { background:#f66 /*savepage-url=../images/milestone_late.png*/ url(); border: 1px solid #f66; height: 2px; margin-top: 3px;}
+.version.task_done { background:#00c600 /*savepage-url=../images/milestone_done.png*/ url(); border: 1px solid #00c600; height: 2px; margin-top: 3px;}
+.version.task_todo { background:#fff /*savepage-url=../images/milestone_todo.png*/ url(); border: 1px solid #fff; height: 2px; margin-top: 3px;}
+.version.marker { background-image:/*savepage-url=../images/version_marker.png*/url(); background-repeat: no-repeat; border: 0; margin-left: -4px; margin-top: 1px; }
+
+.project.task_late { background:#f66 /*savepage-url=../images/milestone_late.png*/ url(); border: 1px solid #f66; height: 2px; margin-top: 3px;}
+.project.task_done { background:#00c600 /*savepage-url=../images/milestone_done.png*/ url(); border: 1px solid #00c600; height: 2px; margin-top: 3px;}
+.project.task_todo { background:#fff /*savepage-url=../images/milestone_todo.png*/ url(); border: 1px solid #fff; height: 2px; margin-top: 3px;}
+.project.marker { background-image:/*savepage-url=../images/project_marker.png*/url(); background-repeat: no-repeat; border: 0; margin-left: -4px; margin-top: 1px; }
+
+.version-behind-schedule a, .issue-behind-schedule a {color: #f66914;}
+.version-overdue a, .issue-overdue a, .project-overdue a {color: #f00;}
+
+/***** Icons *****/
+.icon {
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+.icon-only {
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  padding-left: 16px;
+  display: inline-block;
+  width: 0;
+  height: 16px;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 8px;
+  vertical-align: middle;
+}
+.icon-only::after {
+  content: "&nbsp;";
+}
+
+.icon-add { background-image: /*savepage-url=../images/add.png*/ url(); }
+.icon-edit { background-image: /*savepage-url=../images/edit.png*/ url(); }
+.icon-copy { background-image: /*savepage-url=../images/copy.png*/ url(); }
+.icon-duplicate { background-image: /*savepage-url=../images/duplicate.png*/ url(); }
+.icon-del { background-image: /*savepage-url=../images/delete.png*/ url(); }
+.icon-move { background-image: /*savepage-url=../images/move.png*/ url(); }
+.icon-save { background-image: /*savepage-url=../images/save.png*/ url(); }
+.icon-download { background-image: /*savepage-url=../images/download.png*/ url(); }
+.icon-cancel { background-image: /*savepage-url=../images/cancel.png*/ url(); }
+.icon-multiple { background-image: /*savepage-url=../images/table_multiple.png*/ url(); }
+.icon-folder { background-image: /*savepage-url=../images/folder.png*/ url(); }
+.open .icon-folder { background-image: /*savepage-url=../images/folder_open.png*/ url(); }
+.icon-package { background-image: /*savepage-url=../images/package.png*/ url(); }
+.icon-user { background-image: /*savepage-url=../images/user.png*/ url(); }
+.icon-project, .icon-projects { background-image: /*savepage-url=../images/projects.png*/ url(); }
+.icon-help { background-image: /*savepage-url=../images/help.png*/ url(); }
+.icon-attachment  { background-image: /*savepage-url=../images/attachment.png*/ url(); }
+.icon-history  { background-image: /*savepage-url=../images/history.png*/ url(); }
+.icon-time-entry, .icon-time  { background-image: /*savepage-url=../images/time.png*/ url(); }
+.icon-time-add  { background-image: /*savepage-url=../images/time_add.png*/ url(); }
+.icon-stats  { background-image: /*savepage-url=../images/stats.png*/ url(); }
+.icon-warning  { background-image: /*savepage-url=../images/warning.png*/ url(); }
+.icon-error { background-image: /*savepage-url=../images/exclamation.png*/ url(); }
+.icon-fav  { background-image: /*savepage-url=../images/fav.png*/ url(); }
+.icon-fav-off  { background-image: /*savepage-url=../images/fav_off.png*/ url(); }
+.icon-reload  { background-image: /*savepage-url=../images/reload.png*/ url(); }
+.icon-lock, .icon-locked  { background-image: /*savepage-url=../images/locked.png*/ url(); }
+.icon-unlock  { background-image: /*savepage-url=../images/unlock.png*/ url(); }
+.icon-checked  { background-image: /*savepage-url=../images/toggle_check.png*/ url(); }
+.icon-report  { background-image: /*savepage-url=../images/report.png*/ url(); }
+.icon-comment, .icon-comments  { background-image: /*savepage-url=../images/comment.png*/ url(); }
+.icon-summary  { background-image: /*savepage-url=../images/lightning.png*/ url(); }
+.icon-server-authentication { background-image: /*savepage-url=../images/server_key.png*/ url(); }
+.icon-issue { background-image: /*savepage-url=../images/ticket.png*/ url(); }
+.icon-zoom-in { background-image: /*savepage-url=../images/zoom_in.png*/ url(); }
+.icon-zoom-out { background-image: /*savepage-url=../images/zoom_out.png*/ url(); }
+.icon-magnifier { background-image: /*savepage-url=../images/magnifier.png*/ var(--savepage-url-5); }
+.icon-passwd { background-image: /*savepage-url=../images/textfield_key.png*/ url(); }
+.icon-arrow-right, .icon-test, .icon-sticky { background-image: /*savepage-url=../images/bullet_go.png*/ url(); }
+.icon-email { background-image: /*savepage-url=../images/email.png*/ url(); }
+.icon-email-disabled { background-image: /*savepage-url=../images/email_disabled.png*/ url(); }
+.icon-email-add { background-image: /*savepage-url=../images/email_add.png*/ url(); }
+.icon-move-up { background-image: /*savepage-url=../images/1uparrow.png*/ url(); }
+.icon-move-top { background-image: /*savepage-url=../images/2uparrow.png*/ url(); }
+.icon-move-down { background-image: /*savepage-url=../images/1downarrow.png*/ url(); }
+.icon-move-bottom { background-image: /*savepage-url=../images/2downarrow.png*/ url(); }
+.icon-ok { background-image: /*savepage-url=../images/true.png*/ url(); }
+.icon-not-ok { background-image: /*savepage-url=../images/false.png*/ url(); }
+.icon-link-break { background-image: /*savepage-url=../images/link_break.png*/ url(); }
+.icon-list { background-image: /*savepage-url=../images/text_list_bullets.png*/ url(); }
+.icon-close { background-image: /*savepage-url=../images/close.png*/ url(); }
+.icon-close:hover { background-image: /*savepage-url=../images/close_hl.png*/ url(); }
+.icon-settings { background-image: /*savepage-url=../images/changeset.png*/ url(); }
+.icon-group, .icon-groupnonmember, .icon-groupanonymous { background-image: /*savepage-url=../images/group.png*/ url(); }
+.icon-roles { background-image: /*savepage-url=../images/database_key.png*/ url(); }
+.icon-issue-edit { background-image: /*savepage-url=../images/ticket_edit.png*/ url(); }
+.icon-workflows { background-image: /*savepage-url=../images/ticket_go.png*/ url(); }
+.icon-custom-fields { background-image: /*savepage-url=../images/textfield.png*/ url(); }
+.icon-plugins { background-image: /*savepage-url=../images/plugin.png*/ url(); }
+.icon-news { background-image: /*savepage-url=../images/news.png*/ url(); }
+.icon-issue-closed { background-image: /*savepage-url=../images/ticket_checked.png*/ url(); }
+.icon-issue-note { background-image: /*savepage-url=../images/ticket_note.png*/ url(); }
+.icon-changeset { background-image: /*savepage-url=../images/changeset.png*/ url(); }
+.icon-message { background-image: /*savepage-url=../images/message.png*/ url(); }
+.icon-reply { background-image: /*savepage-url=../images/comments.png*/ url(); }
+.icon-wiki-page { background-image: /*savepage-url=../images/wiki_edit.png*/ url(); }
+.icon-document { background-image: /*savepage-url=../images/document.png*/ url(); }
+.icon-project { background-image: /*savepage-url=../images/projects.png*/ url(); }
+.icon-add-bullet { background-image: /*savepage-url=../images/bullet_add.png*/ url(); }
+.icon-shared { background-image: /*savepage-url=../images/link.png*/ url(); }
+
+.icon-file { background-image: /*savepage-url=../images/files/default.png*/ url(); }
+.icon-file.text-plain { background-image: /*savepage-url=../images/files/text.png*/ url(); }
+.icon-file.text-x-c { background-image: /*savepage-url=../images/files/c.png*/ url(); }
+.icon-file.text-x-csharp { background-image: /*savepage-url=../images/files/csharp.png*/ url(); }
+.icon-file.text-x-java { background-image: /*savepage-url=../images/files/java.png*/ url(); }
+.icon-file.text-x-javascript { background-image: /*savepage-url=../images/files/js.png*/ url(); }
+.icon-file.text-x-php { background-image: /*savepage-url=../images/files/php.png*/ url(); }
+.icon-file.text-x-ruby { background-image: /*savepage-url=../images/files/ruby.png*/ url(); }
+.icon-file.text-xml { background-image: /*savepage-url=../images/files/xml.png*/ url(); }
+.icon-file.text-css { background-image: /*savepage-url=../images/files/css.png*/ url(); }
+.icon-file.text-html { background-image: /*savepage-url=../images/files/html.png*/ url(); }
+.icon-file.image-gif { background-image: /*savepage-url=../images/files/image.png*/ url(); }
+.icon-file.image-jpeg { background-image: /*savepage-url=../images/files/image.png*/ url(); }
+.icon-file.image-png { background-image: /*savepage-url=../images/files/image.png*/ url(); }
+.icon-file.image-tiff { background-image: /*savepage-url=../images/files/image.png*/ url(); }
+.icon-file.application-pdf { background-image: /*savepage-url=../images/files/pdf.png*/ url(); }
+.icon-file.application-zip { background-image: /*savepage-url=../images/files/zip.png*/ url(); }
+.icon-file.application-x-gzip { background-image: /*savepage-url=../images/files/zip.png*/ url(); }
+
+.sort-handle { width:16px; height:16px; background:/*savepage-url=../images/reorder.png*/url() no-repeat 0 50%; cursor:move; }
+.sort-handle.ajax-loading { background-image: /*savepage-url=../images/loading.gif*/ var(--savepage-url-10); }
+tr.ui-sortable-helper { border:1px solid #e4e4e4; }
+
+.contextual>*:not(:first-child), .buttons>.icon:not(:first-child) { margin-left: 5px; }
+
+img.gravatar {
+  vertical-align: middle;
+  border-radius: 20%;
+}
+
+div.issue img.gravatar {
+  float: left;
+  margin: 0 12px 6px 0;
+}
+
+div.gravatar-with-child {
+  position: relative;
+}
+
+div.gravatar-with-child > img.gravatar:nth-child(2) {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  border-radius: 20%;
+  border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+h2 img.gravatar, h3 img.gravatar {margin-right: 4px;}
+h4 img.gravatar {margin: -2px 4px -4px 0;}
+td.username img.gravatar {margin: 0 0.5em 0 0; vertical-align: top;}
+#activity dt img.gravatar {float: left; margin: 0 1em 1em 0;}
+/* Used on 12px Gravatar img tags without the icon background */
+.icon-gravatar {float: left; margin-right: 4px;}
+
+#activity dt, .journal {clear: left;}
+
+.journal-link {float: right;}
+
+h2 img { vertical-align:middle; }
+
+.hascontextmenu { cursor: context-menu; }
+
+.sample-data {border:1px solid #ccc; border-collapse:collapse; background-color:#fff; margin:0.5em;}
+.sample-data td {border:1px solid #ccc; padding: 2px 4px; font-family: Consolas, Menlo, "Liberation Mono", Courier, monospace;}
+.sample-data tr:first-child td {font-weight:bold; text-align:center;}
+
+.ui-progressbar {position: relative;}
+#progress-label {
+position: absolute; left: 50%; top: 4px;
+font-weight: bold;
+color: #555; text-shadow: 1px 1px 0 #fff;
+}
+
+/* Custom JQuery styles */
+.ui-datepicker-title select {width:70px !important; margin-top:-2px !important; margin-right:4px !important;}
+
+
+/************* CodeRay styles *************/
+.syntaxhl div {display: inline;}
+.syntaxhl .code pre { overflow: auto }
+
+.syntaxhl .annotation { color:#007 }
+.syntaxhl .attribute-name { color:#b48 }
+.syntaxhl .attribute-value { color:#700 }
+.syntaxhl .binary { color:#549 }
+.syntaxhl .binary .char { color:#325 }
+.syntaxhl .binary .delimiter { color:#325 }
+.syntaxhl .char { color:#D20 }
+.syntaxhl .char .content { color:#D20 }
+.syntaxhl .char .delimiter { color:#710 }
+.syntaxhl .class { color:#B06; font-weight:bold }
+.syntaxhl .class-variable { color:#369 }
+.syntaxhl .color { color:#0A0 }
+.syntaxhl .comment { color:#777 }
+.syntaxhl .comment .char { color:#444 }
+.syntaxhl .comment .delimiter { color:#444 }
+.syntaxhl .constant { color:#036; font-weight:bold }
+.syntaxhl .decorator { color:#B0B }
+.syntaxhl .definition { color:#099; font-weight:bold }
+.syntaxhl .delimiter { color:black }
+.syntaxhl .directive { color:#088; font-weight:bold }
+.syntaxhl .docstring { color:#D42; }
+.syntaxhl .doctype { color:#34b }
+.syntaxhl .done { text-decoration: line-through; color: gray }
+.syntaxhl .entity { color:#800; font-weight:bold }
+.syntaxhl .error { color:#F00; background-color:#FAA }
+.syntaxhl .escape  { color:#666 }
+.syntaxhl .exception { color:#C00; font-weight:bold }
+.syntaxhl .float { color:#60E }
+.syntaxhl .function { color:#06B; font-weight:bold }
+.syntaxhl .function .delimiter { color:#059 }
+.syntaxhl .function .content { color:#037 }
+.syntaxhl .global-variable { color:#d70 }
+.syntaxhl .hex { color:#02b }
+.syntaxhl .id  { color:#33D; font-weight:bold }
+.syntaxhl .include { color:#B44; font-weight:bold }
+.syntaxhl .inline { background-color: hsla(0,0%,0%,0.07); color: black }
+.syntaxhl .inline-delimiter { font-weight: bold; color: #666 }
+.syntaxhl .instance-variable { color:#33B }
+.syntaxhl .integer  { color:#00D }
+.syntaxhl .imaginary { color:#f00 }
+.syntaxhl .important { color:#D00 }
+.syntaxhl .key { color: #606 }
+.syntaxhl .key .char { color: #60f }
+.syntaxhl .key .delimiter { color: #404 }
+.syntaxhl .keyword { color:#080; font-weight:bold }
+.syntaxhl .label { color:#970; font-weight:bold }
+.syntaxhl .local-variable { color:#950 }
+.syntaxhl .map .content { color:#808 }
+.syntaxhl .map .delimiter { color:#40A}
+.syntaxhl .map { background-color:hsla(200,100%,50%,0.06); }
+.syntaxhl .namespace { color:#707; font-weight:bold }
+.syntaxhl .octal { color:#40E }
+.syntaxhl .operator { }
+.syntaxhl .predefined { color:#369; font-weight:bold }
+.syntaxhl .predefined-constant { color:#069 }
+.syntaxhl .predefined-type { color:#0a8; font-weight:bold }
+.syntaxhl .preprocessor { color:#579 }
+.syntaxhl .pseudo-class { color:#00C; font-weight:bold }
+.syntaxhl .regexp { background-color:hsla(300,100%,50%,0.06); }
+.syntaxhl .regexp .content { color:#808 }
+.syntaxhl .regexp .delimiter { color:#404 }
+.syntaxhl .regexp .modifier { color:#C2C }
+.syntaxhl .reserved { color:#080; font-weight:bold }
+.syntaxhl .shell { background-color:hsla(120,100%,50%,0.06); }
+.syntaxhl .shell .content { color:#2B2 }
+.syntaxhl .shell .delimiter { color:#161 }
+.syntaxhl .string { background-color:hsla(0,100%,50%,0.05); }
+.syntaxhl .string .char { color: #b0b }
+.syntaxhl .string .content { color: #D20 }
+.syntaxhl .string .delimiter { color: #710 }
+.syntaxhl .string .modifier { color: #E40 }
+.syntaxhl .symbol { color:#A60 }
+.syntaxhl .symbol .content { color:#A60 }
+.syntaxhl .symbol .delimiter { color:#740 }
+.syntaxhl .tag { color:#070; font-weight:bold }
+.syntaxhl .type { color:#339; font-weight:bold }
+.syntaxhl .value { color: #088 }
+.syntaxhl .variable { color:#037 }
+
+.syntaxhl .insert { background: hsla(120,100%,50%,0.12) }
+.syntaxhl .delete { background: hsla(0,100%,50%,0.12) }
+.syntaxhl .change { color: #bbf; background: #007 }
+.syntaxhl .head { color: #f8f; background: #505 }
+.syntaxhl .head .filename { color: white; }
+
+.syntaxhl .delete .eyecatcher { background-color: hsla(0,100%,50%,0.2); border: 1px solid hsla(0,100%,45%,0.5); margin: -1px; border-bottom: none; border-top-left-radius: 5px; border-top-right-radius: 5px; }
+.syntaxhl .insert .eyecatcher { background-color: hsla(120,100%,50%,0.2); border: 1px solid hsla(120,100%,25%,0.5); margin: -1px; border-top: none; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+
+.syntaxhl .insert .insert { color: #0c0; background:transparent; font-weight:bold }
+.syntaxhl .delete .delete { color: #c00; background:transparent; font-weight:bold }
+.syntaxhl .change .change { color: #88f }
+.syntaxhl .head .head { color: #f4f }
+
+/***** Media print specific styles *****/
+@media screen {
+  #top-menu, #header, #main-menu, #sidebar, #footer, .contextual, .other-formats { display:none; }
+  #main { background: #fff; }
+  #content { width: 99%; margin: 0; padding: 0; border: 0; background: #fff; overflow: visible !important;}
+  #wiki_add_attachment { display:none; }
+  .hide-when-print, .pagination ul.pages, .pagination .per-page { display: none !important; }
+  .autoscroll {overflow-x: visible;}
+  table.list {margin-top:0.5em;}
+  table.list th, table.list td {border: 1px solid #aaa;}
+}
+
+/* Accessibility specific styles */
+.hidden-for-sighted {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+/* Kestas */
+div.wiki.wiki-page p code, div.wiki.wiki-page li code {
+  color:#007f00;
+}
+
+.wiki h2 {border-bottom: 1px dotted #bbb; font-size: 18px;}
+.wiki h3 {border-bottom: 1px dotted #bbb; font-size: 16px;}
+.wiki h4 {border-bottom: 1px dotted #bbb; font-size: 14px;}
+.wiki h5 {border-bottom: 1px dotted #bbb; font-size: 12px;}
+</style>
+<style data-savepage-href="/stylesheets/responsive.css?1528612569" media="all">/*----------------------------------------*\
+  RESPONSIVE CSS
+\*----------------------------------------*/
+
+/*
+  CONTENTS
+
+  A) BASIC MOBILE RESETS
+  B) HEADER & TOP MENUS
+  C) MAIN CONTENT & SIDEBAR
+  D) TOGGLE BUTTON & FLYOUT MENU
+  E) UX ELEMENTS
+  F) PAGE SPECIFIC STYLES
+  G) FORMS
+*/
+
+/* Hide new elements (toggle button and flyout menu) above 900px */
+.mobile-toggle-button,
+.flyout-menu {
+  display: none;
+}
+
+/*
+  redmine's body is set to min-width: 900px
+  add first breakpoint here and start adding responsiveness
+*/
+
+@media print and (max-width: 899px)
+{
+  /*----------------------------------------*\
+    A) BASIC MOBILE RESETS
+  \*----------------------------------------*/
+
+  /*
+    apply natural border box, see: http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+    this helps us to better deal with percentages and padding / margin
+  */
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body,
+  html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    overflow-y: auto; /* avoid 2nd scrollbar on desktop */
+    -webkit-text-size-adjust: 100%; /* prevent font scaling in landscape mode on webkit */
+  }
+
+  body {
+    min-width: 0; /* reset the min-width of 900px */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body,
+  input,
+  select,
+  textarea,
+  button {
+    font-size: 14px;  /* Set font-size for standard elements to 14px */
+  }
+
+  select {
+    max-width: 100%;  /* prevent long names within select menues from breaking content */
+  }
+
+  #wrapper {
+    position: relative;
+    overflow-x: hidden; /* hide horizontal overflow */
+    max-width: 100%;
+  }
+
+  #wrapper,
+  #wrapper2 {
+    margin: 0;
+  }
+
+  /*----------------------------------------*\
+    B) HEADER & TOP MENUS
+  \*----------------------------------------*/
+
+  #header {
+    width: 100%;
+    height: 64px; /* the height of our header on mobile */
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: #628db6;
+    position: fixed;
+    z-index: 9999;
+  }
+
+  /* Hide project name on mobile (project name is still visible in select menu) */
+  #header h1 {
+    display: none !important;
+  }
+
+  /* reset #header a color for mobile toggle button */
+  #header a.mobile-toggle-button {
+    color: #f8f8f8;
+  }
+
+
+  /* Hide top-menu and main-menu on mobile, because it's placed in our flyout menu */
+  #top-menu,
+  #header #main-menu {
+    display: none;
+  }
+
+  /* the quick search within header holding search form and #project_quick_jump_box box*/
+  #header #quick-search {
+    float: none;
+    clear: none; /* there are themes which set clear property, this resets it */
+    max-width: 100%; /* reset max-width */
+    margin: 0;
+    background: inherit;
+  }
+
+  /* styles for combobox within quick-search (#project_quick_jump_box) */
+  #project-jump.drdn {
+    position: absolute;
+    top: 0px;
+    left: 0;
+
+    width: 100%;
+    max-width: 100%;
+    height: 2em;
+    height: 64px;
+    padding: 5px;
+    padding-right: 72px;
+    padding-left: 20px;
+  }
+  #project-jump .drdn-trigger {
+    font-size:1.5em;
+    font-weight:bold;
+    display:block;
+    width:100%;
+    color:#fff;
+    padding-left:24px;
+    background:transparent;
+    height:50px;
+    line-height:40px;
+    border:0;
+  }
+  #project-jump .drdn-trigger:before {
+    /* set a font-size in order to achive same result in different themes */
+    font-family: Verdana, sans-serif;
+    font-size: 1.5em;
+
+    position: absolute;
+    left: 0;
+    padding: 0 8px;
+    /* achieve dropdwon arrow by scaling a caret character */
+    content: '^';
+    -webkit-transform: scale(1,-.8);
+        -ms-transform: scale(1,-.8);
+            transform: scale(1,-.8);
+    text-align: right;
+    pointer-events: none;
+
+    opacity: .6;
+  }
+  #project-jump.expanded .drdn-trigger:before {
+    -webkit-transform: scale(1,.8);
+        -ms-transform: scale(1,.8);
+            transform: scale(1,.8);
+	padding-top:8px;
+  }
+
+  #project-jump .drdn-content {
+	position:absolute;
+    left:0px;
+    top:64px;
+    width:100%;
+    font-size:15px;
+    font-weight:normal;
+  }
+  #project-jump .drdn-content .autocomplete {
+    height:40px;
+	font-size:20px;
+  }
+  #project-jump .drdn-content a {
+    padding:8px;
+  }
+
+  #header #quick-search form {
+    display: none;
+  }
+
+  /*----------------------------------------*\
+    C) MAIN CONTENT & SIDEBAR
+  \*----------------------------------------*/
+
+  #main {
+    padding: 64px 0 0; /* padding-top equals header height */
+  }
+
+  #main.nosidebar #content,
+  div#content {
+    width: 100%;
+    min-height: 0; /* reset min-height of #content */
+    margin: 0;
+  }
+
+  /* hide sidebar and sidebar switch panel, since it's placed in mobile flyout menu */
+  #sidebar,
+  #sidebar-switch-panel {
+    display: none;
+  }
+
+  .splitcontentleft, #list-left {
+    width: 100%;
+  }
+
+  .splitcontentright, #list-right {
+    width: 100%;
+  }
+
+  /*----------------------------------------*\
+    D) TOGGLE BUTTON & FLYOUT MENU
+  \*----------------------------------------*/
+
+  .mobile-toggle-button {
+    font-size: 42px;
+    line-height: 64px;
+
+    position: relative;
+    z-index: 10;
+
+    display: block; /* remove display: none; of non-mobile version */
+    float: right;
+
+    width: 60px;
+    height: 64px;
+    margin-top: 0;
+
+    text-align: center;
+
+    border-left: 1px solid #ddd;
+  }
+
+  .mobile-toggle-button:hover,
+  .mobile-toggle-button:active {
+    text-decoration: none;
+  }
+
+  .mobile-toggle-button:after {
+    font-family: Verdana, sans-serif;
+    display: block;
+    margin-top: -3px;
+    content: '\2261';
+  }
+
+  /* search magnifier icon */
+  .search-magnifier {
+    font-family: Verdana;
+    color: #bbb;
+
+    cursor: pointer;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+
+  .search-magnifier--flyout {
+    font-size: 25px;
+    line-height: 54px;
+
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+  }
+
+  /* Flyout Menu */
+
+  .flyout-menu {
+    position: absolute;
+    right: -250px;
+
+    display: block; /* remove display: none; of non-mobile version */
+    overflow-x: hidden;
+
+    width: 250px;
+    height: 100%;
+    margin: 0; /* reset margin for themes that define it */
+    padding: 0; /* reset padding for themes that define it */
+
+    color: white;
+    background-color: #3e5b76;
+  }
+
+  /* avoid zoom on search input focus for ios devices */
+  .flyout-menu input[type='text'] {
+    font-size: 16px;
+  }
+
+  .flyout-menu h3 {
+    font-size: 11px;
+    line-height: 19px;
+
+    height: 20px;
+    margin: 0;
+    padding: 0;
+
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    color: white;
+    border-top: 1px solid #506a83;
+    border-bottom: 1px solid #506a83;
+    background-color: #628db6;
+  }
+
+  .flyout-menu h4 {
+    color: white;
+  }
+
+  .flyout-menu h3,
+  .flyout-menu h4,
+  .flyout-menu > p,
+  .flyout-menu > a,
+  .flyout-menu ul li a,
+  .flyout-menu__search,
+  .flyout-menu__sidebar > div,
+  .flyout-menu__sidebar > p,
+  .flyout-menu__sidebar > a,
+  .flyout-menu__sidebar > form,
+  .flyout-menu > div,
+  .flyout-menu > form {
+    padding-left: 8px;
+  }
+
+  .flyout-menu .flyout-menu__avatar {
+    margin-top: -1px; /* move avatar up 1px */
+    padding-left: 0;
+  }
+
+  .flyout-menu__sidebar > form {
+    display: block;
+  }
+
+  .flyout-menu__sidebar > form h3 {
+    margin-left: -8px;
+  }
+
+  .flyout-menu__sidebar > form label {
+    display: inline-block;
+    margin: 8px 0;
+  }
+
+  .flyout-menu__sidebar > form br  br {
+    display: none;
+  }
+
+  /* Targets list containing checkboxes (e.g. activities sidebar) in flyout menu */
+  .flyout-menu__sidebar form > ul {
+    margin-left: -8px;
+    padding-left: 0;
+  }
+
+  .flyout-menu__sidebar form > ul li {
+    line-height: 39px;
+    display: block;
+    padding-left: 8px;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+
+  .flyout-menu__sidebar form > ul li:first-child {
+    border-top: none;
+  }
+
+  .flyout-menu__sidebar form > ul li label {
+    margin: 0;
+  }
+
+  .flyout-menu__sidebar form > ul li label a {
+    line-height: 1;
+    display: inline;
+    padding-left: 0;
+    border: none;
+  }
+
+  .flyout-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .flyout-menu #watchers {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: column;
+
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+  }
+
+  .flyout-menu #watchers .contextual {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+    -ms-flex-order: 3;
+    order: 3;
+  }
+
+  .flyout-menu #watchers h3 {
+    margin-left: -8px;
+  }
+
+  .flyout-menu #watchers ul li {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    flex-direction: row;
+
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+
+  .flyout-menu ul li a {
+    line-height: 40px;
+    display: block;
+    overflow: hidden;
+    height: 40px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+
+  .flyout-menu ul li:first-child a {
+    line-height: 39px;
+    height: 39px;
+    border-top: none;
+  }
+
+  .flyout-menu a {
+    color: white;
+  }
+
+  .flyout-menu ul li a:hover {
+    text-decoration: none;
+  }
+
+  .flyout-menu ul li a.new-object,
+  .new-object ~ .menu-children {
+    display: none;
+  }
+
+  /* Left flyout search container */
+  .flyout-menu__search {
+    line-height: 54px;
+    height: 64px;
+    padding-top: 3px;
+    padding-right: 8px;
+  }
+
+  .flyout-menu__search input[type='text'] {
+    line-height: 2;
+
+    width: 100%;
+    height: 38px;
+    padding-left: 27px;
+
+    vertical-align: middle;
+
+    border: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+  }
+
+  .flyout-menu__avatar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
+
+  .flyout-menu__avatar img.gravatar {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    vertical-align: top;
+    border-width: 0;
+  }
+
+  .flyout-menu__avatar a {
+    line-height: 40px;
+    height: auto;
+    height: 40px;
+    text-decoration: none;
+    color: white;
+  }
+
+  /* avatar */
+  .flyout-menu__avatar a:first-child {
+    line-height: 0;
+    width: 40px;
+    padding: 0;
+  }
+
+  .flyout-menu__avatar .user {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    -webkit-flex-grow: 1;
+        -ms-flex-grow: 1;
+            flex-grow: 1;
+  }
+
+  /* user link when no avatar is present */
+  .flyout-menu__avatar--no-avatar a.user {
+    line-height: 40px;
+    padding-left: 8px;
+  }
+
+  .flyout-is-active body {
+    overflow: hidden; /* for body not to have scrollbars when left flyout menu is active */
+  }
+
+  html.flyout-is-active {
+    overflow: hidden;
+  }
+
+  .flyout-is-active #wrapper, .flyout-is-active #header {
+    right: 250px; /* when left flyout is active, move body and header to the right (same amount like flyout-menu's width) */
+  }
+
+  .flyout-is-active #wrapper {
+    overflow: visible;
+    height: 100%;
+  }
+
+  .flyout-is-active .mobile-toggle-button:after {
+    content: '\00D7'; /* close glyph */
+  }
+
+  .flyout-is-active #wrapper2 {
+    /*
+     * only relevant for devices with cursor when flyout it active, in order to show,
+     * that whole wrapper content is clickable and closes flyout menu
+     */
+    cursor: pointer;
+  }
+
+  #admin-menu {
+    padding-left: 0;
+  }
+
+  #admin-menu li {
+    padding-bottom: 0;
+  }
+
+  #admin-menu a,
+  #admin-menu a.selected {
+    line-height: 40px;
+    padding: 0;
+    padding-left: 32px !important;
+    background-position: 8px 50%;
+  }
+
+  /*----------------------------------------*\
+    E) UX ELEMENTS
+  \*----------------------------------------*/
+
+  .mobile-hide {display:none;}
+  .mobile-show {display:initial;}
+
+  /* Contextual Buttons */
+
+  #content>.contextual {
+    width: 100%;
+    margin-bottom: .5em;
+    padding-left: 0; /* reset left padding in order to use whole space */
+    white-space: normal;
+  }
+
+  #content>.contextual a,
+  p.buttons a {
+    font-weight: bold;
+
+    display: inline-block;
+
+    margin: 5px 0;
+    margin-right: 2px;
+    padding: 9px 9px 9px 9px;
+
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: transparent;
+    background-position-x: 4px;
+  }
+
+  #content>.contextual a.icon,
+  p.buttons a.icon {
+    padding-left: 25px;
+  }
+
+  .flyout-menu .contextual {
+    float: none;
+  }
+
+  /* loading indicator */
+  #ajax-indicator {
+    width: 60%;
+    left: 20%;
+  }
+
+  /* jquery ui dialogs */
+  .ui-dialog {
+    max-width: 98%;
+    margin: 1%;
+  }
+
+  .ui-dialog .ui-dialog-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #filters-table {width:100%; float:none;}
+  .add-filter {width:100%; float:none; text-align: left; margin-top: 8px;}
+
+  /*----------------------------------------*\
+    F) PAGE SPECIFIC STYLES
+  \*----------------------------------------*/
+
+  /* page /login */
+
+  #login-form table {
+    width: 100%;
+  }
+
+  #login-form input#username,
+  #login-form input#password,
+  #login-form input#openid_url {
+    width: 100%;
+    height: auto;
+  }
+
+  /* some themes add a margin to login page, remove it on mobile */
+  .action-login #main {
+    margin: 0;
+  }
+
+  div#activity dl, #search-results {margin-left: 0;}
+
+  .version-overview table.progress {width:75%;}
+  div#version-summary {float:none; width:100%; margin-left:0;}
+  body.controller-versions.action-show div#roadmap .related-issues {width:100%;}
+
+  /* History and Changeset */
+  div#issue-changesets {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 2em;
+  }
+
+  div#issue-changesets div.changeset {
+    padding-top: 1em;
+  }
+
+  /* Gantt charts */
+  /*
+   * [1] override inline styles with important
+   * [2] keep border between subjects and gantt area
+   * [3] remove whitespace between subjects and gantt area
+   * [4] maintain width due to [3]
+   */
+  .gantt_subjects_column {
+    width: 60% !important; /* [1] */
+  }
+
+  .gantt_subjects_container {
+    width: 100% !important;
+    overflow: hidden;
+  }
+
+  .gantt_subjects_column .gantt_hdr {
+    width: 100% !important;
+    border-right: 1px solid #c0c0c0; /* [2] */
+    right: 0 !important; /* [2] */
+  }
+
+  #gantt_area {
+    left: -2px; /* [3] */
+    margin-right: -2px; /* [4] */
+  }
+
+  /*----------------------------------------*\
+    G) FORMS
+  \*----------------------------------------*/
+
+  input, select, textarea {
+    max-width: 100%;
+  }
+
+  /* tabular forms resets for mobile */
+  .tabular p, .tabular.settings p {
+    padding-left: 0;
+  }
+
+  .tabular label, .tabular.settings label {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .tabular input, .tabular select, .tabular textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .tabular input[type="checkbox"], .tabular input.date {
+    width: auto;
+    max-width: 95%;
+  }
+
+  /* new issue form */
+  #all_attributes p:first-child {
+    float: none !important;
+  }
+
+  #issue_is_private_label {
+    display: inline;
+  }
+
+  span#watchers_inputs {
+    width: 100%;
+  }
+
+  /* issue edit form */
+  label[for='issue_description'] ~ a .icon-edit {
+    word-wrap: normal;
+  }
+
+  /* issues page */
+  body.controller-issues p.query-totals {
+    margin-top: 0px;
+    text-align: left;
+  }
+
+  /* subtasks and related issues list on issue show */
+  #issue_tree .issues, #relations .issues {
+    border-collapse: separate;
+    border-spacing: 0 1em; /* vertical space between tasks */
+  }
+
+  #issue_tree .issue > td:not(.checkbox), #relations .issue > td:not(.checkbox) {
+    display: block;
+    float: left;
+    text-align: left;
+    padding-right: 5px;
+  }
+
+  #issue_tree .issue > td, #relations .issue > td, #issue_tree .issue .user {
+    text-overflow: ellipsis; /* if text exceeds its space, add ... */
+    overflow: hidden;
+  }
+
+  #issue_tree .issue > td.subject, #relations .issue > td.subject {
+    width: 100% !important; /* let subject have one full width column */
+    word-break: break-word; /* break word if subject is too long */
+  }
+
+  #issue_tree .issue > td:not(.checkbox), #relations .issue > td:not(.checkbox) {
+    width: 33.33%; /* three columns for all cells that are not subject */
+  }
+
+  #relations .issues, #relations .issue {
+    position: relative; /* needed for .buttons positioning */
+  }
+
+  /* positioniong of unline button */
+  #relations .issue > td.buttons {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding-right: 0;
+  }
+
+  #relations .issue .buttons a {
+    vertical-align: middle;
+    padding-right: 5px;
+  }
+
+  #relations .issue > td.subject {
+    padding-right: 25px; /* this is the spaces that .buttons uses next to subject */
+  }
+
+  /* attachment upload form */
+  .attachments_fields span {
+    position: relative;
+    clear: both;
+    margin-bottom: 1em;
+    white-space: normal;
+  }
+  .attachments_fields span a.remove-upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .attachments_fields input.description {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 599px) {
+  span.pagination {text-align:center;}
+  .pagination ul.pages li {display:none;}
+  .pagination ul.pages li.current,
+  .pagination ul.pages li.previous,
+  .pagination ul.pages li.next {display:inline-block; width:32%; overflow:hidden;}
+
+  #login-form {width:100%; margin-top:2em;}
+}
+
+</style>
+
+<script data-savepage-src="/javascripts/jquery-1.11.1-ui-1.11.0-ujs-3.1.4.js?1528612568"></script>
+<script data-savepage-src="/javascripts/application.js?1549542132"></script>
+<script data-savepage-src="/javascripts/responsive.js?1528612569"></script>
+<script></script>
+
+
+<!-- page specific tags -->
+<style id="printedit-style-animations" type="text/css">body, body *, #printedit-gui-container, #printedit-gui-container * { animation: none !important; -webkit-animation: none !important; transition-property: none !important; }</style>
+<style id="savepage-cssvariables">
+  :root {
+    --savepage-url-4: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAIBAMAAAA2IaO4AAAAMFBMVEX////m5uZubm6WlpYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADawysIAAAAAXRSTlMAQObYZgAAABtJREFUCNdjYAABYyCAEMzGxgYgPlCQ2YABAQBGhwLL6rUjpQAAAABJRU5ErkJggg==);
+    --savepage-url-5: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAH5SURBVDjLpZK/a5NhEMe/748kRqypmqQQgz/oUPUPECpCoEVwyNStIA6COFR33boIjg6mg4uL0k0EO1RFISKImkHQxlbQRAsx0dgKJm/e53nunnOwViR5leJnuZs+973jHBHB/+D/ah7X2LXWloilyMw5YgtD3CDiBWN4Zno8bQcJHBFBucauZfsolZDCru0OfFcAAUISrLZDfPzSKxuiibOT+T6JCwDMtrQzYQvZHQ5Cw2h3GK0OI9AWBzJJZFOxgtJUGpTABQAiLu5OOviuGIEWkBUwC7pasNZj7N2ThNJUjBQY4pznAoEWsBWwxU+JFXSVRTzmQWvKRR5RG4KVGMgKrAVYflexAAugDCEygdbUCI2F7zobk7FZY76DIDQgrT9HCwwt1FsBhhIu4p4D3kiS8B0MJz28ftfGSPfl8MPLxbGBAqVpptbslJc+fEPMA7JDPrIpH3FX8LzaROdrE5O51jalgid3Lh4b6/sDALh6971riErGcFET58gwDPGndG9JT6ReHcwfPorGygu8rdxvGxMeP3XtzcofgigWZ0/EtQ7n0/sOTe0/Mo7V5WeoVu61z1yvZzZX+BsnZx9opYLpevXp7eXKIrL5UWit0n0r/Isb50bjRGreiyWmgs76lfM31y5tSQAAc6czHjONXLi13thygih+AEq4N6GqMsuhAAAAAElFTkSuQmCC);
+    --savepage-url-6: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAaElEQVQoz2P8z4AfMNJdwRoJnrucXPaMOBRMkeC/I8HNwOCKXUG1BP99eQ5xhi8MPtgVFL1WFpFl4GD4xBCCXUGWHO8NZU4phvcMsbjckAdUosT5hyGdEacvihT51vGrF3INZEiSoQAA9GoiATWA6ocAAAAASUVORK5CYII=);
+    --savepage-url-7: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAbElEQVQoz2P8z4AfMA42Bf3fPt78FNR3H6eCmf9ZGO59/6wx6REOBYv/CzI8Y7gLVDLtEVYFa/7zMfxgeMxw902fKFYFW/7zMLxkePjjo2LrC6wKdgM5L75+VMl5gcMNB/9///ZFOeTFYAtqANDDPAHr6Ve8AAAAAElFTkSuQmCC);
+    --savepage-url-8: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAMAAADXT/YiAAAADFBMVEUAAADO1sa1vbWcpZx8bxz6AAAAAXRSTlMAQObYZgAAACpJREFUCNdNzMENADAMg8CLvf/OfTXKDyEEJm0zCMiarqmCHsqnzHbn9gAQmABaI2lSJgAAAABJRU5ErkJggg==);
+    --savepage-url-9: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAbElEQVQoz2P8z4AfMA42Bf3fPt78FNR3H6eCmf9ZGO59/6wx6REOBYv/CzI8Y7gLVDLtEVYFa/7zMfxgeMxw902fKFYFW/7zMLxkePjjo2LrC6wKdgM5L75+VMl5gcMNB/9///ZFOeTFYAtqANDDPAHr6Ve8AAAAAElFTkSuQmCC);
+    --savepage-url-10: url(data:image/gif;base64,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);
+  }
+</style>
+<script id="savepage-shadowloader" type="application/javascript">
+  "use strict"
+  window.addEventListener("DOMContentLoaded",
+  function(event)
+  {
+    savepage_ShadowLoader(5);
+  },false);
+  function savepage_ShadowLoader(c){createShadowDOMs(0,document.documentElement);function createShadowDOMs(a,b){var i;if(b.localName=="iframe"||b.localName=="frame"){if(a<c){try{if(b.contentDocument.documentElement!=null){createShadowDOMs(a+1,b.contentDocument.documentElement)}}catch(e){}}}else{if(b.children.length>=1&&b.children[0].localName=="template"&&b.children[0].hasAttribute("data-savepage-shadowroot")){b.attachShadow({mode:"open"}).appendChild(b.children[0].content);b.removeChild(b.children[0]);for(i=0;i<b.shadowRoot.children.length;i++)if(b.shadowRoot.children[i]!=null)createShadowDOMs(a,b.shadowRoot.children[i])}for(i=0;i<b.children.length;i++)if(b.children[i]!=null)createShadowDOMs(a,b.children[i])}}}
+</script>
+<script id="savepage-pageinfo-bar-insert" type="application/javascript">
+  "use strict"
+  window.addEventListener('load',function(event) {
+    var parser = new DOMParser();
+    var pageinfodoc = parser.parseFromString('<html> <style id="savepage-pageinfo-bar-style" type="text/css">#savepage-pageinfo-bar-content,#savepage-pageinfo-bar-content *{all:initial!important}#savepage-pageinfo-bar-content,#savepage-pageinfo-bar-content *{font-family:"Segoe UI","Helvetica Neue",Ubuntu,Arial!important;font-size:12px!important;color:black!important;cursor:default!important;-moz-user-select:none!important;-webkit-user-select:none!important}#savepage-pageinfo-bar-content{display:flex!important;position:fixed!important;left:0!important;top:0!important;width:100%!important;height:25px!important;border-bottom:1px solid #E0E0E0!important;background:#F8F8F8!important;overflow:hidden!important;z-index:2147483645!important}#savepage-pageinfo-bar-spacer-1{flex:0 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-link{flex:0 1 auto!important;padding:4px 0!important;background:#F8F8F8!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}#savepage-pageinfo-bar-link:hover{text-decoration:underline!important}#savepage-pageinfo-bar-spacer-2{flex:1 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-datetime{flex:0 1000000 auto!important;min-width:0!important;padding:4px 0!important;background:#F8F8F8!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important}#savepage-pageinfo-bar-spacer-3{flex:0 1 auto!important;background:#F8F8F8!important}#savepage-pageinfo-bar-button{flex:0 0 25px!important;background-color:#F8F8F8!important;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA8SURBVChTYwCC/0DsAGJgASBxkDycga4QQxxdAEMBDCBLYFUAAyQpIGgVCGAoxBCAAhRxrEZDAVCc4T8AbzkX8F/+uCwAAAAASUVORK5CYII=)!important;background-repeat:no-repeat!important;background-position:center center!important}#savepage-pageinfo-bar-button:hover{background-color:#E8E8E8!important}#savepage-pageinfo-bar-button:active{background-color:#D8D8D8!important}</style> <div id="savepage-pageinfo-bar-content"> <div id="savepage-pageinfo-bar-spacer-1">&nbsp;&nbsp;&nbsp;</div> <a id="savepage-pageinfo-bar-link" href="https://os.info.tm:3000/projects/p175b304/wiki/LD1_4" target="_blank">https://os.info.tm:3000/projects/p175b304/wiki/LD1_4</a> <div id="savepage-pageinfo-bar-spacer-2">&nbsp;&nbsp;&nbsp;</div> <div id="savepage-pageinfo-bar-datetime">06 Apr 2020&nbsp;&nbsp;&nbsp;23:43:59</div> <div id="savepage-pageinfo-bar-spacer-3">&nbsp;&nbsp;&nbsp;</div> <div id="savepage-pageinfo-bar-button"></div> </div> </html>','text/html');
+    var container = document.createElement('div');
+    container.setAttribute('id','savepage-pageinfo-bar-container');
+    document.documentElement.appendChild(container);
+    container.appendChild(pageinfodoc.getElementById('savepage-pageinfo-bar-style'));
+    container.appendChild(pageinfodoc.getElementById('savepage-pageinfo-bar-content'));
+    document.getElementById('savepage-pageinfo-bar-button').addEventListener('click',function(event) {
+      var container = document.getElementById('savepage-pageinfo-bar-container');
+      document.documentElement.removeChild(container);
+    },false);
+  },false);
+</script>
+<meta name="savepage-url" content="https://os.info.tm:3000/projects/p175b304/wiki/LD1_4">
+<meta name="savepage-title" content="LD1 4 - P175B304: Operacinės sistemos - KTU modulių medžiaga">
+<meta name="savepage-from" content="https://os.info.tm:3000/projects/p175b304/wiki/LD1_4">
+<meta name="savepage-date" content="Mon Apr 06 2020 23:43:59 GMT+0300 (Eastern European Summer Time)">
+<meta name="savepage-state" content="Standard Items; Retained cross-origin frames; Removed unsaved URLs; Max frame depth = 5; Max resource size = 50MB; Max resource time = 10s;">
+<meta name="savepage-version" content="17.2">
+<meta name="savepage-comments" content="">
+  </head>
+<body class="project-p175b304 controller-wiki action-show" printedit-restore-transform-scale-v="" printedit-restore-transform-scale-p="" style="transform: none !important;" printedit-previous="16.1">
+
+<div id="wrapper">
+
+<div class="flyout-menu js-flyout-menu">
+
+
+        <div class="flyout-menu__search">
+            <form action="/projects/p175b304/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓" disabled="disabled">
+            <input type="hidden" name="wiki_pages" value="1" disabled="disabled">
+            <label class="search-magnifier search-magnifier--flyout" for="flyout-search">⚲</label>
+            <input type="text" name="q" id="flyout-search" class="small js-search-input" placeholder="Search" disabled="disabled" value="">
+</form>        </div>
+
+
+        <h3>Project</h3>
+        <span class="js-project-menu"></span>
+
+    <h3>General</h3>
+    <span class="js-general-menu"></span>
+
+    <span class="js-sidebar flyout-menu__sidebar"></span>
+
+    <h3>Profile</h3>
+    <span class="js-profile-menu"></span>
+
+</div>
+
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a class="login" href="/login">Sign in</a></li><li><a class="register" href="/account/register">Register</a></li></ul>    </div>
+    
+    <ul><li><a class="home" href="/">Home</a></li><li><a class="projects" href="/projects">Projects</a></li><li><a class="help" href="https://www.redmine.org/guide">Help</a></li></ul></div>
+
+<div id="header">
+
+    <a href="#" class="mobile-toggle-button js-flyout-menu-toggle-button"></a>
+
+    <div id="quick-search">
+        <form action="/projects/p175b304/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓" disabled="disabled">
+        <input type="hidden" name="scope" value="subprojects" disabled="disabled">
+        <input type="hidden" name="wiki_pages" value="1" disabled="disabled">
+        <label for="q">
+          <a accesskey="4" href="/projects/p175b304/search">Search</a>:
+        </label>
+        <input type="text" name="q" id="q" size="20" class="small" accesskey="f" disabled="disabled" value="">
+</form>        <div id="project-jump" class="drdn"><span class="drdn-trigger">P175B304: Operacinės sistemos</span><div class="drdn-content"><div class="quick-search"><input type="text" name="q" id="projects-quick-search" value="" class="autocomplete" data-automcomplete-url="/projects/autocomplete.js?jump=wiki" autocomplete="off" data-value-was="" disabled="disabled"></div><div class="drdn-items projects selection"></div><div class="drdn-items all-projects selection"><a href="/projects?jump=wiki">All Projects</a></div></div></div>
+    </div>
+
+    <h1><span class="current-project">P175B304: Operacinės sistemos</span></h1>
+
+    <div id="main-menu" class="tabs">
+        <ul><li><a class="overview" href="/projects/p175b304">Overview</a></li><li><a class="activity" href="/projects/p175b304/activity">Activity</a></li><li><a class="wiki selected" href="/projects/p175b304/wiki">Wiki</a></li><li><a class="repository" href="/projects/p175b304/repository">Repository</a></li></ul>
+        <div class="tabs-buttons" style="display:none;">
+            <button class="tab-left" onclick="moveTabLeft(this); return false;" disabled="disabled"></button>
+            <button class="tab-right" onclick="moveTabRight(this); return false;" disabled="disabled"></button>
+        </div>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+          
+<h3>Wiki</h3>
+<ul>
+  <li><a href="/projects/p175b304/wiki">Start page</a></li>
+  <li><a href="/projects/p175b304/wiki/index">Index by title</a></li>
+  <li><a href="/projects/p175b304/wiki/date_index">Index by date</a></li>
+</ul>
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+  
+  
+  
+  
+  
+  
+
+</div>
+
+
+
+
+<div class="wiki wiki-page">
+  <a name="LD1-4"></a>
+<h1>LD1 4<a href="#LD1-4" class="wiki-anchor">¶</a></h1>
+
+
+	<ul class="toc"><li><strong>Table of contents</strong></li><li><a href="#LD1-4">LD1 4</a><ul><li><a href="#Įvadas-į-OS-veikimą">Įvadas į OS veikimą</a><ul><li><a href="#Sistemos-startas">Sistemos startas</a></li><li><a href="#Procesų-medis">Procesų medis</a><ul><li><a href="#Procesų-grupė">Procesų grupė</a></li><li><a href="#Sesija">Sesija</a></li></ul>
+</li><li><a href="#Saugumo-sistema">Saugumo sistema</a></li><li><a href="#Duomenų-mainai">Duomenų mainai</a></li><li><a href="#Proceso-atributai">Proceso atributai</a><ul><li><a href="#Laiko-apskaita">Laiko apskaita</a></li><li><a href="#Prioritetas">Prioritetas</a></li></ul>
+</li></ul>
+</li><li><a href="#Procesai">Procesai</a><ul><li><a href="#ps-procesų-sąrašas">ps - procesų sąrašas</a></li><li><a href="#nice-renice-proceso-prioriteto-keitimas">nice, renice - proceso prioriteto keitimas</a></li><li><a href="#top-interaktyvus-procesų-sąrašas">top - interaktyvus procesų sąrašas</a></li><li><a href="#strace-proceso-iškviečiami-syscallai">strace - proceso iškviečiami syscall'ai</a></li><li><a href="#kill-nutraukti-procesą">kill - nutraukti procesą</a></li><li><a href="#Z-fg-bg-jobs-kill-komandos-užmigdymas-ir-žadinimas">^Z, fg, bg, jobs, kill – komandos užmigdymas ir žadinimas</a></li><li><a href="#who-prie-sistemos-prisijungusių-naudotojų-sąrašas">who – prie sistemos prisijungusių naudotojų sąrašas</a></li></ul>
+</li><li><a href="#Sistemos-statistika">Sistemos statistika</a><ul><li><a href="#iostat-IO-statistika">iostat – I/O statistika</a></li><li><a href="#vmstat-virtualios-atminties-statistika">vmstat - virtualios atminties statistika</a></li><li><a href="#mpstat-kiekvieno-CPU-statistika">mpstat - kiekvieno CPU statistika</a></li><li><a href="#sar-sistemos-apkrovimo-statistika">sar - sistemos apkrovimo statistika</a></li></ul>
+</li></ul>
+</li><li><a href="#Užduotys">Užduotys</a><ul><li><ul><li><a href="#Procesai-2">Procesai</a><ul><li><a href="#ps">ps</a></li><li><a href="#top">top</a></li><li><a href="#strace">strace</a></li></ul>
+</li><li><a href="#Informacija-apie-prisijungusius-vartotojus">Informacija apie prisijungusius vartotojus</a></li><li><a href="#SUIDSGID">SUID/SGID</a></li><li><a href="#Sistemos-statistikos-užduotys">Sistemos statistikos užduotys</a></li></ul></li></ul></li></ul>
+
+
+	<p><a name="Įvadas-į-OS-veikimą"></a>
+</p><h2><a class="wiki-page" href="/projects/p175b304/wiki/UNIX_runtime_intro">Įvadas į OS veikimą</a><a href="#Įvadas-į-OS-veikimą" class="wiki-anchor">¶</a></h2>
+
+
+	<a name="Sistemos-startas"></a>
+<h3>Sistemos startas<a href="#Sistemos-startas" class="wiki-anchor">¶</a></h3>
+
+
+Supaprastintai OS startą galima įsivaizduoti taip:
+	<ol>
+	<li>įjungus mašiną (padavus įtampą, ar ją perkrovus) CPU pradeda vykdyti fiksuotu adresu RAM/ROM atmintyje esantį kodą (pvz.: <a href="http://en.wikipedia.org/wiki/BIOS" class="external">BIOS</a>).</li>
+		<li>startavęs kodas suranda <em><strong>bootloader</strong></em>'į, jei reikia įkelia jį į RAM ir jį paleidžia (pvz.: <a href="http://en.wikipedia.org/wiki/Master_boot_record" class="external">MBR</a>, <a href="http://en.wikipedia.org/wiki/Preboot_Execution_Environment" class="external">PXE</a>).</li>
+		<li><em>bootloader</em>'is suranda OS paleidimo failą/failus (pvz: OS <em><strong>kernel</strong></em>'į), jį/juos <ins>tinkamai</ins> užkrauna į RAM ir paleidžia.</li>
+		<li>paleistas OS <em>kernel</em>'is:
+	<ol>
+	<li>suranda ir sukonfiguruoja pagrindinius sistemos įrenginius (RAM, magistrales, CPU) ir sukuria/užsipildo savo darbines struktūras (pvz.: tuščias procesų ir naudotojų lenteles).</li>
+		<li>primontuoja <em>root</em> failų sistemą.</li>
+		<li>iš primontuotos failų sistemos paleidžia pirmąją programą (sukuria pirmajį procesą) (pvz.: <a href="http://en.wikipedia.org/wiki/Init" class="external">init</a>).</li>
+	</ol>
+	</li>
+		<li><em>init</em> procesas atlieka likusius sistemos nustatymus:
+	<ol>
+	<li>primontuoja likusias failų sistemas.</li>
+		<li>baigia konfigūruoti sistemos įrenginius (tinklą, audio, video, klaviatūrą ...)</li>
+		<li>paleidžia <strong>servisus</strong> – programas laukiančias pranešimų iš OS apie įvykius (klavišo paspaudimas, specifinis paketas iš tinklo) ir juos apdorojančias.</li>
+	</ol></li>
+	</ol>
+
+
+	<p>Po šios veiksmų sekos sistema pasiruošusi "bendrauti" su išoriniu pasauliu.</p>
+
+
+	<a name="Procesų-medis"></a>
+<h3>Procesų medis<a href="#Procesų-medis" class="wiki-anchor">¶</a></h3>
+
+
+	<p><strong>Procesas</strong> – paleistos programos egzempliorius, t.y. jei tą pačią programą paleisime antrą kartą, kol pirmoji dar nepasibaigė - turėsime du procesus, vykdančius tą pačią programą.</p>
+
+
+	<p>Kaip jau buvo minėta, pirmąjį procesą <em>init</em> sukuria kernelis, <em>init</em>'as kuria kitus procesus, o kiekvienas sukurtas procesas taip pat gali kurti naujus procesus. Gauname medį, kurio pradžioje <em>init</em> procesas. Procesas, kuriantis naują procesą vadinamas <strong>tėvu</strong> (<em>parent</em>), o sukurtas naujas procesas – <strong>vaiku</strong> (<em>child</em>).</p>
+
+
+	<p>Bendru atveju sistemoje CPU (CPU <em>core</em>) skaičius žymiai mažesnis, nei paleistų procesų skaičius. Todėl fiziškai visi procesai negali veikti vienu metu (CPU <em>core</em> gali vykdyti tik vieną programą vienu metu). OS sukuria iliuziją, kad visi procesai veikia vienu metu periodiškai (N kartų per sekundę) vienus procesus užmigdydama ir vietoj jų pažadindama kitus. Šią funkciją atlieka specliali <em>kernel</em>'io dalis – <strong>dispečeris</strong> (<a href="http://en.wikipedia.org/wiki/Scheduling_%28computing%29" class="external"><em>scheduler</em></a>).</p>
+
+
+	<p>Jei procesas laukia kažkokio OS įvykio (pvz.: I/O operacijos pabaigos, taimerio pabaigos), periodinis jo žadinimas neturi prasmės, t.y. OS gali tokio proceso nežadinti, iki įvyks laukiamas įvykis.</p>
+
+
+Proceso būsenos (supaprastintai, skirtingose OS pilnas būsenų sąrašas skiriasi):
+	<ul>
+	<li><em>RUNNING</em> – šiuo momentu procesas vykdomas ant kurio nors CPU;</li>
+		<li><em>READY</em> – procesas laukia kol gaus CPU (kol OS jį pažadins);</li>
+		<li><em>WAITING</em> – procesas laukia kokio nors OS įvykio;</li>
+		<li><em>ZOMBIE</em> – pasibaigęs, bet iš procesų lentelės dar nepašalintas procesas (toks procesas jau nebedirbs, bet OS dar saugoma informacija apie jį).</li>
+	</ul>
+
+
+	<a name="Procesų-grupė"></a>
+<h4>Procesų grupė<a href="#Procesų-grupė" class="wiki-anchor">¶</a></h4>
+
+
+	<p>Procesų grupė (<em>process group</em>) – tai susijusių procesų rinkinys. Šis grupavimas skirtas palengvinti susijusių procesų valdymą (signalų siuntimą visiems grupės nariams). Procesų grupė identifikuojama numeriu – <strong>PGID</strong>. Kiekvienas procesas priklauso vienai procesų grupei. Naujai kuriamas procesas paveldi procesų grupę iš tėvo proceso. <strong>Procesų grupės lyderis</strong> (<em>PG leader</em>) – procesas, kurio PID sutampa su PGID. Procesų grupė sunaikinama, kai paskutinis jos narys pasibaigia arba pereina į kitą procesų grupę.</p>
+
+
+	<p>PROCESŲ GRUPĖS PAVYZDYS: vykdant komandą <code>cat failas | wc</code> naujai sukurti procesai <code>cat</code> ir <code>wc</code> priklausys naujai procesų grupei, kurios lyderis bus <code>cat</code> procesas, o šią komandą vykdęs komandų interpretatorius liks senoje procesų grupėje.</p>
+
+
+	<a name="Sesija"></a>
+<h4>Sesija<a href="#Sesija" class="wiki-anchor">¶</a></h4>
+
+
+	<p>Sesija (<em>session</em>) – procesų grupių rinkinys, į kurį įeina vienos prisijungimo sesijos procesų grupės. Sesija identifikuojama numeriu – <strong>SID</strong>. Procesas priklauso tai sesijai, kuriai priklauso jo procesų grupė. Naujas procesas SID paveldi iš tėvo proceso. Procesas gali sukurti naują sesiją ir tapti šios <strong>sesijos lyderiu</strong> (<em>session leader</em>). Sesija sunaikinama, kai sunaikinama paskutinė į ją įeinanti procesų grupė.</p>
+
+
+SESIJOS PAVYZDŽIAI:
+	<ul>
+	<li>sesijai priklauso visi procesai paleisti iš vieno SSH prisijungimo; jei naudotojas prisijungia dar kartą (atidaro antrą SSH langą) – iš antro prisijungimo paleidžiami procesai priklausys kitai sesijai.</li>
+		<li>vykdant komandą <code>cat failas | wc</code> nors ir bus sukurta nauja procesų grupė, tačiau visi procesai (komandų interpretatorius, <code>cat</code>, <code>wc</code>) liks toje pačioje sesijoje.</li>
+	</ul>
+
+
+	<a name="Saugumo-sistema"></a>
+<h3>Saugumo sistema<a href="#Saugumo-sistema" class="wiki-anchor">¶</a></h3>
+
+
+	<p>&lt;!-- TODO: <a class="wiki-page" href="/projects/p175b304/wiki/UNIX_security_and_protection_commands-wip">UNIX_security_and_protection_commands-wip</a>, gal į LD4? --&gt;</p>
+
+
+Šiuolaikiniai CPU paprastai turi galimybę aparatūriškai riboti juose veikiančių taikomųjų programų galimybes prieiti prie RAM regionų, išorinių ir vidinių įrenginių (pvz.: <a href="http://en.wikipedia.org/wiki/Ring_%28computer_security%29" class="external">ring</a>, <a href="http://en.wikipedia.org/wiki/Protected_mode" class="external">x86 protected mode</a>). Šią saugumo sistemą konfigūruoja ir valdo <em>kernel</em>'is. Taikomosios programos (tame tarpe ir <em>init</em>) paprastai tiesioginio priėjimo prie saugumo sistemos ir įrenginių neturi, o norėdamos jį gauti turi kreiptis į <em>kernel</em>'į su atitinkamu prašymu (<em><strong>syscall</strong></em>'u). Tagi turime mažiausiai du saugumo lygius, kuriuose veikia OS programos:
+	<ol>
+	<li><em>kernel mode</em> – privilegijuotas režimas, kuriuo veikia <em>kernel</em>'is;</li>
+		<li><em>user mode</em> – apribotas režimas, kuriuo veikia visi OS procesai.</li>
+	</ol>
+
+
+	<p>Aukščiau aprašyta saugumo sistema - tai pagrindas ant kurio kiekviena OS gali kurti savo loginę saugumo sistemą. Toliau aprašoma UNIX saugumo sistema - tik viena iš galimų realizacijų.</p>
+
+
+	<p>UNIX vienu metu gali dirbti keli naudotojai, todėl skirtingų naudotojų procesų atskyrimui naudojama ta pati <a class="wiki-page" href="/projects/p175b304/wiki/UNIX_security_intro">saugumo sistema</a>, kaip ir failams, t.y. kiekvienas UNIX procesas veikia kažkokio savininko ir grupės, identifikuojamų sveikais skaičiais (<em>uid</em> ir <em>gid</em>), teisėmis.</p>
+
+
+<em>init</em> procesas paleidžiamas naudotojo su <em>uid=0,gid=0</em> (<em>root</em>) teisėmis. Turėtų kilt klausimas, kaip atsiranda kitų naudotojų teisėmis veikiantys procesai? UNIX sistemoje tam naudojami <em>syscall</em>'ai <code>setuid()</code>, <code>seteuid()</code>, <code>setgid()</code>, <code>setegid()</code>, <code>setreuid()</code>, <code>setregid()</code> ir trys <em>uid/gid</em> identifikatorių poros:
+	<ol>
+	<li><em>real</em> – naudotojo, paleidusio procesą UID;</li>
+		<li><em>effective</em> (<em>euid/egid</em>) – naudotojo, kurio teisėmis šiuo metu dirba procesas UID;</li>
+		<li><em>saved set-user-id</em> – išsaugota UID.</li>
+	</ol>
+
+
+Per daug nesigilinant į detales, galima įsivaizduoti, kad tik privilegijuotas (pvz.: <em>root</em> teisėmis veikiantis) procesas gali keisti šias reikšmes, bet pakeitęs <em>euid</em> tampa neprivilegijuotu ir gali <em>euid</em> reikšmę keist tik į <em>real</em> arba <em>saved</em>. Kitaip sakant, dažniausiai naudojami du scenarijai:
+	<ol>
+	<li>procesas laikinai atsisako savo privilegijų, atlieka kažkokius veiksmus ir susigrąžina privilegijas;</li>
+		<li>procesas visam laikui atsisako savo privilegijų pakeisdamas visus savo identifikatorius į neprivilegijuoto naudotojo UID.</li>
+	</ol>
+
+
+	<p>Paleidžiant failų sistemoje esančius failus, kuriems nustatytas <em>set-user-ID</em> ir/arba <em>set-group-ID</em> bitas, naujas procesas veikia failo savininko teisėmis, o <em>real</em> ir <em>saved</em> UID nustatomi kaip jį paleidusio naudotojo (tiksliau jį paleidusio proceso <em>euid</em>).</p>
+
+
+	<a name="Duomenų-mainai"></a>
+<h3>Duomenų mainai<a href="#Duomenų-mainai" class="wiki-anchor">¶</a></h3>
+
+
+	<p>Paprastai programos/proceso darbui neužtenka vien CPU ir RAM. Anksčiau ar vėliau prireikia gauti duomenis ar atiduoti darbo rezultatus, siųsti ir priimti komandas ar panašiai. Kadangi procesas neturi tiesioginio susisiekimo su išore ir susisiekimas su kitais procesais yra apribotas, dėl duomenų mainų su kitais procesais ar įrenginiais jis turi kreiptis į <em>kernel</em>'į. Tam tikslui naudojami <a href="http://en.wikipedia.org/wiki/System_call" class="external"><em><strong>syscall</strong></em>'ai</a>, pvz.: norėdamas skaityti kažkokį failą, procesas vykdo specialią CPU instrukciją, perduodančią užklausą <em>kernel</em>'iui (įvyksta <a href="http://en.wikipedia.org/wiki/Interrupt" class="external"><em><strong>software interrupt</strong></em></a>).</p>
+
+
+	<p>Jei tam, kad proceso užklausa būtų patenkinta, reikia sulaukti išorinio įrenginio atsakymo (pvz.: jei procesas užsiprašo nuskaityti 100 baitų iš failo), <em>kernel</em>'is suformuoja ir siunčia užklausą išoriniam įrenginiui (HDD), <em>kernel</em>'is pakeičia proceso būseną į <em>WAITING</em> ar analogišką (nes turi sulaukti kol HDD tuos baitus nuskaitys) ir vykdo kitus procesus. HDD  pabaigęs skaityti duomenis praneša apie tai CPU (įvyksta <a href="http://en.wikipedia.org/wiki/Interrupt" class="external"><em><strong>hardware interrupt</strong></em></a>). Šį įvykį apdoroja <em>kernel</em>'is, kuris duomenų laukusio proceso būseną pakeičia iš <em>WAITING</em> į <em>READY</em> ir grįžta prie normalaus procesų vykdymo.</p>
+
+
+	<p>Procesai taip pat gali keistis duomenimis tarpusavyje. Tam OS palaiko visą aibę <a href="http://en.wikipedia.org/wiki/Inter-process_communication" class="external">IPC</a> mechanizmų. Su kai kuriais iš jų jau susidūrėte, pvz. kanalas (<em>pipe</em>):<br></p><pre>$ cat failas | wc
+</pre><p></p>
+
+
+	<p>Čia komandų interpretatorius, gavęs tokią komandos eilutę sukuria <em>pipe</em> objektą ir paleidžia du procesus, <code>cat</code> ir <code>wc</code> taip, kad jie bendrautų per tą kanalą. Apie daugumą <em>IPC</em> mechanizmų dar bus kalbama vėliau.</p>
+
+
+	<p><a href="http://en.wikipedia.org/wiki/Signal_%28computing%29" class="external"><em><strong>Signal</strong></em>'as</a> – taip pat vienas iš <em>IPC</em> mechanizmų, tačiau skirtas ne duomenų mainams, o komandų procesui perdavimui, pvz.: nutraukti, užmigdyti, pažadinti procesą. Smulkiau apie signalus irgi bus kalbama vėliau.</p>
+
+
+<blockquote>
+
+	<p>PASTABA: signalo pagalba užmigdytas procesas miega tol, kol bus pažadintas kitu signalu, tai neturi nieko bendro su <em>kernel</em>'io vykdomu migdymu/žadinimu dalinant CPU laiką.</p>
+
+
+</blockquote>
+
+	<a name="Proceso-atributai"></a>
+<h3>Proceso atributai<a href="#Proceso-atributai" class="wiki-anchor">¶</a></h3>
+
+
+Norint suvaldyti procesus, OS apie kiekvieną procesą turi būti saugoma informacija:
+	<ul>
+	<li>būsena – RUNNING/READY/WAITING/...</li>
+		<li>leidimai(?) (<em>credentials</em>) – realus ir efektyvus naudotojas ir grupė, užsaugotas <em>set-user-ID</em>, užsaugotas <em>set-group-ID</em>, papildomos grupės</li>
+		<li>tapatybė – PID, PPID, PGID, SID, terminalas su kuriuo procesas surištas, komandos paleidusios procesą vardas, komandos argumentai</li>
+		<li>informacija dispečeriui – prioritetas, dispečerio klasė, ...</li>
+		<li>statistika – CPU naudojimo statistika, naudojamos vRAM dydis ir būsena, sunaudotas laikas (realus, user CPU, kernel CPU) ...  </li>
+		<li>... – darbinis katalogas, šakninis katalogas, umask, naudojami failai, resursų limitai, virtualios atminties regionai, signalų lentelė, <em>syscall</em>'ų vektorius, <em>swap</em> informacija...</li>
+	</ul>
+
+
+	<p>Ne visa saugoma informacija lengvai pasiekiama naudotojui, be to skirtingose OS yra skirtumų (kitokios būsenos, kitoks dispečerio algoritmas, ir t.t.)</p>
+
+
+	<a name="Laiko-apskaita"></a>
+<h4>Laiko apskaita<a href="#Laiko-apskaita" class="wiki-anchor">¶</a></h4>
+
+
+Su kiekvienu procesu susiję bent trys laikai skaičiuojami nuo proceso paleidimo iki dabartinio momento arba proceso pabaigos:
+	<ol>
+	<li>realus (<em>wall time</em>) – tikras/astronominis laikas nuo proceso paleidimo;</li>
+		<li><em>user time</em> – kiek CPU laiko procesas gavo/sunaudojo savo skaičiavimams;</li>
+		<li><em>system time</em> – kiek CPU laiko sugaišo <em>kernel</em>'is aptarnaudamas proceso <em>syscall</em>'us.</li>
+	</ol>
+
+
+	<a name="Prioritetas"></a>
+<h4>Prioritetas<a href="#Prioritetas" class="wiki-anchor">¶</a></h4>
+
+
+Dispečerio užduotis – optimaliai paskirstyti laiką procesams, tačiau kas yra „optimalu“ labai priklauso nuo konkretaus atvejo: aparatūros savybių, sprendžiamų uždavinių ir t.t (pvz.: skaičiavimo uždaviniai ir interaktyvios programos; laiko nuostoliai procesų perjungimui). Vienareikšmiškai geriausio dispečerio algoritmo dar nerasta. Todėl skirtingose OS naudojami dispečerio algoritmai skiriasi. POSIX'e standartizuoti du prioriteto valdymo būdai:
+	<ol>
+	<li>dispečerio politikos (<em>scheduler policy</em>) parinkimas ( <code>sched_setscheduler()</code>, <code>sched_setparam()</code> <em>syscall</em>'ai);</li>
+		<li><em>NICE</em> prioriteto reikšmė (naudojama dispečerio politikos pagal nutylėjimą algoritme).</li>
+	</ol>
+
+
+	<p>Keisti proceso dispečerio politiką paprastai gali tik <em>root</em> naudotojas, ši politika labiau skirta realaus laiko procesų valdymui. Eiliniam naudotojui prieinamas tik <em>NICE</em> reikšmės keitimas. <em>NICE</em> reikšmė įtakoja procesui skiriamą laiko dalį, paprastai galimos reikšmės -20 .. 19 (kai kuriose OS iki 20). Kuo mažesnė <em>NICE</em> reikšmė, tuo didesnis proceso prioritetas. Paprastai eilinis naudotojas savo procesam galim priskirtą <em>NICE</em> reikšmę tiktai didinti (mažinant prioritetą). Naujas procesas paveldi tėvo proceso <em>NICE</em>.</p>
+<a name="Procesai"></a>
+<h2><a class="wiki-page" href="/projects/p175b304/wiki/UNIX_processes">Procesai</a><a href="#Procesai" class="wiki-anchor">¶</a></h2>
+
+
+	<a name="ps-procesų-sąrašas"></a>
+<h3>ps - procesų sąrašas<a href="#ps-procesų-sąrašas" class="wiki-anchor">¶</a></h3>
+
+
+	<p>Komanda <code>ps</code> leidžia pamatyti informaciją apie operacinės sistemos vykdomų procesų būklę.</p>
+
+
+<pre>ps [-Aadefl] [-G grplist] [-g grplist] [-o format]... [-p pidlist] [-t ttylist] [-U userlist] [-u userlist]
+</pre>
+
+Parinktys (ne visos): 
+	<ul>
+	<li><code>-A</code> – išveda informaciją apie visus procesus;</li>
+		<li><code>-a</code> – išveda informaciją apie visus procesus, kurie susiję su terminalais ir nėra sesijų lyderiai;</li>
+		<li><code>-d</code> – išveda informaciją apie visus procesus, išskyrus sesijos lyderius;</li>
+		<li><code>-e</code> – tas pats, kaip <code>-A</code>;</li>
+		<li><code>-f</code> – rodo informaciją "pilnu" formatu;</li>
+		<li><code>-l</code> – rodo informaciją "ilgu" formatu;</li>
+		<li><code>-G grplist</code> – rodo informaciją apie procesus, kurių <ins>realūs</ins> <em>gid</em> nurodyti <code>grplist</code>;</li>
+		<li><code>-g grplist</code> – rodo informacją apie procesus, priklausančius procesų grupėms, nurodytoms <code>grplist</code>;</li>
+		<li><code>-o format</code> – rodo informaciją <code>format</code> nurodytu formatu;</li>
+		<li><code>-p pidlist</code> – rodo informaciją tik apie <code>pidlist</code> nurodytus procesus (<code>pidlist</code>: kableliais arba tarpais atskirtas PID sąrašas);</li>
+		<li><code>-t ttylist</code> – rodo informaciją tik apie procesus, susijusius su norodytais <code>ttylist</code> terminalais;</li>
+		<li><code>-U userlist</code> – rodyti informaciją tik apie procesus, kurių <ins>realūs</ins> <em>uid</em> nurodytas <code>userlist</code>;</li>
+		<li><code>-u userlist</code> – rodyti informaciją tik apie <code>userlist</code> nurodytų naudotojų procesus.</li>
+	</ul>
+
+
+	<p>Žemiau pateikta dalis su parinktimi <code>-o</code> naudojamų išvedimo laukų ir juos atitinkančių stulpelių antraščių:</p>
+
+
+	<table>
+		<tbody><tr>
+			<th>formatas </th>
+			<th>antraštė </th>
+			<th>aprašymas </th>
+		</tr>
+		<tr>
+			<td> <strong>s</strong> </td>
+			<td> <strong>S</strong> </td>
+			<td> proceso būsena </td>
+		</tr>
+		<tr>
+			<td> <strong>uid</strong> </td>
+			<td> <strong>UID</strong> </td>
+			<td> efektyvus <em>uid</em> </td>
+		</tr>
+		<tr>
+			<td> <strong>user</strong> </td>
+			<td> <strong>USER</strong> </td>
+			<td> efektyvus vartotojo vardas </td>
+		</tr>
+		<tr>
+			<td> <strong>ruid</strong> </td>
+			<td> <strong>RUID</strong> </td>
+			<td> realus <em>uid</em> </td>
+		</tr>
+		<tr>
+			<td> <strong>ruser</strong> </td>
+			<td> <strong>RUSER</strong> </td>
+			<td> realus vartotojo vardas </td>
+		</tr>
+		<tr>
+			<td> <strong>gid</strong> </td>
+			<td> <strong>GID</strong> </td>
+			<td> efektyvus <em>gid</em> </td>
+		</tr>
+		<tr>
+			<td> <strong>group</strong> </td>
+			<td> <strong>GROUP</strong> </td>
+			<td> efektyvus grupės vardas </td>
+		</tr>
+		<tr>
+			<td> <strong>rgid</strong> </td>
+			<td> <strong>RGID</strong> </td>
+			<td> realus <em>gid</em> </td>
+		</tr>
+		<tr>
+			<td> <strong>rgroup</strong> </td>
+			<td> <strong>RGROUP</strong> </td>
+			<td> realus grupės vardas </td>
+		</tr>
+		<tr>
+			<td> <strong>pid</strong>    </td>
+			<td> <strong>PID</strong> </td>
+			<td> proceso numeris </td>
+		</tr>
+		<tr>
+			<td> <strong>ppid</strong> </td>
+			<td> <strong>PPID</strong> </td>
+			<td> proceso tėvo numeris </td>
+		</tr>
+		<tr>
+			<td> <strong>pgid</strong> </td>
+			<td> <strong>PGID</strong> </td>
+			<td> procesų grupės, kuriai priklauso procesas, numeris </td>
+		</tr>
+		<tr>
+			<td> <strong>sid</strong> </td>
+			<td> <strong>SID</strong> </td>
+			<td> sesijos, kuriai priklauso procesas, numeris </td>
+		</tr>
+		<tr>
+			<td> <strong>%cpu</strong> </td>
+			<td> <strong>%CPU</strong> </td>
+			<td> paskutiniu metu proceso naudoto CPU laiko procentas </td>
+		</tr>
+		<tr>
+			<td> <strong>sz</strong> </td>
+			<td> <strong>SZ</strong> </td>
+			<td> proceso dydis virtualioje atmintyje 4K dydžio puslapiais </td>
+		</tr>
+		<tr>
+			<td> <strong>vsz</strong>    </td>
+			<td> <strong>VSZ</strong> </td>
+			<td> proceso dydis virtualioje atmintyje kilobaitais </td>
+		</tr>
+		<tr>
+			<td> <strong>ni</strong> </td>
+			<td> <strong>NI</strong> </td>
+			<td> proceso prioritetą nusakanti reikšmė (didesnė reikšmė reiškia mažesnį prioritetą) </td>
+		</tr>
+		<tr>
+			<td> <strong>pri</strong> </td>
+			<td> <strong>PRI</strong> </td>
+			<td> proceso prioritetas (didesnė reikšmė reiškia mažesnį prioritetą) </td>
+		</tr>
+		<tr>
+			<td> <strong>etime</strong> </td>
+			<td> <strong>ELAPSED</strong> </td>
+			<td> nuo proceso paleidimo praėjęs laikas (<code>[[dd-]hh:]mm:ss</code>, kur <code>dd</code> - dienų, <code>hh</code> - valandų, <code>mm</code> - minučių, <code>ss</code> - sekundžių skaičius) </td>
+		</tr>
+		<tr>
+			<td> <strong>time</strong> </td>
+			<td> <strong>TIME</strong> </td>
+			<td> bendras proceso sunaudotas CPU laikas </td>
+		</tr>
+		<tr>
+			<td> <strong>start_time</strong> </td>
+			<td> <strong>START</strong> </td>
+			<td> proceso paleidimo data arba laikas </td>
+		</tr>
+		<tr>
+			<td> <strong>tty</strong>    </td>
+			<td> <strong>TT</strong> </td>
+			<td> su procesu susijusio terminalo vardas (įrenginio vardas arba numeris) </td>
+		</tr>
+		<tr>
+			<td> <strong>comm</strong> </td>
+			<td> <strong>COMMAND</strong> </td>
+			<td> komandos (failo) vardas, kurią paleidus buvo sukurtas procesas </td>
+		</tr>
+		<tr>
+			<td> <strong>args</strong> </td>
+			<td> <strong>COMMAND</strong> </td>
+			<td> komandos vardas ir jos argumentai </td>
+		</tr>
+		<tr>
+			<td> <strong>wchan</strong> </td>
+			<td> <strong>WCHAN</strong> </td>
+			<td> vardas <em>kerner</em>'io funkcijos, kurioje "miega" procesas ("-", jei procesas vykdomas) </td>
+		</tr>
+	</tbody></table>
+
+
+
+
+Linux OS stulpelio <strong>S</strong> prasmė:
+	<ul>
+	<li><strong>R</strong> – procesas yra šiuo metu vykdomas arba pasiruošęs vykdymui (<em>RUNNING/RUNNABLE</em>);</li>
+		<li><strong>S</strong> – įvykio laukiantis procesas (<em>SLEEPING</em>);</li>
+		<li><strong>D</strong> – nepertraukiamas laukimas, paprastai IO (<em>DISK SLEEPING</em>);</li>
+		<li><strong>Z</strong> – procesas-zombis (<em>ZOMBIE</em>); </li>
+		<li><strong>T/t</strong> – <em>STOP</em> signalu sustabdytas arba trasuojamas/debuginamas procesas (<em>STOPPED</em>).</li>
+	</ul>
+
+
+	<a name="Pavyzdžiai"></a>
+<h5>Pavyzdžiai<a href="#Pavyzdžiai" class="wiki-anchor">¶</a></h5>
+
+
+	<p>Komanda <code>ps</code> nenurodžius jokių parinkčių pateikia informaciją apie procesus turinčius tą patį efektyvų UID ir susijusius su tuo pačiu terminalu.</p>
+
+
+<pre>$ ps
+   PID TTY         TIME CMD
+  2936 pts/5   00:00:00 ps
+ 27934 pts/5   00:00:00 sh
+ 27938 pts/5   00:00:00 bash
+</pre>
+
+	<p>Nurodžius formatą, informacija bus išvesta tokia tvarka, kaip nurodyta formate:<br></p><pre>$ ps -o pid,ppid
+  PID  PPID
+ 1810  1808
+ 1817  1810
+</pre><p></p>
+
+
+	<a name="nice-renice-proceso-prioriteto-keitimas"></a>
+<h3>nice, renice - proceso prioriteto keitimas<a href="#nice-renice-proceso-prioriteto-keitimas" class="wiki-anchor">¶</a></h3>
+
+
+	<p>Komandos <code>nice</code> ir <code>renice</code> atlieka analogiškus veiksmus, t.y. keičia proceso <em>NICE</em> atributą, tačiau <code>nice</code> skirta paleisti procesą su pakeista <em>NICE</em> reikšme, o <code>renice</code> – veikiančio proceso <em>NICE</em> atributo keitimui.</p>
+
+
+<pre>nice [-n increment] command [argument...]
+</pre>
+
+<pre>renice [-n] increment [-g|-p|-u] identifier...
+</pre>
+
+Parinktys:
+	<ul>
+	<li><code>-n increment</code> – naujos <em>NICE</em> reikšmės pokytis ( t.y. <em>newNICE = oldNICE + increment</em> ), <code>increment</code> g.b. ir neigiamas (didinti prioritetą), tačiau didinti prioritetą gali tik privilegijuotas (pvz.: <em>root</em> naudotojo) procesas;</li>
+		<li><code>-g</code> – keisti nurodytos procesų grupės <em>NICE</em> (<code>identifier</code> interpretuojami, kaip procesų grupės numeriai);</li>
+		<li><code>-p</code> – keisti nurodytų procesų <em>NICE</em> (tas pats daroma pagal nutylejimą, jei nenurodytos <code>-g</code> ir <code>-u</code> parinktys);</li>
+		<li><code>-u</code> – keisti visų nurodyto vartotojo procesų <em>NICE</em>. Šiuo atveju vartotojo <code>identifier</code> gali būti jo vardas (<em>login</em>) arba UID.</li>
+	</ul>
+
+
+	<p><code>command</code> nurodo paleidžiamą komandą, o <code>argument...</code> - jos argumentus. <code>identifier</code> nurodo keičiamo proceso, procesų grupės arba vartotojo ID numerius.</p>
+
+
+	<p>Pavyzdys:<br></p><pre>$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1029  825651  825650  0  80   0 -  2937 -      pts/1    00:00:00 bash
+0 R  1029  825656  825651  0  80   0 -  2703 -      pts/1    00:00:00 ps
+$ renice -n 5 -u 1029
+1029 (user ID) old priority 0, new priority 5
+$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1029  825651  825650  0  85   5 -  2937 -      pts/1    00:00:00 bash
+0 R  1029  825669  825651  0  85   5 -  2703 -      pts/1    00:00:00 ps
+$ nice -n 7 bash
+$ ps -l
+F S   UID     PID    PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S  1029  825651  825650  0  85   5 -  2937 -      pts/1    00:00:00 bash
+0 S  1029  825681  825651  0  92  12 -  2942 -      pts/1    00:00:00 bash
+0 R  1029  825684  825681  0  92  12 -  2704 -      pts/1    00:00:00 ps
+</pre><p></p>
+
+
+	<a name="top-interaktyvus-procesų-sąrašas"></a>
+<h3>top - interaktyvus procesų sąrašas<a href="#top-interaktyvus-procesų-sąrašas" class="wiki-anchor">¶</a></h3>
+
+
+<blockquote>
+
+	<p>Nestandartinė komanda, skirtingose OS skiriasi. Įvairiose UNIX os yra ir daugiau panašias funkcijas atliekančių komandų (<code>prstat</code>, <code>htop</code>, <code>systat</code>, ...)</p>
+
+
+</blockquote>
+
+	<p>Komandos <code>top</code> parinktys:</p>
+
+
+	<ul>
+	<li><code>-b</code> – paketinis režimas, t.y. <code>top</code> komanda periodiškai išvedinėja būseną (tinka pvz. kartu su <code>-n</code> norint <code>top</code> rezultatus įrašyti į failą);</li>
+		<li><code>-d secs</code> – Atnaujina <code>top</code> komandos išvedimą kas <code>secs</code> sekundžių;</li>
+		<li><code>-n number</code> – statistiką išveda <code>number</code> kartų ir pabaigia darbą;</li>
+		<li><code>-o fieldname</code> – rūšiuoti procesus pagal nurodytą lauką <code>fieldname</code>;</li>
+		<li><code>-u identifier</code> – rodomi tik naudotojo <code>identifier</code> (<em>login</em> arba <em>UID</em>) procesus;</li>
+		<li>... – daugiau <code>top</code> parinkčių galite rasti <code>man</code> puslapyje.</li>
+	</ul>
+
+
+	<p><code>top</code> komanda suteikia galimybę stebėti procesoriaus aktyvumą realiame laike. Ji išveda informaciją apie tuos procesus, kurie intensyviausiai naudoja CPU, surūšiuodama šį sąrašą pagal CPU panaudojimą (arba kitą parinktyse nurodytą kriterijų). Išvedimas vyksta reguliariais laiko intervalais atsižvelgiant į tai, kas vyksta sistemoje. Pavyzdžiui:</p>
+
+
+<pre>$ top
+top - 23:23:35 up 77 days,  1:35,  8 users,  load average: 0.00, 0.00, 0.00
+Tasks: 144 total,   1 running, 142 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7000.4 total,   2211.3 free,    557.8 used,   4231.3 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6355.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                               
+ 579797 root      20   0       0      0      0 S   0.3   0.0   0:04.78 kworker/0:3                                                                                                           
+ 828115 giepaul   20   0   11264   2940   2544 R   0.3   0.0   0:00.09 top                                                                                                                   
+      1 root      20   0    2376    364    304 S   0.0   0.0   1:59.84 init                                                                                                                  
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.70 kthreadd                                                                                                              
+      3 root      20   0       0      0      0 S   0.0   0.0   0:21.34 ksoftirqd/0                                                                                                           
+      5 root       0 -20       0      0      0 S   0.0   0.0   0:00.00 kworker/0:0H                                                                                                          
+      7 root      20   0       0      0      0 S   0.0   0.0   9:26.68 rcu_sched                                                                                                             
+      8 root      20   0       0      0      0 S   0.0   0.0   0:00.00 rcu_bh                                                                                                                
+      9 root      rt   0       0      0      0 S   0.0   0.0   0:09.70 migration/0                                                                                                           
+     10 root       0 -20       0      0      0 S   0.0   0.0   0:00.00 lru-add-drain       
+...
+</pre>
+
+Pirmose išvedamose eilutėse yra pateikiama bendra informacija apie sistemos būklę:
+	<ol>
+	<li>dabartinis laikas ir kiek laiko sistema veikia po perkrovimo, aktyvių vartotojų kiekis, trys apkrovos vidurkių reikšmės;</li>
+		<li>informacija apie procesus: bendras egzistuojančių, vykdomų, miegančių, sustabdytų, zombių procesų skaičius;</li>
+		<li>CPU apkrova procentais nuo paskutinio informacijos atnaujinimo: <em>us</em> – <em>user mode</em> procesai be pakeistos <em>nice</em> reikšmės, <em>sy</em> – <em>kernel mode</em> procesai, <em>ni</em> – <em>user mode</em> procesai su pakeista <em>nice</em> reikšme, <em>id</em> – sistema nieko nedaro (<em>idle</em>), <em>wa</em> – <em>IO</em> laukimas, <em>hi</em> – <em>hardware interrupt</em> aptarnavimas, <em>si</em> – <em>software interrupt</em> aptarnavimas, <em>st</em> – sistemos virtualizacijai sunaudota dalis;</li>
+		<li>fizinė atmintis: bendras kiekis, laisva, naudojama ir buferizacijos;</li>
+		<li>virtuali atmintis: bendras kiekis, laisva, naudojama ir laisva fizinė atmintis (į ją įskaičiuojama buferizacijos atmintis, kurią galima panaudoti naujai paleidžiamoms aplikacijoms).</li>
+	</ol>
+
+
+	<p>Likusi išvedama informacija susijusi su individualiais procesais ir panaši į informaciją, išvedamą <code>ps</code> komandos: <strong>PID</strong> - proceso numeris, <strong>USER</strong> - proceso naudotojas, <strong>PR</strong> – proceso prioritetas, <strong>NI</strong> – prioritetą įtakojanti reikšmė, <strong>VIRT</strong> – bendras proceso dydis virtualioje atmintyje (kilobaitais), <strong>RES</strong> – proceso naudojamas fizinės atminties kiekis (kilobaitais), <strong>S</strong> – proceso būsena (žr. procesų būsenas <code>ps</code> komandos aprašyme, <em>I</em> – nieko nedarantis procesas), <strong>%CPU</strong> – kokią CPU laiko dalį procentais atitinkamas procesas naudoja paskutiniu metu, <strong>%MEM</strong> – proceso naudojama fizinės atminties dalis procentais, <strong>TIME+</strong> – bendras proceso sunaudotas CPU laikas, <strong>COMMAND</strong> – komandos/programos vardas, kurią vykdo procesas.</p>
+
+
+Paleista <code>top</code> komanda valdoma klaviatūra. Komandos:
+	<ul>
+	<li><strong>q</strong> – baigti darbą;</li>
+		<li><strong>u</strong> – rodyti tik vieno naudotojo procesus (<code>top</code> paprašo įvesti naudotojo vardą);</li>
+		<li><strong>k</strong> – „nužudyti“ procesą (paprašo įvesti PID);</li>
+		<li><strong>r</strong> – keisti <em>nice</em> reikšmę;</li>
+		<li>...</li>
+	</ul>
+
+
+<blockquote>
+
+	<p>Nors <code>top</code> turi ir paketinį režimą, pagrindinė šios komandos paskirtis - interaktyvus sistemos ir jos procesų būsenos stebėjimas. Todėl, norint gauti (ir toliau apdoroti) tekstinę imformaciją apie tam tikrus procesus, paprastai patogiau naudoti komandą <code>ps</code>.</p>
+
+
+</blockquote>
+
+	<a name="strace-proceso-iškviečiami-syscallai"></a>
+<h3>strace - proceso iškviečiami <em>syscall'ai</em><a href="#strace-proceso-iškviečiami-syscallai" class="wiki-anchor">¶</a></h3>
+
+
+<blockquote>
+
+	<p>Nestandartinė komanda. Kitose UNIX OS tą patį daro <code>truss</code>, <code>ktrace/kdump</code>.</p>
+
+
+</blockquote>
+
+	<p>Komanda <code>strace</code> naudojama norint pamatyti programos iškviečiamus <em>syscall</em>'us ir siunčiamus bei gaunamus signalus.</p>
+
+
+<pre>strace { -c | [-frtttT] } [-e expr]... [-o file] [-p pid]... { -p pid | command [args] }
+</pre>
+
+Parinktys (ne visos):
+	<ul>
+	<li><code>-c</code> – rodo tik iškviestų <em>syscall</em>'u statistiką;</li>
+		<li><code>-t</code>, <code>-tt</code>, <code>-ttt</code> – eilutės pradžioje rodo įvykio laiką nuo trasavimo pradžios;</li>
+		<li><code>-r</code> – eilutės pradžioje rodo įvykio laiką nuo prieš tai išvesto įvykio (ne laiką praleistą vykdant <em>syscall</em>'ą);</li>
+		<li><code>-T</code> – eilutės pradžioje rodo laiką, sugaištą apdorojant <em>syscall</em>'ą;</li>
+		<li><code>-p pid</code> – trasuoti <code>pid</code> nurodytus procesus;</li>
+		<li><code>-f</code> – trasuoti ir proceso sukurtus procesus (t.y. proceso "vaikus");</li>
+		<li><code>-e trace</code> – trasuoti tik <code>trace</code> nurodytus <em>syscall</em>'us (pagal nutylėjimą trasuojami visi, t.y. <code>-e all</code>);</li>
+		<li><code>-o filename</code> – trasavimo logą rašyti ne į terminalą, o į nurodytą failą <code>filename</code>.</li>
+	</ul>
+
+
+	<p>Kiekviena <code>strace</code> išvedama eilutė rodo proceso iškviečiamą <em>syscall</em>'ą arba signalą. Norint bendrai suprasti, ką daro procesas, nebūtina tiksliai žinoti kiekvienos eilutės prasmę. <em>Syscall</em>'ai smulkiau aprašomi savo <code>man</code> puslapiuose, pvz.: <code>open(2)</code>, <code>execve(2)</code> ir pan.</p>
+
+
+	<a name="Naudojimo-pavyzdžiai"></a>
+<h5>Naudojimo pavyzdžiai<a href="#Naudojimo-pavyzdžiai" class="wiki-anchor">¶</a></h5>
+
+
+	<p>Trasuojama <code>/bin/true</code> komanda:</p>
+
+
+<pre>$ strace -tt /bin/true
+18:40:33.580307 execve("/bin/true", ["/bin/true"], 0x75e59b112b08 /* 25 vars */) = 0
+18:40:33.581480 brk(NULL)               = 0x1307869d640
+18:40:33.581690 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+18:40:33.582001 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+18:40:33.582200 fstat(3, {st_mode=S_IFREG|0644, st_size=110482, ...}) = 0
+18:40:33.582399 mmap(NULL, 110482, PROT_READ, MAP_PRIVATE, 3, 0) = 0x703b3ac90000
+18:40:33.582537 close(3)                = 0
+18:40:33.582710 openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+18:40:33.582858 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0&gt;\0\1\0\0\0\300?\2\0\0\0\0\0"..., 832) = 832
+18:40:33.583004 fstat(3, {st_mode=S_IFREG|0755, st_size=1889264, ...}) = 0
+18:40:33.583177 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x703b3ac8e000
+18:40:33.583331 mmap(NULL, 1902024, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x703b3aabd000
+18:40:33.583465 mprotect(0x703b3aadf000, 1724416, PROT_NONE) = 0
+18:40:33.583621 mmap(0x703b3aadf000, 1417216, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x703b3aadf000
+18:40:33.583769 mmap(0x703b3ac39000, 303104, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17c000) = 0x703b3ac39000
+18:40:33.583909 mmap(0x703b3ac84000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c6000) = 0x703b3ac84000
+18:40:33.584060 mmap(0x703b3ac8a000, 13768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x703b3ac8a000
+18:40:33.584286 close(3)                = 0
+18:40:33.584523 arch_prctl(ARCH_SET_FS, 0x703b3ac8f580) = 0
+18:40:33.584853 mprotect(0x703b3ac84000, 16384, PROT_READ) = 0
+18:40:33.585024 mprotect(0x130756e2000, 4096, PROT_READ) = 0
+18:40:33.585217 mprotect(0x703b3acd7000, 4096, PROT_READ) = 0
+18:40:33.585352 munmap(0x703b3ac90000, 110482) = 0
+18:40:33.585748 exit_group(0)           = ?
+18:40:33.586171 +++ exited with 0 +++
+</pre>
+
+	<p>Trasuojama komanda <code>cksum</code> su operandu <code>/etc/hosts</code>, rodomi tik <code>openat</code> <em>syscall</em>'o iškvietimai:</p>
+
+
+<pre>$ strace -e openat cksum /etc/hosts
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+openat(AT_FDCWD, "/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+openat(AT_FDCWD, "/usr/lib64/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+openat(AT_FDCWD, "/etc/hosts", O_RDONLY) = 3
+1937863257 1223 /etc/hosts
++++ exited with 0 +++
+</pre>
+
+	<a name="kill-nutraukti-procesą"></a>
+<h3>kill - nutraukti procesą<a href="#kill-nutraukti-procesą" class="wiki-anchor">¶</a></h3>
+
+
+	<p><code>kill</code> komanda dažniausiai naudojama procesų nutraukimui.</p>
+
+
+<pre>kill [-s signal] pid...
+kill -l [signal]
+</pre>
+
+Parinktys:
+	<ul>
+	<li><code>-s signal</code> – siunčiamo signalo numeris arba vardas;</li>
+		<li><code>-l</code> – parodyti signalų sąrašą (visų, arba tik su nurodytu numeriu/vardu).</li>
+	</ul>
+
+
+<code>pid</code> nurodo, kam siunčiamas signalas:
+	<ul>
+	<li>&gt;0 – procesui, kurio numeris nurodytas;</li>
+		<li>0 – visiems procesams, kurių procesų grupės numeris sutampa su <code>kill</code> proceso grupės numeriu;</li>
+		<li>-1 – visiems procesams (kuriems gali pasiųst <code>kill</code> procesas, pvz.: visiems komandą paleidusio naudotojo procesams);</li>
+		<li>&lt;0 – signalas siunčiamas visiems tos procesų grupės procesams (procesų grupės numeris - absoliutinė PID reikšmė).</li>
+	</ul>
+
+
+	<p>Jei signalas nenurodytas – siunčiamas <em>SIGTERM</em> signalas (jo numeris 15).</p>
+
+
+	<p>Pagal nutylėjimą, gavęs daugumą signalų procesas baigia darbą. Kai kuriuos signalus procesas gali ignoruoti (tame tarpe ir <em>SIGTERM</em>). Norint nutraukti į <em>SIGTERM</em> nereaguojantį procesą galima siųsti <em>SIGKILL</em> (9) signalą, kurio procesas negali ignoruoti. Procesas "užmigdomas" <em>SIGSTOP</em>, o žadinamas <em>SIGCONT</em> signalais.</p>
+
+
+	<a name="Z-fg-bg-jobs-kill-komandos-užmigdymas-ir-žadinimas"></a>
+<h3>^Z, fg, bg, jobs, kill – komandos užmigdymas ir žadinimas<a href="#Z-fg-bg-jobs-kill-komandos-užmigdymas-ir-žadinimas" class="wiki-anchor">¶</a></h3>
+
+
+	<p>Šiame skyriuje <ins>komanda</ins> vadinama visa komandos eilutė, kuri gali būti sudaryta iš daugiau nei vienos programos iškvietimo (pvz.: <code>$ cat file | wc</code>).</p>
+
+
+	<p><strong>^Z</strong> klavišų kombinacija aprašyta <a class="wiki-page" href="/projects/p175b304/wiki/UNIX_user_access#Tekstinis-terminalas">čia</a>. Ši kombinacija siunčia vykdomos komandos procesams <em>SIGSTOP</em> signalą ir "atkabina" komandą nuo terminalo. Tokie procesai miegos, kol nebus nutraukti su <code>kill</code> arba pažadinti su <code>fg</code> arba <code>bg</code> komandomis. Komandų interpretatorius tokias sustabdytas užduotis atsimena ir kiekvienai jų priskiria numerį (<em>jobID</em>), komandose jis nurodomas <strong><code>%N</code></strong> (N - numeris).</p>
+
+
+	<p><strong><code>jobs</code></strong> – parodo sustabdytų ar fone veikiančių užduočių sąrašą.</p>
+
+
+	<p><strong><code>fg [%N]</code></strong> (<em>foreground</em>) komanda pažadina paskutinę užmigdytą arba <code>%N</code> nurodytą užduotį ir grąžina jai terminalą.</p>
+
+
+	<p><strong><code>bg [%N]</code></strong> (<em>background</em>) komanda pažadina paskutinę užmigdytą arba <code>%N</code> nurodytą užduotį, bet negrąžina jai terminalo, t.y. užduotis veikia fone, jos išvedama informacija gali kartais būt matoma terminale, bet procesas bus sustabdytas (ne nutrauktas), jei bandys skaityti iš terminalo.</p>
+
+
+	<p><strong><code>kill %N</code></strong> – nutraukti užduotį N.</p>
+
+
+	<p>Naudojimo pavyzdys ( <code>sleep N</code> komanda pamiega N sekundžių ir pasibaigia):</p>
+
+
+<pre>$ sleep 30
+^Z
+[1]+  Stopped                 sleep 30
+$ bg
+[1]+ sleep 30 &amp;
+$ sleep 20
+^Z
+[2]+  Stopped                 sleep 20
+$ bg
+[2]+ sleep 20 &amp;
+$ jobs
+[1]-  Running                 sleep 30 &amp;
+[2]+  Running                 sleep 20 &amp;
+$ fg %1
+sleep 30
+[2]   Done                    sleep 20
+$ 
+</pre>
+
+	<p>Čia paleidžiamos dvi <code>sleep</code> užduotys, abi atkabinamos nuo terminalo, parodomas užduočių sąrašas ir terminalas atiduodamas pirmajai.</p>
+
+
+	<a name="who-prie-sistemos-prisijungusių-naudotojų-sąrašas"></a>
+<h3>who – prie sistemos prisijungusių naudotojų sąrašas<a href="#who-prie-sistemos-prisijungusių-naudotojų-sąrašas" class="wiki-anchor">¶</a></h3>
+
+
+	<p>Komanda <code>who</code> yra skirta peržiūrėti informacijai apie šiuo metu su sistema dirbančius vartotojus. Komanda išveda prisijungusių vartotojų vardus, spec. įrenginių vardus terminalams, per kuriuos prisijungę naudotojai, prisijungimo laiką ir kt.</p>
+
+
+<pre>who [-mTu] [-abdHlrt] [file]
+who [−mu] −s [−bHlrt] [file]
+who -q [file]
+who am { i | I }
+</pre>
+
+	<p>Iškvietimo formos su argumentais <code>am i</code> arba <code>am I</code> parodo tik informaciją apie terminalą iš kurio kviečiama komanda <code>who</code>.</p>
+
+
+	<p>Bendras komandos išvedimo formatas yra:</p>
+
+
+<pre>NAME  STATE  LINE  TIME  IDLE  PID  COMMENT  EXIT
+</pre>
+
+Išvedamos informacijos prasmė:
+	<ol>
+	<li><code>NAME</code> – naudotojo prisijungimo vardas;</li>
+		<li><code>STATE</code> – ar leidžiama kitiems naudotojams rašyti į terminalą (naudojant <code>write</code>, <code>talk</code> ar panašias komandas), galimos reikšmės: <code>+</code> - galima, <code>-</code> - negalima, <code>?</code> - neaišku;</li>
+		<li><code>LINE</code> – terminalo spec. įrenginio failo vardas (kataloge <code>/dev</code>);</li>
+		<li><code>TIME</code> – laikas, kada naudotojas prisijungė;</li>
+		<li><code>IDLE</code> – kiek laiko terminalas neaktyvus/nenaudojamas, laikas nurodomas valandomis ir minutėmis, taškas (.) rodo, kad terminalas buvo naudojamas per paskutinę minutę;</li>
+		<li><code>PID</code>     – su terminalu susijusio shell proceso PID;</li>
+		<li><code>COMMENT</code> – komentarų eilutė (turinys priklauso nuo OS)</li>
+		<li><code>EXIT</code> – pasibaigusio, bet neperleisto iš naujo proceso pabaigos kodas</li>
+	</ol>
+
+
+<blockquote>
+
+	<p>PASTABA: <code>state</code> perjungiama <code>mesg</code> komanda.</p>
+
+
+</blockquote>
+
+Komandos  who parinktys:
+	<ul>
+	<li><code>-a</code> – tas pat, kaip būtų nurodytos <code>-b</code>, <code>-d</code>, <code>-l</code>, <code>-p</code>, <code>-r</code>, <code>-t</code>, <code>-T</code>, <code>-u</code> parinktys;</li>
+		<li><code>-b</code> – paskutinios sistemos užkrovimo data (nuo kada sistema dirba);</li>
+		<li><code>-d</code> – parodo tik pasibaigusių, bet iš naujo nepaleistų procesų sąrašą (į šią informaciją galima nesigilinti, ji susijusi su <a href="http://en.wikipedia.org/wiki/Init" class="external"><em>init</em></a>, <a href="http://en.wikipedia.org/wiki/Getty_%28Unix%29" class="external"><em>getty</em></a> ir <code>wait()</code> )</li>
+		<li><code>-H</code> – išveda stulpelių pavadinimus;</li>
+		<li><code>-l</code> – išveda tas terminalines linijas, kuriose sistema laukia kažkieno prisijungimo. Tokiu atveju vardo lauke matome žodį „LOGIN“, o kiti laukai yra tokie patys kaip ir išvedime apie prisijungusius vartotojus, išskyrus tai, kad nėra lauko <code>STATE</code>;</li>
+		<li><code>-m</code> – išveda informaciją tik apie einamąjį (iš kurio iškviesta komanda) terminalą;</li>
+		<li><code>-q</code> – rodo tik prisijungusių vartotojų vardus ir kiek yra prisijungusių vartotojų;</li>
+		<li><code>-r</code> – parodo <a href="http://en.wikipedia.org/wiki/Init" class="external"><em>init</em></a> proceso veikimo lygį (<em>run-level</em>)</li>
+		<li><code>-s</code> – išvedami laukai: <code>name</code>, <code>line</code>, <code>time</code> (tas pats, kaip be parinkčių);</li>
+		<li><code>-T</code> – tas pats kaip ir <code>-s</code> parinktyje, bet papildomai dar išvedams laukas <code>STATE</code>;</li>
+		<li><code>-u</code> – rodo informaciją tik apie vartotojus, kurie tuo metu prisijungę.</li>
+	</ul>
+
+
+	<p>Išvedimo pavyzdys:<br></p><pre>$ who -HT
+NAME       LINE         TIME             COMMENT
+darsep   + pts/3        2020-02-10 19:18 (158.129.21.230)
+darnauj  + pts/5        2020-02-10 19:18 (86.38.236.82)
+inglagz  + pts/6        2020-02-05 08:53 (158.129.7.133)
+</pre><p></p>
+<a name="Sistemos-statistika"></a>
+<h2><a class="wiki-page" href="/projects/p175b304/wiki/UNIX_statistics_commands">Sistemos statistika</a><a href="#Sistemos-statistika" class="wiki-anchor">¶</a></h2>
+
+
+	<a name="iostat-IO-statistika"></a>
+<h3>iostat – I/O statistika<a href="#iostat-IO-statistika" class="wiki-anchor">¶</a></h3>
+
+
+<blockquote>
+
+	<p>Nestandartinė komanda, skirtinguose UNIX skiriasi.</p>
+
+
+</blockquote>
+
+	<p>Komanda <code>iostat</code> parodo I/O statistiką, t.y. <em>kernelio</em> turimą informaciją apie terminalo, blokinų įrenginių (diskų, juostų ir pan.) I/O apkrovą ir CPU panaudojimą.</p>
+
+
+<pre>iostat [ -c ] [ -d ] [ -k | -m ] [ -x ] [ interval [ count ] ]
+</pre>
+
+Parinktys (ne visos):
+	<ul>
+	<li><code>-c</code> – rodo CPU panaudojimą įvairiuose režimuose procentais;</li>
+		<li><code>-d</code> – rodo diskų apkrovos statistiką;</li>
+		<li><code>-k</code> – diskų duomenų pralaidumas rodomas KB/sekundę;</li>
+		<li><code>-m</code> – diskų duomenų pralaidumas rodomas MB/sekundę;</li>
+		<li><code>-x</code> – rodo išplėstinę diskų statistiką.</li>
+	</ul>
+
+
+Operandai:
+	<ul>
+	<li><code>interval</code> – sveikas skaičius, nurodants kas kiek sekundžių išvesti statistiką.</li>
+		<li><code>count</code> – sveikas skaičius, nurodantis kiek kartų išvesti statistiką.</li>
+	</ul>
+
+
+	<p>Komandai <code>iostat</code> nurodžius <code>interval</code>, pirma išvedama statistika apie visą laiką nuo OS paleidimo, o kiekvienas tolesnis išvedimas atspindi kitą, komandoje nurodytą laiko intervalą.</p>
+
+
+	<p><code>iostat</code> komandos išvedamos informacijos laukų reikšmės pateiktos jos <code>man</code> puslapyje (<code>iostat(1)</code>).</p>
+
+
+	<a name="Naudojimo-pavyzdžiai-2"></a>
+<h5>Naudojimo pavyzdžiai<a href="#Naudojimo-pavyzdžiai-2" class="wiki-anchor">¶</a></h5>
+
+
+<pre>$ iostat
+$ iostat -d 2 5
+$ iostat -x 2
+</pre>
+
+	<a name="vmstat-virtualios-atminties-statistika"></a>
+<h3>vmstat - virtualios atminties statistika<a href="#vmstat-virtualios-atminties-statistika" class="wiki-anchor">¶</a></h3>
+
+
+<blockquote>
+
+	<p>Nestandartinė komanda, skirtinguose UNIX skiriasi.</p>
+
+
+</blockquote>
+
+	<p>Komanda <code>vmstat</code> rodo OS virtualios atminties statistiką.</p>
+
+
+<pre>vmstat [-d | -s] [-S k|K|m|M] [delay [count]]
+</pre>
+
+Parinktys (ne visos):
+	<ul>
+	<li><code>-d</code> – rodo diskų statistiką;</li>
+		<li><code>-s</code> – parodo kai kurių OS skaitiklių reikšmes (įvykių kiekį, laiką);</li>
+		<li><code>-S k|K|m|M</code> – pakeičia išvedamo vienetus į 1000 (k), 1024 (K), 1000000 (m) arba 1048576 (M) baitų.</li>
+	</ul>
+
+
+	<p><code>vmstat</code> komandos išvedamos informacijos laukų reikšmės pateiktos jos <code>man</code> puslapyje (<code>vmstat(8)</code>).</p>
+
+
+	<a name="Naudojimo-pavyzdžiai-3"></a>
+<h5>Naudojimo pavyzdžiai<a href="#Naudojimo-pavyzdžiai-3" class="wiki-anchor">¶</a></h5>
+
+
+<pre>$ vmstat
+$ vmstat 1
+$ vmstat -d 1 10
+</pre>
+
+	<a name="mpstat-kiekvieno-CPU-statistika"></a>
+<h3>mpstat - kiekvieno CPU statistika<a href="#mpstat-kiekvieno-CPU-statistika" class="wiki-anchor">¶</a></h3>
+
+
+<blockquote>
+
+	<p>Nestandartinė komanda, skirtinguose UNIX skiriasi.</p>
+
+
+</blockquote>
+
+	<p>Komanda <code>mpstat</code> išveda kiekvieno CPU statistiką atskirai.</p>
+
+
+<pre>mpstat [ interval [ count ] ]
+</pre>
+
+	<p><code>mpstat</code> komandos išvedamos informacijos laukų reikšmės pateiktos jos <code>man</code> puslapyje (<code>mpstat(1)</code>).</p>
+
+
+	<a name="Naudojimo-pavyzdžiai-4"></a>
+<h5>Naudojimo pavyzdžiai<a href="#Naudojimo-pavyzdžiai-4" class="wiki-anchor">¶</a></h5>
+
+
+<pre>$ mpstat
+$ mpstat 1
+$ mpstat 1 10
+</pre>
+
+	<a name="sar-sistemos-apkrovimo-statistika"></a>
+<h3>sar - sistemos apkrovimo statistika<a href="#sar-sistemos-apkrovimo-statistika" class="wiki-anchor">¶</a></h3>
+
+
+<blockquote>
+
+	<p>Nestandartinė komanda, skirtinguose UNIX skiriasi.</p>
+
+
+</blockquote>
+
+Ši komanda irgi renka sistemos statistiką, tačiau, skirtingai nei ankstesnės, gali veikti dvejais režimais:
+	<ul>
+	<li>interaktyviu, kai nurodytu intervalu išvedama OS informaciją;</li>
+		<li>skaityti duomenis iš anksčiau surinktos į failą statistikos (šį failą gali formuoti <code>sysstat</code> paketo servisai arba interaktyviu režimu paliesta <code>sar</code> komanda).</li>
+	</ul>
+
+
+<pre>sar [-BbdqrSuvWy] [ -f [ filename] | -o [ filename ] [ -i interval ] [ -s [ hh:mm[:ss] ] ] [ -e [ hh:mm[:ss] ] ] [ interval [ count ] ]
+</pre>
+
+Parinktys (ne visos):
+	<ul>
+	<li><code>-f filename</code> – skaityti duomenis iš anksčiau suformuoto duomenų (dvejetainio) failo;</li>
+		<li><code>-o filename</code> – išsaugoti duomenis į dvejetainį failą;</li>
+		<li><code>-s time</code> – dominančios statistikos pradžios laikas (kai skaitoma iš failo);</li>
+		<li><code>-e time</code> – dominančios statistikos pabaigos laikas (kai skaitoma iš failo);</li>
+		<li><code>-i interval</code> – duomenis išveda kaip galima artimesniais intervalais nurodytam <code>interval</code> sekundžių skaičiui;</li>
+		<li><code>-B</code>, <code>-b</code>, <code>-d</code>, <code>-q</code>, <code>-r</code>, <code>-S</code>, <code>-u</code>, <code>-v</code>, <code>-W</code>, <code>-y</code> – išveda įvairias skaitiklių grupes (<em>syscall</em>'ai, diskai, swap'inimas, CPU, eilių ilgiai ir t.t.), jau matytas aukščiau aprašytose komendose.</li>
+	</ul>
+
+
+	<p>Operandai:<br><code>interval</code> – kokiais intervalais spausdinti statistiką (sveikas skaičius, sekundės);<br><code>count</code> – kiek kartų kartoti spausdinimą (jei nenurodyta - spausdinama vieną kartą).</p>
+
+
+	<a name="Naudojimo-pavyzdžiai-5"></a>
+<h5>Naudojimo pavyzdžiai<a href="#Naudojimo-pavyzdžiai-5" class="wiki-anchor">¶</a></h5>
+
+
+	<p>Interaktyvus<br></p><pre>$ sar 1 10
+$ sar -d 1 10
+$ sar -o sar.bin 1 30
+</pre><p></p>
+
+
+	<p>Skaitymas iš failo:<br></p><pre>$ sar -f sar.bin
+$ sar -f sar.bin -i 5
+$ sar -f sar.bin -i 5 -d
+$ sar -s 10:00 -e 14:00
+</pre><p></p><p></p>
+
+
+	<a name="Užduotys"></a>
+<h1>Užduotys<a href="#Užduotys" class="wiki-anchor">¶</a></h1>
+
+
+	<p><a name="Procesai-2"></a>
+</p><h3><a class="wiki-page" href="/projects/p175b304/wiki/UNIX_processes_tasks">Procesai</a><a href="#Procesai-2" class="wiki-anchor">¶</a></h3>
+
+
+	<a name="ps"></a>
+<h4>ps<a href="#ps" class="wiki-anchor">¶</a></h4>
+
+
+	<ul>
+	<li>pagal komandos <code>ps -efl</code> rezultatus išsiaiškinkite:
+	<ul>
+	<li>kokia komanda paleistas procesas turintis PID=1?</li>
+		<li><span style="background:yellow;">koks/kokie procesai/komandos yra paruošti vykdymui arba jau vykdomi (Linux abu šiuos atvejus žymi viena busena)?</span></li>
+		<li>Koks jūsų paleisto proceso PID, PPID? Koks procesas yra jūsų paleisto proceso "tėvu" ir "seneliu"?  Koks bendras <code>ps</code> proceso virtualios atminties dydis baitais?</li>
+	</ul></li>
+	</ul>
+
+
+	<ul>
+	<li>Koks iš matomų procesų yra sunaudojęs daugiausiai CPU laiko?</li>
+	</ul>
+
+
+	<ul>
+	<li>Kaip su <code>ps</code> išvesti visų procesų sąrašą, kuriame matytųsi tik: proceso savininkai, PID, "tėvo PID", procesų grupė, sesija, terminalas, komandos vardas?</li>
+	</ul>
+
+
+	<ul>
+	<li>Atsidarykite du terminalo langus. Viename paleiskite <code>man ls</code>. Kitame su <code>ps</code> komanda išsiaiškinkite savo procesų hierarchiją: 
+	<ul>
+	<li>kiek ir kokias komandas vykdančių procesų turite;</li>
+		<li>kuris procesas kurį paleido (nusipaišykite procesų medį);</li>
+		<li>kokias procesų grupes ir sesijas turite ir kurie procesai yra jų lyderiai.</li>
+	</ul></li>
+	</ul>
+
+
+	<ul>
+	<li>suraskite visus SID sistemoje;</li>
+		<li>suraskite didžiausios <span style="background:yellow;">ne nulinės</span> sesijos (turinčios daugiausia procesų) procesus;</li>
+		<li>suraskite didžiausios procesų grupės procesus;</li>
+		<li>suraskite seniausiai veikiančius procesus.</li>
+	</ul>
+
+
+	<a name="top"></a>
+<h4>top<a href="#top" class="wiki-anchor">¶</a></h4>
+
+
+	<ul>
+	<li>pabandykite <code>top</code>;</li>
+		<li><ins>vieną kartą</ins> išveskite į ekraną 10 procesų, kurie naudoja daugiausiai CPU laiko <span style="background:yellow;">(tai galima atlikti interaktyvia komanda, kurios aprašymą rasite <code>top(1)</code> <code>man</code> puslapyje)</span>;</li>
+		<li><span style="background:yellow;">kuris(-ie) procesas(-ai) paruošti vykdymui arba jau vykdomi CPU?</span></li>
+		<li>paleiskite <code>top</code>, kad procesai būtų surūšiuoti pagal <strong><span style="background:yellow;">VIRT</span></strong> stulpelį;</li>
+		<li>paleiskite <code>top</code> komandą, kad ji rodytų tik jums priklausančius procesus. Kiek %CPU laiko maksimaliai naudoja jūsų paleisti procesai?</li>
+		<li>nenutraukdami <code>top</code> komandos atidarykite dar vieną terminalo langą ir jame paleiskite vykdymui programą <code>cksum /dev/zero</code>. Kiek %CPU laiko naudoja jūsų paleista <code>cksum</code>?</li>
+		<li>užmigdykite (nesvarbu kokiu būdu) <code>cksum</code> ir patikrinkite, kiek %CPU ji naudoja;</li>
+		<li>atgaivinkite <code>cksum</code> ir patikrinkite, kiek %CPU ji naudoja;</li>
+		<li>nutraukite <code>cksum</code>.</li>
+	</ul>
+
+
+	<ul>
+	<li>pabandykite paleisti keletą CPU apkraunančių procesų:
+	<ul>
+	<li>paleiskite keturis procesus, vykdančius komandą <code>cksum /dev/zero</code> (galite atidaryti atskirus terminalus arba pasinaudoti komandų vykdymu <em>background</em>);</li>
+		<li>paleiskite <code>top</code>, kuri rodytų tik jūsų procesus;</li>
+		<li>su <code>top</code> vieno <code>cksum</code> NICE reikšmę nustatykite į <code>19</code>;</li>
+		<li>kaip NICE reikšmė paveikė procesą?</li>
+	</ul>
+	</li>
+		<li><em>[advanced]</em> kodėl dviejų <code>cksum</code> procesų <code>193.219.36.233</code> serveryje gali neužtekti, kad pamatytumėte NICE poveikį?</li>
+	</ul>
+
+
+	<a name="strace"></a>
+<h4>strace<a href="#strace" class="wiki-anchor">¶</a></h4>
+
+
+	<ul>
+	<li>išbandykite <code>strace</code> su <code>/usr/bin/id</code> komanda, pabandykite surasti <em>syscall</em>'ą, kuris spausdina <code>id</code> rezultatus į terminalą;</li>
+		<li>kelis kartus pratrasuokite <code>/bin/true</code>:
+	<ul>
+	<li>gaunate vienodus ar skirtingus rezultatus? Jei skiriasi - kas?</li>
+		<li>ar <em>syscall</em>'ai arba jų iškvietimo tvarka kinta?</li>
+		<li>kokius failus naudoja (ar bando naudoti) <code>/bin/true</code>?</li>
+	</ul></li>
+	</ul>
+
+
+	<ul>
+	<li>paleiskite <code>nano</code> ir <code>strace</code> taip, kad dirbdami su <code>nano</code> (rinkdami tekstą, skaitydami ir išsaugodami failus) lygiagrečiai matytumėte šio procesos kviečiamus <em>syscall</em>'us.</li>
+	</ul>
+
+
+	<a name="Informacija-apie-prisijungusius-vartotojus"></a>
+<h3>Informacija apie prisijungusius vartotojus<a href="#Informacija-apie-prisijungusius-vartotojus" class="wiki-anchor">¶</a></h3>
+
+
+	<ul>
+	<li>kas šiuo metu prisijungė prie sistemos (kokie loginai)?</li>
+		<li>kada perkrauta sistema?</li>
+		<li>pabandykite "pašnipinėti" ka veikia kuris nors vienas naudotojas (jo procesai, procesų medis, vykdomos komandos, ką tos komandos daro ...).</li>
+	</ul>
+
+
+	<a name="SUIDSGID"></a>
+<h3>SUID/SGID<a href="#SUIDSGID" class="wiki-anchor">¶</a></h3>
+
+
+	<ul>
+	<li>kataloge <code>/data/ld/ld1</code> turime du vykdomuosius failus: <code>id1</code> ir <code>id2</code>:
+	<ul>
+	<li>palyginkite šiuos failus su <code>/usr/bin/id</code> (ir turinį, leidimus, ...). Kuo jie skiriasi?</li>
+		<li>paleiskite kiekvieną failą. Kodėl skiriasi išvedama informacija?</li>
+	</ul>
+	</li>
+		<li>pabandykite atsikopijuoti <code>id</code> į savo katalogą ir nustatyti SUID/SGID:
+	<ul>
+	<li>pabandykite paleisti originalą ir kopiją. Ar skiriasi originalo ir kopijos išvedama informacija?</li>
+		<li>duokite kolegai (iš jo userio) paleisti jūsų kopiją;</li>
+		<li>pabandykite paleisti kolegos <code>id</code> kopiją su SUID/SGID. Ar skiriasi originalo ir kopijos išvedama informacija?</li>
+		<li><em>[Advanced]</em> kodėl pats nematot SUID/SGID efekto?</li>
+	</ul></li>
+	</ul>
+<a name="Sistemos-statistikos-užduotys"></a>
+<h3><a class="wiki-page" href="/projects/p175b304/wiki/UNIX_statistics_commands_tasks">Sistemos statistikos užduotys</a><a href="#Sistemos-statistikos-užduotys" class="wiki-anchor">¶</a></h3>
+
+
+	<ul>
+	<li>įvertinkite sistemos apkrovimą:
+	<ul>
+	<li>sukasi tuščiai, arti 100% apkrovos (programos sukasi pilnu greičiu, bet viena kitai netrukdo) ar programos konkuruoja dėl kažkurio resurso (diskai, CPU ...) ir veikia lėčiau, nei galėtų;</li>
+		<li>iš ko apie tai sprendžiat?</li>
+		<li>kaip manote, kaip turėtų atrodyti kitos dvi sistemos būsenos (ir kaip jas atpažinti)?</li>
+	</ul></li>
+	</ul>
+
+
+	<ul>
+	<li>išsiaiškinkite, kurią dieną per paskutinias 7 dienas sistema buvo labiausiai apkrauta pirmoje dienos pusėje (nuo 8:00 iki 12:00). Duomenu failai kaupiami <code>/var/log/sa</code>.</li>
+	</ul><p></p>
+</div>
+
+
+<fieldset class="collapsible collapsed">
+  <legend onclick="toggleFieldset(this);">Files (0)</legend>
+  <div style="display: none;">
+
+  
+  
+</div>
+</fieldset>
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="https://www.redmine.org/">Redmine</a> © 2006-2018 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+<div id="extwaiimpotscp" style="display:none" v="{dd48" f="ZTJSa05EZzVZalZqTFRGbU9XVXROR0ptTkMwNE1HRm1MVGMzT0RVM1pUSTNNemxtTkgwPQ==" q="3091a53a" c="328.0" i="12.08446582175926" u="1.661" s="03302017" w="false" m="BMe=" vn="0pdfp"></div></div>
+
+
+
+</body></html>

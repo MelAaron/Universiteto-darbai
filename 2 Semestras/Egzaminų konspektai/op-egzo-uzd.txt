@@ -1,0 +1,236 @@
+﻿1.
+dvikryptis sarasas, mazgas, saraso sasaja, kintamieji, komentarai
+pasalinti visus nulius is saraso
+
+2.
+parasyti funkcija, kuri suskaiciuoja kiek modulio "P175B118" studentu turi bent viena pazymi
+
+
+3.
+ar galima apsirasyti bendriniame sarase duomenis kaip T T
+ar svarbi catch sakiniu seka po try sakinio
+delegatu eiliskumas
+
+____________________________________________________________________________________
+
+1.
+vienkryptis sarasas, komentarai
+parasyti metoda, kuris randa didziausia skaiciu is saraso ir perkelia i saraso pabaiga
+
+2.
+Rasti, kiek is viso uzsakovas, kurio nr "..." sumokejo pinigu per 2010 metus
+Surinkti visus uzsakovus, kurie uz elektra sumokejo visus 12 menesiu ir surikiuot
+
+3.
+kazkas apie sarasus
+exceptional tipai
+file ir fileinfo skirtumai
+strukturos ir klases skirtumai
+
+____________________________________________________________________________________
+
+1.
+Vienkryptis sarasas, mazgas, komentarai
+elemento iterpimas rikiuotame pagal didejimo dydi masyve
+
+2.
+Vieno studento modulio kiekis
+suskaiciuot modulio is pavasario semestro kieki, kuriame yra bent 3 studentai, kurie turi bent 1 pazymi
+
+3.
+Kodo kontraktai, 
+delegatai, 
+sasaja, 
+nuoseklinimas
+Isimties klasiu rekomendacijos
+
+____________________________________________________________________________________
+
+1.
+Neigiamu skaiciu pasalinimas is sveikuju skaiciu saraso
+
+3.
+Serializacijos tipai. 
+Kodo kontraktai. 
+Kuo skiriasi sasaja nuo abstrakcios klases. 
+Kuo skiriasi ciklo isimciu tikrinimas nuo vidaus ir isores
+
+____________________________________________________________________________________
+
+1. Dvikryptis sarasas, 
+____________________________________________________________________________________
+class VienkryptisSarasas
+    {
+        private class Mazgas
+        {
+            public int Duomenys { get; set; }
+            public Mazgas Kitas;
+
+            public Mazgas(int duom, Mazgas kitas)
+            {
+                Duomenys = duom;
+                Kitas = kitas;
+            }
+        }
+
+        private Mazgas pr;
+        private Mazgas pb;
+        private Mazgas d;
+
+        public VienkryptisSarasas()
+        {
+            pr = null;
+            pb = null;
+            d = null;
+        }
+
+        public int ImtiDuomenis()
+        {
+            return d.Duomenys;
+        }
+
+        public bool ArNeLygusNuliui()
+        {
+            return d != null;
+        }
+
+        public void PaimtiPirmaElementa()
+        {
+            d = pr;
+        }
+
+        public void PaimtiKitaElementa()
+        {
+            d = d.Kitas;
+        }
+
+        public void PridetiDuomenisT(int duom)
+        {
+            var dd = new Mazgas(duom, null);
+            if (pr != null)
+                pb.Kitas = dd;
+            else
+                pr = dd;
+            pb = dd;
+        }
+
+        public void IlgiausioZodzioPerkelimas()
+        {
+            int max = 0;
+            for(Mazgas a = pr; a != null; a = a.Kitas)
+            {
+                for(Mazgas b = pr; b != null; b = b.Kitas)
+                {
+                    if (max < b.Duomenys)
+                        max = b.Duomenys;
+                }
+                Mazgas mazgas = new Mazgas(max, null);
+                if(a.Kitas.Duomenys == max)
+                {
+                    pb.Kitas = mazgas;
+                    a.Kitas = a.Kitas.Kitas;
+                    break;
+                }
+                if(pr.Duomenys == max)
+                {
+                    pr = pr.Kitas;
+                    pb.Kitas = mazgas;
+                    pb = pb.Kitas;
+                }
+            }
+        }
+
+        public void IterptiDidejimoTvarka(int duom)
+        {
+            Mazgas mazgas = new Mazgas(duom, null);
+            for(Mazgas a = pr; a != null; a = a.Kitas)
+            {
+                if(mazgas.Duomenys < pr.Duomenys)
+                {
+                    mazgas.Kitas = pr;
+                    pr = mazgas;
+                    break;
+                }
+                if(mazgas.Duomenys < a.Kitas.Duomenys)
+                {
+                    mazgas.Kitas = a.Kitas;
+                    a.Kitas = mazgas;
+                    break;
+                }
+                if(pb.Duomenys < mazgas.Duomenys)
+                {
+                    pb.Kitas = mazgas;
+                    pb = mazgas;
+                    break;
+                }
+            }
+        }
+
+        public void PasalintiMinusus()
+        {
+            if (pr.Duomenys < 0)
+            {
+                pr = pr.Kitas;
+            }
+            for (Mazgas k = pr; k.Kitas != null; k = k.Kitas)
+            {
+
+                if (k.Kitas.Duomenys < 0 && k.Kitas.Kitas != null)
+                {
+                    k.Kitas = k.Kitas.Kitas;
+                }
+                else if (k.Kitas.Duomenys < 0 && k.Kitas.Kitas == null)
+                {
+                    k.Kitas = null;
+                    pb = k.Kitas;
+                    break;
+                }
+            }
+        }
+    } 
+
+var sumoketiPinigai = (
+                from uzs in u
+                from sask in s
+                where uzs.UzsakovoNr == sask.UzsakovoNr && sask.UzsakovoNr == "1" && sask.Metai == 2010
+                select sask.MenesioKaina).Sum();
+
+ //parasyti funkcija, kuri suskaiciuoja kiek modulio "P175B118" studentu turi bent viena pazymi
+
+            var modKiekis = (
+                from stu in s
+                from paz in p
+                where stu.PazNum == paz.PazNum && paz.ModNr == "P175B118"
+                select stu.Vardas).Distinct().Count();
+
+
+            // Vieno studento moduliu kiekis
+
+            var studentuKiek = (
+                from paz in p
+                where paz.PazNum == "1"
+                select paz.ModNr).Distinct().Count();
+
+            Console.WriteLine("Studentu kiekis " + modKiekis);
+            Console.WriteLine("Moduliu kiekis " + studentuKiek);
+
+
+        public void NulioSalinimas()
+        {
+            if (pr.Duomenys == 0)
+                pr = pr.Desine;
+            for(Mazgas a = pr; a != null; a = a.Desine)
+            {
+                if(a.Duomenys == 0)
+                {
+                    if (a.Desine != null)
+                        a.Desine.Kaire = a.Kaire;
+                    if (a.Kaire != null)
+                        a.Kaire.Desine = a.Desine;
+                }
+            }
+            if (pb.Duomenys == 0)
+            {
+                pb = pb.Kaire;
+            }
+        }

@@ -1,0 +1,10 @@
+20
+~E 1 "./../../cntr23.vhd" 11 CNT12
+~A 1 "./../../cntr23.vhd" 21 rtl
+~E 1 "./../../cntr167.vhd" 11 CNT31
+~A 1 "./../../cntr167.vhd" 22 rtl
+~C 1 "./../src/TestBench/top_cnt_TB.vhd" 69 testbench_for_top_cnt
+~E 1 "./../../top_cntr.vhd" 11 TOP_CNT
+~A 1 "./../../top_cntr.vhd" 20 struct
+~E 1 "./../src/TestBench/top_cnt_TB.vhd" 7 top_cnt_tb
+~A 1 "./../src/TestBench/top_cnt_TB.vhd" 10 TB_ARCHITECTURE

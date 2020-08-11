@@ -1,0 +1,74 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synplify.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    DESKTOP-R4VAF27
+Date:        Mon May 13 00:01:11 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -tcl C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_3/impl1/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+TCL script complete: "C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_3/impl1/launch_synplify.tcl"
+log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running: compile (Compile) on impl1_syn|impl1
+# Mon May 13 00:01:22 2019
+
+Running: compile_flow (Compile Process) on impl1_syn|impl1
+# Mon May 13 00:01:22 2019
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Mon May 13 00:01:22 2019
+Copied C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\synwork\impl1_comp.srs to C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\impl1.srs
+
+compiler completed
+# Mon May 13 00:01:23 2019
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on impl1_syn|impl1
+# Mon May 13 00:01:23 2019
+
+multi_srs_gen completed
+# Mon May 13 00:01:23 2019
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\synwork\impl1_mult.srs to C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\impl1.srs
+Complete: Compile Process on impl1_syn|impl1
+
+Running: premap (Pre-mapping) on impl1_syn|impl1
+# Mon May 13 00:01:23 2019
+
+premap completed with warnings
+# Mon May 13 00:01:24 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on impl1_syn|impl1
+
+Running: map (Map) on impl1_syn|impl1
+# Mon May 13 00:01:24 2019
+
+Running: fpga_mapper (Map & Optimize) on impl1_syn|impl1
+# Mon May 13 00:01:24 2019
+Copied C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\synwork\impl1_m.srm to C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\impl1.srm
+
+fpga_mapper completed with warnings
+# Mon May 13 00:01:25 2019
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+0exit status=0

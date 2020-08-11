@@ -1,0 +1,15 @@
+\babel@toc {lithuanian}{}
+\contentsline {section}{\numberline {1.}\IeC {\k I}vadas}{2}{section.1}% 
+\contentsline {subsection}{\numberline {1.1.}Darbo tikslas}{2}{subsection.1.1}% 
+\contentsline {paragraph}{\IeC {\k I}sisavinti B\IeC {\=u}lio funkcij\IeC {\k u} minimizavim\IeC {\k a} ir kombinacini\IeC {\k u} logini\IeC {\k u} schem\IeC {\k u} projektavim\IeC {\k a} bei modeliavim\IeC {\k a}.}{2}{section*.2}% 
+\contentsline {subsection}{\numberline {1.2.}Darbo u\IeC {\v z}duotis}{2}{subsection.1.2}% 
+\contentsline {paragraph}{U\IeC {\v z}duo\IeC {\v c}i\IeC {\k u} variant\IeC {\k u} lentel\IeC {\.e}je duotos funkcijos, kuri\IeC {\k u} argument\IeC {\k u} konjunkcijos pateiktos skai\IeC {\v c}iais. Kiekvienas studentas gauna jam priklausan\IeC {\v c}io varianto numer\IeC {\k i}. Atlikti u\IeC {\v z}duo\IeC {\v c}iai reikia:}{2}{section*.3}% 
+\contentsline {paragraph}{Mano u\IeC {\v z}duotis:}{2}{section*.4}% 
+\contentsline {section}{\numberline {2.}Darbo Atlikimas}{3}{section.2}% 
+\contentsline {subsection}{\numberline {2.1.}Formul\IeC {\.e}s}{4}{subsection.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.1.}Vienos eilut\IeC {\.e}s formul\IeC {\.e}}{5}{subsubsection.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2.}Keli\IeC {\k u} eilu\IeC {\v c}i\IeC {\k u} formul\IeC {\.e}}{5}{subsubsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.2.}Lentel\IeC {\.e}s}{5}{subsection.2.2}% 
+\contentsline {subsection}{\numberline {2.3.}Paveikslai}{6}{subsection.2.3}% 
+\contentsline {section}{Literat\IeC {\=u}ra}{7}{section*.10}% 
+\contentsfinish 

@@ -1,0 +1,18 @@
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\Colorful.Console.dll
+C:\Users\audrius\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\bin\Debug\Colorful.Console.dll
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\PC\Downloads\KLASIU DIAGRAMA\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

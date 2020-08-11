@@ -1,0 +1,420 @@
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\WebGrease.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.pdb
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\MySql.Data.dll
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\MSI GL\source\repos\AutoNuoma\AutoNuoma\bin\MySql.Data.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\MySql.Data.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\WebGrease.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\MySql.Data.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma\AutoNuoma\obj\Debug\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\MySql.Data.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\WebGrease.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\MySql.Data.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\AutoNuoma - Copy\AutoNuoma\obj\Debug\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\MySql.Data.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\WebGrease.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\MySql.Data.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\AutoNuoma.dll.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\AutoNuoma.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\csc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\csc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\csc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\csi.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\csi.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\csi.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Console.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.IO.Pipes.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Claims.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\vbc.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\vbc.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\vbc.rsp
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Antlr3.Runtime.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Google.Protobuf.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\MySql.Data.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Newtonsoft.Json.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Helpers.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Mvc.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Optimization.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Deployment.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Razor.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\WebGrease.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Google.Protobuf.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\MySql.Data.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Helpers.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Mvc.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Optimization.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Deployment.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Web.WebPages.Razor.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Newtonsoft.Json.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Antlr3.Runtime.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.csproj.CopyComplete
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.dll
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Duombazes\lab2\KalbuKursai\AutoNuoma\obj\Debug\AutoNuoma.pdb

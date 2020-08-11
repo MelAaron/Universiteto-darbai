@@ -1,0 +1,11 @@
+[COMPILESTATUS|.\..\impl1\Lab1.vhd]
+FileTimeLow=30720572
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\lab1_TB.vhd]
+FileTimeLow=30720575
+Status=Compiled
+[COMPILESTATUS|.\src\TestBench\lab1_TB_runtest.do]
+FileTimeLow=30720573
+Status=Modified
+[Gui config]
+RunFor=100 ns

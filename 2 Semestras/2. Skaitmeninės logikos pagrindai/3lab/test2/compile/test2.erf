@@ -1,0 +1,29 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\..\impl1\schem1.vhd" 
+MESSAGE "Compile Entity "SCHEM1"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "SCHEM1"" 
+MESSAGE "File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\..\impl1\scehm2.vhd" 
+MESSAGE "Compile Entity "SCEHM2"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "SCEHM2"" 
+MESSAGE "File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 
+MESSAGE "Compile Entity "scehm2_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "scehm2_tb"" 
+ERROR ELAB1_0011: "Port "DL" is on entity "SCEHM2" but not on the component declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 53 0
+ERROR ELAB1_0011: "Port "DR" is on entity "SCEHM2" but not on the component declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 53 0
+ERROR COMP96_0078: "Unknown identifier "DR"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 69 10
+ERROR COMP96_0078: "Unknown identifier "DL"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 70 10
+ERROR COMP96_0078: "Unknown identifier "DR"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 69 4
+ERROR COMP96_0078: "Unknown identifier "DL"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 70 4
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 69 4
+ERROR COMP96_0112: ""DR" does not match the formal name." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 69 4
+ERROR COMP96_0078: "Unknown identifier "DL"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 91 2
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 91 2
+ERROR COMP96_0078: "Unknown identifier "DR"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 91 13
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 91 13
+ERROR COMP96_0078: "Unknown identifier "DL"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 100 2
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 100 2
+ERROR COMP96_0078: "Unknown identifier "DR"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 100 13
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 100 13
+MESSAGE "Compile Configuration "TESTBENCH_FOR_scehm2"" 
+ERROR COMP96_0209: "Unknown architecture name used in configuration declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test2\src\TestBench\scehm2_TB.vhd" 112 6
+FAILURE "Compile failure 17 Errors 0 Warnings  Analysis time :  0.1 [s]" 

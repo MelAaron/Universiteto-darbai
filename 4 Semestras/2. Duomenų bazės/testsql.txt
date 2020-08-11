@@ -1,0 +1,167 @@
+SELECT
+  Uzsakovo_pavarde,
+  Leidinio_pavadinimas,
+  Egzemplioriaus_kaina
+FROM
+  Uzsakovai,
+  Uzsakymai,
+  Periodiniai_leidiniai
+WHERE
+  Egzemplioriaus_kaina = (
+    SELECT
+      MAX(Egzemplioriaus_kaina)
+    FROM
+      Periodiniai_leidiniai
+    WHERE
+      Periodiniai_leidiniai.Leidinio_kodas = Uzsakymai.Leidinio_kodas
+      AND Uzsakymai.Uzsakovo_kodas = Uzsakovai.Uzsakovo_kodas
+  );
+
+SELECT
+  Uzsakovo_pavarde,
+  Leidinio_pavadinimas,
+  Egzemplioriaus_kaina
+FROM
+  Uzsakovai,
+  Uzsakymai,
+  Periodiniai_leidiniai
+WHERE
+  Egzemplioriaus_kaina = (
+    SELECT
+      MAX(Egzemplioriaus_kaina)
+    FROM
+      Periodiniai_leidiniai
+  )
+  AND Periodiniai_leidiniai.Leidinio_kodas = Uzsakymai.Leidinio_kodas
+      AND Uzsakymai.Uzsakovo_kodas = Uzsakovai.Uzsakovo_kodas
+
+SELECT
+  Uzsakovo_pavarde,
+  Leidinio_pavadinimas,
+  Egzemplioriaus_kaina
+FROM
+  Uzsakovai,
+  Uzsakymai,
+  Periodiniai_leidiniai
+WHERE
+  Egzemplioriaus_kaina = (
+    SELECT
+      Egzemplioriaus_kaina
+    FROM
+      Periodiniai_leidiniai
+    WHERE
+      Periodiniai_leidiniai.Leidinio_kodas = Uzsakymai.Leidinio_kodas
+      AND Uzsakymai.Uzsakovo_kodas = Uzsakovai.Uzsakovo_kodas
+    ORDER BY
+      Egzemplioriaus_kaina
+    LIMIT
+      1
+  );
+
+SELECT
+  Uzsakovo_pavarde,
+  Leidinio_pavadinimas,
+  MAX(Egzemplioriaus_kaina) Egzemplioriaus_kaina
+FROM
+  Uzsakovai a
+  INNER JOIN Uzsakymai b
+  INNER JOIN Periodiniai_leidiniai c ON a.Uzsakovo_kodas = b.Uzsakovo_kodas ON b.Leidinio_kodas = c.Leidinio_kodas
+GROUP BY
+  Uzsakovo_pavarde
+ORDER BY
+  Uzsakovo_pavarde
+
+
+
+SELECT
+  Leidinio_kodas,
+  Leidinio_pavadinimas,
+  (COUNT(Egzemplioriu_skaicius)) AS Kiekis
+FROM
+  Uzsakymai,
+  Leidiniai
+GROUP BY
+  Uzsakymai.Leidinio_Kodas;
+------------------------------------------------------------------------
+SELECT
+  Uzsakymai.Leidinio_kodas,
+  Leidinio_pavadinimas,
+  (COUNT(Egzemplioriu_skaicius)) AS Kiekis
+FROM
+  Uzsakymai,
+  Leidiniai
+WHERE
+  Uzsakymai.Leidinio_kodas = Leidiniai.Leidinio_kodas
+GROUP BY
+  Uzsakymai.Leidinio_Kodas;
+
+
+SELECT ProductID, ProductName, SupplierName, COUNT(Price) AS Price
+FROM Products, Suppliers
+GroupBy ProductID
+
+SELECT ProductID, ProductName, SupplierName, COUNT(Price) AS Price
+FROM Products, Suppliers
+WHERE Products.SupplierId=Suppliers.SupplierId
+GROUP BY ProductID;
+
+
+
+INSERT INTO `uzsakymai` (`Uzsakovo_kodas`, `Leidinio_kodas`, `Uzsakymo_periodas_menesiais`, `Platintojo_kodas`, `Uzsakymo_data`, `Egzemplioriu_skaicius`) VALUES ('1212', '666', '1', '1234', '2020-03-20', '2'), ('1212', '888', '2', '1234', '2020-03-04', '6'), ('1313', '777', '1', '1234', '2020-02-11', '8'), ('1313', '888', '1', '1234', '2020-01-28', '1'), ('1313', '999', '1', '1234', '2020-02-18', '3')
+
+
+CREATE TABLE `leidiniai` (
+  `Leidinio_kodas` int(11) NOT NULL,
+  `Leidinio_pavadinimas` varchar(255) NOT NULL,
+  `Egzemplioriaus_kaina` decimal(8,2) NOT NULL,
+  `Periodiskumas_per_menesi` int(11) NOT NULL,
+  `Leidejo_pavadinimas` varchar(255) NOT NULL,
+  `Lanku_skaicius` decimal(8,2) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `uzsakymai` (
+  `Uzsakovo_kodas` int(11) NOT NULL,
+  `Leidinio_kodas` int(11) NOT NULL,
+  `Uzsakymo_periodas_menesiais` int(11) NOT NULL,
+  `Platintojo_kodas` int(11) NOT NULL,
+  `Uzsakymo_data` date NOT NULL,
+  `Egzemplioriu_skaicius` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `uzsakymai`
+   ADD KEY `uzsako` (`Leidinio_kodas`);
+
+ALTER TABLE `leidiniai`
+   ADD PRIMARY KEY (`Leidinio_kodas`);
+
+ALTER TABLE `uzsakymai`
+  ADD CONSTRAINT `uzsako` FOREIGN KEY (`Leidinio_kodas`) REFERENCES `leidiniai` (`Leidinio_kodas`);
+
+CREATE TABLE `platintojai` (
+  `Platintojo_pavarde` varchar(255) NOT NULL,
+  `Leidinio_kodas` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `platintojai`
+   ADD KEY `uzsako` (`Leidinio_kodas`);
+
+ALTER TABLE `platintojai`
+  ADD CONSTRAINT `platina` FOREIGN KEY (`Leidinio_kodas`) REFERENCES `leidiniai` (`Leidinio_kodas`);
+
+CREATE TABLE `uzsakovai` (
+  `Uzsakovo_pavarde` varchar(255) NOT NULL,
+  `Lytis` varchar(1) NOT NULL,
+  `Uzsakovo_vardas` varchar(255) NOT NULL,
+  `Uzsakovo_kodas` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `uzsakovai` 
+   ADD PRIMATY KEY (`Uzsakovo_kodas`);
+
+
+SELECT
+Pavarde, Vardas
+FROM
+[Uzsakovai] JOIN Praejusiu_metu_uzsakovai
+ON [Uzsakovai].Pavarde = Praejusiu_metu_uzsakovai.Pavarde;
+

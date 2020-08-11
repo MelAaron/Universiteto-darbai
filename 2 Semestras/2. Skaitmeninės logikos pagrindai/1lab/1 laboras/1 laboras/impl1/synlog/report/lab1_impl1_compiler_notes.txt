@@ -1,0 +1,20 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":8:7:8:10|Top entity is set to LAB1.
+@N: CD630 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":8:7:8:10|Synthesizing work.lab1.schematic.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1334:10:1334:12|Synthesizing work.or4.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":84:10:84:13|Synthesizing work.and4.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":65:10:65:13|Synthesizing work.and2.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":95:10:95:13|Synthesizing work.and5.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":9:19:9:19|Input a is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":10:19:10:19|Input b is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":11:19:11:19|Input c is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":12:19:12:19|Input d is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":13:19:13:19|Input e is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":14:19:14:19|Input f is unused.
+@N|Running in 64-bit mode
+

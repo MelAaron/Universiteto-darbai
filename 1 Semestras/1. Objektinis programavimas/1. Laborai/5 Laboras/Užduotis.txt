@@ -1,0 +1,20 @@
+U5_9. IMBD. Turite keleto kinomanu megeju peržiuretus filmu ir serialu sarašus. Pirmoje eiluteje yra kino
+megejo vardas pavarde, antroje – gimimo metai, trecioje – miestas. Sudarykite klase „Irašas“ (laukai -
+pavadinimas, žanras, kino studija, du pagrindiniai aktoriai), kuria paveldes klases „Filmas“ (papildomi
+laukai – leidimo metai, režisierius, pajamos) ir „Serialas“ (papildomi laukai – pradžios metai, seriju kiekis,
+pabaigos metai (jei yra), požymis „ar tesiasi“).
+
+? Raskite ir atspausdinkite ekrane kiekvieno kino megejo megstamiausia aktoriu (tai aktorius, kuris
+atliko daugiausiai vaidmenu peržiuretuose filmuose ir serialuose).
+
+? Sudarykite filmu ir serialu, kuriuos peržiurejo visi kino megejai, saraša. Visus duomenis apie juos
+irašykite i faila „MateVisi.csv“.
+
+? Kiekvienam kino megejui sudarykite rekomenduojamu peržiureti filmu ir serialu saraša, i kuri
+itraukite filmus ir serialus, kuriu jis nemate, taciau mate kiti kino megejai. Rekomendaciju sarašus
+irašykite i failus „Rekomendacija_vardas_pavarde.csv“.
+
+? Sudarykite ir surikiuokite nauju filmu ir serialu saraša, pateikdami pilna informacija apie juos.
+Filmas yra naujas, jei nuo leidimo metu prabego mažiau, nei 2 metai. Serialas yra naujas, jei nuo
+pradžios metu prabego mažiau nei metai. Filmus rikiuokite pagal pajamas, serialus – pagal
+pradžios ir pabaigos metus. Rezultatus irašykite i faila „Nauji.csv“.

@@ -1,0 +1,1 @@
+C:/lscc/diamond/3.10_x64/bin/nt64/moduleparser.exe -PROJ VHDLtest -pf C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/xp2.vhd -lib xp2 -pkg C:/lscc/diamond/3.10_x64/cae_library/vhdl_packages/vdbs -lst C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/VHDLtest/source_files.lst

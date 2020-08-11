@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\LM2.vhd" 
+MESSAGE "Compile Entity "TOP_CNT"" 
+MESSAGE "Compile Architecture "struct" of Entity "TOP_CNT"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]" 

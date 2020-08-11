@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="PAR">
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=C_c loads=3 clock_loads=3</Dynamic>
+        </Message>
+        <Message>
+            <ID>66011008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>
+   Signal=C_c loads=3 clock_loads=3</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd&quot;:29:10:29:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>29</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd&quot;:30:10:30:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>30</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\3lab\impl1\shcem3.vhd&quot;:110:3:110:5|Found inferred clock SHCEM3|C which controls 5 sequential elements including I16. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\3lab\impl1\shcem3.vhd</Navigation>
+            <Navigation>110</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>110</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock SHCEM3|C which controls 5 sequential elements including I16. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock SHCEM3|C with period 1000.00ns. Please declare a user-defined clock on object &quot;p:C&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock SHCEM3|C with period 1000.00ns. Please declare a user-defined clock on object &quot;p:C&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

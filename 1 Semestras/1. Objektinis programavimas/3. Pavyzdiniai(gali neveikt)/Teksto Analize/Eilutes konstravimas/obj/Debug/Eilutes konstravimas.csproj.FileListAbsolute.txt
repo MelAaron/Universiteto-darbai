@@ -1,0 +1,6 @@
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes konstravimas\bin\Debug\Eilutes konstravimas.exe.config
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes konstravimas\bin\Debug\Eilutes konstravimas.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes konstravimas\bin\Debug\Eilutes konstravimas.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes konstravimas\obj\Debug\Eilutes konstravimas.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes konstravimas\obj\Debug\Eilutes konstravimas.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes konstravimas\obj\Debug\Eilutes konstravimas.pdb

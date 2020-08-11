@@ -1,0 +1,6 @@
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Lab5\Lab5\Lab5.Step1\bin\Debug\Lab5.Step1.exe.config
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Lab5\Lab5\Lab5.Step1\bin\Debug\Lab5.Step1.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Lab5\Lab5\Lab5.Step1\bin\Debug\Lab5.Step1.pdb
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Lab5\Lab5\Lab5.Step1\obj\Debug\Lab5.Step1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Lab5\Lab5\Lab5.Step1\obj\Debug\Lab5.Step1.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Lab5\Lab5\Lab5.Step1\obj\Debug\Lab5.Step1.pdb

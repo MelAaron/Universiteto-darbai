@@ -1,0 +1,4 @@
+MESSAGE "File: C:\Users\arnsve2\Downloads\1 laboras\impl1\Lab1.vhd" 
+MESSAGE "Compile Entity "LAB1"" 
+MESSAGE "Compile Architecture "SCHEMATIC" of Entity "LAB1"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

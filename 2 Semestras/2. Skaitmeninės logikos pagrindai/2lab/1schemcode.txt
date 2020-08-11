@@ -1,0 +1,21 @@
+Reset_proc: process begin
+		Reset <= '0'; wait for 3 ns;
+		Reset <= '1'; wait;
+	end process;	
+	
+	clock_proc: process begin
+		a <= '1'; wait for 10 ns;
+		a <= '0'; wait for 10 ns;
+	end process;
+	
+	RS_proc: process begin 
+	b <= '0'; c <= '1'; d<= '0'; wait for 25 ns; --1 irasymas
+	b <= '0'; c <= '0'; d<= '1'; wait for 20 ns; --Info saugojimas
+	b <= '0'; c <= '0'; d<= '0'; wait for 20 ns; --0 irasymas
+	b <= '0'; c <= '0'; d<= '1'; wait for 20 ns; --Info saugojimas
+	b <= '1'; c <= '0'; d<= '0'; wait for 20 ns; --1 irasymas
+	b <= '0'; c <= '0'; d<= '1'; wait for 20 ns; --Info saugojimas
+	b <= '0'; c <= '1'; d<= '1'; wait for 20 ns; --0 irasymas
+	b <= '0'; c <= '0'; d<= '1'; wait for 20 ns; --Info saugojimas
+	assert false report " Pabaiga " severity failure ;
+	end process;

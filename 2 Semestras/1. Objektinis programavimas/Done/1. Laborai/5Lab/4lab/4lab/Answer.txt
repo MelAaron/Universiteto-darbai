@@ -1,0 +1,65 @@
+9/25/1999 12:00:00 AM
+           Team |        LastName |            Name |        Position |    PointsGained |   MinutesPlayed |    MistakesMade |
+-----------------------------------------------------------------------------------------------------------------------------
+    Pavadinimas |         Pavarde |          Vardas |         Striker |              20 |              45 |               2 |
+   Pavadinimas2 |             Pav |             Var |        Defender |               2 |              20 |               5 |
+
+12/10/1996 12:00:00 AM
+           Team |        LastName |            Name |        Position |    PointsGained |   MinutesPlayed |    MistakesMade |
+-----------------------------------------------------------------------------------------------------------------------------
+        Rookies |         Lapelis |         Andrius |          Center |              15 |              30 |              15 |
+         Lambda |        Maciukis |           Lukas |          Center |              31 |              20 |               4 |
+        Rookies |         Zajacas |         Julijus |         Striker |              10 |               6 |               1 |
+         Lambda |          Drapas |         Miluzis |        Defender |              20 |              10 |               0 |
+
+5/28/1998 12:00:00 AM
+           Team |        LastName |            Name |        Position |    PointsGained |   MinutesPlayed |    MistakesMade |
+-----------------------------------------------------------------------------------------------------------------------------
+       Zarbiris |           Budas |           Rokas |          Center |              15 |              32 |               3 |
+       Nupbunas |          Poldis |          Sargis |          Center |              15 |              31 |               3 |
+       Zarbiris |    Juoskevicius |      Juozapelis |         Striker |               4 |              15 |               1 |
+       Zarbiris |     Patrovicius |          Petras |        Defender |               4 |              15 |               2 |
+       Napbunas |          Puogis |           Zubis |         Striker |              15 |              32 |               0 |
+       Napbunas |         Laurius |          Aurius |          Center |               2 |              29 |               4 |
+       Zarbiris |       Nuokalnis |         Laurius |          Center |               2 |               2 |               5 |
+       Napbunas |        Pagalius |           Zitas |          Center |              15 |              31 |               0 |
+
+4/12/1998 12:00:00 AM
+           Team |        LastName |            Name |        Position |    PointsGained |   MinutesPlayed |    MistakesMade |
+-----------------------------------------------------------------------------------------------------------------------------
+      Pomidorai |          Kardas |        Auksinis |          Center |              15 |              29 |               3 |
+      Pomidorai |        Princese |        Auksuole |         Striker |               2 |              15 |               0 |
+        Agurkai |    Giedriauskas |           Lukis |        Defender |               0 |               0 |               0 |
+      Pomidorai |           Faker |       Drauguzis |         Striker |               2 |               5 |               4 |
+        Agurkai |      Mandruolis |         Sirijus |        Defender |              34 |              50 |               2 |
+        Agurkai |        Poniulis |        Dragunas |          Center |              34 |              45 |               1 |
+      Pomidorai |        Zykiukas |       Sauliukas |          Center |              34 |              45 |               0 |
+
+4/20/1976 12:00:00 AM
+           Team |        LastName |            Name |        Position |    PointsGained |   MinutesPlayed |    MistakesMade |
+-----------------------------------------------------------------------------------------------------------------------------
+    Klumpakojai |         Jaunoji |          Aldona |          Center |               9 |              20 |               3 |
+    Klumpakojai |        Pirdzius |          Tilius |         Striker |              21 |              30 |               0 |
+       Puodziai |        Butrimas |          Dalius |         Striker |              23 |              45 |               0 |
+       Puodziai |       Kaztonius |           Simas |        Defender |              21 |              30 |               1 |
+    Klumpakojai |          Gelius |      Juozapelis |         Striker |              49 |              60 |               1 |
+       Puodziai |        Niukstis |         Juonius |        Defender |               3 |              12 |               0 |
+    Klumpakojai |        Baltrius |          Justas |          Center |              49 |              61 |               2 |
+       Puodziai |           Saule |         Jurgita |        Defender |              10 |              24 |               2 |
+
+Chosen position by the user: Center
+           Team |        LastName |            Name |        Position |    PointsGained |   MinutesPlayed |    MistakesMade |
+-----------------------------------------------------------------------------------------------------------------------------
+    Klumpakojai |        Baltrius |          Justas |          Center |              49 |              61 |               2 |
+      Pomidorai |        Zykiukas |       Sauliukas |          Center |              34 |              45 |               0 |
+        Agurkai |        Poniulis |        Dragunas |          Center |              34 |              45 |               1 |
+         Lambda |        Maciukis |           Lukas |          Center |              31 |              20 |               4 |
+      Pomidorai |          Kardas |        Auksinis |          Center |              15 |              29 |               3 |
+        Rookies |         Lapelis |         Andrius |          Center |              15 |              30 |              15 |
+       Napbunas |        Pagalius |           Zitas |          Center |              15 |              31 |               0 |
+       Nupbunas |          Poldis |          Sargis |          Center |              15 |              31 |               3 |
+       Zarbiris |           Budas |           Rokas |          Center |              15 |              32 |               3 |
+    Klumpakojai |         Jaunoji |          Aldona |          Center |               9 |              20 |               3 |
+       Zarbiris |       Nuokalnis |         Laurius |          Center |               2 |               2 |               5 |
+       Napbunas |         Laurius |          Aurius |          Center |               2 |              29 |               4 |
+

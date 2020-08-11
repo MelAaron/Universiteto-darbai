@@ -1,0 +1,52 @@
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\L3Data-Kaunas.txt
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\L3Data-Kaunas2.txt
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\L3Data-Vilnius.txt
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\L3Data-Šiauliai.txt
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\Lab3.Step1.exe.config
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\Lab3.Step1.exe
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\bin\Debug\Lab3.Step1.pdb
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\obj\Debug\Lab3.Step1.csprojAssemblyReference.cache
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\obj\Debug\Lab3.Step1.csproj.CoreCompileInputs.cache
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\obj\Debug\Lab3.Step1.exe
+C:\Users\mindra2\source\repos\kontrolinio pvz\Lab3.Step1\obj\Debug\Lab3.Step1.pdb
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.exe
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.pdb
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\L3Data-Kaunas.txt
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\L3Data-Kaunas2.txt
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\L3Data-Vilnius.txt
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\L3Data-Šiauliai.txt
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\Lab3.Step1.exe.config
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\Lab3.Step1.exe
+C:\Users\Lenovo\Desktop\OP\LAB3\OneDrive_1_10-28-2018\Lab3.1Savarankiskas\Lab3.1Savarankiskas\bin\Debug\Lab3.Step1.pdb
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\L3Data-Kaunas.txt
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\L3Data-Kaunas2.txt
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\L3Data-Vilnius.txt
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\L3Data-Šiauliai.txt
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\Lab3.Step1.exe.config
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\Lab3.Step1.exe
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\bin\Debug\Lab3.Step1.pdb
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.exe
+C:\Users\User\Documents\OP\3 savarankiski\Lab3.1Savarankiskas\obj\Debug\Lab3.Step1.pdb
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\L3Data-Kaunas.txt
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\L3Data-Kaunas2.txt
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\L3Data-Vilnius.txt
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\L3Data-Šiauliai.txt
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\Lab3.Step1.exe.config
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\Lab3.Step1.exe
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\bin\Debug\Lab3.Step1.pdb
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\obj\Debug\Lab3.Step1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\obj\Debug\Lab3.Step1.exe
+C:\Users\User\Documents\OP\3 savarankiski\3.1 sav\obj\Debug\Lab3.Step1.pdb
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\L3Data-Kaunas.txt
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\L3Data-Kaunas2.txt
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\L3Data-Vilnius.txt
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\L3Data-Šiauliai.txt
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\Lab3.Step1.exe.config
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\Lab3.Step1.exe
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\bin\Debug\Lab3.Step1.pdb
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\obj\Debug\Lab3.Step1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\obj\Debug\Lab3.Step1.exe
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\3 savarankiski\3.1 sav\obj\Debug\Lab3.Step1.pdb

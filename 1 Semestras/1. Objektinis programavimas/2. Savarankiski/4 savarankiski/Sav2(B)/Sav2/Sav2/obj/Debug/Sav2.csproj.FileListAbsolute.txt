@@ -1,0 +1,15 @@
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\bin\Debug\Sav2.exe.config
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\bin\Debug\Sav2.exe
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\bin\Debug\Sav2.pdb
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.exe
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.pdb
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav2(B)\Sav2\Sav2\bin\Debug\Duomenys.txt
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\obj\Debug\Sav2.pdb
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\bin\Debug\Duomenys.txt
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\bin\Debug\Sav2.exe.config
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\bin\Debug\Sav2.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav2(B)\Sav2\Sav2\bin\Debug\Sav2.pdb

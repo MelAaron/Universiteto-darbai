@@ -1,0 +1,6 @@
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\..\impl1\Failas.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\TestBench/failas_TB.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\TestBench/failas_TB_runtest.do|]
+TemplateId=6

@@ -1,0 +1,4 @@
+i<>.\src\TestBench\schem3_TB.vhd
+i<>.\..\lab2impl\schem1.vhd
+i<>.\..\lab2impl\schem2.vhd
+i<>.\..\lab2impl\schem3.vhd

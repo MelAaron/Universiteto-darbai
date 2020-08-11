@@ -1,0 +1,12 @@
+#!/bin/sh
+a=$#;
+if [ $a -ne 2 ]; then exit 1; fi
+f1=$1;
+f2=$2;
+if [ ! -e $f1 ]; then exit 1; fi
+if [ ! -e $f2 ]; then exit 1; fi
+if [ `stat -c %U $f1` = `stat -c %U $f2` ]; then
+    echo "Savininkai vienodi";
+else
+	echo "Savininkai ne vienodi";
+fi;

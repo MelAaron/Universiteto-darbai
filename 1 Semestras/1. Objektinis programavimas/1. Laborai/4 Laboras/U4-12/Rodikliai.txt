@@ -1,0 +1,27 @@
+Longest sentence: 
+sudaryti ir vienas þodis: Vakaras Vësu Palaukit Sakiniai á vientisinius ir sudëtinius skirstomi pagal gramatiniø centrø skaièiø.
+Amount of symbols: 128 
+Amount of words: 18 
+The sentence begins in line 3
+
+Word          | Amount |
+ir            |3       |
+----------
+yra           |2       |
+----------
+Sakiniai      |2       |
+----------
+gramatiniø    |2       |
+----------
+centrø        |2       |
+----------
+Sakinys       |1       |
+----------
+gramatiðkai   |1       |
+----------
+susijusiø     |1       |
+----------
+þodþiø        |1       |
+----------
+grupë         |1       |
+----------

@@ -1,0 +1,64 @@
+# Design Explorer: Shortcut to "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test12\test12.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/schem1.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/scehm2.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\scehm2.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/PLIS.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\PLIS.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/shcem3.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd ... Done
+vlib {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test12/work}
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/schem1.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd
+# Compile Entity "SCHEM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/scehm2.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\scehm2.vhd
+# Compile Entity "SCEHM2"
+# Compile Architecture "SCHEMATIC" of Entity "SCEHM2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/PLIS.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\PLIS.vhd
+# Compile Entity "PLIS"
+# Compile Architecture "SCHEMATIC" of Entity "PLIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/shcem3.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd
+# Compile Entity "SHCEM3"
+# Compile Architecture "SCHEMATIC" of Entity "SHCEM3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+entity SCHEM1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEM1 -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEM1'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+add wave *
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test12/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching * not found in C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test12/src/wave.asdb.
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test12/test12.ado" line 32)
+#     invoked from within
+# "source {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test12/test12.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""

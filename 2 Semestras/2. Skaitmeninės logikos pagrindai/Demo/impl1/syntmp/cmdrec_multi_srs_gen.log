@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  FAILAS  -multisrs  "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\synwork\Demo_impl1_comp.srs"  -osyn  "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\synwork\Demo_impl1_mult.srs"  -log  "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\synlog\Demo_impl1_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top FAILAS -multisrs "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\synwork\Demo_impl1_comp.srs" -osyn "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\synwork\Demo_impl1_mult.srs" -log "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\synlog\Demo_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\Demo_impl1_comp.srs|io:i|time:1549366540|size:3340|exec:0|csum:D2EABED7AF5623F02F8745910B7AA852
+file:..\synwork\Demo_impl1_mult.srs|io:o|time:1549366542|size:3349|exec:0|csum:
+file:..\synlog\Demo_impl1_multi_srs_gen.srr|io:o|time:1549366542|size:409|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501884990|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

@@ -1,0 +1,70 @@
+timestamp=1554130097312
+
+[~A]
+ModifyID=8
+Version=74
+
+[schem1]
+A/schematic=A/SCHEMATIC 21|./../../lab2impl/schem1.vhd|20|1*11387
+BinI32/schematic=3*969
+I=0*634
+I/schematic=I/SCHEMATIC 0*9719
+M=11|0|vd0|1554130050017|./../../lab2impl/schem1.vhd|0*197*0x7ddf51e817b404a961ab8a19f96e97f634fd037d|0*547*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1554130060940|./../../lab2impl/schem1.vhd|0*8331*0xeb6ae49f20bdb4cff559acee3bc4908e02254f5f|0*9619*0x20116f55b147878295aeff36dce7fc50
+R=./../../lab2impl/schem1.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|50b726f102ad31140fb4154ff42a30ce10df20208257d959d1660cdaa6f2c125
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d778a869c94036da4c1f81c0b69f729915
+
+[schem2]
+A/schematic=A/SCHEMATIC 21|./../../lab2impl/schem2.vhd|18|1*30652
+BinI32/schematic=3*3548
+I=0*3262
+I/schematic=I/SCHEMATIC 0*17729
+M=11|0|vd0|1554130050324|./../../lab2impl/schem2.vhd|0*2862*0xb77183fdd956ccefe820d0ab29492825284bb649|0*3175*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1554130097056|./../../lab2impl/schem2.vhd|0*10131*0x351f6dbddba2399eaf864233a817d6fab7438fba|0*11715*0x20116f55b147878295aeff36dce7fc50
+R=./../../lab2impl/schem2.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|aa584a166dde895d0ca636eb6305fd5cb3cfaf40fa5ed8fdef4dd09043d6f6fd
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d7c6ffcead54f9c5b478bbcebc10a41da8
+
+[schem2_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/schem2_TB.vhd|11|1*34716
+BinI32/tb_architecture=3*3738
+I=0*14514
+I/tb_architecture=I/TB_ARCHITECTURE 0*18141
+M=11|0|vd0|1554130061073|./../src/TestBench/schem2_TB.vhd|0*14214*0xed77d8912f95b974b5ffb409d5754cf613bfa7a2|0*14419*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vd0|1554130097289|./../src/TestBench/schem2_TB.vhd|0*14752*0x0071cefd7454ecf356fbc8a236c501cdcd3aff4c|0*15907*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/schem2_TB.vhd|8
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|57d438919afb74f27b1a9a06db157d2bf2d9b960cb1a5601c05396147e6c2d73330b32b1c9e3cc521cba0c04568f425a
+Version/tb_architecture=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534beae0144a78208764566ed26c07a06e2460
+
+[schem3]
+A/schematic=A/SCHEMATIC 21|./../../lab2impl/schem3.vhd|20|1*19005
+BinI32/schematic=3*1416
+I=0*6233
+I/schematic=I/SCHEMATIC 0*13705
+M=11|0|vd0|1554130050566|./../../lab2impl/schem3.vhd|0*5793*0x394f7e4f453a91ec518c1dc279959cabb4803a71|0*6146*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1554130061030|./../../lab2impl/schem3.vhd|0*12227*0x77d4dbd527670efb8e480b3ab32037f7705dbda9|0*13605*0x20116f55b147878295aeff36dce7fc50
+R=./../../lab2impl/schem3.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|280d719118b76af0d6057960aac729ecb5829b01fbf1bbae51a08704cf8ef037
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d75c07b0bfbf3ff3e269faa9b4cb54e9a1
+
+[testbench_for_schem2]
+Configures=schem2_tb.TB_ARCHITECTURE
+E=1*36195
+I=0*18433
+M=2|0|vd0|1554130097292|./../src/TestBench/schem2_TB.vhd|0*16313*0xbcbbd0ee131004126d5c3bccfd93004792b457a4|0*16583*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/schem2_TB.vhd|94
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e5ebf876cfa3439314fa1445603ce046ce2383849435f98887b4fb30e1f4740f64
+
+[~MFT]
+0=4|0work.mgf|18433|7491
+1=4|1work.mgf|36195|23341
+3=2|3work.mgf|3738|3031
+
+[~U]
+schem1=SCHEM1 11|0*0|
+schem2=SCHEM2 11|0*2669|
+schem2_tb=11|0*14090|
+schem3=SCHEM3 11|0*5593|
+testbench_for_schem2=TESTBENCH_FOR_schem2 2||
+

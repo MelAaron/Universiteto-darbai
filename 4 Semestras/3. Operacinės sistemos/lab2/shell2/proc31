@@ -1,0 +1,23 @@
+#!/bin/sh
+a=$#;
+b=$*;
+if [ $a -eq 0 ]; then
+ echo "Nera argumentu";
+ exit 1; fi
+echo $a;
+echo "argumentai=" $b;
+#if [ $a -ne 1 ]; then
+#	echo "Netinkamas kiekis argumentu. Turi buti vienas";
+#	exit 1; fi
+if [ -d $1 ]; then 
+	ls $1;
+fi
+if [ -f $1 ]; then
+	if [ -r $1 ]; then
+		echo "Failas yra skaitomas. Ar rodyti jo turini? Y - taip | N - ne";
+		read ats;
+		if [ $ats = y ]; then
+			cat $1;
+		fi
+	fi
+fi

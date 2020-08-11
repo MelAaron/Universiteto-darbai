@@ -1,0 +1,5 @@
+﻿123;Klaipedos L;19.99 
+142;Palangos Naujienos;25.50 
+193;Kauno min;14.19 
+662;Pasaulio Naujienos;40.20 
+251;Kauno Herbas;30.99

@@ -1,0 +1,15 @@
+
+\begin{align}
+f &= a\bar{b}\bar{d}
+&( c\bar{e}\cup\bar{e}\bar{f}\cup\bar{c} e\cup e\bar{f} &)
+
+\cup\bar{a}\bar{d} e f
+&(\bar{b}\cup\bar{c}&) \nonumber \\
+
+& \cup b \bar{e}
+&(a\bar{c}\bar{d}\cup\bar{a} d f\cup a\bar{c}\bar{f}\cup\bar{a} c\bar{d}\bar{f}&)
+
+\cup d e
+&(\bar{a}\bar{b}\bar{c}\cup a b c f&)
+
+\end{align}

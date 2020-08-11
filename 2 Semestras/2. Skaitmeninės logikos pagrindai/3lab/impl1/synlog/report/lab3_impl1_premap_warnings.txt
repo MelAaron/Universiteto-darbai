@@ -1,0 +1,1 @@
+@W: MT529 :"c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\3lab\impl1\shcem3.vhd":110:3:110:5|Found inferred clock SHCEM3|C which controls 5 sequential elements including I16. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

@@ -1,0 +1,67 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=work
+
+[Library]
+schem1test=.\schem1test\schem1test.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+schem1test=.
+work=.
+
+[LocalVerilogDirs]
+Count=0
+
+[DefineMacro]
+Global=
+
+[Groups]
+TestBench=1
+
+[Files]
+/..\..\lab2impl\schem1.vhd=-1
+/Schema1test.awc=-1
+TestBench/schem1_TB.vhd=-1
+TestBench/schem1_TB_runtest.do=-1
+/Schema1test.asdb=-1
+
+[Files.Data]
+.\..\lab2impl\schem1.vhd=VHDL Source Code
+.\src\Schema1test.awc=Accelerated Waveform Configuration
+.\src\TestBench\schem1_TB.vhd=VHDL Test Bench
+.\src\TestBench\schem1_TB_runtest.do=Macro
+
+.\src\Schema1test.asdb=Accelerated Waveform File
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=schem1|SCHEMATIC|0 schem1_tb|testbench_for_schem1|1 
+ShowHide=ShowTopLevel
+Selected=

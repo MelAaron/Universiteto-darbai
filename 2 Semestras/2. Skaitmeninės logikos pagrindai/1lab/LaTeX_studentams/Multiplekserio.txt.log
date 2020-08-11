@@ -1,0 +1,238 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.4)  11 MAR 2019 22:05
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Multiplekserio.txt.tex
+(./Multiplekserio.txt.tex
+LaTeX2e <2018-12-01>
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{align}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 	D
+      _{0} &=
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no D in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2 	D_
+       {0} &=
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+! Misplaced alignment tab character &.
+l.2 	D_{0} &
+            =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.4 &
+     	D_{1} &=
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.4 &	D_{1} &
+             =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.6 &
+     	D_{2} &=
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.6 &	D_{2} &
+             =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+<recently read> &
+                 
+l.8 &
+     	D_{3} &=
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.8 &	D_{3} &
+             =
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.10 	
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (35.04164pt too wide) in paragraph at lines 2--10
+[]$[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (37.99084pt too wide) in paragraph at lines 2--10
+[][]\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ef \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.73389pt too wide) in paragraph at lines 2--10
+[]\OML/cmm/m/it/10 ef \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.13664pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 bc[][]\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (23.3208pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (35.43294pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b[][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (21.05328pt too wide) in paragraph at lines 2--10
+[]\OML/cmm/m/it/10 c[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.69798pt too wide) in paragraph at lines 2--10
+[][][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (21.05328pt too wide) in paragraph at lines 2--10
+[][]\OML/cmm/m/it/10 e \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (18.80908pt too wide) in paragraph at lines 2--10
+[]\OML/cmm/m/it/10 e[]\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (23.3208pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (35.43294pt too wide) in paragraph at lines 2--10
+[]\OML/cmm/m/it/10 d\OT1/cmr/m/n/10 ([][]\OML/cmm/m/it/10 e \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (18.80908pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 b[]f\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Overfull \hbox (23.3208pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 D[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (41.4052pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 ad\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 b[][][] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (23.13664pt too wide) in paragraph at lines 2--10
+\OML/cmm/m/it/10 bcef\OT1/cmr/m/n/10 )$ 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \end{align}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> Multiplekserio.txt.tex
+                          
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 8 strings out of 492616
+ 214 string characters out of 6132769
+ 58021 words of memory out of 5000000
+ 4020 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,2n,12p,134b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

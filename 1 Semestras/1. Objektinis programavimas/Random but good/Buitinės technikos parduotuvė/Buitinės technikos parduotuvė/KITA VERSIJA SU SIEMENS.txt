@@ -1,0 +1,38 @@
+void Siemens(Saldytuvu_konteineris saldytuvai)
+{
+    int kiekis = 0;
+    for (int i = 0; i < saldytuvai.Kiekis; i++)
+    {
+        if (i != 0 && saldytuvai.GautiŠaldytuva(i).Gamintojas == "Siemens" && saldytuvai.GautiŠaldytuva(i).pav == saldytuvai.GautiŠaldytuva(i - 1).pav)
+        {
+            kiekis++;
+            for (int j = i + 1; j < saldytuvai.Kiekis; j++)
+            {
+                if (saldytuvai.GautiŠaldytuva(i).Modelis == saldytuvai.GautiŠaldytuva(j).Modelis && saldytuvai.GautiŠaldytuva(j).Gamintojas == "Siemens" &&
+                    saldytuvai.GautiŠaldytuva(i).pav == saldytuvai.GautiŠaldytuva(j).pav)
+                {
+                    kiekis--;
+                    break;
+                }
+            }
+        }
+        else if (i == 0)
+        {
+            if (saldytuvai.GautiŠaldytuva(i).pav == "Siemens")
+            {
+                kiekis++;
+            }
+        }
+        else if (saldytuvai.GautiŠaldytuva(i).pav != saldytuvai.GautiŠaldytuva(i-1).pav)
+        {
+            p.SiemensSpausdinimas(saldytuvai.GautiŠaldytuva(i - 1).pav, kiekis);
+            kiekis = 0;
+        }
+    }
+}
+void SiemensSpausdinimas(string pav, int kiekis)
+{
+    Console.WriteLine("Skirtingu modeliu Siemens šaldytuvu kiekis " + pav + " parduotuveje");
+    Console.WriteLine(kiekis);
+    Console.WriteLine("------------------------------------------------------------------------------");
+}

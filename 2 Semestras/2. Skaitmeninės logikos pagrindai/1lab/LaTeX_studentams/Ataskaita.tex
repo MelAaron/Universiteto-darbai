@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+\usepackage{KTUstyle}
+
+
+
+\begin{document}
+% Titulinis puslapis
+\input{Titulinis}		
+
+% Turinys
+\tableofcontents
+
+\newpage
+
+
+\section{Įvadas}
+
+\subsection{Darbo tikslas}
+
+
+\paragraph{Įsisavinti Būlio funkcijų minimizavimą ir kombinacinių loginių schemų projektavimą bei modeliavimą.}
+
+\subsection{Darbo užduotis}
+
+\paragraph{Užduočių variantų lentelėje duotos funkcijos, kurių argumentų konjunkcijos pateiktos skaičiais. Kiekvienas studentas gauna jam priklausančio varianto numerį. Atlikti užduočiai reikia:}	
+\begin{enumerate}
+	\item  Užrašyti pateiktą funkciją normaliąja disjunkcine forma;
+	\item Minimizuoti pateiktą funkciją;
+	\item  Realizuoti šią funkciją trimis būdais: (a) naudojant IR, ARBA, NE elementus, (b) naudojant tik IR-NE arba ARBA-NE ir NE elementus, (c) naudojant multiplekserį ir reikiamus IR, ARBA, NE, IR-NE, ARBA-NE elementus;
+	\item Patikrinti suprojektuotų schemų funkcionavimą;
+	\item  Paruošti laboratorinio darbo ataskaitą. Ataskaitoje pateikti funkcijos minimizavimo rezultatus, realizuotas schemas bei šių schemų modeliavimo rezultatus.
+\end{enumerate}
+
+\paragraph{Mano užduotis:}
+3,6,7,11,19,21,24,29,32,34,35,40,41,42,48,49,52,63 
+
+\section{Darbo Atlikimas}
+
+2.1 Užrašome šią funkciją tobula normaliąja disjunkcine forma, sudarome Karno lentelę ir ją užpildome funkcijos reikšmėmis:
+	\input{neminimizuota_funkcija.txt}
+
+
+\begin{table}[!htbp]
+	\caption{Karno lentelė.}
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|c|}
+		\hline
+		$000$ & $001$ & $011$ & $010$ & $110$ & $111$ & $101$ & $100$ \\
+		\hline
+		 &  & 1 &  & 1 & 1 &  & \\
+		 &  & 1 &  &  &  &  & \\
+		1 &  &  &  &  &  & 1 &\\
+		 &  & 1 & & &  & 1 &\\
+		 1&1&&&&&&1 \\
+		 &&&&&1&& \\
+		 1&1&&1&&&& \\
+		 1&&1&1&&&& \\
+		\hline
+	\end{tabular}
+\end{table}
+
+2.1.1 Pasinaudoję Karno lentele gausime minimizuotą funkcijos išraišką, kurią galima supaprastinti, iškeliant reikiamuosius prieš skliaustus:
+	\input{Neveikia.txt}
+	
+	\input{Trecia.txt}
+	
+	\input{Multiplekserio.txt}
+	
+	\input{Justino.txt}
+	
+
+\subsection{Formulės} \label{formules}
+\eqref{eq:2} pateikta vienos eilutės formulė, \eqref{eq:1} -- dviejų eilučių formulė.
+
+\subsubsection{Vienos eilutės formulė} \label{vienos}
+\begin{equation}
+	f = \bar{x}_{1}\bar{x}_{2}\bar{x}_{3}\bar{x}_{4}\bar{x}_{5}\bar{x}_{6}\cup x_{1}\bar{x}_{2} x_{3} x_{4} x_{5}\bar{x}_{6}. \label{eq:2}
+\end{equation}
+
+\subsubsection{Kelių eilučių formulė} \label{keliu}
+    \input{neminimizuota_funkcija.txt}  
+ 
+
+ 
+\subsection{Lentelės} \label{lenteles}
+
+\begin{table}[!htbp]
+\caption{Funkcijos teisingumo lentelė.}
+	\centering
+	\begin{tabular}{|cc|c|}
+		\hline
+		$x_1$ & $x_2$ & $y$ \\
+		\hline
+		0 & 0 & 1 \\
+		0 & 1 & 0 \\
+		1 & 0 & 0 \\
+		1 & 1 & 1 \\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+\subsection{Paveikslai} \label{paveikslai}
+
+\ref{fig:11} pav. pavaizduotas pirmasis namas, \ref{fig:12} pav. -- antrasis namas. \ref{fig:2} pav. pirmasis namas pavaizduotas didesniu formatu. 
+
+\begin{figure}[!htbp] 
+\centering
+\subfloat[Pirmas namas]{\label{fig:11}%
+  \includegraphics[height=5cm]{house1}}\ %
+\subfloat[Antras namas]{\label{fig:12}%
+  \includegraphics[height=5cm]{house2}}
+\caption{Pirmas ir antras namai.}
+\label{fig:1} 
+\end{figure} 
+
+\begin{figure}[!htbp]
+\centering
+	\includegraphics[height=8cm]{house1}
+	\caption{Didelis pirmas namas.}
+	\label{fig:2}
+\end{figure}
+
+\ref{fig:2} pav. namą galima rasti \cite{namas} šaltinyje.
+
+\newpage
+% Literaturos sarasas
+\input{bibl}
+\end{document}
+

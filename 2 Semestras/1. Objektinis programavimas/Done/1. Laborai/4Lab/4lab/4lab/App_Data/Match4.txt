@@ -1,0 +1,8 @@
+﻿1998-04-12
+Pomidorai;Kardas;Auksinis;29;15;3
+Pomidorai;Princese;Auksuole;15;2;0
+Agurkai;Giedriauskas;Lukis;0;0;0
+Pomidorai;Faker;Drauguzis;5;2;4
+Agurkai;Mandruolis;Sirijus;50;34;2
+Agurkai;Poniulis;Dragunas;45;34;1
+Pomidorai;Zykiukas;Sauliukas;45;34;0

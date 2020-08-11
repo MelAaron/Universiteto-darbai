@@ -1,0 +1,72 @@
+# Waveform file 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test3/src/untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test3/src/untitled.asdb'.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/schem1.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/scehm2.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\scehm2.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/PLIS.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\PLIS.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/shcem3.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd ... Done
+vlib {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test3/work}
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/schem1.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd
+# Compile Entity "SCHEM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/scehm2.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\scehm2.vhd
+# Compile Entity "SCEHM2"
+# Compile Architecture "SCHEMATIC" of Entity "SCEHM2"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/PLIS.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\PLIS.vhd
+# Compile Entity "PLIS"
+# Compile Architecture "SCHEMATIC" of Entity "PLIS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/shcem3.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd
+# Compile Entity "SHCEM3"
+# Compile Architecture "SCHEMATIC" of Entity "SHCEM3"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+entity SCHEM1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEM1 -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7248 kB (elbread=1280 elab2=5817 kernel=150 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test3\src\wave.asdb
+#  11:31 AM, Wednesday, May 8, 2019
+#  Simulation has been initialized
+add wave *
+run 1000ns
+# Warning: WAVEFORM: Object matching /SCHEM1/* not found in C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test3/src/untitled.asdb.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

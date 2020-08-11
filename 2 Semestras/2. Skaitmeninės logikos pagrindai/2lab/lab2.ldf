@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lab2" device="LFXP2-5E-6TN144C" default_implementation="lab2impl">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="lab2impl" dir="lab2impl" description="lab2impl" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SCHEM3"/>
+        <Source name="schem1.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEM1"/>
+        </Source>
+        <Source name="schem2.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEM2"/>
+        </Source>
+        <Source name="schem3.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEM3"/>
+        </Source>
+        <Source name="lab2.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="test1/test1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="test2/test2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="test3/test3.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lab21.sty"/>
+</BaliProject>

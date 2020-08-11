@@ -1,0 +1,26 @@
+C:\Users\User\Documents\OP\Savarankiski\Sav4\bin\Debug\Sav4.exe.config
+C:\Users\User\Documents\OP\Savarankiski\Sav4\bin\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Savarankiski\Sav4\bin\Debug\Sav4.pdb
+C:\Users\User\Documents\OP\Savarankiski\Sav4\obj\Debug\4sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski\Sav4\obj\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Savarankiski\Sav4\obj\Debug\Sav4.pdb
+D:\Arnas\Savarankiski\Sav4\bin\Debug\Sav4.exe.config
+D:\Arnas\Savarankiski\Sav4\bin\Debug\Sav4.exe
+D:\Arnas\Savarankiski\Sav4\bin\Debug\Sav4.pdb
+D:\Arnas\Savarankiski\Sav4\obj\Debug\4sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski\Sav4\obj\Debug\4sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski\Sav4\obj\Debug\Sav4.exe
+D:\Arnas\Savarankiski\Sav4\obj\Debug\Sav4.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\Sav4\bin\Debug\Sav4.exe.config
+C:\Users\User\Documents\OP\Savarankiski 2\Sav4\bin\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Savarankiski 2\Sav4\bin\Debug\Sav4.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\Sav4\obj\Debug\4sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski 2\Sav4\obj\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Savarankiski 2\Sav4\obj\Debug\Sav4.pdb
+D:\Arnas\Savarankiski 2\Sav4\bin\Debug\Sav4.exe.config
+D:\Arnas\Savarankiski 2\Sav4\bin\Debug\Sav4.exe
+D:\Arnas\Savarankiski 2\Sav4\bin\Debug\Sav4.pdb
+D:\Arnas\Savarankiski 2\Sav4\obj\Debug\4sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski 2\Sav4\obj\Debug\4sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski 2\Sav4\obj\Debug\Sav4.exe
+D:\Arnas\Savarankiski 2\Sav4\obj\Debug\Sav4.pdb

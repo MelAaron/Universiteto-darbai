@@ -1,0 +1,98 @@
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+removefile -Y -D *
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/schem1.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd ... Done
+vlib {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test1/work}
+# Warning: Library work already exists
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/impl1/schem1.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd
+# Compile Entity "SCHEM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+entity SCHEM1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r SCHEM1 -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.SCHEM1'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+add wave *
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test1/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching * not found in C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test1/src/wave.asdb.
+# Error: Simulation not initialized.
+#     while executing
+# "error "Simulation not initialized.""
+#     (procedure "run" line 6)
+#     invoked from within
+# "run 1000ns"
+#     (file "C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test1/test1.ado" line 26)
+#     invoked from within
+# "source {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/3lab/test1/test1.ado}"
+#     invoked from within
+# "interp eval $slave "source $source_file""
+acom -O3 -e 100 -work work -2002  $dsn/../impl1/schem1.vhd $dsn/src/TestBench/schem1_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\..\impl1\schem1.vhd
+# Compile Entity "SCHEM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEM1"
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB.vhd
+# Compile Entity "schem1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schem1_tb"
+# Compile Configuration "TESTBENCH_FOR_schem1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\..\impl1\schem1.vhd
+# Compile Entity "SCHEM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+comp -include "$dsn\src\TestBench\schem1_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB.vhd
+# Compile Entity "schem1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schem1_tb"
+# Compile Configuration "TESTBENCH_FOR_schem1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim +access +r TESTBENCH_FOR_schem1 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.testbench_for_schem1'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB_runtest.do line 4
+# Error: Cannot run C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB_runtest.do
+SetActiveLib -work
+comp -include "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\schem1.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\..\impl1\schem1.vhd
+# Compile Entity "SCHEM1"
+# Compile Architecture "SCHEMATIC" of Entity "SCHEM1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+comp -include "$dsn\src\TestBench\schem1_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB.vhd
+# Compile Entity "schem1_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "schem1_tb"
+# Compile Configuration "TESTBENCH_FOR_schem1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim +access +r TESTBENCH_FOR_schem1 
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: You do not have a valid license to simulate VHDL unit 'work.testbench_for_schem1'.
+# Contact Aldec for ordering information - sales@aldec.com.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: VSIM: cannot select specified top-level
+# Error: DO_001 in file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB_runtest.do line 4
+# Error: Cannot run C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\test1\src\TestBench\schem1_TB_runtest.do

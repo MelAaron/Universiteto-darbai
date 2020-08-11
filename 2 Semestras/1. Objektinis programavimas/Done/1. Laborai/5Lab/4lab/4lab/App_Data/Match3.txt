@@ -1,0 +1,9 @@
+﻿1998-05-28
+Zarbiris;Budas;Rokas;32;15;3
+Nupbunas;Poldis;Sargis;31;15;3
+Zarbiris;Juoskevicius;Juozapelis;15;4;1
+Zarbiris;Patrovicius;Petras;15;4;2
+Napbunas;Puogis;Zubis;32;15;0
+Napbunas;Laurius;Aurius;29;2;4
+Zarbiris;Nuokalnis;Laurius;2;2;5
+Napbunas;Pagalius;Zitas;31;15;0

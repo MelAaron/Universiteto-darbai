@@ -1,0 +1,23 @@
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\bin\Debug\2.1Duomenys.csv
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\bin\Debug\2.1 sav.exe.config
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\bin\Debug\2.1 sav.exe
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\bin\Debug\2.1 sav.pdb
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.exe
+C:\Users\User\Documents\OP\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.pdb
+D:\Arnas\2 savarankiski\2.1 sav\bin\Debug\2.1Duomenys.csv
+D:\Arnas\2 savarankiski\2.1 sav\bin\Debug\2.1 sav.exe.config
+D:\Arnas\2 savarankiski\2.1 sav\bin\Debug\2.1 sav.exe
+D:\Arnas\2 savarankiski\2.1 sav\bin\Debug\2.1 sav.pdb
+D:\Arnas\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.csprojAssemblyReference.cache
+D:\Arnas\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.csproj.CoreCompileInputs.cache
+D:\Arnas\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.exe
+D:\Arnas\2 savarankiski\2.1 sav\obj\Debug\2.1 sav.pdb
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\bin\Debug\2.1Duomenys.csv
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\bin\Debug\2.1 sav.exe.config
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\bin\Debug\2.1 sav.exe
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\bin\Debug\2.1 sav.pdb
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\obj\Debug\2.1 sav.csprojAssemblyReference.cache
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\obj\Debug\2.1 sav.csproj.CoreCompileInputs.cache
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\obj\Debug\2.1 sav.exe
+D:\Arnas\2 savarankiski\2.1 sav(klaida, bandyta padaryt i atskirus metodus)\obj\Debug\2.1 sav.pdb

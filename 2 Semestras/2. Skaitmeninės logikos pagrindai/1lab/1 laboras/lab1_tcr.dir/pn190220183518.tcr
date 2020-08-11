@@ -1,0 +1,5 @@
+#Start recording tcl command: 2/20/2019 18:17:13
+#Project Location: C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/New folder/1 laboras; Project name: lab1
+prj_project open "C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/New folder/1 laboras/lab1.ldf"
+prj_src add "C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/New folder/1 laboras/schema3.sch"
+#Stop recording: 2/20/2019 18:35:18

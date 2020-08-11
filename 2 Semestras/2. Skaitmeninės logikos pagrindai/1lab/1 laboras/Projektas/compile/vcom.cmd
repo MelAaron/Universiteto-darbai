@@ -1,0 +1,1 @@
+-w -erf "C:/Users/arnsve2/Downloads/1 laboras/Projektas/compile/Projektas.erf" -d "C:/Users/arnsve2/Downloads/1 laboras/Projektas/compile" -s "C:/Users/arnsve2/Downloads/1 laboras/Projektas/library.cfg" -j "C:/Users/arnsve2/Downloads/1 laboras/Projektas/projlib.cfg" -work work -dbg -work work "C:/Users/arnsve2/Downloads/1 laboras/impl1/Lab1.vhd" 

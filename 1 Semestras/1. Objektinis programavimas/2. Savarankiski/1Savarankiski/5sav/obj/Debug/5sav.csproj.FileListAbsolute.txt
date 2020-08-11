@@ -1,0 +1,36 @@
+C:\Users\User\Documents\OP\Savarankiski\5sav\obj\Debug\5sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski\5sav\bin\Debug\5sav.exe.config
+C:\Users\User\Documents\OP\Savarankiski\5sav\bin\Debug\5sav.exe
+C:\Users\User\Documents\OP\Savarankiski\5sav\bin\Debug\5sav.pdb
+C:\Users\User\Documents\OP\Savarankiski\5sav\obj\Debug\5sav.exe
+C:\Users\User\Documents\OP\Savarankiski\5sav\obj\Debug\5sav.pdb
+D:\Arnas\Savarankiski\5sav\bin\Debug\5sav.exe.config
+D:\Arnas\Savarankiski\5sav\bin\Debug\5sav.exe
+D:\Arnas\Savarankiski\5sav\bin\Debug\5sav.pdb
+D:\Arnas\Savarankiski\5sav\obj\Debug\5sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski\5sav\obj\Debug\5sav.exe
+D:\Arnas\Savarankiski\5sav\obj\Debug\5sav.pdb
+D:\Arnas\Savarankiski\5sav\bin\Debug\Program.cs
+D:\Arnas\Savarankiski\5sav\obj\Debug\5sav.csprojAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\bin\Debug\Program.cs
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\bin\Debug\5sav.exe.config
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\bin\Debug\5sav.exe
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\bin\Debug\5sav.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\obj\Debug\5sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\obj\Debug\5sav.exe
+C:\Users\User\Documents\OP\Savarankiski 2\5sav\obj\Debug\5sav.pdb
+D:\Arnas\Savarankiski 2\5sav\obj\Debug\5sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski 2\5sav\obj\Debug\5sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski 2\5sav\obj\Debug\5sav.exe
+D:\Arnas\Savarankiski 2\5sav\obj\Debug\5sav.pdb
+D:\Arnas\Savarankiski 2\5sav\bin\Debug\Program.cs
+D:\Arnas\Savarankiski 2\5sav\bin\Debug\5sav.exe.config
+D:\Arnas\Savarankiski 2\5sav\bin\Debug\5sav.exe
+D:\Arnas\Savarankiski 2\5sav\bin\Debug\5sav.pdb
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\bin\Debug\Program.cs
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\bin\Debug\5sav.exe.config
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\bin\Debug\5sav.exe
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\bin\Debug\5sav.pdb
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\obj\Debug\5sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\obj\Debug\5sav.exe
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\5sav\obj\Debug\5sav.pdb

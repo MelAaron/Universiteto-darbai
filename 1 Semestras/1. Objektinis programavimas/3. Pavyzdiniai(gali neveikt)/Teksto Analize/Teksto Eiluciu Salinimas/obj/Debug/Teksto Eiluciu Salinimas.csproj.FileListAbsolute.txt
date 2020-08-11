@@ -1,0 +1,6 @@
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Teksto Eiluciu Salinimas\bin\Debug\Teksto Eiluciu Salinimas.exe.config
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Teksto Eiluciu Salinimas\bin\Debug\Teksto Eiluciu Salinimas.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Teksto Eiluciu Salinimas\bin\Debug\Teksto Eiluciu Salinimas.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Teksto Eiluciu Salinimas\obj\Debug\Teksto Eiluciu Salinimas.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Teksto Eiluciu Salinimas\obj\Debug\Teksto Eiluciu Salinimas.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Teksto Eiluciu Salinimas\obj\Debug\Teksto Eiluciu Salinimas.pdb

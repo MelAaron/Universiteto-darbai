@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\bin\Debug\Sportininkai.exe.config
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\bin\Debug\Sportininkai.exe
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\bin\Debug\Sportininkai.pdb
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\obj\Debug\Sportininkai.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\obj\Debug\Sportininkai.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\obj\Debug\Sportininkai.exe
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab 5\Sav 2\Sportininkai\Sportininkai\obj\Debug\Sportininkai.pdb

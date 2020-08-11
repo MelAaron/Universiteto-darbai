@@ -1,0 +1,29 @@
+clock_proc:process  begin--sinchrosignala valdantis  procesas
+	CLK_I  <='0';
+	wait  for 1 ns;
+	CLK_I  <='1';
+	wait  for 1 ns;
+end  process;	 
+
+reset_process:process  begin--isorini reset signala valdantis  procesas
+	RST_I  <='1';
+	wait  for 1 ns;
+	RST_I  <='0';
+	wait for 1100 ns;	 
+	RST_I  <='1';
+	wait  for 1 ns;
+	RST_I  <='0';
+	wait;
+end  process;	
+
+enbl_process:process  begin--ijungimo signala valdantis  procesas
+	ENBL_I  <='0';
+	wait  for 10 ns;
+	ENBL_I  <='1';
+	wait for 1700 ns;  
+	ENBL_I  <='0';
+	wait  for 10 ns;
+	ENBL_I  <='1';
+	wait; 	
+end  process;
+	

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd&quot;:19:10:19:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd&quot;:20:10:20:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\user\documents\1. ktu\2 semestras\2. slp\demo\impl1\failas.vhd&quot;:76:3:76:4|Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\user\documents\1. ktu\2 semestras\2. slp\demo\impl1\failas.vhd</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>76</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Blackbox AND3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\user\documents\1. ktu\2 semestras\2. slp\demo\impl1\failas.vhd&quot;:70:3:70:4|Blackbox NR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\user\documents\1. ktu\2 semestras\2. slp\demo\impl1\failas.vhd</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>70</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Blackbox NR3 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT246 :&quot;c:\users\user\documents\1. ktu\2 semestras\2. slp\demo\impl1\failas.vhd&quot;:68:3:68:4|Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)</Dynamic>
+            <Navigation>MT246</Navigation>
+            <Navigation>c:\users\user\documents\1. ktu\2 semestras\2. slp\demo\impl1\failas.vhd</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>68</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>Blackbox OR4 is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) </Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

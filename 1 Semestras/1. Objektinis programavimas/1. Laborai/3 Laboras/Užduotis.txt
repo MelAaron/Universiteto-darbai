@@ -1,0 +1,20 @@
+Buitines technikos parduotuve. Turite informacija apie skirtingose buitines technikos parduotuvese
+esancius šaldytuvus. Keiciasi duomenu formatas. Pirmoje eiluteje pavadinimas, antroje – adresas, trecioje –
+telefonas. Parduotuveje be šaldytuvu galima isigyti mikrobangu krosneliu ir elektrinis virdulys. Sukurkite
+klase „BuitinisPrietaisas“ (laukai - gamintojas, modelis, energijos klase, spalva, kaina), kuria paveldes
+“Šaldytuvas” (papildomi laukai - talpa, montavimo tipas, požymis „turi šaldikli“, aukštis, plotis, gylis),
+“MikrobanguKrosnele” (papildomi laukai – galingumas, programu skaicius) ir “ElektrinisVirdulys”
+(papildomi laukai – galia, turis).
+
+? Suskaiciuokite, kiek skirtingu „Siemens“ šaldytuvu, mikrobangu krosneliu ir virduliu modeliu siulo
+kiekviena parduotuve, rezultata atspausdinkite ekrane.
+
+? Sudarykite dešimties pigiausiu pastatomu šaldytuvu, kuriu talpa 80 litru ar didesne, saraša.
+Išrikiuokite šaldytuvus nuo pigiausio iki brangiausio. Ekrane atspausdinkite šaldytuvo gamintoja,
+modeli, talpa ir kaina.
+
+? Sudarykite visu buitiniu prietaisu, kuriu energijos klase yra A+ ir didesne, saraša. Visa informacija
+apie juos irašykite i faila „A+.csv“.
+
+? Ar yra tokiu buitiniu prietaisu, kuriuos galima isigyti tik vienoje parduotuveje? Atspausdinkite
+tokiu prietaisu saraša faile „TikTen.csv“

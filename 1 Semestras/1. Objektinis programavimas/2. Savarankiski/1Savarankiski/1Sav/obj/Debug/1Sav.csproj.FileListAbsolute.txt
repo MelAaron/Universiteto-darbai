@@ -1,0 +1,32 @@
+C:\Users\User\Documents\OP\Savarankiski\1Sav\obj\Debug\1Sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski\1Sav\bin\Debug\1Sav.exe.config
+C:\Users\User\Documents\OP\Savarankiski\1Sav\bin\Debug\1Sav.exe
+C:\Users\User\Documents\OP\Savarankiski\1Sav\bin\Debug\1Sav.pdb
+C:\Users\User\Documents\OP\Savarankiski\1Sav\obj\Debug\1Sav.exe
+C:\Users\User\Documents\OP\Savarankiski\1Sav\obj\Debug\1Sav.pdb
+D:\Arnas\Savarankiski\1Sav\bin\Debug\1Sav.exe.config
+D:\Arnas\Savarankiski\1Sav\bin\Debug\1Sav.exe
+D:\Arnas\Savarankiski\1Sav\bin\Debug\1Sav.pdb
+D:\Arnas\Savarankiski\1Sav\obj\Debug\1Sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski\1Sav\obj\Debug\1Sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski\1Sav\obj\Debug\1Sav.exe
+D:\Arnas\Savarankiski\1Sav\obj\Debug\1Sav.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\1Sav\bin\Debug\1Sav.exe.config
+C:\Users\User\Documents\OP\Savarankiski 2\1Sav\bin\Debug\1Sav.exe
+C:\Users\User\Documents\OP\Savarankiski 2\1Sav\bin\Debug\1Sav.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\1Sav\obj\Debug\1Sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski 2\1Sav\obj\Debug\1Sav.exe
+C:\Users\User\Documents\OP\Savarankiski 2\1Sav\obj\Debug\1Sav.pdb
+D:\Arnas\Savarankiski 2\1Sav\bin\Debug\1Sav.exe.config
+D:\Arnas\Savarankiski 2\1Sav\bin\Debug\1Sav.exe
+D:\Arnas\Savarankiski 2\1Sav\bin\Debug\1Sav.pdb
+D:\Arnas\Savarankiski 2\1Sav\obj\Debug\1Sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski 2\1Sav\obj\Debug\1Sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski 2\1Sav\obj\Debug\1Sav.exe
+D:\Arnas\Savarankiski 2\1Sav\obj\Debug\1Sav.pdb
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\1Sav\bin\Debug\1Sav.exe.config
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\1Sav\bin\Debug\1Sav.exe
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\1Sav\bin\Debug\1Sav.pdb
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\1Sav\obj\Debug\1Sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\1Sav\obj\Debug\1Sav.exe
+C:\Users\User\Documents\OP\2018 09 18\Savarankiski 2\1Sav\obj\Debug\1Sav.pdb

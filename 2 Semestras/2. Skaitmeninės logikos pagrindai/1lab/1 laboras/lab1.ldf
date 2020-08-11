@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="lab1" device="LFXP2-5E-6TN144C" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="SCHEMA3"/>
+        <Source name="Lab1.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="LAB1"/>
+        </Source>
+        <Source name="schema2.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMA2"/>
+        </Source>
+        <Source name="schema3.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="SCHEMA3"/>
+        </Source>
+        <Source name="lab1.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="Laboras1Test/Laboras1Test.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Laboras1Test/Laboras1Test/Laboras1Test.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Projektas/Projektas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="schema1/schema1.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="Schema2/Schema2.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="lab11.sty"/>
+</BaliProject>

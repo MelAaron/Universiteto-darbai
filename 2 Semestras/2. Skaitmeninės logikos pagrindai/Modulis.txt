@@ -1,0 +1,1 @@
+Mokėmės dirbti su įvairiais vartais(AND, OR, XOR...), daryti iš jų schemas

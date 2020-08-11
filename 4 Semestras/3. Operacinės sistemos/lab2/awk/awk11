@@ -1,0 +1,4 @@
+{
+	
+	if($5 ~ /Mindaugas/)   print "eil nr="$1 ,"vardas="$5 ,"pavarde="$4
+}

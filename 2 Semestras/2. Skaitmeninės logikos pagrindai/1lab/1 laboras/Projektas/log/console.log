@@ -1,0 +1,51 @@
+# Design Explorer: Shortcut to "C:\Users\arnsve2\Downloads\1 laboras\Projektas\Projektas.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile {C:/Users/arnsve2/Downloads/1 laboras/impl1/Lab1.vhd}
+# Adding file C:\Users\arnsve2\Downloads\1 laboras\impl1\Lab1.vhd ... Done
+vlib {C:/Users/arnsve2/Downloads/1 laboras/Projektas/work}
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/arnsve2/Downloads/1 laboras/impl1/Lab1.vhd}
+# File: C:\Users\arnsve2\Downloads\1 laboras\impl1\Lab1.vhd
+# Compile Entity "LAB1"
+# Compile Architecture "SCHEMATIC" of Entity "LAB1"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+entity LAB1
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r LAB1 -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7246 kB (elbread=1280 elab2=5816 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\arnsve2\Downloads\1 laboras\Projektas\src\wave.asdb
+#  15:39, Wednesday, 13 February, 2019
+#  Simulation has been initialized
+add wave *
+# 33 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/arnsve2/Downloads/1 laboras/Projektas/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

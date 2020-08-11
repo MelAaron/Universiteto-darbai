@@ -1,0 +1,7 @@
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\obj\Debug\Buitinės technikos parduotuvė.csprojAssemblyReference.cache
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\obj\Debug\Buitinės technikos parduotuvė.csproj.CoreCompileInputs.cache
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\bin\Debug\Buitinės technikos parduotuvė.exe.config
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\bin\Debug\Buitinės technikos parduotuvė.exe
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\bin\Debug\Buitinės technikos parduotuvė.pdb
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\obj\Debug\Buitinės technikos parduotuvė.exe
+D:\Projektai\Laboras\2 Laboratorinis\2Lab\Buitinės technikos parduotuvė\Buitinės technikos parduotuvė\obj\Debug\Buitinės technikos parduotuvė.pdb

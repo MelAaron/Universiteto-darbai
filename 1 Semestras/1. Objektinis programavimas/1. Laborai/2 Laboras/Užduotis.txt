@@ -1,0 +1,12 @@
+U2-9. IMBD. Turite skirtingu kinomanu megeju periuretus filmu sarašus. Keiciasi duomenu formatas.
+Pirmoje eiluteje kino megejo vardas pavarde, antroje - gimimo metai, trecioje - miestas. Toliau informacija
+apie filmus pateikta tokiu paciu formatu kaip L1 uduotyje.
+
+? Raskite ir atspausdinkite ekrane kiekvieno kino megejo megstamiausia reisieriu.
+
+? Sudarykite filmu, kuriuos periurejo visi kino megejai, saraša. Visus duomenis apie filmus
+irašykite i faila „MateVisi.csv“.
+
+? Kiekvienam kino megejui sudarykite rekomenduojamu periureti filmu saraša, i kuri
+itraukite filmus, kuriu jis nemate, taciau mate kiti kino megejai. Rekomendaciju sarašus
+irašykite i failus „Rekomendacija_vardas_pavarde.csv“.

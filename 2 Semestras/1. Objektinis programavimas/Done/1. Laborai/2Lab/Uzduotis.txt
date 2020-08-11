@@ -1,0 +1,14 @@
+LD_3. Leidiniai. Žmones užsisako spauda. Užsakymas vyksta metu ribose. Leidiniai gauna del to
+pajamas. Nustatykite kiekvienam menesiui, kurio leidinio pajamos yra didžiausios. Nustatykite
+bendrasias leidiniu pajamas. Sudarykite saraša leidiniu, kuriu pajamos mažesnes už vidutines.
+Duomenys:
+
+? Tekstiniame faile U3a.txt yra tokia informacija apie leidinius: leidinio kodas, leidinio
+pavadinimas, vieno menesio leidinio kaina.
+? Tekstiniame faile U3b.txt yra informacija apie prenumeratorius: prenumeratoriaus pavarde,
+adresas, laikotarpio pradžia (sveikasis skaicius 1..12), laikotarpio ilgis, leidinio kodas, leidiniu
+kiekis.
+
+Spausdinamas sarašas turi buti surikiuotas pagal vieno menesio leidinio kaina mažejimo ir leidinio
+pavadinima abeceles tvarka. Sudarykite nurodyto leidinio (ivedamas klaviatura) nurodyto menesio
+((ivedamas klaviatura) prenumeratoriu saraša.

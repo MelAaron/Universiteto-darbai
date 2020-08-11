@@ -1,0 +1,5 @@
+﻿Informatikos;30;5
+Švenčionis;Arnas;IFF8/11;6;6;6;9
+Kitas;Studentas;IFF8/12;6;300;3
+Dar;Vienas;IFF8/3;3;6;6;6;6
+Zajanckauskas;Justinas;IFF8/69;-1;2

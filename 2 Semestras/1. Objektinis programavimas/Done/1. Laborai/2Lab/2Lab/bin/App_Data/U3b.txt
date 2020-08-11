@@ -1,0 +1,7 @@
+﻿Kudlius;Birstonietis g.;3;4;193;40
+Picas;Siauliu g.;6;5;142;20
+Drapanauskas;Gedimino kalnas;1;10;142;12
+Pazeklius;Kliumpiu g.;11;2;123;2
+Pasaulius;Jorko g.;5;5;76G;31
+Svarainis;Daukanto g.;4;10;142;31
+Jonevicius;Paluonio g.;1;1;251;15

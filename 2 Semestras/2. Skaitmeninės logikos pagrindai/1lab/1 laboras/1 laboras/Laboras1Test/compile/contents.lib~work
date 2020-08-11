@@ -1,0 +1,6 @@
+7
+~E 1 "./../../impl1/Lab1.vhd" 8 LAB1
+~A 1 "./../../impl1/Lab1.vhd" 18 SCHEMATIC
+~E 1 "./../src/TestBench/lab1_TB.vhd" 8 lab1_tb
+~A 1 "./../src/TestBench/lab1_TB.vhd" 11 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/lab1_TB.vhd" 55 testbench_for_lab1

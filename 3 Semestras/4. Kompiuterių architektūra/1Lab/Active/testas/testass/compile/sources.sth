@@ -1,0 +1,17 @@
+[Files List]
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/standard.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\std/src/textio.vhd=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/numeric_std.vhdl=S
+C:\lscc\diamond\3.10_x64\active-hdl\vlib\ieee/src/numeric_std-body.vhdl=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/flg.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/reg.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/cnt.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/f_rom.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/alu_s.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/mux.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/f_ctrl.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/f_top.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/stimulai-top_tb.vhd=S
+c:\Users\PC\Documents\1.Stuff\1. KTU\3 Semestras\Kompiuteriu arhitektura\Start\testas\testass/src/TestBench/top_TB.vhd=S

@@ -1,0 +1,14 @@
+#!/bin/sh
+a=$#;
+echo "Spausdinama iki nurodyto skaiciaus"
+b=0;
+while [ $b -ne 1 ]; do
+	sleep 60;
+	for i in $* ; do
+		who | grep $1;
+		if [ $? -eq 0 ]; then
+			echo "Programa baigia darba";
+			exit 0;
+		fi;
+	done;
+done;

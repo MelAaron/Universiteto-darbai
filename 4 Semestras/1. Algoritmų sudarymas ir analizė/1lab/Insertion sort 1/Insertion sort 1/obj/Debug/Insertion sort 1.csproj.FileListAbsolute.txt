@@ -1,0 +1,14 @@
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\bin\Debug\Insertion sort 1.exe.config
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\bin\Debug\Insertion sort 1.exe
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\bin\Debug\Insertion sort 1.pdb
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.csprojAssemblyReference.cache
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.csproj.CoreCompileInputs.cache
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.exe
+E:\universitetui\4 kursas\algoritmu analize\1 lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\bin\Debug\Insertion sort 1.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\bin\Debug\Insertion sort 1.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\bin\Debug\Insertion sort 1.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\Insertion sort 1\Insertion sort 1\obj\Debug\Insertion sort 1.pdb

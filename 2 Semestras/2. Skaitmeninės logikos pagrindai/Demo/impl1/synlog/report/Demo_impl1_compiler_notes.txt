@@ -1,0 +1,12 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd":8:7:8:12|Top entity is set to FAILAS.
+@N: CD630 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd":8:7:8:12|Synthesizing work.failas.schematic.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":65:10:65:13|Synthesizing work.and2.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1186:10:1186:12|Synthesizing work.nr3.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1334:10:1334:12|Synthesizing work.or4.syn_black_box.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box.
+@N|Running in 64-bit mode
+

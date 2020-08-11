@@ -1,0 +1,446 @@
+# Mon May 13 00:01:24 2019
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1796R, Built Aug  4 2017 11:10:16
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version M-2017.03L-SP1-1
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 112MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 114MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+@N: MO231 :"c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\4lab_3\cntr31_2.vhd":26:2:26:3|Found counter in view:work.CNT31_2(rtl) instance CNT_A[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.29ns		  28 /        19
+   2		0h:00m:00s		    -1.29ns		  28 /        19
+
+   3		0h:00m:00s		    -1.29ns		  29 /        19
+
+
+   4		0h:00m:00s		    -1.29ns		  29 /        19
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 140MB peak: 141MB)
+
+@N: MT611 :|Automatically generated clock CNT12|CNT_C_derived_clock is not used and is being removed
+@N: MT617 :|Automatically generated clock CNT31_2|CNT_C_derived_clock has lost its master clock CNT12|CNT_C_derived_clock and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 19 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+12 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_I               port                   19         CNT_CO_0io     
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 141MB)
+
+Writing Analyst data base C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\synwork\impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 139MB peak: 141MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\impl1\impl1.edi
+M-2017.03L-SP1-1
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 143MB peak: 145MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+@W: MT420 |Found inferred clock TOP_CNT|CLK_I with period 3.96ns. Please declare a user-defined clock on object "p:CLK_I"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon May 13 00:01:25 2019
+#
+
+
+Top view:               TOP_CNT
+Requested Frequency:    252.7 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -0.474
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+TOP_CNT|CLK_I      252.7 MHz     225.7 MHz     3.957         4.431         -0.474     inferred     Autoconstr_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                        |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------
+Starting       Ending         |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------
+TOP_CNT|CLK_I  TOP_CNT|CLK_I  |  3.957       -0.474  |  No paths    -      |  No paths    -      |  No paths    -    
+=====================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: TOP_CNT|CLK_I
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                             Arrival           
+Instance           Reference         Type        Pin     Net            Time        Slack 
+                   Clock                                                                  
+------------------------------------------------------------------------------------------
+CNT_2.CNT_A[1]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_2_O[1]     1.116       -0.474
+CNT_2.CNT_A[0]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_2_O[0]     1.035       -0.466
+CNT_2.CNT_A[2]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_2_O[2]     0.994       -0.352
+CNT_3.CNT_A[0]     TOP_CNT|CLK_I     FD1S3DX     Q       CNT_3_O[0]     1.075       0.137 
+CNT_3.CNT_A[1]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_3_O[1]     1.067       0.145 
+CNT_3.CNT_A[2]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_3_O[2]     1.035       0.178 
+CNT_1.CNT_A[0]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_A[0]       1.075       0.744 
+CNT_1.CNT_A[2]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_A[2]       1.075       0.744 
+CNT_1.CNT_A[3]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_A[3]       1.075       0.744 
+CNT_1.CNT_A[1]     TOP_CNT|CLK_I     FD1P3DX     Q       CNT_A[1]       1.067       0.752 
+==========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                               Required           
+Instance           Reference         Type        Pin     Net              Time         Slack 
+                   Clock                                                                     
+---------------------------------------------------------------------------------------------
+CNT_2.CNT_A[3]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_lm[3]      3.346        -0.474
+CNT_2.CNT_A[4]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_lm[4]      3.346        -0.474
+CNT_2.CNT_A[1]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_lm[1]      3.346        -0.393
+CNT_2.CNT_A[2]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_lm[2]      3.346        -0.393
+CNT_3.CNT_A[1]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_3[1]       3.346        0.137 
+CNT_3.CNT_A[4]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_3[4]       3.346        0.137 
+CNT_3.CNT_A[5]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_3[5]       3.346        0.137 
+CNT_3.CNT_A[0]     TOP_CNT|CLK_I     FD1S3DX     D       CNT_A_0[0]       3.346        0.744 
+CNT_2.CNT_A[0]     TOP_CNT|CLK_I     FD1P3DX     D       CNT_A_lm[0]      3.346        0.948 
+CNT_2.CNT_C        TOP_CNT|CLK_I     FD1P3BX     D       cnt_c3_0_0_i     3.346        0.948 
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.957
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.346
+
+    - Propagation time:                      3.820
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.474
+
+    Number of logic level(s):                3
+    Starting point:                          CNT_2.CNT_A[1] / Q
+    Ending point:                            CNT_2.CNT_A[4] / D
+    The start point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+    The end   point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+CNT_2.CNT_A[1]           FD1P3DX      Q        Out     1.116     1.116       -         
+CNT_2_O[1]               Net          -        -       -         -           9         
+CNT_2.CNT_A_cry_0[1]     CCU2B        A0       In      0.000     1.116       -         
+CNT_2.CNT_A_cry_0[1]     CCU2B        COUT     Out     1.056     2.171       -         
+CNT_A_cry[2]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[3]     CCU2B        CIN      In      0.000     2.171       -         
+CNT_2.CNT_A_cry_0[3]     CCU2B        S1       Out     1.234     3.405       -         
+CNT_A_s[4]               Net          -        -       -         -           1         
+CNT_2.CNT_A_RNO[4]       ORCALUT4     A        In      0.000     3.405       -         
+CNT_2.CNT_A_RNO[4]       ORCALUT4     Z        Out     0.415     3.820       -         
+CNT_A_lm[4]              Net          -        -       -         -           1         
+CNT_2.CNT_A[4]           FD1P3DX      D        In      0.000     3.820       -         
+=======================================================================================
+
+
+Path information for path number 2: 
+      Requested Period:                      3.957
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.346
+
+    - Propagation time:                      3.820
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.474
+
+    Number of logic level(s):                3
+    Starting point:                          CNT_2.CNT_A[1] / Q
+    Ending point:                            CNT_2.CNT_A[3] / D
+    The start point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+    The end   point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+CNT_2.CNT_A[1]           FD1P3DX      Q        Out     1.116     1.116       -         
+CNT_2_O[1]               Net          -        -       -         -           9         
+CNT_2.CNT_A_cry_0[1]     CCU2B        A0       In      0.000     1.116       -         
+CNT_2.CNT_A_cry_0[1]     CCU2B        COUT     Out     1.056     2.171       -         
+CNT_A_cry[2]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[3]     CCU2B        CIN      In      0.000     2.171       -         
+CNT_2.CNT_A_cry_0[3]     CCU2B        S0       Out     1.234     3.405       -         
+CNT_A_s[3]               Net          -        -       -         -           1         
+CNT_2.CNT_A_lm_0[3]      ORCALUT4     A        In      0.000     3.405       -         
+CNT_2.CNT_A_lm_0[3]      ORCALUT4     Z        Out     0.415     3.820       -         
+CNT_A_lm[3]              Net          -        -       -         -           1         
+CNT_2.CNT_A[3]           FD1P3DX      D        In      0.000     3.820       -         
+=======================================================================================
+
+
+Path information for path number 3: 
+      Requested Period:                      3.957
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.346
+
+    - Propagation time:                      3.812
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.466
+
+    Number of logic level(s):                4
+    Starting point:                          CNT_2.CNT_A[0] / Q
+    Ending point:                            CNT_2.CNT_A[4] / D
+    The start point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+    The end   point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+CNT_2.CNT_A[0]           FD1P3DX      Q        Out     1.035     1.035       -         
+CNT_2_O[0]               Net          -        -       -         -           4         
+CNT_2.CNT_A_cry_0[0]     CCU2B        A1       In      0.000     1.035       -         
+CNT_2.CNT_A_cry_0[0]     CCU2B        COUT     Out     1.056     2.090       -         
+CNT_A_cry[0]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[1]     CCU2B        CIN      In      0.000     2.090       -         
+CNT_2.CNT_A_cry_0[1]     CCU2B        COUT     Out     0.073     2.163       -         
+CNT_A_cry[2]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[3]     CCU2B        CIN      In      0.000     2.163       -         
+CNT_2.CNT_A_cry_0[3]     CCU2B        S1       Out     1.234     3.397       -         
+CNT_A_s[4]               Net          -        -       -         -           1         
+CNT_2.CNT_A_RNO[4]       ORCALUT4     A        In      0.000     3.397       -         
+CNT_2.CNT_A_RNO[4]       ORCALUT4     Z        Out     0.415     3.812       -         
+CNT_A_lm[4]              Net          -        -       -         -           1         
+CNT_2.CNT_A[4]           FD1P3DX      D        In      0.000     3.812       -         
+=======================================================================================
+
+
+Path information for path number 4: 
+      Requested Period:                      3.957
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.346
+
+    - Propagation time:                      3.812
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.466
+
+    Number of logic level(s):                4
+    Starting point:                          CNT_2.CNT_A[0] / Q
+    Ending point:                            CNT_2.CNT_A[3] / D
+    The start point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+    The end   point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+CNT_2.CNT_A[0]           FD1P3DX      Q        Out     1.035     1.035       -         
+CNT_2_O[0]               Net          -        -       -         -           4         
+CNT_2.CNT_A_cry_0[0]     CCU2B        A1       In      0.000     1.035       -         
+CNT_2.CNT_A_cry_0[0]     CCU2B        COUT     Out     1.056     2.090       -         
+CNT_A_cry[0]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[1]     CCU2B        CIN      In      0.000     2.090       -         
+CNT_2.CNT_A_cry_0[1]     CCU2B        COUT     Out     0.073     2.163       -         
+CNT_A_cry[2]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[3]     CCU2B        CIN      In      0.000     2.163       -         
+CNT_2.CNT_A_cry_0[3]     CCU2B        S0       Out     1.234     3.397       -         
+CNT_A_s[3]               Net          -        -       -         -           1         
+CNT_2.CNT_A_lm_0[3]      ORCALUT4     A        In      0.000     3.397       -         
+CNT_2.CNT_A_lm_0[3]      ORCALUT4     Z        Out     0.415     3.812       -         
+CNT_A_lm[3]              Net          -        -       -         -           1         
+CNT_2.CNT_A[3]           FD1P3DX      D        In      0.000     3.812       -         
+=======================================================================================
+
+
+Path information for path number 5: 
+      Requested Period:                      3.957
+    - Setup time:                            0.611
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         3.346
+
+    - Propagation time:                      3.739
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.393
+
+    Number of logic level(s):                3
+    Starting point:                          CNT_2.CNT_A[0] / Q
+    Ending point:                            CNT_2.CNT_A[1] / D
+    The start point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+    The end   point is clocked by            TOP_CNT|CLK_I [rising] on pin CK
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+CNT_2.CNT_A[0]           FD1P3DX      Q        Out     1.035     1.035       -         
+CNT_2_O[0]               Net          -        -       -         -           4         
+CNT_2.CNT_A_cry_0[0]     CCU2B        A1       In      0.000     1.035       -         
+CNT_2.CNT_A_cry_0[0]     CCU2B        COUT     Out     1.056     2.090       -         
+CNT_A_cry[0]             Net          -        -       -         -           1         
+CNT_2.CNT_A_cry_0[1]     CCU2B        CIN      In      0.000     2.090       -         
+CNT_2.CNT_A_cry_0[1]     CCU2B        S0       Out     1.234     3.324       -         
+CNT_A_s[1]               Net          -        -       -         -           1         
+CNT_2.CNT_A_lm_0[1]      ORCALUT4     A        In      0.000     3.324       -         
+CNT_2.CNT_A_lm_0[1]      ORCALUT4     Z        Out     0.415     3.739       -         
+CNT_A_lm[1]              Net          -        -       -         -           1         
+CNT_2.CNT_A[1]           FD1P3DX      D        In      0.000     3.739       -         
+=======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 145MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfxp2_5e-6
+
+Register bits: 19 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       4
+
+
+Details:
+CCU2B:          3
+FD1P3BX:        2
+FD1P3DX:        14
+FD1S3BX:        1
+FD1S3DX:        1
+GSR:            1
+IB:             3
+INV:            1
+OB:             1
+OFS1P3DX:       1
+ORCALUT4:       28
+PUR:            1
+VHI:            4
+VLO:            4
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 31MB peak: 145MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon May 13 00:01:25 2019
+
+###########################################################]

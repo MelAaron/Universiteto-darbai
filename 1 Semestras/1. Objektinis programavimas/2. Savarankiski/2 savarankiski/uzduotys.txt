@@ -1,0 +1,13 @@
+1 savarankiško darbo užduotis.
+Pateikiamas 9 aukštu namo parduodamu butu sarašas. Kiekviename laiptines aukšte yra po 3 butus. Namo
+laiptiniu skaicius yra mažesnis, nei 20. Duomenys tokie: buto numeris, bendras plotas, kambariu skaicius,
+pardavimo kaina, telefono Nr. Suraskite butus, kurie turi nurodyta kambariu skaiciu, yra nurodytame aukšte ir
+kuriu kaina neviršija nurodytos kainos, ir juos surašykite i tinkamu butu konteineri. Aukšto numeris nurodomas
+intervalu [nuo, iki]. Aukšto numeris išskaiciuojamas iš buto numerio. Butu numeriai yra iš aibes [1, laiptiniu
+skaicius daugintas iš 27].
+
+2 savarankiško darbo užduotis.
+Pirmoje failo eiluteje nurodytas fakulteto pavadinimas. Tekstiniame faile yra fakulteto studentu žiemos sesijos
+dalyku ivertinimai. Eiluteje apie studenta yra tokie duomenys: pavarde, vardas, grupe, pažymiu kiekis,
+pažymiai. Nustatykite kiekvienos grupes bendra mokymosi vidurki. Rezultatus išspausdinkite surikiuotus
+mažejanciai pagal vidurki ir pagal grupes abeceliškai.

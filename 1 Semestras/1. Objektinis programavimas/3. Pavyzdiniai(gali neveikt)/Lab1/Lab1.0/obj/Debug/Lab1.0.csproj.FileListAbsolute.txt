@@ -1,0 +1,15 @@
+D:\Arnas\Lab1\Lab1.0\obj\Debug\Lab1.0.csprojAssemblyReference.cache
+D:\Arnas\Lab1\Lab1.0\obj\Debug\Lab1.0.csproj.CoreCompileInputs.cache
+D:\Arnas\Lab1\Lab1.0\bin\Debug\duom1.csv
+D:\Arnas\Lab1\Lab1.0\bin\Debug\Lab1.0.exe.config
+D:\Arnas\Lab1\Lab1.0\bin\Debug\Lab1.0.exe
+D:\Arnas\Lab1\Lab1.0\bin\Debug\Lab1.0.pdb
+D:\Arnas\Lab1\Lab1.0\obj\Debug\Lab1.0.exe
+D:\Arnas\Lab1\Lab1.0\obj\Debug\Lab1.0.pdb
+C:\Users\User\Documents\OP\Lab1\Lab1.0\bin\Debug\duom1.csv
+C:\Users\User\Documents\OP\Lab1\Lab1.0\bin\Debug\Lab1.0.exe.config
+C:\Users\User\Documents\OP\Lab1\Lab1.0\bin\Debug\Lab1.0.exe
+C:\Users\User\Documents\OP\Lab1\Lab1.0\bin\Debug\Lab1.0.pdb
+C:\Users\User\Documents\OP\Lab1\Lab1.0\obj\Debug\Lab1.0.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Lab1\Lab1.0\obj\Debug\Lab1.0.exe
+C:\Users\User\Documents\OP\Lab1\Lab1.0\obj\Debug\Lab1.0.pdb

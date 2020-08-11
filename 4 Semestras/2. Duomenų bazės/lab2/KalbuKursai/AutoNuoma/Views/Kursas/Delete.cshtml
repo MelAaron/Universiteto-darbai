@@ -1,0 +1,88 @@
+﻿@model AutoNuoma.Models.Kursas
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Kurso šalinimas</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Kursas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.kalba)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kalba)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.trukme_menesiais)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.trukme_menesiais)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.kaina)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.kaina)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.max_mokiniu)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.max_mokiniu)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mokymosi_medziaga)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mokymosi_medziaga)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lygis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lygis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.savaites_diena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.savaites_diena)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mokytojo_asmens_kodas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mokytojo_asmens_kodas)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

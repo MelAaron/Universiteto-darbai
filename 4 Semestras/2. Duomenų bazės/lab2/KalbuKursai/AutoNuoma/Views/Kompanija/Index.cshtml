@@ -1,0 +1,50 @@
+﻿@model IEnumerable<AutoNuoma.ViewModels.KompanijaViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Kompanijos</h2>
+
+<p>
+    @Html.ActionLink("Naujas modelis", "Create", "Kompanija", new { @class = "btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.pavadinimas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefonas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.el_pastas)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fk_miestas)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.pavadinimas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.telefonas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.el_pastas)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fk_miestas)
+        </td>
+        <td>
+            @Html.ActionLink("Redaguoti", "Edit", new { id = item.id }, new { @class = "btn btn-primary action" })
+            @Html.ActionLink("Šalinti", "Delete", new { id = item.id }, new { @class = "btn btn-danger action" })
+        </td>
+    </tr>
+}
+
+</table>

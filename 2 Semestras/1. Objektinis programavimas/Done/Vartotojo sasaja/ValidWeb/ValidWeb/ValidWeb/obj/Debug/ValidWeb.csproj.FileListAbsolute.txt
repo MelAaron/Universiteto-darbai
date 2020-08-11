@@ -1,0 +1,164 @@
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.dll.config
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.pdb
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.exe
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.exe.config
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.rsp
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.exe
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.exe.config
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.rsp
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.AppContext.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Console.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Compression.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Pipes.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.AccessControl.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Claims.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.ValueTuple.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.exe
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.exe.config
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.rsp
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\VBCSCompiler.exe
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.csprojAssemblyReference.cache
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.csproj.CoreCompileInputs.cache
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.csproj.CopyComplete
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.dll
+D:\Arnas\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.dll.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Console.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.dll.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\ValidWeb.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\csi.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Console.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\Vartotojo sasaja\ValidWeb\ValidWeb\ValidWeb\obj\Debug\ValidWeb.pdb

@@ -1,0 +1,14 @@
+@N: CD630 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd":8:7:8:12|Synthesizing work.failas.schematic.
+@W: CD638 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd":19:10:19:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd":20:10:20:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":65:10:65:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1186:10:1186:12|Synthesizing work.nr3.syn_black_box.
+Post processing for work.nr3.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1334:10:1334:12|Synthesizing work.or4.syn_black_box.
+Post processing for work.or4.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+Post processing for work.failas.schematic

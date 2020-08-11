@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD433 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\schem1.vhd&quot;:0:0:0:0|No design units in file</Dynamic>
+            <Navigation>CD433</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\schem1.vhd</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>0</Navigation>
+            <Navigation>No design units in file</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd&quot;:22:7:22:7|Signal c is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>22</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Signal c is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CD145 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr167.vhd&quot;:17:2:17:6|Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Dynamic>
+            <Navigation>CD145</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr167.vhd</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>17</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CD145 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd&quot;:49:1:49:5|Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Dynamic>
+            <Navigation>CD145</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>49</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CD145 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr23.vhd&quot;:16:2:16:6|Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Dynamic>
+            <Navigation>CD145</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr23.vhd</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>2</Navigation>
+            <Navigation>16</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Navigation>
+        </Message>
+        <Message>
+            <ID>2019990</ID>
+            <Severity>Error</Severity>
+            <Dynamic>CD145 :&quot;C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd&quot;:46:1:46:5|Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Dynamic>
+            <Navigation>CD145</Navigation>
+            <Navigation>C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\top_cntr.vhd</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>1</Navigation>
+            <Navigation>46</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Formal, &quot;cnt_o&quot;, and actual agree on type but not on size</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

@@ -1,0 +1,62 @@
+C:\Users\User\Documents\OP\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\User\Documents\OP\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\OP\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\OP\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\OP\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+D:\Arnas\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojAssemblyReference.cache
+D:\Arnas\1 Laboratorinis\obj\Debug\1 Laboratorinis.csproj.CoreCompileInputs.cache
+D:\Arnas\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+D:\Arnas\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\OP\2018 09 18\1 Laboratorinis\bin\Debug\Duomenys1.csv
+C:\Users\arnsve2\Downloads\1 Laboratorinis\bin\Debug\Duomenys1.csv
+C:\Users\arnsve2\Downloads\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\arnsve2\Downloads\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\arnsve2\Downloads\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\arnsve2\Downloads\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojAssemblyReference.cache
+C:\Users\arnsve2\Downloads\1 Laboratorinis\obj\Debug\1 Laboratorinis.csproj.CoreCompileInputs.cache
+C:\Users\arnsve2\Downloads\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\arnsve2\Downloads\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+C:\Users\User\Desktop\1 Laboratorinis\bin\Debug\Duomenys1.csv
+C:\Users\User\Desktop\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\User\Desktop\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\User\Desktop\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\User\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\User\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+C:\Users\arnsve2\Desktop\1 Laboratorinis\bin\Debug\Duomenys1.csv
+C:\Users\arnsve2\Desktop\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\arnsve2\Desktop\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\arnsve2\Desktop\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\arnsve2\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojAssemblyReference.cache
+C:\Users\arnsve2\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.csproj.CoreCompileInputs.cache
+C:\Users\arnsve2\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\arnsve2\Desktop\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\bin\Debug\Duomenys1.csv
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojAssemblyReference.cache
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\obj\Debug\1 Laboratorinis.csproj.CoreCompileInputs.cache
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+D:\Arnas\1. Laboratoriniai darbai\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\bin\Debug\Duomenys1.csv
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\OP\Ataskaita\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\bin\Debug\Duomenys1.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe.config
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\bin\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\bin\Debug\1 Laboratorinis.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\obj\Debug\1 Laboratorinis.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\obj\Debug\1 Laboratorinis.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\1 Laboratorinis\obj\Debug\1 Laboratorinis.pdb

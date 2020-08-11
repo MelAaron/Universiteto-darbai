@@ -1,0 +1,22 @@
+timestamp=1550065185638
+
+[~A]
+ModifyID=1
+Version=74
+
+[lab1]
+A/schematic=A/SCHEMATIC 21|./../../impl1/Lab1.vhd|19|1*0
+I=0*587
+I/schematic=I/SCHEMATIC 0*3641
+M=11|0|vd0|1550065185609|./../../impl1/Lab1.vhd|0*189*0x84bf968e6087ccc2287fa6b1b128bc615e38a33f|0*507*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1550065185621|./../../impl1/Lab1.vhd|0*820*0x7be526613cc4096a47cc074e4e9587a4da66cb7d|0*3548*0x9065d32a2e40e13794b29a2731812845
+R=./../../impl1/Lab1.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|ace7f3a597c6a0734a69cd28c8afc83d0dc1de0523233995122cbb7bf4f8bd36
+Version/schematic=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d724ce74b0eeb48fe3de28e9878f81cca8
+
+[~MFT]
+0=7|0work.mgf|3641|0
+1=1|1work.mgf|0|0
+
+[~U]
+lab1=LAB1 11|0*0|

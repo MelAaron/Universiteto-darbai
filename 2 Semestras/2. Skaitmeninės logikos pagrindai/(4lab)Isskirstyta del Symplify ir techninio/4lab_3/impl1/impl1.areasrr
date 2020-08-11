@@ -1,0 +1,65 @@
+----------------------------------------------------------------------
+Report for cell TOP_CNT.struct
+
+Register bits: 19 of 4752 (0%)
+PIC Latch:       0
+I/O cells:       4
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B        3       100.0
+                            FD1P3BX        2       100.0
+                            FD1P3DX       14       100.0
+                            FD1S3BX        1       100.0
+                            FD1S3DX        1       100.0
+                                GSR        1       100.0
+                                 IB        3       100.0
+                                INV        1       100.0
+                                 OB        1       100.0
+                           OFS1P3DX        1       100.0
+                           ORCALUT4       28       100.0
+                                PUR        1       100.0
+                                VHI        4       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                              CNT12        1       100.0
+                            CNT31_2        1       100.0
+                              CNT50        1       100.0
+                            
+                         TOTAL            68           
+----------------------------------------------------------------------
+Report for cell CNT50.netlist
+     Instance path:  CNT_3
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DX        5        35.7
+                            FD1S3DX        1       100.0
+                           ORCALUT4        8        28.6
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL            16           
+----------------------------------------------------------------------
+Report for cell CNT31_2.netlist
+     Instance path:  CNT_2
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2B        3       100.0
+                            FD1P3BX        1        50.0
+                            FD1P3DX        5        35.7
+                           ORCALUT4       14        50.0
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL            25           
+----------------------------------------------------------------------
+Report for cell CNT12.netlist
+     Instance path:  CNT_1
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3BX        1        50.0
+                            FD1P3DX        4        28.6
+                           ORCALUT4        6        21.4
+                                VHI        1        25.0
+                                VLO        1        25.0
+                            
+                         TOTAL            13           

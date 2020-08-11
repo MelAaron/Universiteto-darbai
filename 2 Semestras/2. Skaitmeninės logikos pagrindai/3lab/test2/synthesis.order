@@ -1,0 +1,3 @@
+i<>.\src\TestBench\scehm2_TB.vhd
+i<>.\..\impl1\schem1.vhd
+i<>.\..\impl1\scehm2.vhd

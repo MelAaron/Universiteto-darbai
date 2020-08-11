@@ -1,0 +1,58 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|TOP_CNT|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-fileorder|C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501881310
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501904608
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\xp2.vhd":1493298706
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\cntr12.vhd":1557583211
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\cntr31.vhd":1557661116
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\JM1.vhd":1557691187
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\LM2.vhd":1557693252
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\cntr50.vhd":1557656779
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\4lab\\cntr31_2.vhd":1557662677
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd" vhdl
+1 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr12.vhd" vhdl
+2 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr31.vhd" vhdl
+3 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\JM1.vhd" vhdl
+4 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\LM2.vhd" vhdl
+5 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr50.vhd" vhdl
+6 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr31_2.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 4 1 2 
+4 3 1 6 5 
+5 -1
+6 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 4 3 
+2 3 
+3 4 
+4 3 
+5 4 
+6 4 
+
+# Design Unit to File Association
+arch work cnt12 rtl 1
+module work cnt12 1
+arch work cnt31 rtl 2
+module work cnt31 2
+arch work top_cnt struct 3
+module work top_cnt 3
+arch work top_cnt struct 4
+module work top_cnt 4
+arch work cnt50 rtl 5
+module work cnt50 5
+arch work cnt31_2 rtl 6
+module work cnt31_2 6

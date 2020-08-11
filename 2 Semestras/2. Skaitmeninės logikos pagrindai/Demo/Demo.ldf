@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Demo" device="LFXP2-5E-6TN144C" default_implementation="impl1">
+    <Options>
+        <Option name="HDL type" value="VHDL"/>
+    </Options>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="FAILAS"/>
+        <Source name="Failas.sch" type="Schematic" type_short="Schematic">
+            <Options top_module="FAILAS"/>
+        </Source>
+        <Source name="Demo.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+        <Source name="Pavadinimas/Pavadinimas.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Demo1.sty"/>
+</BaliProject>

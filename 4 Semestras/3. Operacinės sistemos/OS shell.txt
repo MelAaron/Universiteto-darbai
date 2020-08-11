@@ -1,0 +1,39 @@
+/var/lab/files/submit kd2.sh
+
+if [ $# -ne 2 ]; then exit 255; fi;
+#?
+grep "Failed password" $tempF | awk -F "from|port" '{print $2}' | sort | uniq;
+#1.b
+grep "Failed password" $tempF | awk -F "from|port" '{print $2}' | sort | uniq -c |sort -n | awk -v N=$N -v M=$M '{ if($1 > N) if ($1 < M) print $0}';
+#2.
+grep "Failed password" $tempF | awk -F "from|port" '{print $2}' | sort | uniq > failed;
+grep "Accepted" $tempF | awk -F "from|port" '{print $2}' | sort | uniq > accepted;
+
+while read i
+do
+	a=`cat failed | grep $i`;
+	if [ $? -eq 0 ]; then 
+		echo $i;
+	fi;
+done < accepted;
+
+-d katalogas
+-e egzistuoja
+-f failas
+
+-eq lygu
+-ne nelygu
+-gt daugiau uz (greater than)
+-lt maziau uz (less then)
+! ne
+
+read 
+echo
+``
+SKAICIAVIMAS
+`expr $a + $b` ARBA $(($a+$b))
+
+PRISKIRIMAS KINTAMIESIEMS BE TARPU
+
+{ if ($3 == "9/1") { kiekis++; print $0; if (kiekis<11) tmp=tmp+$7;}
+if($5 ~ /Mindaugas/)

@@ -1,0 +1,11 @@
+#!/bin/sh
+read a;
+while [ $a -ne 'q' -o $a -ne 'Q' ]
+do
+	if [ $a -eq '1' -o $a -eq 'pirmadienis' ]; then
+		echo "Monday";
+	else
+		echo "Reikia irasyti skaiciu 1-7 arba diena pirmadienis - antradienis";
+	fi
+	read a;
+done;

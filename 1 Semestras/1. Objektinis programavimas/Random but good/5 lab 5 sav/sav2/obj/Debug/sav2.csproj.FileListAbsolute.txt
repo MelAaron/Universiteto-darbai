@@ -1,0 +1,14 @@
+C:\Users\Justin\source\repos\sav2\bin\Debug\sav2.exe.config
+C:\Users\Justin\source\repos\sav2\bin\Debug\sav2.exe
+C:\Users\Justin\source\repos\sav2\bin\Debug\sav2.pdb
+C:\Users\Justin\source\repos\sav2\obj\Debug\sav2.csprojAssemblyReference.cache
+C:\Users\Justin\source\repos\sav2\obj\Debug\sav2.csproj.CoreCompileInputs.cache
+C:\Users\Justin\source\repos\sav2\obj\Debug\sav2.exe
+C:\Users\Justin\source\repos\sav2\obj\Debug\sav2.pdb
+C:\Users\Justin\source\Lab5\sav2\bin\Debug\sav2.exe.config
+C:\Users\Justin\source\Lab5\sav2\bin\Debug\sav2.exe
+C:\Users\Justin\source\Lab5\sav2\bin\Debug\sav2.pdb
+C:\Users\Justin\source\Lab5\sav2\obj\Debug\sav2.csprojAssemblyReference.cache
+C:\Users\Justin\source\Lab5\sav2\obj\Debug\sav2.csproj.CoreCompileInputs.cache
+C:\Users\Justin\source\Lab5\sav2\obj\Debug\sav2.exe
+C:\Users\Justin\source\Lab5\sav2\obj\Debug\sav2.pdb

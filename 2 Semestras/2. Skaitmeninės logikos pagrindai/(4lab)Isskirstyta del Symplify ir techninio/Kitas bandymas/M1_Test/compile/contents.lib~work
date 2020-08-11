@@ -1,0 +1,6 @@
+4
+~E 1 "./../../cntr12.vhd" 11 CNT12
+~A 1 "./../../cntr12.vhd" 21 rtl
+~E 1 "./../src/TestBench/cnt12_TB.vhd" 7 cnt12_tb
+~A 1 "./../src/TestBench/cnt12_TB.vhd" 10 TB_ARCHITECTURE
+~C 1 "./../src/TestBench/cnt12_TB.vhd" 67 testbench_for_cnt12

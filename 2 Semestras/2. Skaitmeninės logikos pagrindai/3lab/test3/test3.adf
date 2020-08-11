@@ -1,0 +1,72 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=work
+
+[Library]
+test3=.\test3\test3.lib
+work=.\work\work.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+test3=.
+work=.
+
+[LocalVerilogDirs]
+Count=0
+
+[DefineMacro]
+Global=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=schem1|SCHEMATIC|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Groups]
+TestBench=1
+
+[Files]
+/..\..\impl1\schem1.vhd=-1
+/..\..\impl1\scehm2.vhd=-1
+/..\..\impl1\PLIS.vhd=-1
+/..\..\impl1\shcem3.vhd=-1
+TestBench/shcem3_TB.vhd=-1
+TestBench/shcem3_TB_runtest.do=-1
+
+[Files.Data]
+.\..\impl1\schem1.vhd=VHDL Source Code
+.\..\impl1\scehm2.vhd=VHDL Source Code
+.\..\impl1\PLIS.vhd=VHDL Source Code
+.\..\impl1\shcem3.vhd=VHDL Source Code
+.\src\TestBench\shcem3_TB.vhd=VHDL Test Bench
+.\src\TestBench\shcem3_TB_runtest.do=Macro
+

@@ -1,0 +1,62 @@
+﻿@model IEnumerable<AutoNuoma.ViewModels.SutartisEditViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Sutartys</h2>
+
+<p>
+    @Html.ActionLink("Nauja sutartis", "Create", "Sutartis", new { @class = "btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.nr)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sutarties_data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.pradzios_data)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.busena)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fk_mokykla)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fk_mokinys)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.nr)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sutarties_data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.pradzios_data)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.busena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fk_mokykla)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fk_mokinys)
+        </td>
+        <td>
+            @Html.ActionLink("Redaguoti", "Edit", new { id = item.nr }, new { @class = "btn btn-primary action" })
+            @Html.ActionLink("Šalinti", "Delete", new { id = item.nr }, new { @class = "btn btn-danger action" })
+        </td>
+    </tr>
+}
+
+</table>

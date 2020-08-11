@@ -1,0 +1,26 @@
+\begin{align}
+f &= \bar{a}\bar{b}\bar{c}\bar{d} e f
+\cup\bar{a}\bar{b}\bar{c} d e \bar{f}
+\cup\bar{a}\bar{b}\bar{c} d e f
+\cup\bar{a}\bar{b} c\bar{d} e f
+\cup\bar{a} b\bar{c}\bar{d} e f \nonumber \\
+& \cup\bar{a} b\bar{c} d\bar{e} f
+\cup\bar{a} b c\bar{d}\bar{e}\bar{f}
+\cup\bar{a} b c d\bar{e} f
+\cup a\bar{b}\bar{c}\bar{d}\bar{e}\bar{f}
+\cup a\bar{b}\bar{c}\bar{d} e\bar{f} \nonumber \\
+& \cup a\bar{b}\bar{c}\bar{d} e f
+\cup a\bar{b} c\bar{d}\bar{e}\bar{f}
+\cup a\bar{b} c\bar{d}\bar{e} f
+\cup a\bar{b} c\bar{d} e\bar{f}
+\cup a b\bar{c}\bar{d}\bar{e}\bar{f} \nonumber \\
+& \cup a b \bar{c}\bar{d}\bar{e} f
+\cup a b\bar{c} d\bar{e}\bar{f}
+\cup a b c d e f
+\label{eq:1}
+\end{align}
+
+\begin{align}
+{Q}_{t+1} &= \bar{x}_{1}{Q}_{t}\cup{x}_{1}(({x}_{2}\cup{x}_{3})\oplus{x}_{4}{Q}_{t}\cup
+{x}_{1}(({x}_{2}\cup{x}_{3})*\bar{x}_{4}))
+\end{align}

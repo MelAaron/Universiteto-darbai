@@ -1,0 +1,31 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 
+MESSAGE "Compile Entity "plis_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "plis_tb"" 
+ERROR COMP96_0078: "Unknown identifier "DL"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 75 2
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 75 2
+ERROR COMP96_0078: "Unknown identifier "x4"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 5
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 5
+ERROR COMP96_0078: "Unknown identifier "x3"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 16
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 16
+ERROR COMP96_0078: "Unknown identifier "x2"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 27
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 27
+ERROR COMP96_0078: "Unknown identifier "x1"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 38
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 38
+ERROR COMP96_0078: "Unknown identifier "x0"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 49
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 76 49
+ERROR COMP96_0078: "Unknown identifier "DL"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 82 2
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 82 2
+ERROR COMP96_0078: "Unknown identifier "x4"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 2
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 2
+ERROR COMP96_0078: "Unknown identifier "x3"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 13
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 13
+ERROR COMP96_0078: "Unknown identifier "x2"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 24
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 24
+ERROR COMP96_0078: "Unknown identifier "x1"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 35
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 35
+ERROR COMP96_0078: "Unknown identifier "x0"." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 46
+ERROR COMP96_0133: "Cannot find object declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 83 46
+MESSAGE "Compile Configuration "TESTBENCH_FOR_plis"" 
+ERROR COMP96_0209: "Unknown architecture name used in configuration declaration." "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\schem12\src\TestBench\plis_TB.vhd" 94 6
+FAILURE "Compile failure 25 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

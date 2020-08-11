@@ -1,0 +1,28 @@
+(defun c:figura1 ()
+  
+(setq taskas1 (getpoint "Pradinis taskas:"))
+(setq taskas2 (list (+  (car taskas1) 60) (cadr taskas1)))
+(setq taskas3 (list (car taskas2) (-  (cadr taskas2) 40)))
+(setq taskas4 (list (-  (car taskas3) 60) (cadr taskas3)))
+(command "line" taskas1 taskas2 taskas3 taskas4 taskas1 "" )
+  
+(setq taskasvidury (list (car taskas1) (- (cadr taskas1) 20)))
+(setq taskas5 (list (+  (car taskas1) 10) (- (cadr taskas1) 20)))
+(command "line" taskasvidury taskas5 "")
+  
+(setq taskas6 (list (car taskas5) (- (cadr taskas5) 5)))
+(setq taskas7 (list (car taskas5) (+ (cadr taskas5) 5)))
+(command "line" taskas6 taskas7 "")
+(command "line" taskas6 taskas3 "")
+(command "line" taskas7 taskas2 "")
+  
+(setq groteles1 (list (+ (car taskas5) 10) (+ (cadr taskas5) 15)))
+(setq groteles2 (list (+ (car taskas5) 10) (- (cadr taskas5) 40)))
+(setq groteles3 (list (+ (car taskas5) 20) (+ (cadr taskas5) 15)))
+(setq groteles4 (list (+ (car taskas5) 20) (- (cadr taskas5) 15)))
+(setq groteles5 (list (+ (car taskas5) 30) (- (cadr taskas5) 15)))
+(setq groteles6 (list (+ (car taskas5) 30) (+ (cadr taskas5) 15)))
+(setq groteles7 (list (+ (car taskas5) 40) (+ (cadr taskas5) 15)))
+(setq groteles8 (list (+ (car taskas5) 40) (- (cadr taskas5) 40)))
+(command "line" groteles2 groteles1 groteles3 groteles4 groteles5 groteles6 groteles7 groteles8 "")
+  )

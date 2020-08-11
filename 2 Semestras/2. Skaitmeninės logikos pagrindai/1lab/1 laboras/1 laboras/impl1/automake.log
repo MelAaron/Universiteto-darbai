@@ -1,0 +1,2 @@
+
+sch2vhd -FPGA -lib LatticeXP2 -i {C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/1 laboras/Lab1.sch} -o {C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/1 laboras/impl1/Lab1.vhd} -gui -msgset {C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/1 laboras/promote.xml}

@@ -1,0 +1,7 @@
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\obj\Debug\AlgL1_2.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\obj\Debug\AlgL1_2.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\bin\Debug\AlgL1_2.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\bin\Debug\AlgL1_2.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\bin\Debug\AlgL1_2.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\obj\Debug\AlgL1_2.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1_2\AlgL1_2\AlgL1_2\obj\Debug\AlgL1_2.pdb

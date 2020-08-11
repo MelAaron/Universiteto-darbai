@@ -1,0 +1,6 @@
+#Start recording tcl command: 2/5/2019 13:19:53
+#Project Location: C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo; Project name: Demo
+prj_project open "C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Demo.ldf"
+prj_run Translate -impl impl1
+prj_src add "C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/Pavadinimas.spf"
+#Stop recording: 2/5/2019 13:57:44

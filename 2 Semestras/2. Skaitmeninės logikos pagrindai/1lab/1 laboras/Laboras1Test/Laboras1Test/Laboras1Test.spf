@@ -1,0 +1,7 @@
+<BaliSimProject version="1.3" path="Laboras1Test" stage="0" language="-1" name="Laboras1Test" simType="Active-HDL">
+    <Source worklib="work" path="impl1/Lab1.vhd" type="VHDL" include="none"/>
+    <SimLib value="pmi_work ovi_xp2"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <TopModule instance="" language="VHDL" name="LAB1"/>
+</BaliSimProject>

@@ -1,0 +1,21 @@
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\bin\Debug\Padaro skaiciuku lentele.exe.config
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\bin\Debug\Padaro skaiciuku lentele.exe
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\bin\Debug\Padaro skaiciuku lentele.pdb
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.exe
+C:\Users\user\Desktop\lab\Skaiciu lenteles generatorius\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.pdb
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\Padaro skaiciuku lentele.exe.config
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.exe
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.pdb
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\Padaro skaiciuku lentele.exe
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\Padaro skaiciuku lentele.pdb
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\mscorlib.dll
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\System.Net.Http.dll
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\System.Net.Http.xml
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\normidna.nlp
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\normnfc.nlp
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\normnfd.nlp
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\normnfkc.nlp
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\bin\Debug\normnfkd.nlp
+C:\Users\balfr\Desktop\Padaro skaiciuku lentele\obj\Debug\Padaro skaiciuku lentele.csprojResolveAssemblyReference.cache

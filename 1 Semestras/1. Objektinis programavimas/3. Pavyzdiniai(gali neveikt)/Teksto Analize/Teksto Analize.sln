@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eilutes Simboliu Analize", "Eilutes Simboliu Analize\Eilutes Simboliu Analize.csproj", "{AEB6384D-96D4-463C-9A34-E303C0AF3C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teksto Eiluciu Salinimas", "Teksto Eiluciu Salinimas\Teksto Eiluciu Salinimas.csproj", "{055EC503-62E2-4538-9205-5BAF0EBB6E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teksto eiluciu daliu salinimas", "Teksto eiluciu daliu salinimas\Teksto eiluciu daliu salinimas.csproj", "{07DFDD05-9393-4E29-A8CE-206153CD4E65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zodziu isskyrimas eluteje", "Zodziu isskyrimas eluteje\Zodziu isskyrimas eluteje.csproj", "{1684F93E-5946-4B4C-9386-E47FBB8660F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eilutes konstravimas", "Eilutes konstravimas\Eilutes konstravimas.csproj", "{AABFB9ED-CF62-4616-BF88-4762DAA2B737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4sav", "4sav\4sav.csproj", "{60799D9A-9453-4D70-B07A-B0CCAB32166A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEB6384D-96D4-463C-9A34-E303C0AF3C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB6384D-96D4-463C-9A34-E303C0AF3C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB6384D-96D4-463C-9A34-E303C0AF3C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB6384D-96D4-463C-9A34-E303C0AF3C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055EC503-62E2-4538-9205-5BAF0EBB6E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055EC503-62E2-4538-9205-5BAF0EBB6E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055EC503-62E2-4538-9205-5BAF0EBB6E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055EC503-62E2-4538-9205-5BAF0EBB6E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DFDD05-9393-4E29-A8CE-206153CD4E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DFDD05-9393-4E29-A8CE-206153CD4E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DFDD05-9393-4E29-A8CE-206153CD4E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DFDD05-9393-4E29-A8CE-206153CD4E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1684F93E-5946-4B4C-9386-E47FBB8660F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1684F93E-5946-4B4C-9386-E47FBB8660F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1684F93E-5946-4B4C-9386-E47FBB8660F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1684F93E-5946-4B4C-9386-E47FBB8660F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABFB9ED-CF62-4616-BF88-4762DAA2B737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABFB9ED-CF62-4616-BF88-4762DAA2B737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABFB9ED-CF62-4616-BF88-4762DAA2B737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABFB9ED-CF62-4616-BF88-4762DAA2B737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60799D9A-9453-4D70-B07A-B0CCAB32166A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60799D9A-9453-4D70-B07A-B0CCAB32166A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60799D9A-9453-4D70-B07A-B0CCAB32166A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60799D9A-9453-4D70-B07A-B0CCAB32166A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5D346DC-F1EB-41FC-AADB-07A8DCBF3381}
+	EndGlobalSection
+EndGlobal

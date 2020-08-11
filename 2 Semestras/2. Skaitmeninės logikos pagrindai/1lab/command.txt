@@ -1,0 +1,31 @@
+fp: process
+	begin
+	f <= '0'; wait for 10 ns;
+	f <= '1'; wait for 10 ns;
+	end process ;
+ep: process
+	begin
+	e <= '0'; wait for 20 ns;
+	e <= '1'; wait for 20 ns;
+	end process ;
+dp: process
+	begin
+	d <= '0'; wait for 40 ns;
+	d <= '1'; wait for 40 ns;
+	end process ;
+cp: process
+	begin
+	c <= '0'; wait for 80 ns;
+	c <= '1'; wait for 80 ns;
+	end process ;
+bp: process
+	begin
+	b <= '0'; wait for 160 ns;
+	b <= '1'; wait for 160 ns;
+	end process ;
+ap: process
+	begin
+	a <= '0'; wait for 320 ns;
+	a <= '1'; wait for 320 ns;
+	assert false report " Pabaiga " severity failure ;
+	end process ;

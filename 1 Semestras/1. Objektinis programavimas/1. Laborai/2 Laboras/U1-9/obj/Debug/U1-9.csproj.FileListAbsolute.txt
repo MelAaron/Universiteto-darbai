@@ -1,0 +1,25 @@
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\bin\Debug\U1-9.exe.config
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\bin\Debug\U1-9.exe
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\bin\Debug\U1-9.pdb
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\obj\Debug\U1-9.csprojAssemblyReference.cache
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\obj\Debug\U1-9.csproj.CoreCompileInputs.cache
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\obj\Debug\U1-9.exe
+D:\Projektai\Laboras\1 Laboratorinas\U1-9\U1-9\obj\Debug\U1-9.pdb
+C:\Users\User\Documents\OP\U1-9\U1-9\bin\Debug\U1-9.exe.config
+C:\Users\User\Documents\OP\U1-9\U1-9\bin\Debug\U1-9.exe
+C:\Users\User\Documents\OP\U1-9\U1-9\bin\Debug\U1-9.pdb
+C:\Users\User\Documents\OP\U1-9\U1-9\obj\Debug\U1-9.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\U1-9\U1-9\obj\Debug\U1-9.exe
+C:\Users\User\Documents\OP\U1-9\U1-9\obj\Debug\U1-9.pdb
+C:\Users\User\Documents\OP\U1-9\U1-9\bin\Debug\1Duom.csv
+C:\Users\User\Documents\OP\U1-9\U1-9\bin\Debug\3Duom.csv
+C:\Users\User\Documents\OP\U1-9\U1-9\bin\Debug\2Duom.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\bin\Debug\1Duom.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\bin\Debug\3Duom.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\bin\Debug\2Duom.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\bin\Debug\U1-9.exe.config
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\bin\Debug\U1-9.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\bin\Debug\U1-9.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\obj\Debug\U1-9.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\obj\Debug\U1-9.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\2 Laboras\U1-9\obj\Debug\U1-9.pdb

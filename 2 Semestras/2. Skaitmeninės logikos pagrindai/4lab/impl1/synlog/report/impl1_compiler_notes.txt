@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\LM2.vhd":11:7:11:13|Top entity is set to TOP_CNT.
+

@@ -1,0 +1,7 @@
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\obj\Debug\AlgL1.csprojAssemblyReference.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\obj\Debug\AlgL1.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\bin\Debug\AlgL1.exe.config
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\bin\Debug\AlgL1.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\bin\Debug\AlgL1.pdb
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\obj\Debug\AlgL1.exe
+C:\Users\PC\Documents\1.Stuff\1. KTU\4 Semestras\Algoritmai\1lab\AlgL1\AlgL1\obj\Debug\AlgL1.pdb

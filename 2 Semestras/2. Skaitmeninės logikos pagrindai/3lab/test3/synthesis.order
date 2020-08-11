@@ -1,0 +1,5 @@
+i<>.\src\TestBench\shcem3_TB.vhd
+i<>.\..\impl1\schem1.vhd
+i<>.\..\impl1\scehm2.vhd
+i<>.\..\impl1\PLIS.vhd
+i<>.\..\impl1\shcem3.vhd

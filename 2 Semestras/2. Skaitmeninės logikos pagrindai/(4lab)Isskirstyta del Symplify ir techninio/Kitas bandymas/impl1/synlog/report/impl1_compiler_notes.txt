@@ -1,0 +1,9 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_1\cntr12.vhd":11:7:11:11|Top entity is set to CNT12.
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_1\cntr12.vhd":11:7:11:11|Synthesizing work.cnt12.rtl.
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_1\cntr12.vhd":11:7:11:11|Selected library: work cell: CNT12 view rtl as top level
+@N: NF107 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_1\cntr12.vhd":11:7:11:11|Selected library: work cell: CNT12 view rtl as top level
+

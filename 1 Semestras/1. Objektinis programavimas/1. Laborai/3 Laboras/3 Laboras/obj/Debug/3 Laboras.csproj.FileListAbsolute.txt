@@ -1,0 +1,44 @@
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\bin\Debug\1Parduotuve.csv
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe.config
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\bin\Debug\3 Laboras.pdb
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\obj\Debug\3 Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\obj\Debug\3 Laboras.exe
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\obj\Debug\3 Laboras.pdb
+C:\Users\User\Documents\OP\3 Laboras\3 Laboras\bin\Debug\2Parduotuve.csv
+D:\Arnas\3 Laboras\3 Laboras\bin\Debug\1Parduotuve.csv
+D:\Arnas\3 Laboras\3 Laboras\bin\Debug\2Parduotuve.csv
+D:\Arnas\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe.config
+D:\Arnas\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe
+D:\Arnas\3 Laboras\3 Laboras\bin\Debug\3 Laboras.pdb
+D:\Arnas\3 Laboras\3 Laboras\obj\Debug\3 Laboras.csprojAssemblyReference.cache
+D:\Arnas\3 Laboras\3 Laboras\obj\Debug\3 Laboras.csproj.CoreCompileInputs.cache
+D:\Arnas\3 Laboras\3 Laboras\obj\Debug\3 Laboras.exe
+D:\Arnas\3 Laboras\3 Laboras\obj\Debug\3 Laboras.pdb
+C:\Users\User\Desktop\3 Laboras\3 Laboras\obj\Debug\3 Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\3 Laboras\3 Laboras\obj\Debug\3 Laboras.exe
+C:\Users\User\Desktop\3 Laboras\3 Laboras\obj\Debug\3 Laboras.pdb
+C:\Users\User\Desktop\3 Laboras\3 Laboras\bin\Debug\1Parduotuve.csv
+C:\Users\User\Desktop\3 Laboras\3 Laboras\bin\Debug\2Parduotuve.csv
+C:\Users\User\Desktop\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe.config
+C:\Users\User\Desktop\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe
+C:\Users\User\Desktop\3 Laboras\3 Laboras\bin\Debug\3 Laboras.pdb
+C:\Users\User\Desktop\3 Laboras\3 Laboras\bin\Debug\3Parduotuve.csv
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\1Parduotuve.csv
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\2Parduotuve.csv
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3Parduotuve.csv
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe.config
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3 Laboras.pdb
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\obj\Debug\3 Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\obj\Debug\3 Laboras.exe
+C:\Users\User\Documents\OP\Done\1. Laborai\3 Laboras\3 Laboras\obj\Debug\3 Laboras.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\1Parduotuve.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\2Parduotuve.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3Parduotuve.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe.config
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3 Laboras.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\bin\Debug\3 Laboras.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\obj\Debug\3 Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\obj\Debug\3 Laboras.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\3 Laboras\3 Laboras\obj\Debug\3 Laboras.pdb

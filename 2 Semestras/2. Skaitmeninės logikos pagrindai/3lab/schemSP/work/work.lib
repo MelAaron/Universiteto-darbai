@@ -1,0 +1,24 @@
+timestamp=1557322181992
+
+[~A]
+ModifyID=1
+Version=74
+
+[schem1]
+A/schematic=A/SCHEMATIC 21|./../../impl1/schem1.vhd|26|1*0
+BinI32/schematic=3*0
+I=0*776
+I/schematic=I/SCHEMATIC 0*3246
+M=11|0|vd0|1557322181838|./../../impl1/schem1.vhd|0*219*0x7b1947ec4fa6a7b1127f9c92406463a1a007fc8c|0*692*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1557322181840|./../../impl1/schem1.vhd|0*1011*0x0d078a500a61a76d2a14190ad27e8a08aaffe584|0*3149*0x9065d32a2e40e13794b29a2731812845
+R=./../../impl1/schem1.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|50b726f102ad31140fb4154ff42a30ce6ce7d8991ec20700c14a45f6392c7db0
+Version/schematic=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d78cdee581dea42a54d9f2957f2caa9571
+
+[~MFT]
+0=7|0work.mgf|3246|0
+1=1|1work.mgf|0|0
+3=1|3work.mgf|0|0
+
+[~U]
+schem1=SCHEM1 11|0*0|

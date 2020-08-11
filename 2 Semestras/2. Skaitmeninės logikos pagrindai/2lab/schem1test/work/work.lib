@@ -1,0 +1,45 @@
+timestamp=1553623688590
+
+[~A]
+ModifyID=4
+Version=74
+
+[schem1]
+A/schematic=A/SCHEMATIC 21|./../../lab2impl/schem1.vhd|20|1*10704
+BinI32/schematic=3*983
+I=0*634
+I/schematic=I/SCHEMATIC 0*7725
+M=11|0|vd0|1553623665722|./../../lab2impl/schem1.vhd|0*197*0x0f8013c26404dc34c726e3656f329bb12e086786|0*547*0x23b75c12e3e89f2ef000564498faa8c2
+M/schematic=M/SCHEMATIC 21|0|vd0|1553623688335|./../../lab2impl/schem1.vhd|0*2964*0xb9cff72892e2385d23e4362143155303a533189d|0*4546*0x20116f55b147878295aeff36dce7fc50
+R=./../../lab2impl/schem1.vhd|8
+Version=10.3.3558.6081  (Windows)|00000004789cd34d494a0700030f015b|50b726f102ad31140fb4154ff42a30ce0c65b18080f50c958abecdb8275051ec
+Version/schematic=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|12c26b08c46ca97f6bba7ba34a1f13697847c06a4beeea0b43e2cdf34fe5e3d77eae0e16707f9038884b3d3d3dd8451a
+
+[schem1_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./../src/TestBench/schem1_TB.vhd|11|1*15004
+BinI32/tb_architecture=3*1242
+I=0*5483
+I/tb_architecture=I/TB_ARCHITECTURE 0*8138
+M=11|0|vd0|1553623685434|./../src/TestBench/schem1_TB.vhd|0*5183*0x5409cde0ea3aa67bf186d0689ca9acd0cc9ea32d|0*5388*0x23b75c12e3e89f2ef000564498faa8c2
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|vd0|1553623688551|./../src/TestBench/schem1_TB.vhd|0*5721*0x9bdd0a0e0a0c1d5c0b0942c52f3de17b3a796141|0*6772*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/schem1_TB.vhd|8
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|6f9b36dbc9eb5c14b3e95b97af18dc819154a7c95f37bb87f9578e47fc7cbccb46db0080c54b160beaea8282c2fe9e7c
+Version/tb_architecture=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|da2d76821309f33ed1264ca4678a936a8f84fef0fc5d0f10f1a8cfc2ad534bea2f1d0163bae64a1f14d74ee232e58f42
+
+[testbench_for_schem1]
+Configures=schem1_tb.TB_ARCHITECTURE
+E=1*16670
+I=0*8427
+M=2|0|vd0|1553623688557|./../src/TestBench/schem1_TB.vhd|0*7175*0x791e7cb1424fa2e8867a5fe9dc5d45426f2c87a2|0*7445*0x20116f55b147878295aeff36dce7fc50
+R=./../src/TestBench/schem1_TB.vhd|78
+Version=10.3.3558.6081  (Windows)|00000003789cd3f5370600015b00b0|5efd636a07bb57613e35fadc81a5c3e593e0841b5db749258a201b8d963ef30310191adb19ee115c351a93b2f4367c81
+
+[~MFT]
+0=4|0work.mgf|8427|2959
+1=4|1work.mgf|16670|10704
+3=2|3work.mgf|1242|983
+
+[~U]
+schem1=SCHEM1 11|0*0|
+schem1_tb=11|0*5059|
+testbench_for_schem1=TESTBENCH_FOR_schem1 2||

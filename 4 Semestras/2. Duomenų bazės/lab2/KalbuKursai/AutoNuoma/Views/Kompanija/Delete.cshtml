@@ -1,0 +1,64 @@
+﻿@model AutoNuoma.ViewModels.KompanijaEditViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Kompanijos šalinimas</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>KompanijaEditViewModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.pavadinimas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pavadinimas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.telefonas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefonas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.el_pastas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.el_pastas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.fk_miestas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fk_miestas)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @if (ViewBag.naudojama != null)
+            {
+                <h5>ViewBag.naudojama</h5>
+            }
+            else
+            {
+                <input type="submit" value="Šalinti" class="btn btn-danger" />
+            }
+            @Html.ActionLink("Atgal į sąrašą", "Index", "Kompanija", new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

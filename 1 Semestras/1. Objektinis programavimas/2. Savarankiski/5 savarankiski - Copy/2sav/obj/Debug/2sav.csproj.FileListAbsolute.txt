@@ -1,0 +1,9 @@
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\bin\Debug\Futbolininkai.csv
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\bin\Debug\Komandos.csv
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\bin\Debug\Krepsininkai.csv
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\bin\Debug\2sav.exe.config
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\bin\Debug\2sav.exe
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\bin\Debug\2sav.pdb
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\obj\Debug\2sav.exe
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\obj\Debug\2sav.pdb
+C:\Users\User\Documents\1. OP\Done\2. Savarankiski\5 savarankiski - Copy\2sav\obj\Debug\2sav.csprojResolveAssemblyReference.cache

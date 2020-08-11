@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\New folder\1 laboras\Schema2\src\TestBench\schema3_TB.vhd" 
+MESSAGE "Compile Entity "schema3_tb"" 
+MESSAGE "Compile Architecture "TB_ARCHITECTURE" of Entity "schema3_tb"" 
+MESSAGE "Compile Configuration "TESTBENCH_FOR_schema3"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

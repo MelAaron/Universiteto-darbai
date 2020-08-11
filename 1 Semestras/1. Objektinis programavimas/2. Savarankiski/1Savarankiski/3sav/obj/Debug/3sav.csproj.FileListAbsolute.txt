@@ -1,0 +1,25 @@
+C:\Users\User\Documents\OP\Savarankiski\3sav\bin\Debug\3sav.exe.config
+C:\Users\User\Documents\OP\Savarankiski\3sav\bin\Debug\3sav.exe
+C:\Users\User\Documents\OP\Savarankiski\3sav\bin\Debug\3sav.pdb
+C:\Users\User\Documents\OP\Savarankiski\3sav\obj\Debug\3sav.exe
+C:\Users\User\Documents\OP\Savarankiski\3sav\obj\Debug\3sav.pdb
+D:\Arnas\Savarankiski\3sav\bin\Debug\3sav.exe.config
+D:\Arnas\Savarankiski\3sav\bin\Debug\3sav.exe
+D:\Arnas\Savarankiski\3sav\bin\Debug\3sav.pdb
+D:\Arnas\Savarankiski\3sav\obj\Debug\3sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski\3sav\obj\Debug\3sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski\3sav\obj\Debug\3sav.exe
+D:\Arnas\Savarankiski\3sav\obj\Debug\3sav.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\3sav\bin\Debug\3sav.exe.config
+C:\Users\User\Documents\OP\Savarankiski 2\3sav\bin\Debug\3sav.exe
+C:\Users\User\Documents\OP\Savarankiski 2\3sav\bin\Debug\3sav.pdb
+C:\Users\User\Documents\OP\Savarankiski 2\3sav\obj\Debug\3sav.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Savarankiski 2\3sav\obj\Debug\3sav.exe
+C:\Users\User\Documents\OP\Savarankiski 2\3sav\obj\Debug\3sav.pdb
+D:\Arnas\Savarankiski 2\3sav\bin\Debug\3sav.exe.config
+D:\Arnas\Savarankiski 2\3sav\bin\Debug\3sav.exe
+D:\Arnas\Savarankiski 2\3sav\bin\Debug\3sav.pdb
+D:\Arnas\Savarankiski 2\3sav\obj\Debug\3sav.csprojAssemblyReference.cache
+D:\Arnas\Savarankiski 2\3sav\obj\Debug\3sav.csproj.CoreCompileInputs.cache
+D:\Arnas\Savarankiski 2\3sav\obj\Debug\3sav.exe
+D:\Arnas\Savarankiski 2\3sav\obj\Debug\3sav.pdb

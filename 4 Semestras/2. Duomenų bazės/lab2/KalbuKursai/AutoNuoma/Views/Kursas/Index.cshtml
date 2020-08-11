@@ -1,0 +1,80 @@
+﻿@model IEnumerable<AutoNuoma.Models.Kursas>
+
+@{
+    ViewBag.Title = "Kursai";
+}
+
+<h2>Kalbų kursai</h2>
+
+<p>
+    @Html.ActionLink("Naujas Kursas", "Create", "Kursas", new { @class = "btn btn-success" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.kalba)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.trukme_menesiais)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.kaina)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.max_mokiniu)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mokymosi_medziaga)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lygis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.savaites_diena)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mokytojo_asmens_kodas)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.kalba)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.trukme_menesiais)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.kaina)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.max_mokiniu)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mokymosi_medziaga)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.lygis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.savaites_diena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mokytojo_asmens_kodas)
+        </td>
+        <td>
+            @Html.ActionLink("Redaguoti", "Edit", new { id = item.id }, new { @class = "btn btn-primary action" })
+            @Html.ActionLink("Šalinti", "Delete", new { id = item.id }, new { @class = "btn btn-danger action" })
+        </td>
+    </tr>
+}
+
+</table>

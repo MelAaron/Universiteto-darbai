@@ -1,0 +1,36 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    DESKTOP-R4VAF27
+Date:        Sun May 12 23:34:40 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -batch lab4_impl1_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+Copied C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\lab4_impl1.srr to C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\backup\lab4_impl1.srr
+log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\lab4_impl1.srr"
+Running: hdl_info_gen in foreground
+
+Generating HDL info...
+
+Job: "hdl_info_gen" terminated with error status: 2
+See log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\syntax.log"
+# Sun May 12 23:34:40 2019
+
+Return Code: 2
+Run Time:00h:00m:00s
+Copied C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\lab4_impl1.srr to C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\lab4_impl1.srf
+Error: At line 67 while processing "lab4_impl1_synplify.tcl"
+2
+TCL script complete: "lab4_impl1_synplify.tcl"
+TCL script had errors: "lab4_impl1_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\proj_1.prj
+batch mode default:no

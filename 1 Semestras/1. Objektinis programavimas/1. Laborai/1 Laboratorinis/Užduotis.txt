@@ -1,0 +1,10 @@
+Kompiuterinis aidimas. Kuriate „fantasy“ tipo kompiuterini aidima. Duomenu faile turite
+informacija apie aidimo herojus: vardas, rase, klase, gyvybes taškai, mana, alos taškai, gynybos
+taškai, jega, vikrumas, intelektas, ypatinga galia.
+? Raskite, kuris herojus pasiymi geriausiomis charakteristikomis (jegos, vikrumo ir intelekto
+suma didiausia), ekrane atspausdinkite herojaus varda, rase, klase bei charakteristikas.
+? Raskite, kokios rases heroju daugiausia. Ekrane atspausdinkite rases pavadinima, bei visu
+tos rases heroju vardus.
+? Sudarykite visu elfu saraša, faile „Elfai.csv“ irašykite visus ju duomenis.
+? Sudarykite heroju, kuriu gyvybes taškai bent 100, o gynybos taškai – bent 30, saraša. I faila
+„Tankai.csv“ irašykite heroju vardus, klases, rases bei ypatingas galias. 

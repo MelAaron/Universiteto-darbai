@@ -1,0 +1,56 @@
+﻿@model AutoNuoma.ViewModels.MiestasEditViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Miesto šalinimas</h2>
+
+<h3>Ar tikrai norite pašalinti šį miestą?</h3>
+<div>
+    <h4>Miesto šalinimas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.pavadinimas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.pavadinimas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.salis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.salis)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @if (ViewBag.naudojama != null)
+            {
+                <h5 style="color:red">@ViewBag.naudojama</h5>
+            }
+            else
+            {
+                <input type="submit" value="Šalinti" class="btn btn-danger" />
+            }
+            @Html.ActionLink("Atgal į sąrašą", "Index", "Miestas", new { @class = "btn btn-default" })
+        </div>
+    }
+</div>

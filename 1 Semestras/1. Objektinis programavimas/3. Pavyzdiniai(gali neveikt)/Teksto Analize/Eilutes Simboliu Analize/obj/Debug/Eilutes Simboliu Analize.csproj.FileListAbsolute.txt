@@ -1,0 +1,13 @@
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\bin\Debug\Eilutes Simboliu Analize.exe.config
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\bin\Debug\Eilutes Simboliu Analize.exe
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\bin\Debug\Eilutes Simboliu Analize.pdb
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.csprojAssemblyReference.cache
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.csproj.CoreCompileInputs.cache
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.exe
+D:\Arnas\Teksto Analize\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes Simboliu Analize\bin\Debug\Eilutes Simboliu Analize.exe.config
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes Simboliu Analize\bin\Debug\Eilutes Simboliu Analize.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes Simboliu Analize\bin\Debug\Eilutes Simboliu Analize.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Eilutes Simboliu Analize\obj\Debug\Eilutes Simboliu Analize.pdb

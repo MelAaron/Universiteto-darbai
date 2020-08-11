@@ -1,0 +1,21 @@
+U4-12. Pasikartojantys žodžiai
+Tekstiniame faile Knyga.txt duotas tekstas sudarytas iš žodžiu, atskirtu skyrikliais. Skyrikliu aibe žinoma.
+Raskite ir spausdinkite faile Rodikliai.txt:
+
+    ? Nurodyta kieki dažniausiai pasikartojanciu žodžiu (ne daugiau nei 10 žodžiu), surikiuota pagal
+      pasikartojimo skaiciu;
+    ? ilgiausia sakini, jo ilgi (simboliais ir žodžiais) ir vieta (sakinio pradžios eilutes numeri).
+
+Reikia teksto žodžius sulygiuoti, kad kiekvienos eilutes kiekvienas žodis prasidetu fiksuotoje toje pacioje
+pozicijoje. Galima iterpti tik minimalu butina tarpu skaiciu. Galima šalinti kelis iš eiles einancius vienodus
+skyriklius, paliekant tik viena ju atstova. Iterpimo ir šalinimo taisykles taikome, siekdami gauti lygiuota
+minimalu teksta. Šalinimo taisykles netaikome, jei nera poreikio. Pradinio teksto eilutes ilgis neviršija 80
+simboliu.
+
+Spausdinkite faile ManoKnyga.txt pertvarkyta teksta pagal tokias taisykles:
+    ? kiekvienos eilutes pirmasis žodis turi prasideti pozicijoje p1=1.
+    ? antrasis kiekvienos eilutes žodis turi prasideti minimalioje galimoje pozicijoje p2, tokioje, kad
+kiekvienos eilutes pirmasis žodis kartu su už jo esanciais skyrikliais baigiasi iki p2-2 arba p2-1.
+    ? treciasis kiekvienos eilutes žodis turi prasideti minimalioje galimoje pozicijoje p3, tokioje, kad
+kiekvienos eilutes antrasis žodis kartu su už jo esanciais skyrikliais baigiasi iki p3-2 arba p3-1.
+    ? ir t.t.

@@ -1,0 +1,105 @@
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\csc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\csc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\csi.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\csi.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\vbc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\1Laboras.dll.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\1Laboras.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\1Laboras.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\obj\Debug\1Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\obj\Debug\1Laboras.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\obj\Debug\1Laboras.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Laborai\1Laboras\bin\App_Data\Kur3.txt
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\csc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\csc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\csi.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\csi.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\vbc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\App_Data\Kur3.txt
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\1Laboras.dll.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\1Laboras.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\1Laboras.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\obj\Debug\1Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\obj\Debug\1Laboras.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\1Labrosas\1Laboras\obj\Debug\1Laboras.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\csc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\csc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\csi.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\csi.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\vbc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\App_Data\Kur3.txt
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\1Laboras.dll.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\1Laboras.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\1Laboras.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\obj\Debug\1Laboras.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\obj\Debug\1Laboras.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Done\1. Laborai\1Labrosas\1Laboras\obj\Debug\1Laboras.pdb

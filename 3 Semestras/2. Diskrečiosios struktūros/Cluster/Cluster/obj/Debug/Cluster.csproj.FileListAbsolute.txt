@@ -1,0 +1,42 @@
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\Cluster.exe.config
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\Cluster.exe
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\Cluster.pdb
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\obj\Debug\Cluster.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\obj\Debug\Cluster.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\obj\Debug\Cluster.exe
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\obj\Debug\Cluster.pdb
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\ExcelDataReader.dll
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\ExcelDataReader.pdb
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\ExcelDataReader.xml
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Lenovo\Desktop\cluster 2.0\Cluster\Cluster\obj\Debug\Cluster.csproj.CopyComplete
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\Cluster.exe.config
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\Cluster.exe
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\Cluster.pdb
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\ExcelDataReader.dll
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\ExcelDataReader.pdb
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\ExcelDataReader.xml
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\cernt\Desktop\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\cernt\Desktop\Cluster\Cluster\obj\Debug\Cluster.csprojAssemblyReference.cache
+C:\Users\cernt\Desktop\Cluster\Cluster\obj\Debug\Cluster.csproj.CoreCompileInputs.cache
+C:\Users\cernt\Desktop\Cluster\Cluster\obj\Debug\Cluster.csproj.CopyComplete
+C:\Users\cernt\Desktop\Cluster\Cluster\obj\Debug\Cluster.exe
+C:\Users\cernt\Desktop\Cluster\Cluster\obj\Debug\Cluster.pdb
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\Cluster.exe.config
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\Cluster.exe
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\Cluster.pdb
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\ExcelDataReader.dll
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\ExcelDataReader.pdb
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\ExcelDataReader.xml
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\obj\Debug\Cluster.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\obj\Debug\Cluster.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\obj\Debug\Cluster.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\obj\Debug\Cluster.exe
+C:\Users\Lenovo\Desktop\Cluster tito\Cluster\Cluster\Cluster\obj\Debug\Cluster.pdb

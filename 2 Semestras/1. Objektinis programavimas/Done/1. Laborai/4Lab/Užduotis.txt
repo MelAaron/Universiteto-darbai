@@ -1,0 +1,10 @@
+1LDD_3. aidejai. 
+Pirmojoje failo eiluteje nurodyta rungtyniu data (failu daug). Tolesnese eilutese
+nurodyta komandos pavadinimas, krepšininko pavarde, vardas, aistu minuciu skaicius, pelnytu tašku
+skaicius, padarytu klaidu skaicius. Atskirame faile nurodyta komandos pavadinimas,
+krepšininkopavarde, vardas, aidimo pozicija (puolejas, gynejas, centras). 
+Sudarykite nurodytos pozicijos (ivedama klaviatura) 
+nurodytame periode (ivedama klaviatura, datos nuo iki) 
+naudingiausiu aideju nurodyto kiekio (ivedama klaviatura) saraša.
+Naudingiausias aidejas tas, kuris pelne daugiausiaitašku, aide maiausiai minuciu
+ir padare maiausiai klaidu.

@@ -1,0 +1,9 @@
+---------------------------------------------------
+Report for cell PLIS
+   Instance path: PLIS
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      12.00        100.0
+                                  LUT4	      17.00        100.0
+                                 IOBUF	          9        100.0
+                                PFUREG	          5        100.0

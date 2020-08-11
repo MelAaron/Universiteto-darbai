@@ -1,0 +1,17 @@
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\bin\Debug\U5_9.exe.config
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\bin\Debug\U5_9.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\bin\Debug\U5_9.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\obj\Debug\U5_9.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\obj\Debug\U5_9.exe
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\obj\Debug\U5_9.pdb
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\bin\Debug\Data\Antrasai.csv
+C:\Users\User\Documents\1. OP\Done\1. Laborai\5 Laboras\U5_9\bin\Debug\Data\Pirmasai.csv
+D:\Arnas\5lab\5 Laboras\U5_9\bin\Debug\Data\Antrasai.csv
+D:\Arnas\5lab\5 Laboras\U5_9\bin\Debug\Data\Pirmasai.csv
+D:\Arnas\5lab\5 Laboras\U5_9\bin\Debug\U5_9.exe.config
+D:\Arnas\5lab\5 Laboras\U5_9\bin\Debug\U5_9.exe
+D:\Arnas\5lab\5 Laboras\U5_9\bin\Debug\U5_9.pdb
+D:\Arnas\5lab\5 Laboras\U5_9\obj\Debug\U5_9.csprojAssemblyReference.cache
+D:\Arnas\5lab\5 Laboras\U5_9\obj\Debug\U5_9.csproj.CoreCompileInputs.cache
+D:\Arnas\5lab\5 Laboras\U5_9\obj\Debug\U5_9.exe
+D:\Arnas\5lab\5 Laboras\U5_9\obj\Debug\U5_9.pdb

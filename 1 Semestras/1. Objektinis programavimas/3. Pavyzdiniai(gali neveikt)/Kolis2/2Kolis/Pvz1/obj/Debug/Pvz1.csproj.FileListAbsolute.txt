@@ -1,0 +1,7 @@
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\obj\Debug\Pvz1.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\bin\Debug\Pvz1.exe.config
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\bin\Debug\Pvz1.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\bin\Debug\Pvz1.pdb
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\obj\Debug\Pvz1.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\obj\Debug\Pvz1.pdb
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Kolis2\2Kolis\Pvz1\bin\Debug\Duom.txt

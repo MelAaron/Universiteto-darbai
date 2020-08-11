@@ -1,0 +1,7 @@
+﻿Zajancas;Birstonietis g.;3;4;193;40 
+Rapanauskas;Siauliu g.;6;5;142;20 
+Drapanauskas;Gedimino kalnas;1;12;251;12 
+Solovjov;Dubai city;2;10;662;2 
+Juozapauskas;Kazkurios g.;2;7;193;12 
+Svenciulis;Klaipedos g.;1;12;123;13 
+Pazekius;Kliumpiu g.;11;2;123;2

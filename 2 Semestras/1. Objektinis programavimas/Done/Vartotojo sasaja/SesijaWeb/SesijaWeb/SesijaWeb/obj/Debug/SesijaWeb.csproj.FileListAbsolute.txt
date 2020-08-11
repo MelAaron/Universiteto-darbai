@@ -1,0 +1,110 @@
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\SesijaWeb.dll.config
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\SesijaWeb.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\SesijaWeb.pdb
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csc.exe
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csc.exe.config
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csc.rsp
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csi.exe
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csi.exe.config
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csi.rsp
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.AppContext.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Console.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.Compression.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.Pipes.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.AccessControl.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Claims.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.ValueTuple.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.XPath.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\vbc.exe
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\vbc.exe.config
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\vbc.rsp
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\VBCSCompiler.exe
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.csprojAssemblyReference.cache
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.csproj.CoreCompileInputs.cache
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.csproj.CopyComplete
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.dll
+D:\Arnas\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\SesijaWeb.dll.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\SesijaWeb.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\SesijaWeb.pdb
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csi.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csi.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\csi.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.AppContext.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Console.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\vbc.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\vbc.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\vbc.rsp
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.dll
+C:\Users\User\Documents\1. KTU\2 Semestras\1. OP\Vartotojo sasaja\SesijaWeb\SesijaWeb\SesijaWeb\obj\Debug\SesijaWeb.pdb

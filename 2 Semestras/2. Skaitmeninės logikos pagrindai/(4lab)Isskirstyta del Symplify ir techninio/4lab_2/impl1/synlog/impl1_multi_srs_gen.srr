@@ -1,0 +1,13 @@
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\JM1.vhd":11:7:11:13|Selected library: work cell: TOP_CNT view struct as top level
+@N: NF107 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\JM1.vhd":11:7:11:13|Selected library: work cell: TOP_CNT view struct as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Sun May 12 23:13:51 2019
+
+###########################################################]

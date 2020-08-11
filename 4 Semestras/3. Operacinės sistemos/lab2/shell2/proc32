@@ -1,0 +1,24 @@
+#!/bin/sh
+a=$#;
+if [ $a -eq 2 ]; then
+	if [ -d $1 ]; then
+		if [ -f $2 ]; then
+			mv $2 $1;
+			if [ $? -eq 1 ]; then
+				echo "Nepavyko perkelti";
+			fi
+			if [ $inf -eq 1 ]; then
+				cp $2 $1;
+				if [ $? -eq 1 ]; then
+				echo "Nepavyko nukopijuoti";
+			fi
+			fi
+		fi
+	fi
+fi 
+#if [ $inf -eq 1 ]; then
+#	echo "Nepavyko perkelti";
+#fi
+#if [ $inf2 -eq 1 ]; then
+#	echo "Nepavyko nukopijuoti";
+#fi;

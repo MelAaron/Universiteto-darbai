@@ -1,0 +1,76 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=work
+
+[Library]
+JM1=.\JM1\JM1.lib
+work=.\work\work.lib
+
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+JM1=.
+work=.
+
+[LocalVerilogDirs]
+Count=0
+
+[DefineMacro]
+Global=
+
+[Groups]
+TestBench=1
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=top_cnt|struct|0 top_cnt_tb|testbench_for_top_cnt|1 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/..\..\cntr31.vhd=-1
+/..\..\schem1.vhd=-1
+/..\..\JM1.vhd=-1
+/..\..\cntr12.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+TestBench/top_cnt_TB.vhd=-1
+TestBench/top_cnt_TB_runtest.do=-1
+
+[Files.Data]
+.\..\cntr31.vhd=VHDL Source Code
+.\..\schem1.vhd=VHDL Source Code
+.\..\JM1.vhd=VHDL Source Code
+.\..\cntr12.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\TestBench\top_cnt_TB.vhd=VHDL Test Bench
+.\src\TestBench\top_cnt_TB_runtest.do=Macro
+

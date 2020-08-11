@@ -1,0 +1,5 @@
+C:\Users\User\Documents\OP\Savarankiski\Sav4\bin\Debug\Sav4.exe.config
+C:\Users\User\Documents\OP\Savarankiski\Sav4\bin\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Savarankiski\Sav4\bin\Debug\Sav4.pdb
+C:\Users\User\Documents\OP\Savarankiski\Sav4\obj\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Savarankiski\Sav4\obj\Debug\Sav4.pdb

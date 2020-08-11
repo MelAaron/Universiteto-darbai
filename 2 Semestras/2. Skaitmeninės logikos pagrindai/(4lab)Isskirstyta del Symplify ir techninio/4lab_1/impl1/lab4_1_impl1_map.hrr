@@ -1,0 +1,11 @@
+---------------------------------------------------
+Report for cell CNT12
+   Instance path: CNT12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	       7.00        100.0
+                                 IOLGC	       1.00        100.0
+                                  LUT4	       9.00        100.0
+                                 IOREG	          1        100.0
+                                 IOBUF	          8        100.0
+                                PFUREG	          4        100.0

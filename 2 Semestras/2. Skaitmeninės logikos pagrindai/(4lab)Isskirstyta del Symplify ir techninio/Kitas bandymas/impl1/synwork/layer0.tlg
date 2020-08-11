@@ -1,0 +1,4 @@
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\Justino\cntr12.vhd":11:7:11:11|Synthesizing work.cnt12.rtl.
+Post processing for work.cnt12.rtl
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\Justino\cntr12.vhd":26:2:26:3|Feedback mux created for signal CNT_A[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\Justino\cntr12.vhd":26:2:26:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.

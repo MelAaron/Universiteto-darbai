@@ -1,0 +1,15 @@
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\LM2.vhd":11:7:11:13|Synthesizing work.top_cnt.struct.
+@W: CD638 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\LM2.vhd":22:7:22:7|Signal c is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr50.vhd":11:7:11:11|Synthesizing work.cnt50.rtl.
+Post processing for work.cnt50.rtl
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr50.vhd":27:2:27:3|Feedback mux created for signal CNT_A[5:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr50.vhd":27:2:27:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr31_2.vhd":11:7:11:13|Synthesizing work.cnt31_2.rtl.
+Post processing for work.cnt31_2.rtl
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr31_2.vhd":26:2:26:3|Feedback mux created for signal CNT_A[4:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr31_2.vhd":26:2:26:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@N: CD630 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr12.vhd":11:7:11:11|Synthesizing work.cnt12.rtl.
+Post processing for work.cnt12.rtl
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr12.vhd":26:2:26:3|Feedback mux created for signal CNT_A[3:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_3\cntr12.vhd":26:2:26:3|Feedback mux created for signal CNT_C. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+Post processing for work.top_cnt.struct

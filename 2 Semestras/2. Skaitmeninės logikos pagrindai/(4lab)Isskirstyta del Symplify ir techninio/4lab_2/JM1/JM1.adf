@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=work
+[Library]
+JM1=.\JM1\JM1.lib
+work=.\work\work.lib
+[Settings]
+AccessRead=1
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=0
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+PriorityLibNames=pmi_work
+LibNames=ovi_xp2
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+JM1=.
+work=.
+[LocalVerilogDirs]
+Count=0
+[DefineMacro]
+Global=
+[Files]
+/..\..\cntr31.vhd=-1
+/..\..\cntr12.vhd=-1
+/..\..\JM1.vhd=-1
+[Files.Data]
+.\..\cntr31.vhd=VHDL Source Code
+.\..\cntr12.vhd=VHDL Source Code
+.\..\JM1.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=top_cnt|struct|0 
+ShowHide=ShowTopLevel
+Selected=

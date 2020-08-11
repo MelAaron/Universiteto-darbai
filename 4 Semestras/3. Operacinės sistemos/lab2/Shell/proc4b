@@ -1,0 +1,23 @@
+#!/bin/sh
+m1='metai'
+m2='menuo'
+m3='diena'
+m4='skaicius'
+echo $m1
+read metai1
+echo $m2
+read menuo1
+echo $m3
+read diena1
+echo $metai1 "-" $menuo1 "-" $diena1
+echo $m4
+read skaicius1
+a=$((metai1/skaicius1))
+b=$((menuo1/skaicius1))
+c=$((diena1/skaicius1))
+d=$((a+b+c))
+e=$((metai1%skaicius1))
+f=$((menuo1%skaicius1))
+g=$((diena1%skaicius1))
+h=$((e*f*g))
+echo $a " " $b " " $c " " $d " " $h

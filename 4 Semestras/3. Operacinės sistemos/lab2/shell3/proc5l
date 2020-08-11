@@ -1,0 +1,9 @@
+#!/bin/sh
+a=$#;
+echo "Spausdinimas su shift komanda";
+for i in $* ; do
+	i=$1;
+	echo $i;
+	shift;
+done;
+ 

@@ -1,0 +1,11 @@
+#!/bin/sh
+m1=vardas
+m2='vartotojo numeris'
+m3='grupe'
+echo $m1
+read vardas
+echo $m2
+read numeris
+echo $m3
+read grupe
+echo "vardas " $vardas " numeris " $numeris " grupe " $grupe

@@ -1,0 +1,3 @@
+@W: CD638 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd":29:10:29:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\3lab\impl1\shcem3.vhd":30:10:30:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+

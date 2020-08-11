@@ -1,0 +1,4 @@
+﻿Neptunas;Kaunas;Povilaitis;3
+Zalgiris;Kaunas;Peckiunas;3
+Lrytas;Vilnius;Arvydas;9
+Vytautas;Kaunas;Matulis;5

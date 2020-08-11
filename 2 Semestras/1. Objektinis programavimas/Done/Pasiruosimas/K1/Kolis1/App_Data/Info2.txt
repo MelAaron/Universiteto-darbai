@@ -1,0 +1,4 @@
+﻿Statybu fakultetas;60;10
+Antrs;Viens;grupe1;3;3;1;120
+justas;nebeprogramuoja;grupe3;55;69;420
+durnelis;kitas;grupe2;50;12;13;6

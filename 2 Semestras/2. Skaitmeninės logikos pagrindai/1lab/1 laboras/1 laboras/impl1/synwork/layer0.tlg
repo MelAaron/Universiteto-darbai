@@ -1,0 +1,49 @@
+@N: CD630 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":8:7:8:10|Synthesizing work.lab1.schematic.
+@W: CD638 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":20:10:20:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":21:10:21:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1334:10:1334:12|Synthesizing work.or4.syn_black_box.
+Post processing for work.or4.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":84:10:84:13|Synthesizing work.and4.syn_black_box.
+Post processing for work.and4.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":65:10:65:13|Synthesizing work.and2.syn_black_box.
+Post processing for work.and2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":913:10:913:12|Synthesizing work.inv.syn_black_box.
+Post processing for work.inv.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":95:10:95:13|Synthesizing work.and5.syn_black_box.
+Post processing for work.and5.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":1315:10:1315:12|Synthesizing work.or2.syn_black_box.
+Post processing for work.or2.syn_black_box
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd":74:10:74:13|Synthesizing work.and3.syn_black_box.
+Post processing for work.and3.syn_black_box
+Post processing for work.lab1.schematic
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":148:3:148:5|Removing instance I37 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":146:3:146:5|Removing instance I24 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":144:3:144:5|Removing instance I25 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":142:3:142:5|Removing instance I36 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":140:3:140:5|Removing instance I35 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":138:3:138:5|Removing instance I23 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":136:3:136:5|Removing instance I19 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":134:3:134:5|Removing instance I20 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":132:3:132:5|Removing instance I22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":130:3:130:5|Removing instance I21 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":128:3:128:5|Removing instance I13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":126:3:126:5|Removing instance I14 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":124:3:124:5|Removing instance I15 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":122:3:122:5|Removing instance I16 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":120:3:120:5|Removing instance I17 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":118:3:118:5|Removing instance I18 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":116:3:116:5|Removing instance I34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":114:3:114:5|Removing instance I33 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":112:3:112:5|Removing instance I32 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":110:3:110:5|Removing instance I31 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":108:3:108:5|Removing instance I30 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":106:3:106:5|Removing instance I29 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":104:3:104:5|Removing instance I28 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":102:3:102:5|Removing instance I27 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":100:3:100:5|Removing instance I26 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":9:19:9:19|Input a is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":10:19:10:19|Input b is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":11:19:11:19|Input c is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":12:19:12:19|Input d is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":13:19:13:19|Input e is unused.
+@N: CL159 :"C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd":14:19:14:19|Input f is unused.

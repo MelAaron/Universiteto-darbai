@@ -1,0 +1,11 @@
+|Vardas         |Rase   |Klase     |Gyvybes Taskai |Mana |Zalos Taskai |Gynybos Taskai |Jega |Vikrumas |Intelektas |Ypatinga Galia          |
+|Garen          |Zmogus |Tank      |10             |0    |30           |20             |40   |20       |20         |Justice                 |
+|Ziggs          |Elfas  |Mage      |200            |300  |100          |20             |60   |20       |40         |Bomb                    |
+|Miss Fortune   |Zmogus |Marksman  |200            |150  |80           |20             |70   |30       |30         |Guns Blazing            |
+|Jinx           |Zmogus |Marksman  |200            |160  |75           |25             |75   |30       |35         |Super Mega Death Rocket |
+|Brand          |Demonas|Mage      |200            |300  |100          |20             |60   |20       |40         |Cataclysm               |
+|Lucian         |Zmogus |Marksman  |200            |160  |75           |27             |75   |30       |35         |The Culling             |
+|Tristana       |Yordle |Marksman  |270            |170  |80           |25             |60   |25       |15         |Blast                   |
+|Rumble         |Yordle |Fighter   |400            |50   |50           |29             |30   |20       |25         |Volcano                 |
+|Irelia         |Zmogus |Tank      |90             |70   |60           |14             |25   |15       |20         |Divine                  |
+|Destiny        |Zmogus |Marksman  |200            |170  |80           |25             |80   |35       |40         |Escape                  |

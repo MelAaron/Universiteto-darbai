@@ -1,0 +1,103 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.10_x64\synpbase\bin64\mbin\synplify.exe
+Install:     C:\lscc\diamond\3.10_x64\synpbase
+Hostname:    DESKTOP-R4VAF27
+Date:        Sun May 12 22:28:10 2019
+Version:     M-2017.03L-SP1-1
+
+Arguments:   -product synplify_pro -tcl C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/impl1/launch_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+
+No project opened.
+auto_infer_blackbox is not supported in current product.
+Removed file: C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd
+Removed file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr12.vhd
+Removed file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr31.vhd
+Removed file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\JM1.vhd
+Removed file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\LM2.vhd
+Removed file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr50.vhd
+Removed file: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\cntr31_2.vhd
+TCL script complete: "C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab/impl1/launch_synplify.tcl"
+log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running: compile (Compile) on impl1_syn|impl1
+# Sun May 12 22:28:16 2019
+
+Running: compile_flow (Compile Process) on impl1_syn|impl1
+# Sun May 12 22:28:16 2019
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Sun May 12 22:28:16 2019
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\synlog\impl1_compiler.srr"
+# Sun May 12 22:28:16 2019
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running: compile (Compile) on impl1_syn|impl1
+# Sun May 12 22:29:29 2019
+
+Running: compile_flow (Compile Process) on impl1_syn|impl1
+# Sun May 12 22:29:29 2019
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Sun May 12 22:29:29 2019
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\synlog\impl1_compiler.srr"
+# Sun May 12 22:29:30 2019
+
+Return Code: 2
+Run Time:00h:00m:01s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2Opening object source file c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\4lab\lm2.vhd
+log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\impl1.srr"
+Running: impl1 in foreground
+
+Running impl1_syn|impl1
+
+Running: compile (Compile) on impl1_syn|impl1
+# Sun May 12 22:30:09 2019
+
+Running: compile_flow (Compile Process) on impl1_syn|impl1
+# Sun May 12 22:30:09 2019
+
+Running: compiler (Compile Input) on impl1_syn|impl1
+# Sun May 12 22:30:09 2019
+compiler exited with errors
+Job failed on: impl1_syn|impl1
+
+Job: "compiler" terminated with error status: 2
+See log file: "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\synlog\impl1_compiler.srr"
+# Sun May 12 22:30:09 2019
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on impl1_syn|impl1
+Complete: Compile on impl1_syn|impl1
+Complete: Logic Synthesis on impl1_syn|impl1
+2Opening object source file c:\users\pc\documents\1. ktu\1. ktu\2 semestras\2. slp\4lab\lm2.vhd
+exit status=2

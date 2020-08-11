@@ -1,0 +1,64 @@
+--------------------------------------------------------
+Topo Centras Dauksio g. 3 861251205
+--------------------------------------------------------
+Saldytuvai
+Gamintojas Modelis  E. Tipas  Spalva     Kaina  Talpa   Montavimo Tipas Saldiklis Aukstis Plotis Gylis
+Snaige    , A980   , B+      , Balta     , 900  , 85   , Pastatomas     , True    , 15    , 5    , 8    
+Siemens   , C 10-25, C++     , Juoda     , 1200 , 90   , Pastatomas     , True    , 2     , 1    , 18   
+Samsung   , 10-75  , B       , Balta     , 700  , 80   , Pastatomas     , True    , 15    , 8    , 6    
+LG        , A900   , B       , Balta     , 500  , 60   , Pastatomas     , False   , 1     , 1    , 7    
+Siemens   , 100B   , C+++    , Raudona   , 2000 , 100  , Pastatomas     , True    , 2     , 2    , 18   
+Siemens   , 20A    , B+      , Balta     , 500  , 85   , Pastatomas     , True    , 2     , 1    , 0.5  
+
+Mikrobangu Krosneles
+Gamintojas Modelis   E.  Tipas  Spalva  Kaina  Galingumas Programu Sk.
+Siemens   , B-200  , B++       , Balta  , 200  , 220      , 6    
+Samsung   , 2120   , B         , Juoda  , 150  , 230      , 5    
+
+Elektriniai Virduliai
+Gamintojas Modelis   E.  Tipas  Spalva  Kaina Galia Turis
+Keprel    , 20-1     , C++     , Juoda  , 40 , 220  , 5    
+Siemens   , 22B      , C       , Melyna , 50 , 220  , 6    
+
+--------------------------------------------------------
+Jono Uzkampis Opiolio g. 30 869119112
+--------------------------------------------------------
+Saldytuvai
+Gamintojas Modelis  E. Tipas  Spalva     Kaina  Talpa   Montavimo Tipas Saldiklis Aukstis Plotis Gylis
+Siemens   , C 10-25, C++     , Juoda     , 1200 , 90   , Pastatomas     , True    , 2     , 1    , 18   
+Snaige    , A980   , B+      , Balta     , 900  , 75   , Pastatomas     , True    , 15    , 5    , 8    
+LG        , 10G    , B       , Balta     , 100  , 40   , Kabinamas      , False   , 3     , 2    , 2    
+Siemens   , K21    , C       , Juoda     , 300  , 80   , Pastatomas     , True    , 2     , 2    , 1    
+
+Mikrobangu Krosneles
+Gamintojas Modelis   E.  Tipas  Spalva  Kaina  Galingumas Programu Sk.
+Siemens   , B-200  , C++       , Balta  , 200  , 220      , 6    
+
+Elektriniai Virduliai
+Gamintojas Modelis   E.  Tipas  Spalva  Kaina Galia Turis
+Keprel    , 20-1     , C++     , Juoda  , 40 , 220  , 5    
+
+--------------------------------------------------------
+Varlyte Torjos g. 12 8625124521
+--------------------------------------------------------
+Saldytuvai
+Gamintojas Modelis  E. Tipas  Spalva     Kaina  Talpa   Montavimo Tipas Saldiklis Aukstis Plotis Gylis
+Snaige    , A980   , B+      , Balta     , 900  , 85   , Pastatomas     , True    , 15    , 5    , 8    
+Siemens   , C 10-25, C++     , Juoda     , 1200 , 90   , Pastatomas     , True    , 2     , 1    , 18   
+Samsung   , 10-75  , B       , Balta     , 700  , 80   , Pastatomas     , True    , 15    , 8    , 6    
+LG        , A900   , B       , Balta     , 500  , 60   , Pastatomas     , False   , 1     , 1    , 7    
+Siemens   , 100B   , C+++    , Raudona   , 2000 , 100  , Pastatomas     , True    , 2     , 2    , 18   
+Siemens   , 20A    , B+      , Balta     , 500  , 85   , Pastatomas     , True    , 2     , 1    , 0.5  
+LG        , 10G    , B       , Balta     , 100  , 40   , Kabinamas      , False   , 3     , 2    , 2    
+Siemens   , K21    , C       , Juoda     , 300  , 80   , Pastatomas     , True    , 2     , 2    , 1    
+
+Mikrobangu Krosneles
+Gamintojas Modelis   E.  Tipas  Spalva  Kaina  Galingumas Programu Sk.
+Siemens   , B-200  , B++       , Balta  , 200  , 220      , 6    
+Samsung   , 2120   , B         , Juoda  , 150  , 230      , 5    
+
+Elektriniai Virduliai
+Gamintojas Modelis   E.  Tipas  Spalva  Kaina Galia Turis
+Keprel    , 20-1     , C++     , Juoda  , 40 , 220  , 5    
+Siemens   , 22B      , C       , Melyna , 50 , 220  , 6    
+

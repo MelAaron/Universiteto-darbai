@@ -1,0 +1,5 @@
+i<>.\src\TestBench\schema2_TB.vhd
+i<>.\src\TestBench\lab1_TB.vhd
+i<>.\..\impl1\Lab1.vhd
+i<>.\..\impl1\schema2.vhd
+i<>.\..\impl1\schema3.vhd

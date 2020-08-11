@@ -1,0 +1,27 @@
+Longest sentence: 
+Viena svarbiausiø permainø muziejuje ne tik gausesniseksponatø skaièius, bet ir pakeistos bei modernizuotosekspozicinës erdvës, padidëjæ muziejaus jø plotai, ðiuolaikiðkos vitrinoseksponatams.
+Amount of symbols: 192 
+Amount of words: 22 
+The sentence begins in line 4
+
+Word          | Amount |
+muziejaus     |5       |
+----------
+kaip          |2       |
+----------
+Naujausias    |1       |
+----------
+eksponatas    |1       |
+----------
+milþiniðkas   |1       |
+----------
+atlantinis    |1       |
+----------
+paltusas      |1       |
+----------
+antras        |1       |
+----------
+pagal         |1       |
+----------
+dydá          |1       |
+----------

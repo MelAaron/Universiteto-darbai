@@ -1,0 +1,28 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-top|CNT12|-prodtype|synplify_pro|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work|-fileorder|C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\(4lab)Isskirstyta del Symplify ir techninio\\Justino\\impl1\\syntmp\\hdlorder.tcl"
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501881310
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501904608
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std1164.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\numeric.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\umr_capim.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\arith.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501880624
+#CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\xp2.vhd":1493298706
+#CUR:"C:\\Users\\PC\\Documents\\1. KTU\\1. KTU\\2 Semestras\\2. SLP\\(4lab)Isskirstyta del Symplify ir techninio\\Justino\\cntr12.vhd":1558959457
+0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\xp2.vhd" vhdl
+1 "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\(4lab)Isskirstyta del Symplify ir techninio\Justino\cntr12.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 -1
+
+# Design Unit to File Association
+arch work cnt12 rtl 1
+module work cnt12 1

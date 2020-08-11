@@ -1,0 +1,7 @@
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\bin\Debug\Egzui S2.exe.config
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\bin\Debug\Egzui S2.exe
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\bin\Debug\Egzui S2.pdb
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\obj\Debug\Egzui S2.csprojAssemblyReference.cache
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\obj\Debug\Egzui S2.csproj.CoreCompileInputs.cache
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\obj\Debug\Egzui S2.exe
+C:\Users\Justin\source\repos\Egzui S2\Egzui S2\obj\Debug\Egzui S2.pdb

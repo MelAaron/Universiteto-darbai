@@ -1,0 +1,99 @@
+SELECT sut.nr, CONCAT(moki.vardas, ' ', moki.pavarde) as mokinyss, kur.kalba, kur.kaina, SUM(moke.suma) as sumokejo
+FROM sutartis sut 
+INNER JOIN mokinys moki ON sut.fk_MOKINYSasmens_kodas = moki.asmens_kodas
+LEFT JOIN mokejimas moke ON moki.asmens_kodas = moke.fk_MOKINYSasmens_kodas
+LEFT JOIN sutartis sut 
+
+-----------------------------------
+Grąžina visų mokėjimų sumą kiekvieno asmens kodo
+
+SELECT mok.asmens_kodas, SUM(moke.suma) as Suma
+FROM mokinys mok INNER JOIN mokejimas moke ON mok.asmens_kodas = moke.fk_MOKINYSasmens_kodas
+GROUP BY mok.asmens_kodas
+
+-----------------------------------
+Grąžina visų mokinių lankomų kursų kainų sumas
+
+SELECT mok.asmens_kodas, SUM(kur.kaina) as skolingas
+FROM mokinys mok INNER JOIN sutartis sut ON mok.asmens_kodas = sut.fk_MOKINYSasmens_kodas
+INNER JOIN lankomas_kursas lkur ON lkur.fk_SUTARTISnr = sut.nr
+LEFT JOIN kursas kur ON kur.id = lkur.fk_KURSASid
+GROUP BY mok.asmens_kodas
+
+-----------------------------------
+Grąžina kiek mokinys yra skoloje pinigų
+
+SELECT CONCAT(mok.vardas,' ',mok.pavarde) AS Mokinio_Vardas, t.skolingas AS Pilna_kaina, g.Suma AS Sumokejo, IF((t.skolingas-g.Suma)<=0,"Sumokėjo",(t.skolingas-g.Suma)) AS Skola, COUNT(t.asmens_kodas) AS Kursu_Kiekis, sut.sutarties_data, sut.nr
+FROM mokinys mok INNER JOIN sutartis sut ON sut.fk_MOKINYSasmens_kodas = mok.asmens_kodas
+LEFT JOIN (SELECT mok.asmens_kodas, SUM(moke.suma) as Suma
+	FROM mokinys mok INNER JOIN mokejimas moke ON mok.asmens_kodas = moke.fk_MOKINYSasmens_kodas
+	GROUP BY mok.asmens_kodas) AS g ON mok.asmens_kodas = g.asmens_kodas
+LEFT JOIN (SELECT mok.asmens_kodas, SUM(kur.kaina) as skolingas
+	FROM mokinys mok INNER JOIN sutartis sut ON mok.asmens_kodas = sut.fk_MOKINYSasmens_kodas
+	INNER JOIN lankomas_kursas lkur ON lkur.fk_SUTARTISnr = sut.nr
+	LEFT JOIN kursas kur ON kur.id = lkur.fk_KURSASid
+	GROUP BY mok.asmens_kodas) AS t ON mok.asmens_kodas = t.asmens_kodas
+WHERE sut.sutarties_data>=IFNULL("2000-01-01", sut.sutarties_data)
+AND sut.sutarties_data<=IFNULL("3012-01-01", sut.sutarties_data)
+AND t.skolingas>=IFNULL(300, t.skolingas)
+AND t.skolingas<=IFNULL(400, t.skolingas)
+AND g.Suma>=IFNULL(50, g.Suma)
+AND g.Suma<=IFNULL(80, g.Suma)
+GROUP BY mok.asmens_kodas
+ORDER BY sut.sutarties_data
+
+-----------------------------------
+BENDRA SUMA VISKO
+
+SELECT SUM(t.skolingas) AS Pilna_kaina, SUM(g.Suma) AS Sumokejo, COUNT(t.asmens_kodas) AS Kursu_Kiekis
+FROM mokinys mok INNER JOIN sutartis sut ON sut.fk_MOKINYSasmens_kodas = mok.asmens_kodas
+LEFT JOIN (SELECT mok.asmens_kodas, SUM(moke.suma) as Suma
+	FROM mokinys mok INNER JOIN mokejimas moke ON mok.asmens_kodas = moke.fk_MOKINYSasmens_kodas
+	GROUP BY mok.asmens_kodas) AS g ON mok.asmens_kodas = g.asmens_kodas
+LEFT JOIN (SELECT mok.asmens_kodas, SUM(kur.kaina) as skolingas
+	FROM mokinys mok INNER JOIN sutartis sut ON mok.asmens_kodas = sut.fk_MOKINYSasmens_kodas
+	INNER JOIN lankomas_kursas lkur ON lkur.fk_SUTARTISnr = sut.nr
+	LEFT JOIN kursas kur ON kur.id = lkur.fk_KURSASid
+	GROUP BY mok.asmens_kodas) AS t ON mok.asmens_kodas = t.asmens_kodas
+WHERE sut.sutarties_data>=IFNULL(?nuo, sut.sutarties_data)
+AND sut.sutarties_data<=IFNULL(?iki, sut.sutarties_data)
+AND t.skolingas>=IFNULL(?kainaNuo, t.skolingas)
+AND t.skolingas<=IFNULL(?kainaIki, t.skolingas)
+AND g.Suma>=IFNULL(?sumokejoNuo, g.Suma)
+AND g.Suma<=IFNULL(?sumokejoIki, g.Suma)
+
+-----------------------------------
+Mokejimų suma tam tikroj datoj
+
+SELECT mok.asmens_kodas, SUM(moke.suma) as Suma
+FROM mokejimas moke INNER JOIN mokinys mok ON mok.asmens_kodas = moke.fk_MOKINYSasmens_kodas
+LEFT JOIN sutartis sut ON sut.fk_MOKINYSasmens_kodas = mok.asmens_kodas
+WHERE sut.sutarties_data>=IFNULL(?nuo, sut.sutarties_data) 
+AND sut.sutarties_data <= IFNULL(?iki, sut.sutarties_data)
+AND moke.suma>=IFNULL(?sumokejoNuo, moke.suma)
+AND moke.suma<=IFNULL(?sumokejoIki, moke.suma)
+
+SELECT mok.asmens_kodas, SUM(moke.suma) as Suma
+FROM mokinys mok INNER JOIN sutartis sut ON mok.asmens_kodas=sut.fk_MOKINYSasmens_kodas
+LEFT JOIN mokejimas moke ON mok.asmens_kodas = moke.fk_MOKINYSasmens_kodas
+WHERE sut.sutarties_data>=IFNULL(NULL, sut.sutarties_data) 
+AND sut.sutarties_data <= IFNULL(NULL, sut.sutarties_data)
+AND moke.suma>=IFNULL(100, moke.suma)
+AND moke.suma<=IFNULL(200, moke.suma)
+
+-----------------------------------
+Mokinių kursų kainų suma ir kiekis
+
+SELECT COUNT(mok.asmens_kodas) as Kursu_kiekis, SUM(kur.kaina) as Bendra_kaina
+FROM mokinys mok INNER JOIN sutartis sut ON mok.asmens_kodas = sut.fk_MOKINYSasmens_kodas
+INNER JOIN lankomas_kursas lkur ON lkur.fk_SUTARTISnr = sut.nr
+LEFT JOIN kursas kur ON kur.id = lkur.fk_KURSASid
+
+-----------------------------------
+Bendras visų sumų (Nepavykęs)
+
+SELECT COUNT(mok.asmens_kodas) as Kursu_kiekis, SUM(kur.kaina) as Bendra_kaina, SUM(moke.suma) as Mokejimu_suma
+FROM mokinys mok INNER JOIN sutartis sut ON mok.asmens_kodas = sut.fk_MOKINYSasmens_kodas
+INNER JOIN lankomas_kursas lkur ON lkur.fk_SUTARTISnr = sut.nr
+LEFT JOIN kursas kur ON kur.id = lkur.fk_KURSASid
+INNER JOIN mokejimas moke ON moke.fk_MOKINYSasmens_kodas = mok.asmens_kodas

@@ -1,0 +1,10 @@
+10
+~E 1 "./../../schem1.vhd" 11 CNT12
+~A 1 "./../../cntr12.vhd" 21 rtl
+~E 1 "./../../cntr31.vhd" 11 CNT31
+~A 1 "./../../cntr31.vhd" 22 rtl
+~C 1 "./../src/TestBench/top_cnt_TB.vhd" 65 testbench_for_top_cnt
+~E 1 "./../../JM1.vhd" 11 TOP_CNT
+~A 1 "./../../JM1.vhd" 20 struct
+~E 1 "./../src/TestBench/top_cnt_TB.vhd" 7 top_cnt_tb
+~A 1 "./../src/TestBench/top_cnt_TB.vhd" 10 TB_ARCHITECTURE

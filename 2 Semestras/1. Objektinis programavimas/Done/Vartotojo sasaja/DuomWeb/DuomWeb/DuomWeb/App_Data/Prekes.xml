@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<parduotuve>
+  <preke pavadinimas ="Piestukas" kaina ="0.1"/>
+  <preke pavadinimas="Trintukas" kaina="0.1"/>
+  <preke pavadinimas="A4-popierius" kaina="2.31"/>
+  <preke pavadinimas="Rašikliai" kaina="0.45"/>
+  <preke pavadinimas="Tušas" kaina="1.57"/>
+  <preke pavadinimas="Spalvotas-popierius" kaina="3.22"/>
+  <preke pavadinimas="Guašas" kaina="2.90"/>
+</parduotuve>

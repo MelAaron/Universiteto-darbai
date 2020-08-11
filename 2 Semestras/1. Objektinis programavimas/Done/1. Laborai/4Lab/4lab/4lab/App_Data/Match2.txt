@@ -1,0 +1,5 @@
+﻿1996-12-10
+Rookies;Lapelis;Andrius;30;15;15
+Lambda;Maciukis;Lukas;20;31;4
+Rookies;Zajacas;Julijus;6;10;1
+Lambda;Drapas;Miluzis;10;20;0

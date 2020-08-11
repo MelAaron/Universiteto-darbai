@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>a</Dynamic>
+            <Navigation>a</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>b</Dynamic>
+            <Navigation>b</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>c</Dynamic>
+            <Navigation>c</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>d</Dynamic>
+            <Navigation>d</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>e</Dynamic>
+            <Navigation>e</Navigation>
+        </Message>
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>f</Dynamic>
+            <Navigation>f</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>6</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:20:10:20:12|Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>20</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal gnd is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD638 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:21:10:21:12|Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Dynamic>
+            <Navigation>CD638</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>21</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>Signal vcc is undriven. Either assign the signal a value or remove the signal declaration.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:148:3:148:5|Removing instance I37 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>148</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>148</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I37 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:146:3:146:5|Removing instance I24 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>146</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>146</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I24 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:144:3:144:5|Removing instance I25 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>144</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>144</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I25 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:142:3:142:5|Removing instance I36 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>142</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>142</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I36 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:140:3:140:5|Removing instance I35 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>140</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>140</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I35 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:138:3:138:5|Removing instance I23 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>138</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>138</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I23 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:136:3:136:5|Removing instance I19 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>136</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I19 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:134:3:134:5|Removing instance I20 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>134</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>134</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I20 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:132:3:132:5|Removing instance I22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>132</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>132</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I22 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:130:3:130:5|Removing instance I21 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>130</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>130</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I21 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:128:3:128:5|Removing instance I13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>128</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>128</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I13 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:126:3:126:5|Removing instance I14 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>126</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>126</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I14 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:124:3:124:5|Removing instance I15 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>124</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>124</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I15 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:122:3:122:5|Removing instance I16 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>122</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I16 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:120:3:120:5|Removing instance I17 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>120</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I17 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:118:3:118:5|Removing instance I18 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>118</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>118</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I18 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:116:3:116:5|Removing instance I34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>116</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>116</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I34 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:114:3:114:5|Removing instance I33 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>114</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I33 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:112:3:112:5|Removing instance I32 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>112</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I32 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:110:3:110:5|Removing instance I31 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>110</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>110</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I31 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:108:3:108:5|Removing instance I30 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>108</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>108</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I30 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:106:3:106:5|Removing instance I29 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>106</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I29 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:104:3:104:5|Removing instance I28 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>104</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I28 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:102:3:102:5|Removing instance I27 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>102</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>102</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I27 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd&quot;:100:3:100:5|Removing instance I26 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\1 laboras\impl1\Lab1.vhd</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>100</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Removing instance I26 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

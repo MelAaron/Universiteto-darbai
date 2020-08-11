@@ -1,0 +1,19 @@
+﻿Varlyte
+Torjos g. 12
+8625124521
+S;Snaige;A980;B+;Balta;900;85;Pastatomas;TRUE;1,5;0,5;0,8
+M;Siemens;B-200;B++;Balta;200;220;6
+E;Keprel;20-1;C++;Juoda;40;220;5
+S;Siemens;C 10-25;C++;Juoda;1200;90;Pastatomas;TRUE;2;1;1,8
+S;Samsung;10-75;B;Balta;700;80;Pastatomas;TRUE;1,5;0,8;0,6
+S;LG;A900;B;Balta;500;60;Pastatomas;FALSE;1;1;0,7
+S;Siemens;100B;C+++;Raudona;2000;100;Pastatomas;TRUE;2;2;1,8
+M;Samsung;2120;B;Juoda;150;230;5
+E;Siemens;22B;C;Melyna;50;220;6
+S;Siemens;20A;B+;Balta;500;85;Pastatomas;TRUE;2;1;0.5
+S;Siemens;C 10-25;C++;Juoda;1200;90;Pastatomas;TRUE;2;1;1,8
+S;Snaige;A980;B+;Balta;900;75;Pastatomas;TRUE;1,5;0,5;0,8
+E;Keprel;20-1;C++;Juoda;40;220;5
+M;Siemens;B-200;C++;Balta;200;220;6
+S;LG;10G;B;Balta;100;40;Kabinamas;FALSE;0,3;0,2;0,2
+S;Siemens;K21;C;Juoda;300;80;Pastatomas;TRUE;2;2;1

@@ -1,0 +1,9 @@
+﻿1976-04-20
+Klumpakojai;Jaunoji;Aldona;20;9;3
+Klumpakojai;Pirdzius;Tilius;30;21;0
+Puodziai;Butrimas;Dalius;45;23;0
+Puodziai;Kaztonius;Simas;30;21;1
+Klumpakojai;Gelius;Juozapelis;60;49;1
+Puodziai;Niukstis;Juonius;12;3;0
+Klumpakojai;Baltrius;Justas;61;49;2
+Puodziai;Saule;Jurgita;24;10;2

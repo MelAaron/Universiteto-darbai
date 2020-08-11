@@ -1,0 +1,128 @@
+[[Info]]
+_PARENT: none
+_FAMILY: mg5a00
+_FILE_FORMAT: 1.00
+_DATA_VALUES: 1.00
+_STATUS: Advanced
+
+[[Project]]
+DesignName: impl1
+Family: LatticeXP2
+Device: LFXP2-5E
+Package: TQFP144
+Operating: Commercial
+Version: 1.0
+Performance: -6
+PartName: LFXP2-5E-6TN144C
+
+[[Settings]]
+EstimationMode: Medium
+ProcessType: Typical
+SoftwareMode: Estimation
+TempAmbX: Ambient Temperature
+SectionY: Total Power
+SectionX: Vcc
+SectionLowerLimit: 0.0000
+SectionUpperLimit: 0.0000
+SectionResolution: 0.0000
+TempAmbY: Ambient Temperature
+TempAmbLowerLimit: -30.0000
+TempAmbUpperLimit: 115.0000
+TempAmbResolution: 29.0000
+FreqY: Total Power
+FreqX: No Clocks Found!
+FreqLowerLimit: 10.0000
+FreqUpperLimit: 100.0000
+FreqAmbResolution: 20.0000
+PowerMode: Normal
+
+[[Thermal]]
+Airflow: 200 LFM
+AmbientTemperature: 25
+CustomThetaSA: -1
+JunctionTemperature: 26.22
+MaxSafeAmbient: 83.48
+ThetaBA: 10.0
+ThetaCS: 0
+ThetaEffective: 13.76
+ThetaJA: 20.59
+ThetaJB: 12.88
+ThetaJC: 0
+ThetaSA: -1
+UserThetaBA: No
+UserThetaCS: No
+UserThetaEffective: No
+UserThetaJA: No
+UserThetaJB: No
+UserThetaJC: No
+UserThetaSA: No
+thetaBoard: Medium Board
+thetaHeatSink: No Heat Sink
+thetaOption: ThermalModels
+
+[[VDPM]]
+Supply = Voltage, DPM
+Vcc = 1.200, 1.00
+Vccio 3.3 = 3.300, 1.00
+Vccio 2.5 = 2.500, 1.00
+Vccio 1.8 = 1.800, 1.00
+Vccio 1.5 = 1.500, 1.00
+Vccio 1.2 = 1.200, 1.00
+Vccaux = 3.300, 1.00
+Vccpll = 3.300, 1.00
+Vccj = 1.200, 1.00
+
+[[Logic]]
+Clk = F, AF, LUT, RAM, RIPPLE, REG, X0, X1, X2, X6, ISB, ISBCLK
+
+[[Clocks]]
+Clk = F, Ptrunk, Pbranch, Strunk, Sspine, Stap, Sbranch, Eclk
+
+[[Input Output]]
+Clk = _Type, _Mode, F, AF, IP, OP, Cload, Bank, _ActualMode, _Pull, X0, X1, X2, X6, ISB
+
+[[Bidi]]
+ClkInpName = _Type, _Mode, InpF, InpAF, Bidi, ClkOutName, OutF, OutAF, Duty, Cload, Bank, _ActualMode, _Pull, X0, X1, X2, X6, ISB
+
+[[Bank Voltage]]
+Bank = Voltage
+0 = Vccio 1.2
+1 = Vccio 1.2
+2 = Vccio 1.2
+3 = Vccio 1.2
+4 = Vccio 1.2
+5 = Vccio 1.2
+6 = Vccio 1.2
+7 = Vccio 1.2
+
+[[Termination]]
+_Type = IP, OP, Bidi, Duty, Bank, Rth, Vth
+
+[[SP RAM]]
+Clk = EBR, F, AF, _Type, X0, X1, X2, X6, ISB
+
+[[DP RAM]]
+RdClk = RdF, RdAF, EBR, WrClk, WrF, WrAF, _TypeA, _TypeB, X0, X1, X2, X6, ISB
+
+[[DP RAM True]]
+ClkA = aF, aAF, EBR, ClkB, bF, bAF, _TypeA, _TypeB, X0, X1, X2, X6, ISB
+
+[[DSP]]
+Clk = F, AF, _Type, DSP, X0, X1, X2, X6, ISB
+
+[[PLL]]
+OutClk = inF, N, V, M, PLL
+
+[[DQSDLL]]
+Clk = F, DQSDLL
+
+[[CLKDIV]]
+Clk = F, AF, CLKDIV
+
+[[MCLK]]
+Clk = F, AF, MCLK
+
+[[JTAG]]
+Clk = F, AF, Input, Output
+clk1 = 25, 100, 3, 1
+

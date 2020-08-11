@@ -1,0 +1,65 @@
+# Design Explorer: Shortcut to "C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\JM1\JM1.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/cntr31.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\cntr31.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/cntr12.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\cntr12.vhd ... Done
+addfile {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/JM1.vhd}
+# Adding file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\JM1.vhd ... Done
+vlib {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/JM1/work}
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/cntr31.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\cntr31.vhd
+# Compile Entity "CNT31"
+# Compile Architecture "rtl" of Entity "CNT31"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/cntr12.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\cntr12.vhd
+# Compile Entity "CNT12"
+# Compile Architecture "rtl" of Entity "CNT12"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+vcom -dbg -work work {C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/JM1.vhd}
+# File: C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\JM1.vhd
+# Compile Entity "TOP_CNT"
+# Compile Architecture "struct" of Entity "TOP_CNT"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+entity TOP_CNT
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r TOP_CNT -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7108 kB (elbread=1280 elab2=5676 kernel=151 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab_2\JM1\src\wave.asdb
+#  11:13 PM, Sunday, May 12, 2019
+#  Simulation has been initialized
+add wave *
+# 10 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/PC/Documents/1. KTU/1. KTU/2 Semestras/2. SLP/4lab_2/JM1/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.

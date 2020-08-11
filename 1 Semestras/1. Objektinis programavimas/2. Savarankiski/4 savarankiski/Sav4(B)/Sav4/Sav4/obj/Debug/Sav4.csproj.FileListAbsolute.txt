@@ -1,0 +1,22 @@
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.exe.config
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.exe
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.pdb
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.exe
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.pdb
+C:\Users\Lenovo\Desktop\Universitetui\OP\Lab4\Sav uzd 1\Sav4(B)\Sav4\Sav4\bin\Debug\Duomenys.txt
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Duomenys.txt
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.exe.config
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.pdb
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Duomenys.txt
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.exe.config
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\bin\Debug\Sav4.pdb
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.exe
+C:\Users\User\Documents\1. OP\Done\3. Pavyzdiniai(gali neveikt)\Sav4(B)\Sav4\Sav4\obj\Debug\Sav4.pdb

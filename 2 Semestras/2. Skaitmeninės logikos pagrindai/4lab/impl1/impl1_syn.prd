@@ -1,0 +1,13 @@
+#--  Synopsys, Inc.
+#--  Version M-2017.03L-SP1-1
+#--  Project file C:\Users\PC\Documents\1. KTU\1. KTU\2 Semestras\2. SLP\4lab\impl1\impl1_syn.prd
+#--  Written on Sun May 12 22:32:48 2019
+
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

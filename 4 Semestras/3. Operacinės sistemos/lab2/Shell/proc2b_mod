@@ -1,0 +1,12 @@
+#!/bin/sh
+IFS=":"
+set `grep arnsve2 /etc/passwd`
+echo "argumentai =" $*
+echo $1
+echo $3
+IFS=" "
+set `grep arnsve2 /etc/passwd`
+echo $3
+m1=vardas
+m2='vartotojo numeris'
+m3='grupe'

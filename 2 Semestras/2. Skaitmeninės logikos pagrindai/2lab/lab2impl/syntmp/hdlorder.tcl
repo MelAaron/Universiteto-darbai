@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/xp2.vhd" "C:/Users/User/Documents/1.\ KTU/2\ Semestras/2.\ SLP/2lab/lab2impl/schem1.vhd" "C:/Users/User/Documents/1.\ KTU/2\ Semestras/2.\ SLP/2lab/lab2impl/schem2.vhd" "C:/Users/User/Documents/1.\ KTU/2\ Semestras/2.\ SLP/2lab/lab2impl/schem3.vhd" 

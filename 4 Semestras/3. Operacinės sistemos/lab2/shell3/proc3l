@@ -1,0 +1,12 @@
+#!/bin/sh
+b=0;
+echo 11 " " 25 " " 44 " " 58 " " 75 " " 99 " " 102 " " 245 " " 512 " " 1024;
+read  f;
+read  t;
+echo "rezultatas:";
+for i in 11 25 44 58 75 99 102 245 512 1024; do
+	if [ $i -gt $f -a $i -lt $t ]; then
+		echo $i;
+	fi;
+done;
+ 

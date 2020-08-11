@@ -1,0 +1,121 @@
+# Design Explorer: Shortcut to "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\Pavadinimas.aws" design added.
+designverincludedir -clear
+designverlibrarysim -PL -clear
+designverlibrarysim -L -clear
+designverlibrarysim -PL pmi_work
+designverlibrarysim ovi_xp2
+designverdefinemacro -clear
+addfile {C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/impl1/Failas.vhd}
+# Adding file C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd ... Done
+vlib {C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/work}
+# Adding library O.K.
+adel -all
+# Library contents cleared.
+vcom -dbg -work work {C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/impl1/Failas.vhd}
+# File: C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd
+# Compile Entity "FAILAS"
+# Compile Architecture "SCHEMATIC" of Entity "FAILAS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  94.0 [ms]
+entity FAILAS
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+vsim +access +r FAILAS -PL pmi_work -L ovi_xp2
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7243 kB (elbread=1280 elab2=5813 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\wave.asdb
+#  1:39 PM, Tuesday, February 5, 2019
+#  Simulation has been initialized
+add wave *
+# 13 signal(s) traced.
+run 1000ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/src/wave.asdb'.
+# KERNEL: stopped at time: 1 us
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -e 100 -work work -2002  $dsn/../impl1/Failas.vhd $dsn/src/TestBench/failas_TB.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\..\impl1\Failas.vhd
+# Compile Entity "FAILAS"
+# Compile Architecture "SCHEMATIC" of Entity "FAILAS"
+# File: C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\TestBench\failas_TB.vhd
+# Compile Entity "failas_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "failas_tb"
+# Compile Configuration "TESTBENCH_FOR_failas"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+SetActiveLib -work
+comp -include "C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\impl1\Failas.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\..\impl1\Failas.vhd
+# Compile Entity "FAILAS"
+# Compile Architecture "SCHEMATIC" of Entity "FAILAS"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+comp -include "$dsn\src\TestBench\failas_TB.vhd" 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\TestBench\failas_TB.vhd
+# Compile Entity "failas_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "failas_tb"
+# Compile Configuration "TESTBENCH_FOR_failas"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim +access +r TESTBENCH_FOR_failas 
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Lattice Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7247 kB (elbread=1280 elab2=5817 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\wave.asdb
+#  1:55 PM, Tuesday, February 5, 2019
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/src/wave.asdb'.
+wave 
+wave -noreg c
+wave -noreg b
+wave -noreg a
+wave -noreg d
+wave -noreg f
+# # The following lines can be used for timing simulation
+# # acom <backannotated_vhdl_file_name>
+# # comp -include "$dsn\src\TestBench\failas_TB_tim_cfg.vhd" 
+# # asim +access +r TIMING_FOR_failas 
+# 5 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/src/wave.asdb'.
+run @100ns
+# KERNEL: stopped at time: 100 ns
+# Waveform file 'C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/src/untitled.awc' connected to 'C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/src/untitled.asdb'.
+# Adding file C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\untitled.asdb ... Done
+# Adding file C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\untitled.awc ... Done
+# Error: Cannot save 'C:/Users/User/Documents/1. KTU/2 Semestras/2. SLP/Demo/Pavadinimas/src/untitled.asdb' file.
+# Adding file C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\untitled.asdb ... Done
+# Adding file C:\Users\User\Documents\1. KTU\2 Semestras\2. SLP\Demo\Pavadinimas\src\untitled.awc ... Done

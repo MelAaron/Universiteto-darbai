@@ -1,0 +1,6 @@
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\4sav\bin\Debug\4sav.exe.config
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\4sav\bin\Debug\4sav.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\4sav\bin\Debug\4sav.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\4sav\obj\Debug\4sav.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\4sav\obj\Debug\4sav.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\4sav\obj\Debug\4sav.csprojResolveAssemblyReference.cache

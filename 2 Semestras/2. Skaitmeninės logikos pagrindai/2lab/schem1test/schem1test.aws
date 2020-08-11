@@ -1,0 +1,14 @@
+[Version]
+Version=10.3
+[Designs]
+schem1test=schem1test.adf
+[Settings]
+Active=schem1test
+[Expand]
+schem1test=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

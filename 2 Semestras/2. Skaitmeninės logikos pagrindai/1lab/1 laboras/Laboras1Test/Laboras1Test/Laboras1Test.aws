@@ -1,0 +1,6 @@
+[Version]
+Version=10.3
+[Designs]
+Laboras1Test=Laboras1Test.adf
+[Settings]
+Active=Laboras1Test

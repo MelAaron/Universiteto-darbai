@@ -1,0 +1,6 @@
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Zodziu isskyrimas eluteje\bin\Debug\Zodziu isskyrimas eluteje.exe.config
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Zodziu isskyrimas eluteje\bin\Debug\Zodziu isskyrimas eluteje.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Zodziu isskyrimas eluteje\bin\Debug\Zodziu isskyrimas eluteje.pdb
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Zodziu isskyrimas eluteje\obj\Debug\Zodziu isskyrimas eluteje.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Zodziu isskyrimas eluteje\obj\Debug\Zodziu isskyrimas eluteje.exe
+C:\Users\User\Documents\OP\Done\3. Pavyzdiniai(gali neveikt)\Teksto Analize\Zodziu isskyrimas eluteje\obj\Debug\Zodziu isskyrimas eluteje.pdb
